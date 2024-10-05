@@ -76,8 +76,9 @@ export default function Component() {
   }
 
   return (
-    <Card className="w-full max-w-[95vw] sm:max-w-4xl mx-auto">
-      <CardHeader className="px-2 sm:px-4 md:px-6 pb-8">
+    <Card className="w-full max-w-full sm:max-w-full mx-auto">
+
+      <CardHeader className="px-2 sm:px-2 md:px-6 pb-8">
         <CardTitle className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center text-primary leading-tight">
           <span className="inline-block">Sri Lankan</span>{' '}
           <span className="inline-block">Fixed Deposit Comparison</span>
