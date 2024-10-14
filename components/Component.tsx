@@ -1,11 +1,12 @@
-import { useState, useMemo } from 'react'
-import Image from 'next/image'
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { ChevronUp, ChevronDown } from 'lucide-react'
+import { useState, useEffect, useMemo } from 'react';
+import { supabase } from '../supabaseClient'; // Import the Supabase client
+import Image from 'next/image';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { ChevronUp, ChevronDown } from 'lucide-react';
 
 // Define the type for the term
 type TermType = '6' | '12' | '24';
@@ -20,64 +21,54 @@ type BankData = {
   };
 };
 
-// Configurable JSON structure for bank list and rates
-const banksData: BankData[] = [
-  {
-    id: 1,
-    name: 'Commercial Bank',
-    logo: 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1728054937/combank1_b22jn5.png',
-    rates: { '6': 7.64, '12': 7.50, '24': 8.50 }
-  },
-  {
-    id: 2,
-    name: 'Sampath Bank',
-    logo: 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1728055341/sampath_bvnd65.png',
-    rates: { '6': 7.50, '12': 8.0, '24': 10.0 }
-  },
-  {
-    id: 3,
-    name: 'HNB',
-    logo: 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1728057690/hnb_duntmg.png',
-    rates: { '6': 7.50, '12': 7.50, '24': 9.15 }
-  },
-  {
-    id: 4,
-    name: 'Peoples Bank',
-    logo: 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1728058093/peoples_bank_uhneut.png',
-    rates: { '6': 7.25, '12': 7.75, '24': 8.0 }
-  },
-  {
-    id: 5,
-    name: 'Bank of Ceylon',
-    logo: 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1728058220/BOC_bank_hudndt.png',
-    rates: { '6': 7.25, '12': 7.75, '24': 7.75 }
-  }
-]
-
 export default function Component() {
-  const [showAll, setShowAll] = useState(false)
-  const [depositAmount, setDepositAmount] = useState(1000000)
-  const [term, setTerm] = useState<TermType>('12')
+  const [banksData, setBanksData] = useState<BankData[]>([]);
+  const [showAll, setShowAll] = useState(false);
+  const [depositAmount, setDepositAmount] = useState(1000000);
+  const [term, setTerm] = useState<TermType>('12');
+
+  // Fetch the bank data from Supabase
+  useEffect(() => {
+    const fetchBanks = async () => {
+      const { data, error } = await supabase.from('fd_rates').select('*');
+      if (error) {
+        console.error('Error fetching data:', error);
+      } else {
+        const formattedData = data.map((item: any) => ({
+          id: item.id,
+          name: item.name,
+          logo: item.logo,
+          rates: {
+            '6': item.rate_6,
+            '12': item.rate_12,
+            '24': item.rate_24,
+          },
+        }));
+        setBanksData(formattedData);
+      }
+    };
+
+    fetchBanks();
+  }, []);
 
   const handleAmountChange = (increment: number) => {
-    setDepositAmount(prev => Math.max(0, prev + increment))
-  }
+    setDepositAmount((prev) => Math.max(0, prev + increment));
+  };
 
   const sortedBanks = useMemo(() => {
-    return [...banksData].sort((a, b) => b.rates[term] - a.rates[term])
-  }, [term])
+    return [...banksData].sort((a, b) => b.rates[term] - a.rates[term]);
+  }, [banksData, term]);
 
-  const displayedBanks = showAll ? sortedBanks : sortedBanks.slice(0, 10)
+  const displayedBanks = showAll ? sortedBanks : sortedBanks.slice(0, 10);
 
   const calculateReturn = (amount: number, rate: number) => {
-    const monthlyRate = rate / 100 / 12
-    const months = parseInt(term)
-    return amount * Math.pow(1 + monthlyRate, months)
-  }
+    const monthlyRate = rate / 100 / 12;
+    const months = parseInt(term);
+    return amount * Math.pow(1 + monthlyRate, months);
+  };
 
   return (
     <Card className="w-full max-w-full sm:max-w-full mx-auto">
-
       <CardHeader className="px-2 sm:px-2 md:px-6 pb-8">
         <CardTitle className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center text-primary leading-tight">
           <span className="inline-block">Sri Lankan</span>{' '}
@@ -162,9 +153,15 @@ export default function Component() {
               <Table className="min-w-full divide-y divide-gray-300">
                 <TableHeader>
                   <TableRow>
-                    <TableHead className="py-3.5 pl-2 sm:pl-6 pr-3 text-left text-xs sm:text-sm font-semibold text-gray-900">Institution</TableHead>
-                    <TableHead className="px-3 py-3.5 text-left text-xs sm:text-sm font-semibold text-gray-900">Rate (%)</TableHead>
-                    <TableHead className="px-3 py-3.5 text-left text-xs sm:text-sm font-semibold text-gray-900">Return at Maturity (LKR)</TableHead>
+                    <TableHead className="py-3.5 pl-2 sm:pl-6 pr-3 text-left text-xs sm:text-sm font-semibold text-gray-900">
+                      Institution
+                    </TableHead>
+                    <TableHead className="px-3 py-3.5 text-left text-xs sm:text-sm font-semibold text-gray-900">
+                      Rate (%)
+                    </TableHead>
+                    <TableHead className="px-3 py-3.5 text-left text-xs sm:text-sm font-semibold text-gray-900">
+                      Return at Maturity (LKR)
+                    </TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody className="divide-y divide-gray-200">
@@ -201,10 +198,11 @@ export default function Component() {
           </div>
 
           <p className="text-xs sm:text-sm text-gray-500 mt-4">
-            Disclaimer: The rates and calculations provided are for illustrative purposes only. Actual returns may vary. Please consult with the respective financial institutions for the most up-to-date and accurate information.
+            Disclaimer: The rates and calculations provided are for illustrative purposes only. Actual returns may vary.
+            Please consult with the respective financial institutions for the most up-to-date and accurate information.
           </p>
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }
