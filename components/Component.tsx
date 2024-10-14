@@ -21,6 +21,16 @@ type BankData = {
   };
 };
 
+// Define the type for the data fetched from Supabase
+// type SupabaseBankData = {
+//   id: number;
+//   name: string;
+//   logo: string;
+//   rate_6: number;
+//   rate_12: number;
+//   rate_24: number;
+// };
+
 export default function Component() {
   const [banksData, setBanksData] = useState<BankData[]>([]);
   const [showAll, setShowAll] = useState(false);
@@ -34,7 +44,7 @@ export default function Component() {
       if (error) {
         console.error('Error fetching data:', error);
       } else {
-        const formattedData = data.map((item: any) => ({
+        const formattedData: BankData[] = data.map((item) => ({
           id: item.id,
           name: item.name,
           logo: item.logo,
