@@ -27,4 +27,4 @@ jobs:
           echo "SUPABASE_KEY=${{ secrets.SUPABASE_KEY }}" >> $GITHUB_ENV
 
       - name: Run Puppeteer Scraper
-        run: node scraper/daily_mirror.js
+        run: node scraper/daily_mirror2.js
