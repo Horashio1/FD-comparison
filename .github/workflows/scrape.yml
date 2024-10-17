@@ -8,6 +8,8 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    environment: Production  # Use the environment if you've defined it for your secrets
+
 
     steps:
       - name: Check out the repository
