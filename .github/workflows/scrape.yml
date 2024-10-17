@@ -2,7 +2,7 @@ name: Scrape Daily Mirror Headlines
 
 on:
   schedule:
-    - cron: '0,30 * * * *'  # This runs every hour on the hour
+    - cron: '0 */6 * * *'  # This runs every hour on the hour
   workflow_dispatch:
 
 jobs:
