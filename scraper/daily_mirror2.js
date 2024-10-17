@@ -12,8 +12,9 @@ async function scrapeDailyMirrorHeadlines() {
   // Wait for the article containers to load
   await page.waitForSelector('.lineg');
 
-  // Extract the current date
+  // Extract the current date and time
   const currentDate = new Date().toISOString().split('T')[0];
+  const currentTime = new Date().toTimeString().split(' ')[0].slice(0, 5);  // Extract HH:MM format
 
   // Extract the first 5 headline details along with their links
   const headlines = await page.evaluate(() => {
@@ -45,15 +46,16 @@ async function scrapeDailyMirrorHeadlines() {
     return data;
   });
 
-  // Add the current date to each scraped headline
+  // Add the current date and time to each scraped headline
   const headlinesWithDate = headlines.map(headline => ({
     ...headline,
     date_time: currentDate,  // Add the current date
+    updatedAt: currentTime   // Add the current time in HH:MM format
   }));
 
-  console.log('Scraped Headlines with Date:', headlinesWithDate);
+  console.log('Scraped Headlines with Date and Time:', headlinesWithDate);
 
-  // Insert the scraped data with the date into Supabase table
+  // Insert the scraped data with the date and time into Supabase table
   const { data, error } = await supabase
     .from('daily_mirror_scrape')  // Use your Supabase table name here
     .insert(headlinesWithDate);

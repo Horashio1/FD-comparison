@@ -1,21 +1,6 @@
+require('dotenv').config({ path: '../.env' });  // Load environment variables first
 const puppeteer = require('puppeteer');
-const { createClient } = require('@supabase/supabase-js');
-
-// Supabase credentials (make sure to keep them safe)
-const SUPABASE_URL = 'https://kbcaevsuxnajykrzhjco.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtiY2FldnN1eG5hanlrcnpoamNvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjcyMDE2MDYsImV4cCI6MjA0Mjc3NzYwNn0.X3Zi7DmT_Y8Xbltx-tPzhrfhz3AhIs3lb59RrpLMBfY';
-
-// Initialize the Supabase client
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
-
-// Function to get current date in 'YYYY-MM-DD' format
-function getCurrentDate() {
-  const date = new Date();
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const day = String(date.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-}
+const { supabase } = require('../supabaseClient');  // Importing Supabase client
 
 async function scrapeDailyMirrorHeadlines() {
   const browser = await puppeteer.launch({ headless: true });
@@ -28,7 +13,7 @@ async function scrapeDailyMirrorHeadlines() {
   await page.waitForSelector('.lineg');
 
   // Extract the current date
-  const currentDate = getCurrentDate();
+  const currentDate = new Date().toISOString().split('T')[0];
 
   // Extract the first 5 headline details along with their links
   const headlines = await page.evaluate(() => {
@@ -37,7 +22,7 @@ async function scrapeDailyMirrorHeadlines() {
 
     // Extract up to 5 articles
     articleElements.forEach((article, index) => {
-      if (index <= 5) {
+      if (index < 6) {
         const title = article.querySelector('.cat_title')?.innerText || '';
         const createdAt = article.querySelector('.text-secondary')?.innerText || '';
         const description = article.querySelector('.text-dark')?.innerText || '';
@@ -63,7 +48,7 @@ async function scrapeDailyMirrorHeadlines() {
   // Add the current date to each scraped headline
   const headlinesWithDate = headlines.map(headline => ({
     ...headline,
-    date_time: currentDate  // Add the current date
+    date_time: currentDate,  // Add the current date
   }));
 
   console.log('Scraped Headlines with Date:', headlinesWithDate);
