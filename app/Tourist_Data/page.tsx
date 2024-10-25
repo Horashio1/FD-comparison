@@ -64,10 +64,8 @@ export default function SimComparison() {
     };
 
     return (
-        <div className="container mx-auto px-0 py-8">
-
-            {/* <h1 className="text-2xl font-bold mb-6 text-left ml-2 px-4">Sri Lanka Tourist SIM Comparison</h1> */}
-            <Title text="Sri Lanka Tourist SIM Comparison" />
+        <div className="container mx-4 px-4 py-8">
+            <Title text="Sri Lanka Tourist Data Plans" />
 
             <div className="mb-4 flex justify-end px-4">
                 <Select onValueChange={setCurrency} defaultValue={currency}>

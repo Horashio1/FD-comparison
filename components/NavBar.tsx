@@ -22,11 +22,13 @@ export default function NavBar() {
 
                 <Link
                     href="/Tourist_Data"
-                    className={`px-6 py-4 my-auto transition-transform duration-100 ${
+                    className={`px-6 py-4 text-center leading-tight transition-transform duration-100 ${
                         pathname === '/Tourist_Data' ? 'font-bold' : 'hover:scale-105'
                     }`}
                 >
-                    Tourist Data Plans
+                    {/* Tourist Data Plans */}
+                    <div>Tourist</div>
+                    <div>Data Plans</div>
                 </Link>
 
                 <Link
