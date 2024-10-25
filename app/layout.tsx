@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
+import NavBar from '../components/NavBar';
 
-
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata: Metadata = {
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
 }
 
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}<Analytics /></body>
+      <body>
+        <NavBar /> {/* NavBar will now be globally available across pages */}
+        <main>{children}</main>
+        <Analytics />
+      </body>
     </html>
-  )
+  );
 }

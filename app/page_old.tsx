@@ -1,17 +1,21 @@
+// FD Rates page
+
+"use client";
+
 import { useState, useEffect, useMemo } from 'react';
-import { supabase } from '../supabaseClient'; // Import the Supabase client
+import { supabase } from '../supabaseClient';
 import Image from 'next/image';
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+// import NavBar from './NavBar';
+// import Link from 'next/link';
+import Title from "@/components/Title";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { ChevronUp, ChevronDown } from 'lucide-react';
 
-// Define the type for the term
 type TermType = '6' | '12' | '24';
 
-// Define the type for the bank data
 type BankData = {
   id: number;
   name: string;
@@ -21,23 +25,12 @@ type BankData = {
   };
 };
 
-// Define the type for the data fetched from Supabase
-// type SupabaseBankData = {
-//   id: number;
-//   name: string;
-//   logo: string;
-//   rate_6: number;
-//   rate_12: number;
-//   rate_24: number;
-// };
-
 export default function Component() {
   const [banksData, setBanksData] = useState<BankData[]>([]);
   const [showAll, setShowAll] = useState(false);
   const [depositAmount, setDepositAmount] = useState(1000000);
   const [term, setTerm] = useState<TermType>('12');
 
-  // Fetch the bank data from Supabase
   useEffect(() => {
     const fetchBanks = async () => {
       const { data, error } = await supabase.from('fd_rates').select('*');
@@ -78,31 +71,32 @@ export default function Component() {
   };
 
   return (
-    <Card className="w-full max-w-full sm:max-w-full mx-auto">
-      <CardHeader className="px-2 sm:px-2 md:px-6 pb-8">
-        <CardTitle className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center text-primary leading-tight">
+    <div className="min-h-screen bg-background">
+      {/* <NavBar /> Use NavBar component here */}
+
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        
+        {/* <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-center text-primary leading-tight mb-8">
           <span className="inline-block">Sri Lankan</span>{' '}
           <span className="inline-block">Fixed Deposit Comparison</span>
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="px-2 sm:px-4 md:px-6 pt-0">
-        <div className="space-y-4">
+        </h1> */}
+        <Title text="Sri Lankan Fixed Deposit Comparison" />
+
+        <div className="space-y-8">
           <div className="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4">
             <Button
               onClick={() => setShowAll(false)}
               variant={showAll ? "outline" : "default"}
-              className={`text-xs sm:text-sm md:text-base py-1 sm:py-6 px-1 sm:px-7 rounded-full transition-all duration-300 ${
-                showAll ? 'bg-background text-primary' : 'bg-primary text-primary-foreground shadow-lg'
-              }`}
+              className={`text-xs sm:text-sm md:text-base py-1 sm:py-6 px-1 sm:px-7 rounded-full transition-all duration-300 ${showAll ? 'bg-background text-primary' : 'bg-primary text-primary-foreground shadow-lg'
+                }`}
             >
               Top 10
             </Button>
             <Button
               onClick={() => setShowAll(true)}
               variant={showAll ? "default" : "outline"}
-              className={`text-xs sm:text-sm md:text-base py-1 sm:py-6 px-1 sm:px-8 rounded-full transition-all duration-300 ${
-                showAll ? 'bg-primary text-primary-foreground shadow-lg' : 'bg-background text-primary'
-              }`}
+              className={`text-xs sm:text-sm md:text-base py-1 sm:py-6 px-1 sm:px-8 rounded-full transition-all duration-300 ${showAll ? 'bg-primary text-primary-foreground shadow-lg' : 'bg-background text-primary'
+                }`}
             >
               All
             </Button>
@@ -158,7 +152,7 @@ export default function Component() {
             </div>
           </div>
 
-          <div className="overflow-x-auto -mx-2 sm:-mx-4 md:-mx-6">
+          <div className="overflow-x-auto">
             <div className="inline-block min-w-full py-2 align-middle">
               <Table className="min-w-full divide-y divide-gray-300">
                 <TableHeader>
@@ -212,7 +206,7 @@ export default function Component() {
             Please consult with the respective financial institutions for the most up-to-date and accurate information.
           </p>
         </div>
-      </CardContent>
-    </Card>
+      </div>
+    </div>
   );
 }
