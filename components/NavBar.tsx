@@ -32,9 +32,9 @@ export default function NavBar() {
                 </Link>
 
                 <Link
-                    href="/about"
+                    href="/About"
                     className={`px-6 py-4 my-auto transition-transform duration-100 ${
-                        pathname === '/about' ? 'font-bold' : 'hover:scale-105'
+                        pathname === '/About' ? 'font-bold' : 'hover:scale-105'
                     }`}
                 >
                     About Us

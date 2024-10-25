@@ -17,6 +17,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <title>Best Rates</title>
+        <link rel="icon" href="/favicon.ico" /> {/* Adjust to match your favicon's file type */}
+      </head>
       <body>
         <NavBar /> {/* NavBar will now be globally available across pages */}
         <main>{children}</main>
