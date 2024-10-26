@@ -28,4 +28,4 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}  # Use secrets here
           NEXT_PUBLIC_SUPABASE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_KEY }}  # Use secrets here
           
-        run: node scraper/daily_mirror2.js
+        run: node scraper/daily_mirror.js
