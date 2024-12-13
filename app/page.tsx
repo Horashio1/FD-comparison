@@ -23,11 +23,6 @@ const services = [
   }
 ];
 
-const touristDataPlans = [
-  { provider: "Provider A", data: "10GB", validity: "7 Days", price: "$5" },
-  { provider: "Provider B", data: "15GB", validity: "14 Days", price: "$10" },
-  { provider: "Provider C", data: "30GB", validity: "30 Days", price: "$20" },
-];
 
 export default function HomePage() {
   return (
