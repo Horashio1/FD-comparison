@@ -1,0 +1,386 @@
+[
+  {
+    "category": "restaurants",
+    "promotions": [
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/amagi-aria-negombo-3/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/01/16043006/Amagi-Aria-Web-Banners_400-X-225-1.jpg",
+        "title": "Amagi Aria – Negombo",
+        "discount": "15% Savings on Christmas evening & New Year evening Dinner buffet Tickets at Amagi Aria - Negombo with DFCC Credit Cards",
+        "validity": "Valid from 4 December 2024 - 15 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/01/16043050/Amagi-Aria-Web-Banners_760-X-600.jpg",
+        "merchantName": "Amagi Aria – Negombo",
+        "detailsList": "Offer: 15% Savings on Christmas evening & New Year evening Dinner buffet Tickets at Amagi Aria – Negombo with DFCC Credit Cards\nOffer Period: Till 15th December 2024\nReservation Numbers: 0707 007 722/ 0716 007 711/ 0716 007 755\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/the-steuart-by-citrus-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/18110946/The-Steuare-by-Citrus-Co-Web-Banners_400-X-225.jpg",
+        "title": "The Steuart By Citrus",
+        "discount": "20% Savings on dine-in at The Steuart By Citrus with DFCC Credit Cards",
+        "validity": "Valid from 15 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/18111012/The-Steuare-by-Citrus-Co-Web-Banners_760-X-600.jpg",
+        "merchantName": "The Steuart By Citrus",
+        "detailsList": "Offer: 20% Savings on dine-in at The Steuart By Citrus with DFCC Credit Cards\nOffer Period: 15th November to 30th December 2024 (Excluding 24th & 25th December 2024)\nMaximum Bill Value: Rs. 30,000/- per cardholder\nLocation: No. 45, Hospital Lane, Colombo 01.\nReservation Number: 0765 575 575\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/ceylon-curry-club/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/18114956/Ceylon-Curry-Club-Web-Banners_400-X-225.jpg",
+        "title": "Ceylon Curry Club",
+        "discount": "20% Savings on dine-in at Ceylon Curry Club with DFCC Credit Cards",
+        "validity": "Valid from 15 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/18115011/Ceylon-Curry-Club-Web-Banners_760-X-600-1.jpg",
+        "merchantName": "Ceylon Curry Club",
+        "detailsList": "Offer: 20% Savings on dine-in at Ceylon Curry Club with DFCC Credit Cards\nOffer Period: 15th November to 30th December 2024 (Excluding 24th & 25th December 2024)\nMaximum Bill Value: Rs. 30,000/- per cardholder\nLocation: No. 2, Dutch Hospital Shopping Precinct, Colombo 01.\nReservation Number: 0773 393 391/ 0114 266 363\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/kfc-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/06/10112348/400-x-225-KFC.jpg",
+        "title": "KFC",
+        "discount": "25% Savings dine-in & takeaway at KFC for bills above Rs. 5,000/- with DFCC Credit Cards",
+        "validity": "Valid from 16 November 2024 - 28 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/06/10112430/760-x-600-KFC.jpg",
+        "merchantName": "KFC",
+        "detailsList": "Offer: 25% Savings dine-in & takeaway at KFC for bills above Rs. 5,000/- with DFCC Credit Cards\nOffer Period: Every SATURDAY from 16th November to 28th December 2024\nLocations: All KFC Outlets\nMaximum Bill Value: Rs. 20,000/- per cardholder\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/isso-3/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/03/05102801/400-x-225-Isso.jpg",
+        "title": "Isso",
+        "discount": "20% Savings on dine-in & takeaway at Isso Restaurants for bills above Rs. 3,000/- with DFCC Credit Cards",
+        "validity": "Valid from 15 November 2024 - 15 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/03/05102819/760-x-600-Isso.jpg",
+        "merchantName": "Isso",
+        "detailsList": "Offer: 20% Savings on dine-in & takeaway at Isso Restaurants for bills above Rs. 3,000/- with DFCC Credit Cards\nOffer Period: 15th November to 15th December 2024\nMaximum Bill Value: Rs. 30, 000/- per cardholder\nLocations: Colombo 03, CCC Mall, Battaramulla, Weligama & Trincomalee\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/dindigul-thalappakatti-restaurant-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/01094240/Thalappakatti-Web-Banners_400-X-225.jpg",
+        "title": "Dindigul Thalappakatti Restaurant",
+        "discount": "25% Savings on dine-in & takeaway at Dindigul Thalappakatti Restaurants for bills above Rs. 5,000/- with DFCC Credit Cards.",
+        "validity": "Valid from 15 November 2024 - 15 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/01094554/Thalappakatti-Web-Banners_760-X-600.jpg",
+        "merchantName": "Dindigul Thalappakatti Restaurant",
+        "detailsList": "Offer: 25% Savings on dine-in & takeaway at Dindigul Thalappakatti Restaurants for bills above Rs. 5,000/- with DFCC Credit Cards\nOffer Period: 15th November to 15th  December 2024\nMaximum Bill Value: Rs. 30, 000/- per cardholder\nLocations:\n– No. 08, De Fonseka Place, Colombo 04.\n– No. 935, Old Kotte Rd, Sri Jayawardenepura Kotte.\n– No. 04, Hotel Rd, Dehiwala-Mount Lavinia.\n– Havelock City Mall, Colombo.\n– No. 33, Negombo Road, Wattala.\n– One Galle Face Mall\n– No. 34, George E De Silva Mawatha, Kandy.\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/the-carnival/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/14082555/Carnival-Web-Banners_400-X-225.jpg",
+        "title": "Carnival Ice Cream",
+        "discount": "20% Savings on dine-in & takeaway at The Carnival for bills over Rs. 1,500/- with DFCC Credit Cards",
+        "validity": "Valid from 15 November 2024 - 15 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/14082606/Carnival-Web-Banners_760-X-600.jpg",
+        "merchantName": "Carnival Ice Cream",
+        "detailsList": "Offer: 20% Savings on dine-in & takeaway at Carnival Ice Cream for bills over Rs. 1,500/- with DFCC Credit Cards\nOffer Period: 15th November to 15th December 2024\nLocation: Colombo 03\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/cinnamon-grand-colombo-restaurants/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/06/04114609/Cinnamon-Web-Banners_400-X-225-1.jpg",
+        "title": "Cinnamon Grand Colombo Restaurants",
+        "discount": "Up to 30% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Credit Cards.",
+        "validity": "Valid from 22 October 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/06/04114557/Cinnamon-Web-Banners_760-X-600-2.jpg",
+        "merchantName": "Cinnamon Grand Colombo Restaurants",
+        "detailsList": "Offer 01: 20% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Credit Cards (Excluding Pinnacle Credit Cardholders)\n* Maximum Discount: Rs. 6,000/- per cardholder\nOffer 02: 30% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Pinnacle Credit Cards.\n* Maximum Discount: Rs. 10,000/- per cardholder\nParticipating Restaurants:\nPlates\nThe Lagoon\nThe London Grill\nCheers Pub\nBreeze Bar\nNuga Gama\nTea Lounge\nPlates\nThe Lagoon\nThe London Grill\nCheers Pub\nBreeze Bar\nNuga Gama\nTea Lounge\nOffer Period: 22nd October to 30th December 2024 (excluding 24th & 25th December 2024)\nReservation Number: 0112 437 437"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/taco-bell-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/21111712/400-x-225-Taco.jpg",
+        "title": "Taco Bell",
+        "discount": "Buy 1 & Get 1 FREE on the À la carte menu at Taco Bell with DFCC Credit Cards",
+        "validity": "Valid from 30 October 2024 - 25 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/21111731/760-x-600-Taco.jpg",
+        "merchantName": "Taco Bell",
+        "detailsList": "Offer: Buy 1 & Get 1 FREE on the À la carte menu at Taco Bell with DFCC Credit Cards (Free À la carte menu item will be the same as the purchased one.)\n*This offer is valid only for individual items from the À la carte menu and does not apply to combo meals.\nOffer Period: Every Wednesday from 30th October to 25th December 2024\nMaximum Bill Value: Rs. 25,000/- per cardholder\nLocations: Horton Place, Negombo, Rajagiriya, Nugegoda, Kottawa, Kiribathgoda, Piliyandala, Kurunegala & Havelock City Mall"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/ramada-colombo-3/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/06/18094837/400-X-225_Ramada-Colombo-1.jpg",
+        "title": "Ramada Colombo",
+        "discount": "20% Savings on dine-in at Ramada Colombo Restaurants with DFCC Credit Cards",
+        "validity": "Valid from 1 November 2024 - 20 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/06/18094852/760-X-600_Ramada-Colombo-1.jpg",
+        "merchantName": "Ramada Colombo",
+        "detailsList": "Offer: 20% Savings on dine-in at Ramada Colombo Restaurants with DFCC Credit Cards\nOffer Period: 01st November to 20th December 2024\nParticipating Restaurants:\nGardenia Coffeeshop\nAlhambra\nOasis Lounge\nThe Secret Garden\nGardenia Coffeeshop\nAlhambra\nOasis Lounge\nThe Secret Garden\nMaximum Bill Value: Rs. 25,000/- per cardholder\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/cafe-kinross/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/30071849/Kinross-Web-Banners_400-X-225.jpg",
+        "title": "Café Kinross",
+        "discount": "25% Savings on dine-in & takeaway at Cafe Kinross with DFCC Credit Cards",
+        "validity": "Valid from 1 November 2024 - 31 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/30071911/Kinross-Web-Banners_760-X-600.jpg",
+        "merchantName": "Café Kinross",
+        "detailsList": "Offer: 25% Savings on dine-in & takeaway at Cafe Kinross with DFCC Credit Cards.\nOffer Period: 01st November to 31st December 2024\nLocation: 6 Kinross Ave, Colombo 4\nMaximum Bill Value: Rs. 30, 000/- per cardholder\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/roccos/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/08095854/Roccos-Web-Banners_400-X-225.jpg",
+        "title": "Roccos",
+        "discount": "25% Savings on dine-in & takeaway at Roccos with DFCC Credit Cards",
+        "validity": "Valid from 1 November 2024 - 10 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/08095909/Roccos-Web-Banners_760-X-600.jpg",
+        "merchantName": "Roccos",
+        "detailsList": "Offer: 25% Savings on dine-in & takeaway at Roccos with DFCC Credit Cards.\nOffer Period: 01st November to 10th December 2024\nMaximum Bill Value: Rs. 30,000/- per cardholder\nLocations: Colombo 07 and Rajagiriya\nReservation Numbers:\n0771 423 131 (Colombo 07)\n0771 262 121 (Rajagiriya)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/the-emperors-den/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/03110514/Emperors-Den-Web-Banners_400-X-225.jpg",
+        "title": "The Emperor’s Den",
+        "discount": "20% Savings on dine-in at The Emperor’s Den - Colombo 03 with DFCC Credit Cards.",
+        "validity": "Valid from 1 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/03110524/Emperors-Den-Web-Banners_760-X-600.jpg",
+        "merchantName": "The Emperor’s Den",
+        "detailsList": "Offer: 20% Savings on dine-in at The Emperor’s Den – Colombo 03 with DFCC Credit Cards.\nOffer Period: 01st November to 30th December 2024 (Excluding 24th & 25th December 2024)\nMaximum Bill Value: Rs. 50,000/- per cardholder\nLocation: Astoria Building, Shop No. 15, 418 R. A. De Mel Mawatha, Colombo 03.\nReservation Numbers: 0765444888 / 0112588880"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/papparich/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/01052425/Papparich-Web-Banners_400-X-225-1.jpg",
+        "title": "PappaRich",
+        "discount": "20% Savings on dine-in & takeaway at PappaRich with DFCC Credit Cards",
+        "validity": "Valid from 1 November 2024 - 31 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/01052436/Papparich-Web-Banners_760-X-600-1.jpg",
+        "merchantName": "PappaRich",
+        "detailsList": "Offer: 20% Savings on dine-in & takeaway at PappaRich with DFCC Credit Cards\nOffer Period: 01st November to 31st December 2024\nLocations: Nawala, Colombo 02, Thalawathugoda and Havelock City Mall\nReservation Numbers: 0714 910 910/ 0715 910 910\nEligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/arthurs-pizzeria/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/05/25064049/arthurs.jpg",
+        "title": "Arthur’s Pizzeria",
+        "discount": "25% Savings on dine-in & takeaway at Arthur's Pizzeria with DFCC Credit Cards",
+        "validity": "Valid from 1 November 2024 - 20 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/05/25063740/arthurs-1.jpg",
+        "merchantName": "Arthur’s Pizzeria",
+        "detailsList": "Offer: 25% Savings on dine-in & takeaway at Arthur’s Pizzeria with DFCC Credit Cards\nOffer Period: 01st November to 20th December 2024\nMaximum Bill Value: Rs. 30, 000/- per cardholder\nReservations Number: 0117 955 955\nLocations: Havelock, Kotte & Mt.Lavinia\nEligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/radisson-blu-resort-galle-restaurant/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13110252/Radisson-Galle-Web-Banners_400-X-225.jpg",
+        "title": "Radisson Blu Resort Galle Restaurant",
+        "discount": "15% Savings on dinner-buffet at Radisson Blu Resort Galle Restaurant with DFCC Credit Cards.",
+        "validity": "Valid from 1 December 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13110319/Radisson-Galle-Web-Banners_760-X-600.jpg",
+        "merchantName": "Radisson Blu Resort Galle Restaurant",
+        "detailsList": "Offer: 15% Savings on dinner-buffet at Radisson Blu Resort Galle Restaurant with DFCC Credit Cards.\nOffer Period: 01st to 30th December 2024 (Excluding 24th December 2024)\nReservation Number: 0707 325 254\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/radisson-hotel-kandy-1/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13111147/Radisson-Kandy-Web-Banners_400-X-225.jpg",
+        "title": "Radisson Hotel – Kandy",
+        "discount": "15% Savings on dinner-buffet at Radisson Hotel Kandy Restaurant with DFCC Credit Cards",
+        "validity": "Valid from 1 December 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13111157/Radisson-Kandy-Web-Banners_760-X-600.jpg",
+        "merchantName": "Radisson Hotel – Kandy",
+        "detailsList": "Offer: 15% Savings on dinner-buffet at Radisson Hotel Kandy Restaurant with DFCC Credit Cards.\nOffer Period: 01st to 30th December 2024 (Excluding 24th December 2024)\nReservation Number: 0704 211 545\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/royal-code-restaurant/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05071117/Royal-Code-Web-Banners_400-X-225.jpg",
+        "title": "Royal Code Restaurant",
+        "discount": "15% Savings on dine-in at Royal Code Restaurant - MaRadha Hotel Colombo with DFCC Credit Cards.",
+        "validity": "Valid from 1 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05071136/Royal-Code-Web-Banners_760-X-600.jpg",
+        "merchantName": "Royal Code Restaurant",
+        "detailsList": "Offer: 15% Savings on dine-in at Royal Code Restaurant – MaRadha Hotel Colombo with DFCC Credit Cards.\nOffer Period: 01st November to 30th December 2024\nMaximum Bill Value: Rs. 20,000/- per cardholder\nReservation Numbers: 0706 543 223 / 0112 550 136\nLocation: No. 31, St Kilda’s Lane, Marine Drive, Colombo 03\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/sky-yard-bar-lounge/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05064730/Sky-Yard-Web-Banners_400-X-225.jpg",
+        "title": "Sky Yard Bar & Lounge",
+        "discount": "15% Savings on dine-in at Sky Yard Bar & Lounge - MaRadha Hotel Colombo with DFCC Credit Cards.",
+        "validity": "Valid from 1 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05064748/Sky-Yard-Web-Banners_760-X-600.jpg",
+        "merchantName": "Sky Yard Bar & Lounge",
+        "detailsList": "Offer: 15% Savings on dine-in at Sky Yard Bar & Lounge – MaRadha Hotel Colombo with DFCC Credit Cards.\nOffer Period: 01st November to 30th December 2024\nMaximum Bill Value: Rs. 20,000/- per cardholder\nReservation Numbers: 0706 543 223 / 0112 550 136\nLocation: No. 31, St Kilda’s Lane, Marine Drive, Colombo 03\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/healing-cafe/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05063445/Healing-Cafe-Web-Banners_400-X-225.jpg",
+        "title": "Healing Cafe",
+        "discount": "15% Savings on dine-in at Healing Cafe - MaRadha Hotel Colombo with DFCC Credit Cards",
+        "validity": "Valid from 1 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05063501/Healing-Cafe-Web-Banners_760-X-600.jpg",
+        "merchantName": "Healing Cafe",
+        "detailsList": "Offer: 15% Savings on dine-in at Healing Cafe – MaRadha Hotel Colombo with DFCC Credit Cards.\nOffer Period: 01st November to 30th December 2024\nMaximum Bill Value: Rs. 10,000/- per cardholder\nReservation Numbers: 0706 543 223 / 0112 550 136\nLocation: No. 31, St Kilda’s Lane, Marine Drive, Colombo 03\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/burleys/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/08092903/Burley-Web-Banners_400-X-225.jpg",
+        "title": "Burleys",
+        "discount": "15% Savings on dine-in & takeaway at Burleys with DFCC Credit Cards",
+        "validity": "Valid from 6 December 2024 - 7 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/08092914/Burley-Web-Banners_760-X-600.jpg",
+        "merchantName": "Burleys",
+        "detailsList": "Offer: 15% Savings on dine-in & takeaway at Burleys with DFCC Credit Cards.\nOffer Period: 06th & 07th December 2024\nLocations: Bambalapitiya & Nugegoda\nHotline: 0114 670 670\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/galle-face-hotel-colombo-restaurants-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/11034659/Galle-FAce-Web-Banners_400-X-225.jpg",
+        "title": "Galle Face Hotel Colombo Restaurants",
+        "discount": "Up to 30% Savings on dine-in at Galle Face Colombo Restaurants with DFCC Credit Cards",
+        "validity": "Valid from 1 December 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/11034715/Galle-Face-Web-Banners_760-X-600.jpg",
+        "merchantName": "Galle Face Hotel Colombo Restaurants",
+        "detailsList": "Offer 01: 20% Savings on dine-in at Galle Face Hotel Colombo Restaurants with DFCC Credit Cards (Excluding DFCC Pinnacle Credit Cardholders).\nOffer 02: 30% Savings on dine-in at Galle Face Hotel Colombo Restaurants with DFCC Pinnacle Credit Cards.\nParticipating Restaurants:\n1864 Limited Edition\nFirebeach\nKing of the Mambo\nTravellers’ Bar\nIn On the Green\nThe Verandah\n1864 Limited Edition\nFirebeach\nKing of the Mambo\nTravellers’ Bar\nIn On the Green\nThe Verandah\nOffer Period: 01st to 30th December 2024 (Excluding 24th & 25th December 2024)\nMaximum Bill Value: Rs. 35,000/- per cardholder\nReservations Number: 011 7 541 010\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Pinnacle & Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/monsoon-colombo-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/18103411/Fish-Co-Web-Banners_400-X-225-1.jpg",
+        "title": "Fish & Co.",
+        "discount": "30% Savings on dine-in & takeaway at Fish & Co. - Havelock City Mall with DFCC Credit Cards",
+        "validity": "Valid from 1 December 2024 - 31 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/18103432/Fish-Co-Web-Banners_760-X-600-1.jpg",
+        "merchantName": "Fish & Co.",
+        "detailsList": "Offer: 30% Savings on dine-in & takeaway at Fish & Co. – Havelock City Mall with DFCC Credit Cards.\nOffer Period: 01st to 31st December 2024\nMaximum Discount Value: Rs. 9,000/- per cardholder\nLocation: Ground Floor – Havelock City Mall\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/great-wall-restaurants/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/18112932/Heladiv-Web-Banners_400-X-225.jpg",
+        "title": "Heladiv Tea Club",
+        "discount": "20% Savings on dine-in at Heladiv Tea Club with DFCC Credit Cards",
+        "validity": "Valid from 15 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/18112958/Heladiv-Web-Banners_760-X-600.jpg",
+        "merchantName": "Heladiv Tea Club",
+        "detailsList": "Offer: 20% Savings on dine-in at Heladiv Tea Club with DFCC Credit Cards\nOffer Period: 15th November to 30th December 2024 (Excluding 24th & 25th December 2024)\nMaximum bill value:Rs. 30,000/- per cardholder\nLocation: No. 08, Dutch Hospital, Colombo 10\nReservation Number: 0772 673 873\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/chinese-lotus-lux/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/16051444/Lotus-Lux-Web-Banners_400-X-225-2.jpg",
+        "title": "Chinese Lotus Lux",
+        "discount": "20% Savings on dine-in for Lunch & 10% Savings on Delivery and takeaway at Chinese Lotus Lux with DFCC Credit Cards",
+        "validity": "Valid from 15 October 2024 - 31 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/16051456/Lotus-Lux-Web-Banners_760-X-600-1.jpg",
+        "merchantName": "Chinese Lotus Lux",
+        "detailsList": "Offer: 20% Savings on dine-in for Lunch & 10% Savings on Delivery and takeaway at Chinese Lotus Lux with DFCC Credit Cards\nOffer Period: 15th October to 31st December 2024\nLocation: No. 12, 1st Lane, Laxapathiya Road, Moratuwa\nHotline: 0777 655 898"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/radisson-hotel-colombo-1/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/11105436/Radisson-Web-Banners_400-X-225-2.jpg",
+        "title": "Radisson Hotel – Colombo",
+        "discount": "15% Savings on dinner-buffet at Radisson Hotel Colombo Restaurant with DFCC Credit Cards.",
+        "validity": "Valid from 1 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/11105546/Radisson-Web-Banners_760-X-600-1.jpg",
+        "merchantName": "Radisson Hotel – Colombo",
+        "detailsList": "Offer: 15% Savings on dinner-buffet at Radisson Hotel Colombo Restaurant with DFCC Credit Cards.\nOffer Period: 01st November to 30th December 2024 (Excluding 24th December 2024)\nReservation Number: 0704 764 134\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/siam-house-restaurant/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/22043210/Siam-Web-Banners_400-X-225.jpg",
+        "title": "Siam House Restaurant",
+        "discount": "20% Savings on dine-in at Siam House Restaurant with DFCC Credit Cards.",
+        "validity": "Valid from 15 November 2024 - 15 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/22043221/Siam-Web-Banners_760-X-600.jpg",
+        "merchantName": "Siam House Restaurant",
+        "detailsList": "Offer: 20% Savings on dine-in at Siam House Restaurant with DFCC Credit Cards.\nOffer Period: 15th November to 15th December 2024\nLocations:\n1) No. 17, Melbourne Avenue, Colombo 04.\n2) No. 98, Horton Place, Colombo 07.\nMaximum Bill Value: Rs. 30, 000/- per cardholder\nEligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/57-ward-7-restobar-jetwing-colombo-07/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17132322/Jetwing-Colombo-Web-Banners_400-X-225.jpg",
+        "title": "Ward 7 Restobar – Jetwing Colombo Seven",
+        "discount": "20% Savings on dine-in at Ward 7 Restobar - Jetwing Colombo Seven Restaurants with DFCC Credit Cards.",
+        "validity": "Valid from 20 November 2024 - 20 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17132339/Jetwing-Colombo-Web-Banners_760-X-600.jpg",
+        "merchantName": "Ward 7 Restobar – Jetwing Colombo Seven",
+        "detailsList": "Offer: 20% Savings on dine-in at Ward 7 Restobar – Jetwing Colombo Seven Restaurants with DFCC Credit Cards.\nOffer Period: 20th November to 20th December 2024\nMaximum Bill Value: Rs. 30, 000/- per cardholder\nLocation: No. 57, Ward Place, Colombo 07.\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/28853/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17130257/Virticle-Web-Banners_400-X-225.jpg",
+        "title": "Virticle by Jetwing",
+        "discount": "20% Savings on dine-in at Virticle by Jetwing Restaurants with DFCC Credit Cards.",
+        "validity": "Valid from 20 November 2024 - 20 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17130312/Virticle-Web-Banners_760-X-600.jpg",
+        "merchantName": "Virticle by Jetwing",
+        "detailsList": "Offer: 20% Savings on dine-in at Virticle by Jetwing Restaurant with DFCC Credit Cards.\nOffer Period: 20th November to 20th December 2024\nMaximum Bill Value: Rs. 30, 000/- per cardholder\nLocation: Access Towers, 278 Union Place, Colombo 02.\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/1864-limited-edition-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/01/22061132/DFCC_AMAGI-BEACH-WEB-BANNERS_400-X-225.jpg",
+        "title": "Catamaran Restaurant – Amagi Aria Negombo",
+        "discount": "15% Savings on dine-in at Catamaran Restaurant - Amagi Aria Negombo for bills above Rs. 5,000/- with DFCC Credit Cards.",
+        "validity": "Valid from 2 December 2024 - 31 December 2025.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/01/22061216/DFCC_AMAGI-BEACH-WEB-BANNERS_760-X-600.jpg",
+        "merchantName": "Catamaran Restaurant – Amagi Aria Negombo",
+        "detailsList": "Offer: 15% Savings on dine-in at Catamaran Restaurant – Amagi Aria Negombo for bills above Rs. 5,000/- with DFCC Credit Cards.\nOffer Period: Monday to Thursday from 02nd December 2024 to 31st January 2025\nReservation Number: 0312 238 385\nEligible Card Categories: All DFCC Credit Cards (Excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/colombo-steak-house-havelock-city-mall/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/07/11084553/Steak-House-Web-Banners_400-X-225.jpg",
+        "title": "Colombo Steak House",
+        "discount": "20% Savings on dine-in and takeaway at Colombo Steak House with DFCC Credit Cards",
+        "validity": "Valid from 15 November 2024 - 30 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/07/11084648/Steak-House-Web-Banners_760-X-600.jpg",
+        "merchantName": "Colombo Steak House",
+        "detailsList": "Offer: 20% Savings on dine-in and takeaway at Colombo Steak House with DFCC Credit Cards.\nOffer Period: 15th November to 30th December 2024\nLocation: Havelock City Mall & Col. 04\nEligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/beira-kitchen-courtyard-by-marriott/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/05/18115519/Beira-Kitchen-Web-Banners_400-X-225.jpg",
+        "title": "Beira Kitchen – Courtyard by Marriott Colombo Restaurant",
+        "discount": "30% Savings on dinner-buffet at Beira Kitchen - Courtyard by Marriott Restaurants with DFCC Credit Cards",
+        "validity": "Valid from 15 November 2024 - 14 December 2024.",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/05/18115530/Beira-Kitchen-Web-Banners_760-X-600.jpg",
+        "merchantName": "Beira Kitchen – Courtyard by Marriott Colombo Restaurant",
+        "detailsList": "Offer: 30% Savings on dinner buffet at Beira Kitchen – Courtyard by Marriott Colombo Restaurant with DFCC Credit Cards\nOffer Period: Every Friday & Saturday from 15th November to 14th December 2024\nMaximum Bill Value: Rs. 40, 000/- per cardholder\nReservations Number: 0117 734 400\nEligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)"
+      }
+    ]
+  },
+  {
+    "category": "hotels",
+    "promotions": []
+  },
+  {
+    "category": "shopping",
+    "promotions": [
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/keells-5/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/06/18052446/400-x-225-Keells.jpg",
+        "title": "Keells",
+        "discount": "30% Savings on fresh Vegetables, Fruits, Seafood and Meat at all Keells outlets for bills over Rs. 5,000/- with DFCC Credit Cards.",
+        "validity": "Every Monday from 02nd to 30th December 2024",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/06/18052458/760-x-600-Keells.jpg",
+        "merchantName": "Keells",
+        "detailsList": "Offer: 30% Savings on fresh Vegetables, Fruits, Seafood and Meat at all Keells outlets for bills over Rs. 5,000/- with DFCC Credit Cards.\nOffer Period: Every Monday from 02nd to 30th December 2024\nMaximum Discount Value: Rs. 1,500/-\nMinimum Bill Value: Rs. 5,000/-\nMaximum Quantity: 3Kg or 3 units from each item\nValidity: Valid only for 01 transaction per cardholder per day\nExempted Items: Packed or processed vegetables, fruits, seafood & meat\nEligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/laugfs-super-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/09/12090402/400-x-225-Laugfs.jpg",
+        "title": "LAUGFS SUPER",
+        "discount": "10% Savings on the Total Bill at Laugfs Super for bills over Rs. 5,000/- with DFCC Credit Cards.",
+        "validity": "Every Tuesday from 03rd to 31st December 2024",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/09/12090415/760-x-600-Laugfs.jpg",
+        "merchantName": "LAUGFS SUPER",
+        "detailsList": "Offer: 10% Savings on the Total Bill at Laugfs Super for bills over Rs. 5,000/- with DFCC Credit Cards.\nOffer Period: Every Tuesday from 03rd to 31st December 2024\nMaximum Discount Value: Rs. 1,500/-\nMinimum Bill Value: Rs 5,000/-\nMaximum Quantity: 3kg/ 3 units each from the categories of milk powder, rice, sugar, dhal & flour.\nOther Products: Maximum quantity of 3kg/ 3 units per item.\nValidity: Valid only for 01 transaction per cardholder per day.\nExempted Items: Liquor, tobacco, pharmaceuticals, existing discounted products, gift vouchers, hampers, gas purchases & utility bill payments.\nEligible Card Categories: All DFCC Credit Cards (excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/arpico-super-centres-3/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/05073746/Arpico-Web-Banners_400-X-225.jpg",
+        "title": "Arpico Super Centres",
+        "discount": "30% Savings on Fresh Vegetables, Fruits, Seafood and Meat at Arpico Super Centres and Daily outlets for bills above Rs. 5,000/- with DFCC Credit Cards.",
+        "validity": "Every Thursday from 05th to 26th December 2024",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/05073756/Arpico-Web-Banners_760-X-600.jpg",
+        "merchantName": "Arpico Super Centres",
+        "detailsList": "Offer: 30% Savings on Fresh Vegetables, Fruits, Seafood and Meat at Arpico Super Centres and Daily outlets for bills above Rs. 5,000/- with DFCC Credit Cards.\nOffer Period: Every Thursday from 05th to 26th December 2024\nMaximum Discount Value: Rs. 1,500/- per cardholder, per day\nMaximum Quantity: 3Kg or 3 units from each eligible item\nExempted Items: Potatoes, coconut, big onion, whole chicken, and packaged vegetables, fruits, seafood, and processed meat.\nValidity: Valid only for 01 transaction per cardholder per day\nEligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/spar-supermarkets-2/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/05/03095850/Spar-Web-Banners_400-X-225.jpg",
+        "title": "SPAR Supermarkets",
+        "discount": "25% Savings on the Total Bill at SPAR Supermarkets for bills over Rs. 10,000/- with DFCC Pinnacle Credit Cards.",
+        "validity": "08th & 29th December 2024",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/05/03095901/Spar-Web-Banners_760-X-600.jpg",
+        "merchantName": "SPAR Supermarkets",
+        "detailsList": "Offer: 25% Savings on the Total Bill at SPAR Supermarkets for bills over Rs. 10,000/- with DFCC Pinnacle Credit Cards.\nOffer Period: 08th & 29th December 2024\nMaximum Discount Value: Rs. 5,000/-\nExempted Items: Offer not applicable for liquor, pharmaceutical items, tobacco, gift vouchers, utility bill payments, online purchases and discounted items.\nMaximum Quantity: 1 Kg from the categories of rice, dhal & milk powder\nOther Product: 5 Kg or 5 units from each eligible item\nEligible Card Categories: DFCC Pinnacle Credit Cardholders"
+      },
+      {
+        "promoLink": "https://www.dfcc.lk/promotions/cargills-food-hall/",
+        "imageUrl": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/30104124/Cargills-Food-Hall-Web-Banners_400-X-225.jpg",
+        "title": "Cargills Food Hall",
+        "discount": "10% Savings on the Total Bill at Cargills Food Hall - Colombo City Centre & Havelock City Mall outlets for bills above Rs. 7,500/- with DFCC Credit Cards",
+        "validity": "22nd & 29th November and 06th & 27th December 2024",
+        "merchantCover": "https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/30104138/Cargills-Food-Hall-Web-Banners_760-X-600.jpg",
+        "merchantName": "Cargills Food Hall",
+        "detailsList": "Offer: 10% Savings on the Total Bill at Cargills Food Hall – Colombo City Centre & Havelock City Mall outlets for bills above Rs. 7,500/- with DFCC Credit Cards\nOffer Dates: 22nd & 29th November and 06th & 27th December 2024\nMaximum Discount Value: Rs. 1,500/- per cardholder\nExempted Items: Liquor, tobacco, utility bill payments & gift vouchers.\nMaximum Quantity: 3Kg or 3 units per item.\nValidity: Valid only for 01 transaction per cardholder per day"
+      }
+    ]
+  }
+]

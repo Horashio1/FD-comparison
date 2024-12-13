@@ -64,10 +64,11 @@ export default function SimComparison() {
     };
 
     return (
-        <div className="container mx-4 px-4 py-8">
-            <Title text="Sri Lanka Tourist Data Plans" />
-
-            <div className="mb-4 flex justify-end px-4">
+        <div className="container py-8">
+            <div className="px-4">
+            <Title text="Tourist Data Plans" />
+            </div>
+            <div className="mb-4 flex justify-start px-4">
                 <Select onValueChange={setCurrency} defaultValue={currency}>
                     <SelectTrigger className="w-[120px]">
                         <SelectValue placeholder="Currency" />
