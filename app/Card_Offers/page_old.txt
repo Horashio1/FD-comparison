@@ -20,6 +20,26 @@ interface Category {
   icon_url: string
 }
 
+interface SupabaseOffer {
+  id: number
+  offer_title: string
+  bank_id: number
+  category_id: number
+  merchant_details: string
+  offer_details_1: string
+  offer_details_2?: string
+  image_url: string
+  discount?: string
+  offer_validity?: string
+  more_details_url?: string
+  banks: {
+    logo: string
+  }
+  card_offer_categories: {
+    name: string
+  }
+}
+
 interface Offer {
   id: number
   offer_title: string
@@ -35,15 +55,10 @@ interface Offer {
   more_details_url?: string
 }
 
-interface ComponentProps {
-  maxTitleLength?: number
-  maxMerchantDetailsLength?: number
-}
+export default function Page() {
+  const maxTitleLength = 75
+  const maxMerchantDetailsLength = 75
 
-export default function Component({
-  maxTitleLength = 75,
-  maxMerchantDetailsLength = 75,
-}: ComponentProps) {
   const [banks, setBanks] = useState<Bank[]>([])
   const [categories, setCategories] = useState<Category[]>([])
   const [offers, setOffers] = useState<Offer[]>([])
@@ -53,28 +68,51 @@ export default function Component({
   // Fetch data from Supabase
   useEffect(() => {
     const fetchData = async () => {
-      const { data: banksData, error: banksError } = await supabase.from('banks').select('*')
-      if (banksError) console.error('Error fetching banks:', banksError)
-      else setBanks(banksData || [])
+      const { data: banksData, error: banksError } = await supabase
+        .from('banks')
+        .select('*')
+      if (banksError) {
+        console.error('Error fetching banks:', banksError)
+      } else if (banksData) {
+        setBanks(banksData as Bank[])
+      }
 
-      const { data: categoriesData, error: categoriesError } = await supabase.from('card_offer_categories').select('*')
-      if (categoriesError) console.error('Error fetching categories:', categoriesError)
-      else setCategories(categoriesData || [])
+      const { data: categoriesData, error: categoriesError } = await supabase
+        .from('card_offer_categories')
+        .select('*')
+      if (categoriesError) {
+        console.error('Error fetching categories:', categoriesError)
+      } else if (categoriesData) {
+        setCategories(categoriesData as Category[])
+      }
 
       const { data: offersData, error: offersError } = await supabase
         .from('card_offers')
         .select('*, banks(logo), card_offer_categories(name)')
-      if (offersError) console.error('Error fetching offers:', offersError)
-      else
+
+      if (offersError) {
+        console.error('Error fetching offers:', offersError)
+      } else if (offersData) {
         setOffers(
-          offersData?.map((offer: any) => ({
-            ...offer,
+          (offersData as SupabaseOffer[]).map((offer) => ({
+            id: offer.id,
+            offer_title: offer.offer_title,
+            bank_id: offer.bank_id,
+            category_id: offer.category_id,
+            merchant_details: offer.merchant_details,
+            offer_details_1: offer.offer_details_1,
+            offer_details_2: offer.offer_details_2,
+            image_url: offer.image_url,
+            discount: offer.discount,
+            offer_validity: offer.offer_validity,
+            more_details_url: offer.more_details_url,
             bank_logo: offer.banks.logo,
-          })) || []
+          }))
         )
+      }
 
       if (banksData && banksData.length > 0) {
-        setSelectedBankId(banksData[0].id);
+        setSelectedBankId((banksData[0] as Bank).id);
       }
     }
 
@@ -199,7 +237,7 @@ export default function Component({
                     style={{
                       display: "-webkit-box",
                       WebkitBoxOrient: "vertical",
-                      WebkitLineClamp: 3, // Adjust the number of lines to your preference
+                      WebkitLineClamp: 3,
                     }}
                   >
                     {offer.offer_details_1}

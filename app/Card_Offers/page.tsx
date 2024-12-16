@@ -131,82 +131,96 @@ export default function Page() {
       {/* Bank Selection */}
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Select Your Bank</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-          {banks.map((bank) => (
-            <Button
-              key={bank.id}
-              variant={selectedBankId === bank.id ? "default" : "outline"}
-              className="h-16 px-2 flex items-center justify-start text-left overflow-hidden"
-              onClick={() => {
-                const newSelected = selectedBankId === bank.id ? null : bank.id;
-                setSelectedBankId(newSelected);
-              }}
-            >
-              <Image
-                src={bank.logo}
-                alt={`${bank.bank_name} logo`}
-                width={100}
-                height={100}
-                className="mr-2 flex-shrink-0 max-h-[40px] object-contain"
-              />
-              <span className="font-medium text-base leading-tight line-clamp-2">{bank.bank_name}</span>
-            </Button>
-          ))}
+        <div className="grid w-full gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
+          {banks.map((bank) => {
+            const isSelected = selectedBankId === bank.id;
+            return (
+              <Button
+                key={bank.id}
+                variant="outline"
+                className={`
+            flex items-center justify-center text-center overflow-hidden 
+            py-4 px-2 min-h-[64px] md:min-h-[96px]
+            ${isSelected ? "border-4 border-black" : ""}
+          `}
+                onClick={() => {
+                  const newSelected = isSelected ? null : bank.id;
+                  setSelectedBankId(newSelected);
+                }}
+              >
+                <div className="relative w-full h-full flex items-center justify-center">
+                  <Image
+                    src={bank.logo}
+                    alt={`${bank.bank_name} logo`}
+                    width={120}
+                    height={60}
+                    className="object-contain md:h-[100px] h-[50px] w-[140px] "
+                  />
+                </div>
+              </Button>
+            );
+          })}
         </div>
       </section>
 
+
+
       {/* Category Selection */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold">Select a Category</h2>
-        <div className="flex gap-4 w-full">
+        <h2 className="text-xl font-semibold mt-6">Select a Category</h2>
+        <div className="flex flex-wrap gap-2 w-full">
           {categories.map((category) => (
             <Button
               key={category.id}
               variant={selectedCategoryId === category.id ? "default" : "outline"}
-              className="flex-1 flex flex-col items-center space-y-2 h-auto py-2 min-w-0"
+              className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1"
               onClick={() => {
                 const newSelected = selectedCategoryId === category.id ? null : category.id;
                 setSelectedCategoryId(newSelected);
               }}
             >
-              <Image
-                src={category.icon_url || "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"}
-                alt={`${category.name} icon`}
-                width={60}
-                height={60}
-                className={selectedCategoryId === category.id ? "invert" : ""}
-              />
-              <span className="font-medium text-base">{category.name}</span>
+              <div className="relative w-24 h-14 flex items-center justify-center">
+                <Image
+                  src={category.icon_url || "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"}
+                  alt={`${category.name} icon`}
+                  fill
+                  className={`object-contain ${selectedCategoryId === category.id ? "invert" : ""}`}
+                />
+              </div>
+
+              <span className="font-medium text-base text-center">{category.name}</span>
             </Button>
           ))}
         </div>
       </section>
 
+
+
       {/* Offers */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold">Available Offers</h2>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <h2 className="text-xl font-semibold mt-6">Available Offers</h2>
+        <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
           {filteredOffers.map((offer) => (
-            <Card key={offer.id} className="relative h-[500px] flex flex-col">
+            <Card key={offer.id} className="relative h-[450px] flex flex-col">
               {/* Banner Image */}
-              <div className="relative w-full h-40">
-                <Image
-                  src={offer.image_url || 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png'}
-                  alt="Offer image"
-                  width={500}
-                  height={200}
-                  className="object-cover w-full h-full"
-                />
-                <div className="absolute top-1 left-1 bg-null p-1 rounded-full">
-                  <Image
-                    src={offer.bank_logo || '/placeholder-logo.png'}
-                    alt="Bank logo"
-                    width={150}
-                    height={150}
-                    className="object-contain w-auto h-auto max-w-[80px] max-h-[40px] rounded-md border-1 shadow-lg"
-                  />
-                </div>
-              </div>
+              <div className="relative w-full h-40 md:h-50">
+  <Image
+    src={offer.image_url || 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png'}
+    alt="Offer image"
+    fill
+    className="object-contain"
+  />
+  <div className="absolute top-2 left-2 bg-transparent p-1 rounded-full">
+    <Image
+      src={offer.bank_logo || '/placeholder-logo.png'}
+      alt="Bank logo"
+      width={80} // Adjusted for better responsiveness
+      height={40}
+      className="object-contain max-w-[80px] max-h-[40px] rounded-md border border-gray-200 shadow-lg"
+    />
+  </div>
+</div>
+
 
               <CardHeader className="flex-none">
                 <CardTitle className="text-xl font-bold">
