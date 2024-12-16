@@ -6,7 +6,7 @@ import { supabase } from '../../supabaseClient'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger, DialogClose } from "@/components/ui/dialog"
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, ArrowUpCircle } from 'lucide-react'
 
 interface Bank {
   id: number
@@ -64,6 +64,28 @@ export default function Page() {
   const [offers, setOffers] = useState<Offer[]>([])
   const [selectedBankId, setSelectedBankId] = useState<number | null>(null)
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null)
+
+  // Scroll to Top Logic
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowScrollTop(true)
+      } else {
+        setShowScrollTop(false)
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
 
   // Fetch data from Supabase
   useEffect(() => {
@@ -163,7 +185,6 @@ export default function Page() {
         </div>
       </section>
 
-
       {/* Category Selection */}
       <section className="space-y-2">
         <h2 className="text-xl font-semibold mt-6">Select a Category</h2>
@@ -193,22 +214,20 @@ export default function Page() {
         </div>
       </section>
 
-
       {/* Offers */}
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Available Offers</h2>
         {/* Set the grid to a single column on mobile */}
-        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {filteredOffers.map((offer) => (
             <Card key={offer.id} className="relative w-full max-w-full h-auto flex flex-col">
               {/* Banner Image */}
-              <div className="relative h-40 overflow-hidden">
+              <div className="relative h-32 overflow-hidden sm:h-20">
                 <Image
                   src={offer.image_url || 'https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png'}
                   alt="Offer image"
-                  width={200}
-                  height={200}
-                  className="object-contain w-full h-auto max-w-full"
+                  fill
+                  className="object-contain"
                 />
                 <div className="absolute top-1 left-1 p-1 rounded-full">
                   <Image
@@ -345,6 +364,22 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      {/* Scroll to Top Button */}
+{/* Scroll to Top Button */}
+{showScrollTop && (
+  <button
+    onClick={scrollToTop}
+    className="fixed bottom-6 right-6 w-14 h-14 bg-gradient-to-br from-blue-500 via-black-500 to-purple-500 text-white rounded-full shadow-lg 
+               flex items-center justify-center 
+               hover:scale-110 transition-transform duration-200 ease-in-out
+               focus:outline-none focus:ring-4 focus:ring-black-300"
+    aria-label="Scroll to top"
+  >
+    <ArrowUpCircle size={28} />
+  </button>
+)}
+
     </div>
   )
 }
