@@ -48,15 +48,10 @@ export default function Component() {
     { label: '2 years', value: '24' },
   ];
 
-  // Use const assertion without explicit type annotation
   const validTerms = ['6', '12', '24'] as const;
-
   const [term, setTerm] = useState<TermType>('12');
 
-  // On selection, highlight both annual_effective and maturity columns for that term
   const [selectedColumn, setSelectedColumn] = useState<string>(`rate_${term}_maturity`);
-
-  // Always descending sorting
   const [sortConfig, setSortConfig] = useState<{ key: string; direction: 'ascending' | 'descending' } | null>({
     key: selectedColumn,
     direction: 'descending',
@@ -102,19 +97,15 @@ export default function Component() {
   };
 
   const requestSort = (key: string) => {
-    // Always descending
-    // const direction: 'descending' = 'descending';
     const direction = 'descending' as const;
     setSortConfig({ key, direction });
     setSelectedColumn(key);
 
-    // Update term if different column from another term
     const parts = key.split('_');
     const newTerm = parts[1] as TermType;
     setTerm(newTerm);
   };
 
-  // When term changes programmatically, default to maturity column of that term
   useEffect(() => {
     const newKey = `rate_${term}_maturity`;
     requestSort(newKey);
@@ -153,7 +144,6 @@ export default function Component() {
     return sortableBanks;
   }, [banksData, sortConfig]);
 
-  // Show top 5 or all
   const displayedBanks = showAll ? sortedBanks : sortedBanks.slice(0, 5);
 
   const calculateReturn = (amount: number, rate: number | null, months = 12) => {
@@ -163,7 +153,6 @@ export default function Component() {
     return amount * Math.pow(1 + annualRate, years);
   };
 
-  // Sync selectedBanks with displayedBanks
   useEffect(() => {
     setSelectedBanks((prev) => prev.filter((b) => displayedBanks.some((db) => db.bank_name === b)));
     displayedBanks.forEach((b) => {
@@ -181,21 +170,16 @@ export default function Component() {
     return amount != null && !isNaN(amount) ? Math.floor(amount).toLocaleString() : 'N/A';
   };
 
-  // Determine the term from selectedColumn (rate_TERM_xxx)
   const parts = selectedColumn.split('_');
   const selectedTerm = parts[1] as TermType;
 
-  // Highlight both annual and maturity columns for selectedTerm + always highlight maturity amount column
   const highlightAnnualKey = `rate_${selectedTerm}_annual_effective`;
   const highlightMaturityKey = `rate_${selectedTerm}_maturity`;
 
-  // Classes for subtle highlighting
   const normalHeading = "text-sm font-normal text-gray-900 transition-all duration-300 text-center align-middle";
   const highlightHeading = "text-sm font-normal text-gray-900 bg-gray-100 transition-all duration-300 text-center align-middle";
   const normalCell = "text-sm font-normal text-gray-700 transition-all duration-300";
   const highlightCell = "text-sm font-normal text-gray-700 transition-all duration-300 bg-gray-100";
-
-  // Always highlight maturity amount column
   const maturityAmountHighlight = "bg-gray-100";
 
   const isTermSelected = (t: TermType) => t === selectedTerm;
@@ -203,9 +187,39 @@ export default function Component() {
     return colKey === highlightAnnualKey || colKey === highlightMaturityKey;
   };
 
+  const termHeaderClass = (
+    t: TermType,
+    rateType: 'annual_effective' | 'maturity'
+  ) => {
+    // Base classes for cursor, padding, bottom border, and text alignment
+    const base = "cursor-pointer px-3 py-2 border-b border-gray-300 text-left ";
+    
+    // Conditionally apply the right border only to 'maturity' rateType
+    const borderRight = rateType === 'maturity' ? 'border-r border-gray-300' : '';
+    
+    // Apply highlight classes if the column is selected/highlighted
+    const highlight = isColumnHighlighted(`rate_${t}_${rateType}`) && isTermSelected(t)
+      ? highlightHeading
+      : normalHeading;
+    
+    // Handle responsive visibility
+    const responsive = t === selectedTerm ? "" : "hidden sm:table-cell";
+
+    // Combine all classes
+    return `${base} ${borderRight} ${highlight} ${responsive}`;
+  };
+
+  const termCellClass = (t: TermType, rateType: 'annual_effective' | 'maturity') => {
+    const base = "px-3 py-4 align-middle text-left ";
+    const highlight = isTermSelected(t) && isColumnHighlighted(`rate_${t}_${rateType}`) ? highlightCell : normalCell;
+    const responsive = t === selectedTerm ? "" : "hidden sm:table-cell";
+    const borderRight = rateType === 'maturity' ? 'border-r border-gray-300' : '';
+    return `${base}${highlight} ${responsive} ${borderRight}`;
+  };
+
   return (
     <div className="min-h-screen bg-background">
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-4 py-8 overflow-x-auto">
         <Title text="Sri Lanka Fixed Deposits" />
 
         <div className="space-y-8">
@@ -215,7 +229,6 @@ export default function Component() {
             </p>
           )}
 
-          {/* Top 5 / All Buttons */}
           <div className="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4">
             <Button
               onClick={() => setShowAll(false)}
@@ -282,7 +295,6 @@ export default function Component() {
               </div>
             </div>
 
-            {/* Term Selection with Buttons */}
             <div>
               <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1">
                 Term
@@ -307,13 +319,11 @@ export default function Component() {
             </div>
           </div>
 
-          {/* Banks Table */}
           <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
-            <div className="inline-block min-w-full align-middle">
-              <Table className="min-w-full border-separate border-spacing-0">
+            <div className="inline-block align-middle">
+              <Table className="table-auto border-separate border-spacing-0 w-full">
                 <TableHeader>
                   <TableRow className="bg-gray-50">
-                    {/* Sticky Institution Header */}
                     <TableHead
                       rowSpan={2}
                       className={`${normalHeading} py-3.5 pl-2 sm:pl-6 pr-3 border-r border-gray-300 text-left sticky left-0 z-10 bg-white`}
@@ -321,18 +331,16 @@ export default function Component() {
                       Institution
                     </TableHead>
 
-                    {/* Terms Headers */}
                     {termOptions.map(({ label, value }) => (
                       <TableHead
                         key={value}
                         colSpan={2}
-                        className={`${isTermSelected(value) ? "bg-gray-100" : ""} ${normalHeading} border-r border-gray-300`}
+                        className={`${isTermSelected(value) ? "bg-gray-100" : ""} ${normalHeading} border-r border-gray-300 ${value === selectedTerm ? "" : "hidden sm:table-cell"}`}
                       >
                         {label}
                       </TableHead>
                     ))}
 
-                    {/* Maturity Amount */}
                     <TableHead
                       rowSpan={2}
                       className={`${normalHeading} px-3 py-3.5 ${maturityAmountHighlight} border-r border-gray-300 text-left`}
@@ -340,37 +348,27 @@ export default function Component() {
                       Maturity Amount (Rs.)
                     </TableHead>
 
-                    {/* Link */}
                     <TableHead
                       rowSpan={2}
-                      className={`${normalHeading} px-3 py-3.5 text-left`}
+                      className={`${normalHeading} px-3 pl-8 py-3.5 text-left`}
                     >
                       Link
                     </TableHead>
                   </TableRow>
 
-                  {/* Subheaders */}
                   <TableRow className="bg-gray-50">
                     {validTerms.flatMap((t) => [
                       <TableHead
                         key={`${t}_annual`}
                         onClick={() => requestSort(`rate_${t}_annual_effective`)}
-                        className={`cursor-pointer px-3 py-2 border-b border-gray-300 text-left ${
-                          isColumnHighlighted(`rate_${t}_annual_effective`) && isTermSelected(t)
-                            ? highlightHeading
-                            : normalHeading
-                        }`}
+                        className={termHeaderClass(t, 'annual_effective')}
                       >
                         Annual Rate (%)
                       </TableHead>,
                       <TableHead
                         key={`${t}_maturity`}
                         onClick={() => requestSort(`rate_${t}_maturity`)}
-                        className={`cursor-pointer px-3 py-2 border-b border-gray-300 text-left ${
-                          isColumnHighlighted(`rate_${t}_maturity`) && isTermSelected(t)
-                            ? `${highlightHeading} border-r border-gray-300`
-                            : `${normalHeading} border-r border-gray-300`
-                        }`}
+                        className={termHeaderClass(t, 'maturity')}
                       >
                         Maturity Rate (%)
                       </TableHead>,
@@ -390,37 +388,31 @@ export default function Component() {
                         key={bank.bank_name}
                         className="cursor-pointer hover:bg-gray-50 transition-colors"
                       >
-                        {/* Sticky Institution Cell */}
                         <TableCell
                           className={`${normalCell} py-4 pl-2 sm:pl-6 pr-3 align-middle border-r border-gray-300 text-left sticky left-0 z-10 bg-white`}
                         >
-                          <div className="flex items-center">
+                          <div className="flex items-center min-w-[125px]">
                             {bank.logo ? (
                               <Image
                                 src={bank.logo}
                                 alt={`${bank.bank_name} logo`}
                                 width={120}
                                 height={120}
-                                className="h-12 w-12 flex-shrink-0 rounded-full"
+                                className="h-12 w-12 rounded-full flex-shrink-0"
                               />
                             ) : (
-                              <Landmark className="h-12 w-12 flex-shrink-0 text-gray-400" />
+                              <Landmark className="h-12 w-12 text-gray-400 flex-shrink-0" />
                             )}
-                            <div className="ml-2 sm:ml-4 break-words text-gray-900">
+                            <div className="ml-2 sm:ml-4 text-gray-900 whitespace-normal break-words">
                               {bank.bank_name}
                             </div>
                           </div>
                         </TableCell>
 
-                        {/* Data for terms */}
                         {validTerms.flatMap((t) => [
                           <TableCell
                             key={`${bank.bank_name}_${t}_annual`}
-                            className={`px-3 py-4 align-middle text-left ${
-                              isTermSelected(t) && isColumnHighlighted(`rate_${t}_annual_effective`)
-                                ? highlightCell
-                                : normalCell
-                            }`}
+                            className={termCellClass(t, 'annual_effective')}
                           >
                             {bank.rates[t]?.annual_effective != null
                               ? `${bank.rates[t].annual_effective.toFixed(2)}%`
@@ -428,11 +420,7 @@ export default function Component() {
                           </TableCell>,
                           <TableCell
                             key={`${bank.bank_name}_${t}_maturity`}
-                            className={`px-3 py-4 align-middle text-left ${
-                              isTermSelected(t) && isColumnHighlighted(`rate_${t}_maturity`)
-                                ? `${highlightCell} border-r border-gray-300`
-                                : `${normalCell} border-r border-gray-300`
-                            }`}
+                            className={termCellClass(t, 'maturity')}
                           >
                             {bank.rates[t]?.maturity != null
                               ? `${bank.rates[t].maturity.toFixed(2)}%`
@@ -440,18 +428,16 @@ export default function Component() {
                           </TableCell>,
                         ])}
 
-                        {/* Maturity Amount */}
                         <TableCell
-                          className={`${normalCell} px-3 py-4 align-middle ${maturityAmountHighlight} border-r border-gray-300 text-center`}
+                          className={`${normalCell} px-3 py-4 align-middle ${maturityAmountHighlight} border-r border-gray-300 text-center whitespace-nowrap`}
                         >
                           {maturityAmount(bank)}
                         </TableCell>
 
-                        {/* Link */}
-                        <TableCell className="px-3 py-4 text-xs sm:text-sm text-blue-500 align-middle text-center">
+                        <TableCell className="px-3 py-4 text-xs sm:text-sm text-blue-500 align-middle text-center whitespace-nowrap">
                           <Button
                             variant="link"
-                            className="flex items-center gap-2 flex-1 text-xs sm:text-sm justify-center"
+                            className="flex items-center gap-2 sm:text-sm justify-center"
                             onClick={(e) => {
                               e.stopPropagation();
                               window.open(bank.link, '_blank');
