@@ -5,8 +5,8 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer'; // Import Footer component
 
 export const metadata: Metadata = {
-  title: 'Fixed Deposit Comparison',
-  description: 'Compare fixed deposit rates across Sri Lankan banks',
+  title: 'Best Rates in Sri Lanka',
+  description: 'Compare banking rates in Sri Lanka',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
