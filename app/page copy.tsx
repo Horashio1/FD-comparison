@@ -50,10 +50,14 @@ export default function HomePage() {
                 <Card className="h-full transition-all duration-300 hover:shadow-lg group-hover:bg-primary group-hover:text-primary-foreground">
                   <CardHeader>
                     <service.icon className="h-14 w-14 mb-4 text-primary transition-all duration-300 transform group-hover:scale-125 group-hover:text-primary-foreground" />
-                    <CardTitle className="transition-colors group-hover:text-primary-foreground">{service.title}</CardTitle>
-                    <CardDescription className="transition-colors group-hover:text-primary-foreground/70">
-                      {service.description}
-                    </CardDescription>
+                    <div>
+                      <CardTitle className="text-3xl font-semibold transition-colors group-hover:text-primary-foreground">
+                        {service.title}
+                      </CardTitle>
+                      <CardDescription className="text-xl mt-4 transition-colors group-hover:text-primary-foreground/70">
+                        {service.description}
+                      </CardDescription>
+                    </div>
                   </CardHeader>
                   <CardContent />
                 </Card>

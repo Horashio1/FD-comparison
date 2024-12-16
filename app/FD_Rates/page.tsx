@@ -218,9 +218,9 @@ export default function Component() {
   };
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="max-w-7xl mx-auto px-4 py-8 overflow-x-auto">
-        <Title text="Sri Lanka Fixed Deposits" />
+    <div className="container py-4">
+      <div className="text-2xl font-bold mb-4 px-4">
+        <Title text="Fixed Deposit Rates" />
 
         <div className="space-y-8">
           {errorMessage && (
@@ -233,7 +233,7 @@ export default function Component() {
             <Button
               onClick={() => setShowAll(false)}
               variant={showAll ? "outline" : "default"}
-              className={`text-xs sm:text-sm md:text-base py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-all duration-300 ${
+              className={`text-l sm:text-md md:text-base py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-all duration-300 ${
                 showAll ? 'bg-background text-primary' : 'bg-primary text-primary-foreground shadow-lg'
               }`}
             >
@@ -242,7 +242,7 @@ export default function Component() {
             <Button
               onClick={() => setShowAll(true)}
               variant={showAll ? "default" : "outline"}
-              className={`text-xs sm:text-sm md:text-base py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-all duration-300 ${
+              className={`text-l sm:text-md md:text-base py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-all duration-300 ${
                 showAll ? 'bg-primary text-primary-foreground shadow-lg' : 'bg-background text-primary'
               }`}
             >
@@ -252,10 +252,10 @@ export default function Component() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label htmlFor="depositAmount" className="block text-xs sm:text-sm font-medium text-gray-700 mb-1">
+              <label htmlFor="depositAmount" className="block text-base font-semibold sm:text-sm font-medium text-gray-700 mb-1">
                 Deposit Amount (Rs.)
               </label>
-              <div className="sm:hidden">
+              <div className="text-base font-light sm:hidden">
                 <MobileNumberSelector
                   value={depositAmount}
                   onChange={setDepositAmount}
@@ -270,7 +270,7 @@ export default function Component() {
                   type="text"
                   value={depositAmount.toLocaleString()}
                   readOnly
-                  className="pr-12 text-xs sm:text-sm"
+                  className="pr-12 text-xs sm:text-sm" // Ensures smaller text
                 />
                 <div className="absolute inset-y-0 right-0 flex flex-col">
                   <Button
@@ -296,7 +296,7 @@ export default function Component() {
             </div>
 
             <div>
-              <label className="block text-xs sm:text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-base font-semibold sm:text-base font-medium text-gray-700 mb-1"> {/* Increased text size */}
                 Term
               </label>
               <div className="flex w-full gap-x-4">
@@ -305,7 +305,7 @@ export default function Component() {
                     key={option.value}
                     onClick={() => setTerm(option.value)}
                     variant={term === option.value ? "default" : "outline"}
-                    className={`flex-1 text-xs sm:text-sm py-2 px-4 rounded ${
+                    className={`flex-1 text-sm sm:text-base py-2 px-4 rounded ${ // Increased text size
                       term === option.value
                         ? 'bg-primary text-primary-foreground'
                         : 'bg-background text-primary'
@@ -429,7 +429,7 @@ export default function Component() {
                         ])}
 
                         <TableCell
-                          className={`${normalCell} px-3 py-4 align-middle ${maturityAmountHighlight} border-r border-gray-300 text-center whitespace-nowrap`}
+                          className={`${normalCell} px-3 py-4 align-middle ${maturityAmountHighlight} border-r border-gray-300 text-center whitespace-nowrap text-xs sm:text-sm`} // Ensure smaller text
                         >
                           {maturityAmount(bank)}
                         </TableCell>
