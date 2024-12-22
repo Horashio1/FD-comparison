@@ -82,7 +82,7 @@ export default function AboutPage() {
                 🎉
               </motion.div>
               <h2 className="text-4xl font-bold">Thank You!</h2>
-              <p className="text-l">Your feedback helps us improve BestRates.lk</p>
+              <p className="text-l px-4">Your feedback helps us improve BestRates.lk</p>
             </motion.div>
           </motion.div>
         )}
@@ -130,8 +130,8 @@ export default function AboutPage() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="Comment">💬 General Feedback</SelectItem>
-                  <SelectItem value="Bug">🐞 Issue</SelectItem>
-                  <SelectItem value="Idea">💡  Improvement</SelectItem>
+                  <SelectItem value="Bug">⚠️ Issue</SelectItem>
+                  <SelectItem value="Idea">💡 Improvement</SelectItem>
                 </SelectContent>
               </Select>
             </div>

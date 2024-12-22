@@ -429,7 +429,7 @@ export default function Component() {
                         ])}
 
                         <TableCell
-                          className={`${normalCell} px-3 py-4 align-middle ${maturityAmountHighlight} border-r border-gray-300 text-center whitespace-nowrap text-xs sm:text-sm`} // Ensure smaller text
+                          className={`${normalCell} px-3 py-4 align-middle ${maturityAmountHighlight} border-r border-gray-300 text-center whitespace-nowrap sm:text-sm`} // Ensure smaller text
                         >
                           {maturityAmount(bank)}
                         </TableCell>
