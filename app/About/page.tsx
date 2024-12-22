@@ -97,7 +97,7 @@ export default function AboutPage() {
         <h1 className="text-4xl font-bold text-gray-800 mb-8">About BestRates.lk</h1>
 
         <motion.div
-          className="text-xl text-gray-800 mt-8 space-y-6"
+          className="text-l text-gray-800 mt-8 space-y-6"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}

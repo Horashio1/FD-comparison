@@ -248,7 +248,7 @@ export default function Page() {
                     transition-all duration-150 [&:active]:scale-95 hover:shadow-lg"
                   onClick={() => setOpenDialogId(offer.id)}
                 >
-                  <div className="relative h-20 flex justify-center items-center overflow-hidden bg-gray-100">
+                  <div className="relative h-20 flex justify-center items-center overflow-hidden bg-white-100">
                     <Image
                       src={offer.image_url || "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"}
                       alt="Offer image"

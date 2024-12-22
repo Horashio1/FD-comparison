@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer'; // Import Footer component
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-grow">{children}</main> {/* Page-specific content */}
         <Footer /> {/* Footer will now be globally available across pages */}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
