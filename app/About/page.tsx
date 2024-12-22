@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectItem, SelectContent, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { supabase } from "../../supabaseClient";
-import Title from "@/components/Title";
+// import Title from "@/components/Title"; // Removed since it's unused
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function AboutPage() {
@@ -28,7 +28,7 @@ export default function AboutPage() {
     setIsSubmitting(true);
 
     try {
-      const { data, error } = await supabase.from("user_feedback").insert({
+      const { error } = await supabase.from("user_feedback").insert({
         feedback_type: feedbackType,
         feedback,
         user_email: userEmail || null,
@@ -45,9 +45,14 @@ export default function AboutPage() {
         setUserEmail("");
         setSubscribeNewsletter(false);
       }, 3000);
-    } catch (err: any) {
-      console.error(err.message);
-      alert("An error occurred while submitting your feedback. Please try again.");
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        console.error(err.message);
+        alert("An error occurred while submitting your feedback. Please try again.");
+      } else {
+        console.error("Unknown error:", err);
+        alert("An unexpected error occurred. Please try again.");
+      }
     } finally {
       setIsSubmitting(false);
     }
@@ -98,10 +103,13 @@ export default function AboutPage() {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <p className="leading-relaxed">
-            At BestRates.lk, we're passionate about helping Sri Lankans find the best financial deals and rates. Our platform is designed to make comparing and choosing financial products simple and transparent.
+            At BestRates.lk, we&apos;re passionate about helping Sri Lankans find the best financial
+            deals and rates. Our platform is designed to make comparing and choosing financial
+            products simple and transparent.
           </p>
           <p className="leading-relaxed">
-            Your feedback drives our improvements and helps us better serve our community. We value every suggestion and work continuously to enhance your experience.
+            Your feedback drives our improvements and helps us better serve our community. We value
+            every suggestion and work continuously to enhance your experience.
           </p>
         </motion.div>
 
@@ -112,7 +120,7 @@ export default function AboutPage() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Share Your Thoughts</h2>
-          
+
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-2">
               <label className="text-gray-700 font-medium">Type of Feedback</label>
@@ -121,9 +129,9 @@ export default function AboutPage() {
                   <SelectValue placeholder="Select feedback type" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="Bug">🐛 Report an Issue</SelectItem>
-                  <SelectItem value="Idea">💡 Suggest an Improvement</SelectItem>
                   <SelectItem value="Comment">💬 General Feedback</SelectItem>
+                  <SelectItem value="Bug">🐞 Issue</SelectItem>
+                  <SelectItem value="Idea">💡  Improvement</SelectItem>
                 </SelectContent>
               </Select>
             </div>
