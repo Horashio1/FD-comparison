@@ -6,16 +6,16 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer'; // Import Footer component
 
 export const metadata: Metadata = {
-  title: "Best Rates in Sri Lanka",
-  description: "Compare banking rates in Sri Lanka",
+  title: "Best Rates Sri Lanka",
+  description: "Compare financial rates in Sri Lanka",
   openGraph: {
     title: "BestRates.lk",
-    description: "Compare Banking Rates and Card Deals in Sri Lanka",
+    description: "Get the latest Bank Card Promos and Banking rates",
     url: "https://www.bestrates.lk",
     siteName: "BestRates",
     images: [
       {
-        url: "https://kbcaevsuxnajykrzhjco.supabase.co/storage/v1/object/public/marketing/cards/haresha_credit_card_promotions_--v_6.1_dec98e47-898b-4e82-919c-013f9b7aad1e_3.png",
+        url: "https://res.cloudinary.com/ddqtjwpob/image/upload/v1735158039/cards_swzbkd.jpg",
         width: 630,
         height: 630,
         alt: "Logo or description of the image",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BestRates.lk",
     description: "Compare Banking Rates and Card Deals in Sri Lanka",
-    images: ["https://kbcaevsuxnajykrzhjco.supabase.co/storage/v1/object/public/marketing/cards/haresha_credit_card_promotions_--v_6.1_dec98e47-898b-4e82-919c-013f9b7aad1e_3.png"],
+    images: ["https://res.cloudinary.com/ddqtjwpob/image/upload/v1735158039/cards_swzbkd.jpg"],
   },
 };
 
