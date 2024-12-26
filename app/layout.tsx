@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "BestRates",
     images: [
       {
-        url: "https://res.cloudinary.com/ddqtjwpob/image/upload/v1735158039/cards_swzbkd.jpg",
+        url: "https://kbcaevsuxnajykrzhjco.supabase.co/storage/v1/object/public/marketing/cards/cards_thumbnail.png",
         width: 630,
         height: 630,
         alt: "Logo or description of the image",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BestRates.lk",
     description: "Compare Banking Rates and Card Deals in Sri Lanka",
-    images: ["https://res.cloudinary.com/ddqtjwpob/image/upload/v1735158039/cards_swzbkd.jpg"],
+    images: ["https://kbcaevsuxnajykrzhjco.supabase.co/storage/v1/object/public/marketing/cards/cards_thumbnail.png"],
   },
 };
 
