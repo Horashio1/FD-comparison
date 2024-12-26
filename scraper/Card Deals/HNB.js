@@ -16,10 +16,11 @@ async function scrapeHNBPromotions() {
     const categories = [
         { name: 'dining', url: `${baseURL}/personal/promotions/card-promotions/dining` },
         { name: 'hotels', url: `${baseURL}/personal/promotions/card-promotions/hotels` },
-        { name: 'shopping', url: `${baseURL}/personal/promotions/card-promotions/shopping` },
+        { name: 'groceries', url: `${baseURL}/personal/promotions/card-promotions/shopping` },
+        { name: 'shopping', url: `${baseURL}/personal/promotions/card-promotions/fashion` }
     ];
 
-    const results = { dining: [], hotels: [], shopping: [] };
+    const results = { dining: [], hotels: [], groceries: [], shopping: [] };
 
     for (const category of categories) {
         try {
@@ -73,7 +74,7 @@ async function fetchPromoDetails(browser, url, baseURL) {
             // Extract title
             fields.title = detailsDiv.querySelector('h1.hnbcp-offer-inner-heading')?.innerText.trim() || 'No title';
 
-            // Function to extract fields like merchant, offer, period, eligibility
+            // Helper function to extract fields like eligibility, etc.
             function extractField(labelRegex, defaultValue = '') {
                 const labelElement = Array.from(detailsDiv.querySelectorAll('div, p, span, strong, b')).find(el => {
                     return labelRegex.test(el.textContent.trim());
@@ -93,10 +94,10 @@ async function fetchPromoDetails(browser, url, baseURL) {
                 return defaultValue;
             }
 
-            // New function specifically for extracting content between labels
+            // Helper function to extract the text between two labels
             function extractBetweenLabels(startLabel, stopLabel, defaultValue = '') {
-                const text = detailsDiv.textContent.replace(/\s+/g, ' '); // Normalize all whitespace
-                const startLabelPattern = new RegExp(startLabel.replace(':', '\\s*:'), 'i'); // Make colon and spacing flexible
+                const text = detailsDiv.textContent.replace(/\s+/g, ' '); // Normalize whitespace
+                const startLabelPattern = new RegExp(startLabel.replace(':', '\\s*:'), 'i'); // Make colon & spacing flexible
                 
                 const match = text.match(startLabelPattern);
                 if (!match) return defaultValue;
@@ -114,8 +115,19 @@ async function fetchPromoDetails(browser, url, baseURL) {
                 return text.substring(contentStart, stopIndex).trim() || defaultValue;
             }
 
-            fields.merchant = extractBetweenLabels('Merchant:', 'Offer', 'No merchant');
-            
+            // ======================
+            // Updated merchant field
+            // ======================
+            fields.merchant = (() => {
+                let merchantText = extractBetweenLabels('Merchant:', 'Offer', '');
+                if (!merchantText) {
+                    // If not found, try "Merchants:"
+                    merchantText = extractBetweenLabels('Merchants:', 'Offer', '');
+                }
+                return merchantText || '';
+            })();
+            // ======================
+
             // Updated offer extraction
             fields.offer = (() => {
                 const allText = detailsDiv.textContent;
@@ -161,7 +173,7 @@ async function fetchPromoDetails(browser, url, baseURL) {
                 return offerText.replace(/\n+/g, '\n').trim() || 'No offer';
             })();
             
-            // Other fields continue using the original extractField function
+            // Extract period
             fields.period = (() => {
                 const allText = detailsDiv.textContent;
                 
@@ -209,12 +221,13 @@ async function fetchPromoDetails(browser, url, baseURL) {
 
                 return periodSection.trim() || 'No period';
             })();
+
+            // Extract eligibility
             fields.eligibility = extractField(/^Eligibility[:\s]/i, 'No eligibility');
+
+            // Extract contacts
             fields.contacts = (() => {
-                // Find all text content that might contain contacts
                 const allText = detailsDiv.textContent;
-                
-                // Different possible section markers
                 const startMarkers = [
                     'Contact:',
                     'Contacts:',
@@ -234,7 +247,6 @@ async function fetchPromoDetails(browser, url, baseURL) {
                     'Special'
                 ];
 
-                // Find the start and end positions
                 let startPos = -1;
                 let startMarkerUsed = '';
                 for (const marker of startMarkers) {
@@ -255,7 +267,6 @@ async function fetchPromoDetails(browser, url, baseURL) {
                     }
                 }
 
-                // Extract the contacts section
                 const contactsSection = endPos !== -1 
                     ? allText.substring(startPos + startMarkerUsed.length, endPos)
                     : allText.substring(startPos + startMarkerUsed.length);
@@ -263,10 +274,9 @@ async function fetchPromoDetails(browser, url, baseURL) {
                 return contactsSection.replace(/\n+/g, '\n').trim() || '';
             })();
 
-            // Replace the extractTextAfterLabel call with this new implementation
+            // Extract locations
             fields.locations = (() => {
                 const allText = detailsDiv.textContent;
-                
                 const startMarkers = [
                     'Location:',
                     'Locations:',
@@ -309,16 +319,12 @@ async function fetchPromoDetails(browser, url, baseURL) {
                     ? allText.substring(startPos + startMarkerUsed.length, endPos)
                     : allText.substring(startPos + startMarkerUsed.length);
 
-                // Replace multiple newlines with a single newline
                 return locationsSection.replace(/\n+/g, '\n').trim() || '';
             })();
 
-            // Updated terms extraction
+            // Extract special terms
             fields.terms = (() => {
-                // Find all text content that might contain special terms
                 const allText = detailsDiv.textContent;
-                
-                // Different possible section markers
                 const startMarkers = [
                     'Special Terms & Conditions:',
                     'Special Terms and Conditions:',
@@ -334,7 +340,6 @@ async function fetchPromoDetails(browser, url, baseURL) {
                     'HNB INSTALLMENT PROMOTION TERMS AND CONDITIONS'
                 ];
 
-                // Find the start and end positions
                 let startPos = -1;
                 let startMarkerUsed = '';
                 for (const marker of startMarkers) {
@@ -345,7 +350,7 @@ async function fetchPromoDetails(browser, url, baseURL) {
                     }
                 }
 
-                if (startPos === -1) return 'No terms';
+                if (startPos === -1) return '';
 
                 let endPos = -1;
                 for (const marker of endMarkers) {
@@ -355,12 +360,11 @@ async function fetchPromoDetails(browser, url, baseURL) {
                     }
                 }
 
-                // Extract the terms section
                 const termsSection = endPos !== -1 
                     ? allText.substring(startPos + startMarkerUsed.length, endPos)
                     : allText.substring(startPos + startMarkerUsed.length);
 
-                // Find all list items within the terms section
+                // Find list items within the terms section
                 const terms = [];
                 const listItemRegex = /(?:^|\n)\s*[-•]?\s*([^:\n]+?)(?=\n|$)/g;
                 let match;
@@ -372,7 +376,7 @@ async function fetchPromoDetails(browser, url, baseURL) {
                     }
                 }
 
-                return terms.length > 0 ? terms.join('\n') : 'No terms';
+                return terms.length > 0 ? terms.join('\n') : '';
             })();
 
             return fields;
@@ -452,7 +456,15 @@ scrapeHNBPromotions().then(results => {
 
     for (const categoryName in results) {
         const categoryResults = results[categoryName];
-        const categoryId = categoryName === 'dining' ? 1 : categoryName === 'hotels' ? 2 : categoryName === 'shopping' ? 3 : 0;
+        const categoryId = categoryName === 'dining'
+            ? 1
+            : categoryName === 'hotels'
+                ? 2
+                : categoryName === 'groceries'
+                    ? 3
+                    : categoryName === 'shopping'
+                        ? 4
+                        : 0;
 
         categoryResults.forEach(item => {
             const record = {

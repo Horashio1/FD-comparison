@@ -210,7 +210,7 @@ export default function Component() {
   };
 
   const termCellClass = (t: TermType, rateType: 'annual_effective' | 'maturity') => {
-    const base = "px-3 py-4 align-middle text-left ";
+    const base = "px-3 py-4 align-middle text-center ";
     const highlight = isTermSelected(t) && isColumnHighlighted(`rate_${t}_${rateType}`) ? highlightCell : normalCell;
     const responsive = t === selectedTerm ? "" : "hidden sm:table-cell";
     const borderRight = rateType === 'maturity' ? 'border-r border-gray-300' : '';
@@ -326,7 +326,7 @@ export default function Component() {
                   <TableRow className="bg-gray-50">
                     <TableHead
                       rowSpan={2}
-                      className={`${normalHeading} py-3.5 pl-2 sm:pl-6 pr-3 border-r border-gray-300 text-left sticky left-0 z-10 bg-white`}
+                      className={`${normalHeading} py-3.5 pl-2 sm:pl-6 pr-3 border-r border-gray-300 text-center sticky left-0 z-10 bg-white`}
                     >
                       Institution
                     </TableHead>
@@ -350,7 +350,7 @@ export default function Component() {
 
                     <TableHead
                       rowSpan={2}
-                      className={`${normalHeading} px-3 pl-8 py-3.5 text-left`}
+                      className={`${normalHeading} px-3 pl-8 py-3.5 text-left pl-10`}
                     >
                       Link
                     </TableHead>

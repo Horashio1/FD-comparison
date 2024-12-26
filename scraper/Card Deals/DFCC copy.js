@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 async function scrapeDFCCPromotions() {
     const browser = await puppeteer.launch({
@@ -18,9 +19,10 @@ async function scrapeDFCCPromotions() {
 
     const baseURL = 'https://www.dfcc.lk';
     const categories = [
-        { name: 'restaurants', url: `${baseURL}/promotions-categories/dining` },
+        { name: 'dining', url: `${baseURL}/promotions-categories/dining` },
         { name: 'hotels', url: `${baseURL}/promotions-categories//hotels` },
-        { name: 'shopping', url: `${baseURL}/promotions-categories/supermarket` }
+        { name: 'groceries', url: `${baseURL}/promotions-categories/supermarket` },
+        { name: 'shopping', url: `${baseURL}/promotions-categories/clothing__retail` }
     ];
 
     const results = [];
@@ -112,11 +114,66 @@ async function safeGoto(page, url, retries = 3) {
     }
 }
 
-// Execute the scraper and save results to a file
-scrapeDFCCPromotions().then(results => {
-    const filePath = path.join(__dirname, 'promotions_output.txt');
-    fs.writeFileSync(filePath, JSON.stringify(results, null, 2), 'utf-8');
-    console.log(`Results saved to ${filePath}`);
+// Execute the scraper and save results to a CSV file
+scrapeDFCCPromotions().then(async results => {
+    // Prepare the data for CSV
+    const records = [];
+    for (const categoryResult of results) {
+        const categoryName = categoryResult.category;
+        let category_id;
+        if (categoryName === 'dining') {
+            category_id = 1;
+        } else if (categoryName === 'hotels') {
+            category_id = 2;
+        } else if (categoryName === 'groceries') {
+            category_id = 3;
+        } else if (categoryName === 'shopping') {
+            category_id = 4;
+        } else {
+            category_id = 4; // Default category ID if not matched
+        }
+
+        for (const promo of categoryResult.promotions) {
+            const record = {
+                bank_id: 7,
+                category_id: category_id,
+                offer_title: promo.title || '',
+                merchant_details: promo.merchantName || '',
+                offer_details_1: promo.detailsList || '',
+                offer_validity: promo.validity || '',
+                discount: promo.discount || '',
+                image_url: promo.imageUrl || '',
+                more_details_url: promo.promoLink || ''
+            };
+            records.push(record);
+        }
+    }
+
+    // Ensure the 'scraped_results' folder exists
+    const scrapedResultsDir = path.join(__dirname, 'scraped_results');
+    if (!fs.existsSync(scrapedResultsDir)) {
+        fs.mkdirSync(scrapedResultsDir);
+    }
+
+    // Write the records to the CSV file
+    const csvFilePath = path.join(scrapedResultsDir, 'DFCC_data.csv');
+    const csvWriter = createCsvWriter({
+        path: csvFilePath,
+        header: [
+            { id: 'bank_id', title: 'bank_id' },
+            { id: 'category_id', title: 'category_id' },
+            { id: 'offer_title', title: 'offer_title' },
+            { id: 'merchant_details', title: 'merchant_details' },
+            { id: 'offer_details_1', title: 'offer_details_1' },
+            { id: 'offer_validity', title: 'offer_validity' },
+            { id: 'discount', title: 'discount' },
+            { id: 'image_url', title: 'image_url' },
+            { id: 'more_details_url', title: 'more_details_url' }
+        ]
+    });
+
+    await csvWriter.writeRecords(records);
+    console.log(`Results saved to ${csvFilePath}`);
 }).catch(error => {
     console.error(`Error during scraping: ${error.message}`);
 });

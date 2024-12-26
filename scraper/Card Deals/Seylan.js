@@ -15,7 +15,10 @@ async function scrapeSeylanPromotions() {
     const categories = [
         { name: 'dining', url: 'https://www.seylan.lk/promotions/cards/dining?page=' },
         { name: 'hotels', url: 'https://www.seylan.lk/promotions/cards/local-travel?page=' },
-        { name: 'shopping', url: 'https://www.seylan.lk/promotions/cards/supermarket?page=' },
+        { name: 'groceries', url: 'https://www.seylan.lk/promotions/cards/supermarket?page=' },
+        { name: 'shopping', url: 'https://www.seylan.lk/promotions/cards/style?page=' },
+        { name: 'shopping', url: 'https://www.seylan.lk/promotions/cards/shoes-accessories?page=' },
+        { name: 'shopping', url: 'https://www.seylan.lk/promotions/cards/electronics?page=' },
     ];
 
     const allResults = {};
@@ -94,11 +97,12 @@ async function scrapeSeylanPromotions() {
 
                             const Validity = Array.from(offerDetail.querySelectorAll('p'))
                                 .find((p) => p.innerText.toLowerCase().includes('valid'))
-                                ?.innerText.trim() || 'No validity';
+                                ?.innerText.trim() || '';
 
                             const Promo_details = offerDetail.querySelector('.des')?.innerText.trim()
                                 // .replace(/\s+/g, ' ')  // Replace multiple spaces with single space
                                 // .replace(/\n{3,}/g, '\n\n') || 'No promo details';  // Replace 3+ newlines with 2 newlines
+                                || 'No promo details';
 
                             return {
                                 merchantCover,
@@ -126,8 +130,11 @@ async function scrapeSeylanPromotions() {
             }
         }
 
-        // Add the category results to the allResults object
-        allResults[category.name] = results;
+        // Accumulate results for each category name
+        if (!allResults[category.name]) {
+            allResults[category.name] = [];
+        }
+        allResults[category.name].push(...results);
 
         console.log(`Finished scraping category: ${category.name}`);
     }
@@ -138,7 +145,7 @@ async function scrapeSeylanPromotions() {
     const allPromotions = [];
 
     // Map category names to IDs
-    const categoryMap = { 'dining': 1, 'hotels': 2, 'shopping': 3 };
+    const categoryMap = { 'dining': 1, 'hotels': 2, 'groceries': 3, 'shopping': 4 };
 
     // Loop through each category in allResults
     for (const categoryName in allResults) {
@@ -148,7 +155,7 @@ async function scrapeSeylanPromotions() {
             const promotion = {
                 bank_id: 6,
                 category_id: category_id,
-                offer_title: promo.Title || '',
+                merchant_details: promo.Title || '',
                 merchant_contact: promo.Merchant_Details || '',
                 offer_details_1: promo.Promo_details || '',
                 offer_validity: promo.Validity || '',
@@ -172,7 +179,7 @@ async function scrapeSeylanPromotions() {
         header: [
             {id: 'bank_id', title: 'bank_id'},
             {id: 'category_id', title: 'category_id'},
-            {id: 'offer_title', title: 'offer_title'},
+            {id: 'merchant_details', title: 'merchant_details'},
             {id: 'merchant_contact', title: 'merchant_contact'},
             {id: 'offer_details_1', title: 'offer_details_1'},
             {id: 'offer_validity', title: 'offer_validity'},

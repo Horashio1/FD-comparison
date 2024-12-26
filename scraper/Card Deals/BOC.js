@@ -19,9 +19,16 @@ async function scrapeBOCPromotions() {
 
     const baseURL = 'https://www.boc.lk';
     const categories = [
-        { name: 'dining', url: `${baseURL}/personal-banking/card-offers/dining` },
-        { name: 'hotels', url: `${baseURL}/personal-banking/card-offers/travel-and-leisure` },
-        { name: 'shopping', url: `${baseURL}/personal-banking/card-offers/supermarkets` }
+        { name: 'dining', urls: [`${baseURL}/personal-banking/card-offers/dining`] },
+        { name: 'hotels', urls: [`${baseURL}/personal-banking/card-offers/travel-and-leisure`] },
+        { name: 'groceries', urls: [`${baseURL}/personal-banking/card-offers/supermarkets`] },
+        { 
+            name: 'shopping', 
+            urls: [
+                `${baseURL}/personal-banking/card-offers/fashion`,
+                `${baseURL}/personal-banking/card-offers/online`
+            ] 
+        }
     ];
 
     const outputFilePath = path.join(__dirname, 'scraped_results', 'BOC_data.csv');
@@ -48,7 +55,8 @@ async function scrapeBOCPromotions() {
     const categoryMap = {
         'dining': 1,
         'hotels': 2,
-        'shopping': 3
+        'groceries': 3,
+        'shopping': 4
     };
 
     console.log('Scraping BOC promotions by category...');
@@ -58,76 +66,80 @@ async function scrapeBOCPromotions() {
         console.log(`Starting category: ${category.name}`);
         const categoryId = categoryMap[category.name];
 
-        await safeGoto(page, category.url);
+        for (const url of category.urls) {
+            console.log(`Processing URL: ${url}`);
+            await safeGoto(page, url);
 
-        // Click the "Load More" button until all promotions are loaded (if applicable)
-        const totalClicks = await loadAllPromotions(page);
-        console.log(`"Load More" button clicked ${totalClicks} times for category: ${category.name}`);
+            // Click the "Load More" button until all promotions are loaded (if applicable)
+            const totalClicks = await loadAllPromotions(page);
+            console.log(`"Load More" button clicked ${totalClicks} times for URL: ${url}`);
 
-        // Extract promo links from the main page after all promos are loaded
-        const promoLinks = await page.evaluate(() => {
-            const promoElements = document.querySelectorAll('a.swiper-slide.product.unique');
-            return Array.from(promoElements).map(el => el.href);
-        });
+            // Extract promo links from the main page after all promos are loaded
+            const promoLinks = await page.evaluate(() => {
+                const promoElements = document.querySelectorAll('a.swiper-slide.product.unique');
+                return Array.from(promoElements).map(el => el.href);
+            });
 
-        console.log(`Total promotions found in ${category.name}: ${promoLinks.length}`);
+            console.log(`Total promotions found in ${category.name} (${url}): ${promoLinks.length}`);
 
-        for (const promoLink of promoLinks) {
-            try {
-                await safeGoto(page, promoLink);
-                const promoDetails = await page.evaluate(() => {
-                    const merchantCover = document.querySelector('.offer-logo img')?.src || '';
-                    const merchantName = document.querySelector('.offer-logo h2')?.innerText.trim() || '';
-                    let offerValue = document.querySelector('.offer-value')?.innerText.trim() || '';
-                    const validity = document.querySelector('.offer-expire strong')?.innerText.trim() || '';
-                    const offerDetailsElements = Array.from(document.querySelectorAll('.expand-block.info-more p'));
-                    
-                    let offerDetails = '';
-                    let merchantContact = '';
-                    
-                    // Clean up offerValue
-                    offerValue = offerValue.endsWith('*') ? offerValue.slice(0, -1) : offerValue;
-                    offerValue = offerValue.replace(/\n/g, ' ');
-                    
-                    offerDetailsElements.forEach(p => {
-                        const text = p.innerText.trim();
-                        if (text.startsWith('Reservations :')) {
-                            merchantContact = text;
-                        } else {
-                            offerDetails += text + '\n';
-                        }
+            for (const promoLink of promoLinks) {
+                try {
+                    await safeGoto(page, promoLink);
+                    const promoDetails = await page.evaluate(() => {
+                        const merchantCover = document.querySelector('.offer-logo img')?.src || '';
+                        const merchantName = document.querySelector('.offer-logo h2')?.innerText.trim() || '';
+                        let offerValue = document.querySelector('.offer-value')?.innerText.trim() || '';
+                        const validity = document.querySelector('.offer-expire strong')?.innerText.trim() || '';
+                        const offerDetailsElements = Array.from(document.querySelectorAll('.expand-block.info-more p'));
+                        
+                        let offerDetails = '';
+                        let merchantContact = '';
+                        
+                        // Clean up offerValue
+                        offerValue = offerValue.endsWith('*') ? offerValue.slice(0, -1) : offerValue;
+                        offerValue = offerValue.replace(/\n/g, ' ');
+                        
+                        offerDetailsElements.forEach(p => {
+                            const text = p.innerText.trim();
+                            if (text.startsWith('Reservations :')) {
+                                merchantContact = text;
+                            } else {
+                                offerDetails += text + '\n';
+                            }
+                        });
+
+                        // Remove trailing newline if present
+                        offerDetails = offerDetails.trim();
+
+                        return { merchantCover, merchantName, offerValue, validity, offerDetails, merchantContact };
                     });
 
-                    // Remove trailing newline if present
-                    offerDetails = offerDetails.trim();
+                    // Add the promo link as detailsURL
+                    promoDetails.detailsURL = promoLink;
 
-                    return { merchantCover, merchantName, offerValue, validity, offerDetails, merchantContact };
-                });
+                    // Map scraped data to CSV record
+                    const record = {
+                        bank_id: 5,
+                        category_id: categoryId,
+                        offer_title: `${promoDetails.offerValue} at ${promoDetails.merchantName}`,
+                        merchant_details: promoDetails.merchantName,
+                        offer_details_1: promoDetails.offerDetails,
+                        offer_validity: promoDetails.validity,
+                        discount: promoDetails.offerValue,
+                        image_url: promoDetails.merchantCover,
+                        more_details_url: promoDetails.detailsURL,
+                        merchant_contact: promoDetails.merchantContact
+                    };
 
-                // Add the promo link as detailsURL
-                promoDetails.detailsURL = promoLink;
-
-                // Map scraped data to CSV record
-                const record = {
-                    bank_id: 5,
-                    category_id: categoryId,
-                    offer_title: `${promoDetails.offerValue} at ${promoDetails.merchantName}`,
-                    merchant_details: promoDetails.merchantName,
-                    offer_details_1: promoDetails.offerDetails,
-                    offer_validity: promoDetails.validity,
-                    discount: promoDetails.offerValue,
-                    image_url: promoDetails.merchantCover,
-                    more_details_url: promoDetails.detailsURL,
-                    merchant_contact: promoDetails.merchantContact
-                };
-
-                // Add the record to the records array
-                records.push(record);
-            } catch (error) {
-                console.error(`Failed to scrape promo details from ${promoLink}: ${error.message}`);
+                    // Add the record to the records array
+                    records.push(record);
+                } catch (error) {
+                    console.error(`Failed to scrape promo details from ${promoLink}: ${error.message}`);
+                }
             }
+            console.log(`Finished scraping URL: ${url} in category: ${category.name}, total promos: ${promoLinks.length}`);
         }
-        console.log(`Finished scraping category: ${category.name}, total promos: ${promoLinks.length}`);
+        console.log(`Finished scraping category: ${category.name}`);
     }
 
     // Write all records to the CSV file

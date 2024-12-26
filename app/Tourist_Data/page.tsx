@@ -5,6 +5,8 @@ import Image from 'next/image';
 import Title from "@/components/Title";
 import { supabase } from '../../supabaseClient';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { ChevronUp, ChevronDown } from 'lucide-react';
+
 
 const currencies = {
     LKR: { rate: 1, symbol: 'Rs. ', flag: '/assets/flags/lanka.png?height=20&width=30' },
@@ -124,7 +126,11 @@ export default function SimComparison() {
                                                     className="flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 rounded-full text-gray-600 hover:text-gray-800 transition-colors focus:outline-none"
                                                     aria-label="Toggle features"
                                                 >
-                                                    {isExpanded ? '–' : '+'}
+                                                    {isExpanded ? (
+                                                        <ChevronUp className="w-5 h-5" />
+                                                    ) : (
+                                                        <ChevronDown className="w-5 h-5" />
+                                                    )}
                                                 </button>
                                             ) : (
                                                 <span className="text-gray-400 italic hidden sm:inline-block"></span>

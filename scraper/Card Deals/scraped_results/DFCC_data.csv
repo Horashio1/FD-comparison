@@ -1,14 +1,4 @@
 bank_id,category_id,offer_title,merchant_details,offer_details_1,offer_validity,discount,image_url,more_details_url
-7,1,Amagi Aria – Negombo,Amagi Aria – Negombo,"Offer: 15% Savings on Christmas evening & New Year evening Dinner buffet Tickets at Amagi Aria – Negombo with DFCC Credit Cards
-Offer Period: Till 15th December 2024
-Reservation Numbers: 0707 007 722/ 0716 007 711/ 0716 007 755
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 4 December 2024 - 15 December 2024.,15% Savings on Christmas evening & New Year evening Dinner buffet Tickets at Amagi Aria - Negombo with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/01/16043006/Amagi-Aria-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/amagi-aria-negombo-3/
-7,1,The Steuart By Citrus,The Steuart By Citrus,"Offer: 20% Savings on dine-in at The Steuart By Citrus with DFCC Credit Cards
-Offer Period: 15th November to 30th December 2024 (Excluding 24th & 25th December 2024)
-Maximum Bill Value: Rs. 30,000/- per cardholder
-Location: No. 45, Hospital Lane, Colombo 01.
-Reservation Number: 0765 575 575
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 15 November 2024 - 30 December 2024.,20% Savings on dine-in at The Steuart By Citrus with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/18110946/The-Steuare-by-Citrus-Co-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/the-steuart-by-citrus-2/
 7,1,Ceylon Curry Club,Ceylon Curry Club,"Offer: 20% Savings on dine-in at Ceylon Curry Club with DFCC Credit Cards
 Offer Period: 15th November to 30th December 2024 (Excluding 24th & 25th December 2024)
 Maximum Bill Value: Rs. 30,000/- per cardholder
@@ -20,27 +10,6 @@ Offer Period: Every SATURDAY from 16th November to 28th December 2024
 Locations: All KFC Outlets
 Maximum Bill Value: Rs. 20,000/- per cardholder
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 16 November 2024 - 28 December 2024.,"25% Savings dine-in & takeaway at KFC for bills above Rs. 5,000/- with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/06/10112348/400-x-225-KFC.jpg,https://www.dfcc.lk/promotions/kfc-2/
-7,1,Isso,Isso,"Offer: 20% Savings on dine-in & takeaway at Isso Restaurants for bills above Rs. 3,000/- with DFCC Credit Cards
-Offer Period: 15th November to 15th December 2024
-Maximum Bill Value: Rs. 30, 000/- per cardholder
-Locations: Colombo 03, CCC Mall, Battaramulla, Weligama & Trincomalee
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 15 November 2024 - 15 December 2024.,"20% Savings on dine-in & takeaway at Isso Restaurants for bills above Rs. 3,000/- with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/03/05102801/400-x-225-Isso.jpg,https://www.dfcc.lk/promotions/isso-3/
-7,1,Dindigul Thalappakatti Restaurant,Dindigul Thalappakatti Restaurant,"Offer: 25% Savings on dine-in & takeaway at Dindigul Thalappakatti Restaurants for bills above Rs. 5,000/- with DFCC Credit Cards
-Offer Period: 15th November to 15th  December 2024
-Maximum Bill Value: Rs. 30, 000/- per cardholder
-Locations:
-– No. 08, De Fonseka Place, Colombo 04.
-– No. 935, Old Kotte Rd, Sri Jayawardenepura Kotte.
-– No. 04, Hotel Rd, Dehiwala-Mount Lavinia.
-– Havelock City Mall, Colombo.
-– No. 33, Negombo Road, Wattala.
-– One Galle Face Mall
-– No. 34, George E De Silva Mawatha, Kandy.
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 15 November 2024 - 15 December 2024.,"25% Savings on dine-in & takeaway at Dindigul Thalappakatti Restaurants for bills above Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/01094240/Thalappakatti-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/dindigul-thalappakatti-restaurant-2/
-7,1,Carnival Ice Cream,Carnival Ice Cream,"Offer: 20% Savings on dine-in & takeaway at Carnival Ice Cream for bills over Rs. 1,500/- with DFCC Credit Cards
-Offer Period: 15th November to 15th December 2024
-Location: Colombo 03
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 15 November 2024 - 15 December 2024.,"20% Savings on dine-in & takeaway at The Carnival for bills over Rs. 1,500/- with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/14082555/Carnival-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/the-carnival/
 7,1,Cinnamon Grand Colombo Restaurants,Cinnamon Grand Colombo Restaurants,"Offer 01: 20% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Credit Cards (Excluding Pinnacle Credit Cardholders)
 * Maximum Discount: Rs. 6,000/- per cardholder
 Offer 02: 30% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Pinnacle Credit Cards.
@@ -67,31 +36,11 @@ Reservation Number: 0112 437 437",Valid from 22 October 2024 - 30 December 2024.
 Offer Period: Every Wednesday from 30th October to 25th December 2024
 Maximum Bill Value: Rs. 25,000/- per cardholder
 Locations: Horton Place, Negombo, Rajagiriya, Nugegoda, Kottawa, Kiribathgoda, Piliyandala, Kurunegala & Havelock City Mall",Valid from 30 October 2024 - 25 December 2024.,Buy 1 & Get 1 FREE on the À la carte menu at Taco Bell with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/21111712/400-x-225-Taco.jpg,https://www.dfcc.lk/promotions/taco-bell-2/
-7,1,Ramada Colombo,Ramada Colombo,"Offer: 20% Savings on dine-in at Ramada Colombo Restaurants with DFCC Credit Cards
-Offer Period: 01st November to 20th December 2024
-Participating Restaurants:
-Gardenia Coffeeshop
-Alhambra
-Oasis Lounge
-The Secret Garden
-Gardenia Coffeeshop
-Alhambra
-Oasis Lounge
-The Secret Garden
-Maximum Bill Value: Rs. 25,000/- per cardholder
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 November 2024 - 20 December 2024.,20% Savings on dine-in at Ramada Colombo Restaurants with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/06/18094837/400-X-225_Ramada-Colombo-1.jpg,https://www.dfcc.lk/promotions/ramada-colombo-3/
-7,1,Café Kinross,Café Kinross,"Offer: 25% Savings on dine-in & takeaway at Cafe Kinross with DFCC Credit Cards.
+7,1,Café Kinross,Café Kinross,"Offer: 25% Savings on dine-in & takeaway at Cafe Kinross for bills above Rs. 5,000/- with DFCC Credit Cards.
 Offer Period: 01st November to 31st December 2024
 Location: 6 Kinross Ave, Colombo 4
 Maximum Bill Value: Rs. 30, 000/- per cardholder
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 1 November 2024 - 31 December 2024.,25% Savings on dine-in & takeaway at Cafe Kinross with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/30071849/Kinross-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/cafe-kinross/
-7,1,Roccos,Roccos,"Offer: 25% Savings on dine-in & takeaway at Roccos with DFCC Credit Cards.
-Offer Period: 01st November to 10th December 2024
-Maximum Bill Value: Rs. 30,000/- per cardholder
-Locations: Colombo 07 and Rajagiriya
-Reservation Numbers:
-0771 423 131 (Colombo 07)
-0771 262 121 (Rajagiriya)",Valid from 1 November 2024 - 10 December 2024.,25% Savings on dine-in & takeaway at Roccos with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/08095854/Roccos-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/roccos/
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 1 November 2024 - 31 December 2024.,"25% Savings on dine-in & takeaway at Cafe Kinross for bills above Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/30071849/Kinross-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/cafe-kinross/
 7,1,The Emperor’s Den,The Emperor’s Den,"Offer: 20% Savings on dine-in at The Emperor’s Den – Colombo 03 with DFCC Credit Cards.
 Offer Period: 01st November to 30th December 2024 (Excluding 24th & 25th December 2024)
 Maximum Bill Value: Rs. 50,000/- per cardholder
@@ -102,12 +51,6 @@ Offer Period: 01st November to 31st December 2024
 Locations: Nawala, Colombo 02, Thalawathugoda and Havelock City Mall
 Reservation Numbers: 0714 910 910/ 0715 910 910
 Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Valid from 1 November 2024 - 31 December 2024.,20% Savings on dine-in & takeaway at PappaRich with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/01052425/Papparich-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/papparich/
-7,1,Arthur’s Pizzeria,Arthur’s Pizzeria,"Offer: 25% Savings on dine-in & takeaway at Arthur’s Pizzeria with DFCC Credit Cards
-Offer Period: 01st November to 20th December 2024
-Maximum Bill Value: Rs. 30, 000/- per cardholder
-Reservations Number: 0117 955 955
-Locations: Havelock, Kotte & Mt.Lavinia
-Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Valid from 1 November 2024 - 20 December 2024.,25% Savings on dine-in & takeaway at Arthur's Pizzeria with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/05/25064049/arthurs.jpg,https://www.dfcc.lk/promotions/arthurs-pizzeria/
 7,1,Radisson Blu Resort Galle Restaurant,Radisson Blu Resort Galle Restaurant,"Offer: 15% Savings on dinner-buffet at Radisson Blu Resort Galle Restaurant with DFCC Credit Cards.
 Offer Period: 01st to 30th December 2024 (Excluding 24th December 2024)
 Reservation Number: 0707 325 254
@@ -134,11 +77,6 @@ Maximum Bill Value: Rs. 10,000/- per cardholder
 Reservation Numbers: 0706 543 223 / 0112 550 136
 Location: No. 31, St Kilda’s Lane, Marine Drive, Colombo 03
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 November 2024 - 30 December 2024.,15% Savings on dine-in at Healing Cafe - MaRadha Hotel Colombo with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05063445/Healing-Cafe-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/healing-cafe/
-7,1,Burleys,Burleys,"Offer: 15% Savings on dine-in & takeaway at Burleys with DFCC Credit Cards.
-Offer Period: 06th & 07th December 2024
-Locations: Bambalapitiya & Nugegoda
-Hotline: 0114 670 670
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 6 December 2024 - 7 December 2024.,15% Savings on dine-in & takeaway at Burleys with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/08092903/Burley-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/burleys/
 7,1,Galle Face Hotel Colombo Restaurants,Galle Face Hotel Colombo Restaurants,"Offer 01: 20% Savings on dine-in at Galle Face Hotel Colombo Restaurants with DFCC Credit Cards (Excluding DFCC Pinnacle Credit Cardholders).
 Offer 02: 30% Savings on dine-in at Galle Face Hotel Colombo Restaurants with DFCC Pinnacle Credit Cards.
 Participating Restaurants:
@@ -177,23 +115,6 @@ Hotline: 0777 655 898",Valid from 15 October 2024 - 31 December 2024.,20% Saving
 Offer Period: 01st November to 30th December 2024 (Excluding 24th December 2024)
 Reservation Number: 0704 764 134
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 November 2024 - 30 December 2024.,15% Savings on dinner-buffet at Radisson Hotel Colombo Restaurant with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/11105436/Radisson-Web-Banners_400-X-225-2.jpg,https://www.dfcc.lk/promotions/radisson-hotel-colombo-1/
-7,1,Siam House Restaurant,Siam House Restaurant,"Offer: 20% Savings on dine-in at Siam House Restaurant with DFCC Credit Cards.
-Offer Period: 15th November to 15th December 2024
-Locations:
-1) No. 17, Melbourne Avenue, Colombo 04.
-2) No. 98, Horton Place, Colombo 07.
-Maximum Bill Value: Rs. 30, 000/- per cardholder
-Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Valid from 15 November 2024 - 15 December 2024.,20% Savings on dine-in at Siam House Restaurant with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/22043210/Siam-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/siam-house-restaurant/
-7,1,Ward 7 Restobar – Jetwing Colombo Seven,Ward 7 Restobar – Jetwing Colombo Seven,"Offer: 20% Savings on dine-in at Ward 7 Restobar – Jetwing Colombo Seven Restaurants with DFCC Credit Cards.
-Offer Period: 20th November to 20th December 2024
-Maximum Bill Value: Rs. 30, 000/- per cardholder
-Location: No. 57, Ward Place, Colombo 07.
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 November 2024 - 20 December 2024.,20% Savings on dine-in at Ward 7 Restobar - Jetwing Colombo Seven Restaurants with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17132322/Jetwing-Colombo-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/57-ward-7-restobar-jetwing-colombo-07/
-7,1,Virticle by Jetwing,Virticle by Jetwing,"Offer: 20% Savings on dine-in at Virticle by Jetwing Restaurant with DFCC Credit Cards.
-Offer Period: 20th November to 20th December 2024
-Maximum Bill Value: Rs. 30, 000/- per cardholder
-Location: Access Towers, 278 Union Place, Colombo 02.
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 November 2024 - 20 December 2024.,20% Savings on dine-in at Virticle by Jetwing Restaurants with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17130257/Virticle-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/28853/
 7,1,Catamaran Restaurant – Amagi Aria Negombo,Catamaran Restaurant – Amagi Aria Negombo,"Offer: 15% Savings on dine-in at Catamaran Restaurant – Amagi Aria Negombo for bills above Rs. 5,000/- with DFCC Credit Cards.
 Offer Period: Monday to Thursday from 02nd December 2024 to 31st January 2025
 Reservation Number: 0312 238 385
@@ -202,146 +123,22 @@ Eligible Card Categories: All DFCC Credit Cards (Excluding DFCC Corporate Credit
 Offer Period: 15th November to 30th December 2024
 Location: Havelock City Mall & Col. 04
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 15 November 2024 - 30 December 2024.,20% Savings on dine-in and takeaway at Colombo Steak House with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/07/11084553/Steak-House-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/colombo-steak-house-havelock-city-mall/
-7,1,Beira Kitchen – Courtyard by Marriott Colombo Restaurant,Beira Kitchen – Courtyard by Marriott Colombo Restaurant,"Offer: 30% Savings on dinner buffet at Beira Kitchen – Courtyard by Marriott Colombo Restaurant with DFCC Credit Cards
-Offer Period: Every Friday & Saturday from 15th November to 14th December 2024
-Maximum Bill Value: Rs. 40, 000/- per cardholder
-Reservations Number: 0117 734 400
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 15 November 2024 - 14 December 2024.,30% Savings on dinner-buffet at Beira Kitchen - Courtyard by Marriott Restaurants with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/05/18115519/Beira-Kitchen-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/beira-kitchen-courtyard-by-marriott/
-7,2,Radisson Hotels,Radisson Hotels,"Offer: 15% Savings on Suite Room Categories at Radisson Hotels on Double and Triple room bookings on half board & full board basis stays with DFCC Credit Cards
-Participating Properties:
-1. Radisson Blu Resort Galle
-2. Radisson Hotel Kandy
-3. Radisson Hotel Colombo
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Numbers: 0112 030 541 (Promo Code: SSSD)",Valid from 1 November 2024 - 20 December 2024.,15% Savings on Suite Room Categories on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26030920/Radisson-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/radisson-hotels/
-7,2,Boutique Collection by Amaya,Boutique Collection by Amaya,"Offer: Up to 35% Savings at Boutique Collection by Amaya on double and triple room bookings on bed & breakfast, half board & full Board Basis stays with DFCC Credit Cards.
-Participating Properties:
-Oliphant Boutique Villa, Nuwara Eliya – 35% Savings
-Hanthana Boutique Villa, Kandy – 35% Savings
-The Villas, Wadduwa – 35% Savings
-Langdale Boutique Hotel, Nuwara Eliya  – 30% Savings
-Tri, Koggala – 30% Savings
-Villa 700, Bentota – 30% Savings
-Oliphant Boutique Villa, Nuwara Eliya – 35% Savings
-Hanthana Boutique Villa, Kandy – 35% Savings
-The Villas, Wadduwa – 35% Savings
-Langdale Boutique Hotel, Nuwara Eliya  – 30% Savings
-Tri, Koggala – 30% Savings
-Villa 700, Bentota – 30% Savings
-Booking Period: 25th November to 07th December 2024
-Stay Period: 25th November 2024 to 31st January 2025
-Reservation Website: boutiquecollectionbyamaya.com using the Promo Code: DFCC24
-Reservations Number: 0772 953 527",Valid from 25 November 2024 - 7 December 2024.,"Up to 35% Savings at Boutique Collection by Amaya on bed & breakfast, half board & full Board Basis stays with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13053524/Amaya-Boutique-Collection-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/boutique-collection-by-amaya/
+7,2,Aaradhya Madu Ganga,Aaradhya Madu Ganga,"Offer: 50% Savings at Aaradhya Maduganga on double, triple room bookings on half board and full board basis stays with DFCC Credit Cards.
+Offer Period: Till 31st December 2024
+Reservation Number: 0777 999 800
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Till 31st December 2024,50% Savings on half board and full board basis stays with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/12/09073022/Aaradhya-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/aaradhya-madu-ganga/
 7,2,Sun Siyam Pasikudah,Sun Siyam Pasikudah,"Offer: 30% Savings at Sun Siyam Pasikudah on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
 Booking & Stay Period: 10th October to 31st December 2024
 Maximum Bookings: 03 rooms bookings per card
 Reservations Numbers: 0652 055 555/ 070 242 4263",Valid from 10 October 2024 - 31 December 2024.,30% Savings on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/16053649/Sun-Siyam-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/sun-siyam-pasikudah/
-7,2,Aarunya Nature Resort & Spa,Aarunya Nature Resort & Spa,"Offer: 15% Savings at Aarunya Nature Resort & Spa on double and triple room bookings on half board & full board basis stays with DFCC Prestige Credit Cards
-Value additions:
-*20% Savings on F&B & Spa
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Email: reservations@aarunyaresort.com
-Reservations Number: 0777 297 861",Valid from 1 November 2024 - 20 December 2024.,15% Savings on half board & full board basis stays with DFCC Prestige Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/30102547/Aarunya-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/aarunya-nature-resort-spa/
-7,2,The Other Corner – Habarana,The Other Corner – Habarana,"Offer: Up to 35% Savings on 1-night stays at The Other Corner – Habarana for double & triple room bookings on half board & full board basis with DFCC Credit Cards
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Numbers: 0773 327 995 / 0773 333 440
-Reservations Emails: sales.toc@starrongroup.com / reservations.toc@starrongroup.com",Valid from 1 November 2024 - 20 December 2024.,35 % Savings on half board & full board basis with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26053808/Other-Corner-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/the-other-corner-habarana/
-7,2,Yahva – Bentota,Yahva – Bentota,"Offer: 20% Savings on 1-night and 25% Savings on 2-nights stays at Yahva – Bentota on half board and full board basis stays with DFCC Credit Cards.
-*The offer is only applicable for full villa bookings.
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Number: 0770 498 823
-Reservations Email: info@thettscollection.com",Valid from 1 November 2024 - 20 December 2024.,20% Savings on half board and full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26071139/Yahva-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/yahva-bentota/
-7,2,Kurokawa – Kalutara,Kurokawa – Kalutara,"Offer: 20% Savings on 1-night and 30% Savings on 2-nights stays at Kurokawa – Kalutara on half board and full board basis stays with DFCC Credit Cards
-*The offer is only applicable for full villa bookings.
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Number: 0770 498 823
-Reservation Email: info@thettscollection.com",Valid from 1 November 2024 - 20 December 2024.,20% Savings on half board and full board basis stays with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26070242/Kurokawa-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/kurokawa-kalutara-2/
-7,2,Villa Mankani – Dambulla,Villa Mankani – Dambulla,"Offer: 30% Savings on 1-night stays & 25% Savings on 2-night stays at Villa Mankani – Dambulla for double & triple room bookings on half board and full board basis with DFCC Credit Cards
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Number: 0770 498 823
-Reservation Email: info@thettscollection.com",Valid from 1 November 2024 - 20 December 2024.,30% Savings on half board and full board basis with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26065134/Mankani-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/villa-mankani-dambulla/
-7,2,Kalundewa Retreat – Dambulla,Kalundewa Retreat – Dambulla,"Offer: 15% Savings on 1-night stays and 20% Savings on 2-night stays at Kalundewa Retreat – Dambulla for double & triple room bookings on half board & full board basis with DFCC Credit Cards
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Number: 0775 205 475
-Reservation Emails: reservations@kalundewaretreat.com / sales@kalundewaretreat.com",Valid from 1 November 2024 - 20 December 2024.,15% Savings on half board & full board basis with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26064009/Kalundewa-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/kalundewa-retreat-dambulla/
 7,2,Victoria Golf Resort – Digana,Victoria Golf Resort – Digana,"Offer: 25% Savings on 1-night stays and 35% Savings on 2-night stays at Victoria Golf Resort – Digana for double & triple room bookings on half board & full board basis with DFCC Credit Cards
 Booking & Stay Period: 01st November to 23rd December 2024
 Reservations Numbers: 0712 397 588 / 0717 376 376
 Reservation Emails: pawani@ttshospitality.lk/ fom@victoriagolf.lk",Valid from 1 November 2024 - 23 December 2024.,25% Savings on half board & full board basis with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26063047/Victoria-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/victoria-golf-resort-digana-2/
-7,2,Kalu’s Hideaway – Udawalawa,Kalu’s Hideaway – Udawalawa,"Offer: Up to 35% Savings on 1-night stays at Kalu’s Hideaway – Udawalawa for double & triple room bookings on half board & full board basis with DFCC Credit Cards
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Numbers: 0761 969 117 / 0778 050 600
-Reservation emails: reservations@kalushideaway.com / sales@kalushideaway.com",Valid from 1 November 2024 - 20 December 2024.,35% Savings on half board & full board basis with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26062202/Kalus-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/kalus-hideaway-udawalawa/
-7,2,CheRiz – Nuwara Eliya,CheRiz – Nuwara Eliya,"Offer: 10% Savings on 1-night stays and 15% Savings on 2-night stays at CheRiz – Nuwara Eliya for double & triple room bookings on half board & full board basis with DFCC Credit Cards.
-Booking & Stay Period: 01st November to 20th December 2024
-Reservations Numbers: 0761 969 117 / 0777 183 433
-Reservation Emails: reservations@thecheriz.com / reservations@ttshospitality.lk",Valid from 1 November 2024 - 20 December 2024.,10% Savings on half board & full board basis with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26055116/Cheriz-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/cheriz-nuwara-eliya/
 7,2,Seahorse Hotel & Spa Negombo,Seahorse Hotel & Spa Negombo,"Offer: 20% Savings at Seahorse Hotel & Spa,Negombo on double and triple rooms bookings on half board & full board basis stays with DFCC Credit Cards
 Booking & Stay Period: 01st November to 31st December 2024
 Reservation Numbers: 077 7 720 579 / 077 7 300 579
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 1 November 2024 - 31 December 2024.,20% Savings on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/12/05063316/Sea-Horse-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/seahorse-hotel-spa-negombo/
-7,2,Amaara Forest Hotel – Sigiriya,Amaara Forest Hotel – Sigiriya,"Offer: 25% Savings at Amaara Forest Hotel, Sigiriya on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
-Booking & Stay Period: 04th October to 19th December 2024
-Reservations Website: www.amaarahotels.com using the Promo Code: DFCCC
-Reservations Number: 0770 038 303",Valid from 4 October 2024 - 19 December 2024.,25% Savings on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/02/20112323/400-x-225-amaara-forest.jpg,https://www.dfcc.lk/promotions/amaara-forest-hotel/
-7,2,Browns Hotels & Resorts,Browns Hotels & Resorts,"Offer: Special Savings at selected Browns Hotels on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards.
-Participating Properties:
-The Calm Resort & Spa – Up to 35% Savings
-Occidental Paradise Dambulla – Up to 25% Savings
-Dickwella Resort & Spa – Up to 20% Savings
-Occidental Eden Beruwala – Up to 20% Savings
-Club Hotel Dolphin – Up to 20% Savings
-Thaala Bentota – Up to 20% Savings
-The Calm Resort & Spa – Up to 35% Savings
-Occidental Paradise Dambulla – Up to 25% Savings
-Dickwella Resort & Spa – Up to 20% Savings
-Occidental Eden Beruwala – Up to 20% Savings
-Club Hotel Dolphin – Up to 20% Savings
-Thaala Bentota – Up to 20% Savings
-Booking Period: 15th November to 15th December 2024
-Stay Period: 15th November to 31st December 2024
-Reservations Website: www.brownshotels.com using the Promo Code: DFCC24",Valid from 15 November 2024 - 15 December 2024.,Special Savings with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/04/30094622/Browns-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/browns-hotels-resorts/
-7,2,Trinco Blu by Cinnamon,Trinco Blu by Cinnamon,"Offer: Up to 35% Savings at Trinco Blu by Cinnamon for double and triple room bookings on full board basis stays with DFCC Credit Cards
-Booking Period: 09th to 11th December 2024
-Stay Period: From 09th December 2024 to 31st January 2025
-Reservations Website: cinnamonhotels.com/Global using Promo Code: DFCC12
-Reservations Number: 0112 161 161",Valid from 9 December 2024 - 11 December 2024.,Up to 35% Savings on full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/01/26065300/400-x225-5.jpg,https://www.dfcc.lk/promotions/cinnamon-citadel-2-2-2-2/
-7,2,Thema Collection,Thema Collection,"Offer: 20% Savings at Thema Collection Properties on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
-Booking & Stay Period: 01st November to 15th December 2024
-Reservations Website: www.themacollection.com using the promo code: DFC2K
-Participating Restaurants:
-Maalu Maalu Resort & Spa, Pasikuda
-Aliya Resort & Spa, Sigiriya
-Kithala Resort, Tissa – Yala
-Mountbatten Bungalow, Kandy
-Scottish Planter Glendevon Bungalow, Ragala
-Wild Glamping – Knuckles
-Tea & Experience Factory – Mandaramnuwara
-Wild Glamping – Gal Oya
-Waraka Udawalawe
-Parangi Weligama
-Maalu Maalu Resort & Spa, Pasikuda
-Aliya Resort & Spa, Sigiriya
-Kithala Resort, Tissa – Yala
-Mountbatten Bungalow, Kandy
-Scottish Planter Glendevon Bungalow, Ragala
-Wild Glamping – Knuckles
-Tea & Experience Factory – Mandaramnuwara
-Wild Glamping – Gal Oya
-Waraka Udawalawe
-Parangi Weligama",Valid from 1 November 2024 - 15 December 2024.,20% Savings on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/28040338/Thema-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/thema-collection/
-7,2,Amaya Resorts & Spas,Amaya Resorts & Spas,"Offer: Up to 35% Savings at Amaya Resorts & Spas on double and triple room bookings on bed & breakfast, half board & full Board Basis stays with DFCC Credit Cards.
-Participating Properties:
-Amaya Beach Pasikudah – 35% Savings
-Amaya Hills Kandy – 30% Savings
-Amaya Lake Dambulla – 25% Savings
-Amaya Beach Pasikudah – 35% Savings
-Amaya Hills Kandy – 30% Savings
-Amaya Lake Dambulla – 25% Savings
-Booking Period: 25th November to 07th December 2024
-Stay Period: 25th November 2024 to 31st January 2025
-Reservation Website: www.amayaresorts.com using the Promo Code: DFCC24
-Reservations Number: 0114 767 888",Valid from 25 November 2024 - 7 December 2024.,"Up to 35% Savings at Amaya Resorts & Spas on bed & breakfast, half board & full Board Basis stays with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/27051236/Amaya-resorts-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/amaya-resorts-spas/
 7,2,Amagi Beach – Marawila,Amagi Beach – Marawila,"Offer: 15% Savings at Amagi Beach – Marawila on double & triple room bookings on half board and full board basis stays with DFCC Credit Cards.
 Booking & Stay Period: 01st November 2024 to 31st January 2025
 Reservation Numbers: 0703 302 126
@@ -350,14 +147,6 @@ Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate 
 Booking & Stay Period: 01st November 2024 to 31st January 2025
 Reservation Numbers: 0703 569 178 / 0716 007 711 / 0707 007 711
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 November 2024 - 31 January 2025.,15% Savings on half board and full board basis stays with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/01/16043006/Amagi-Aria-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/amagi-aria-negombo/
-7,2,Amaara Sky Hotel – Kandy,Amaara Sky Hotel – Kandy,"Offer: 30% Savings at Amaara Sky Hotel Kandy on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
-Booking & Stay Period: 04th October to 19th December 2024
-Reservations Website: www.amaarahotels.com using the Promo Code: DFCCC
-Reservations Number: 0770 038 303",Valid from 4 October 2024 - 19 December 2024.,30% Savings on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/02/20113127/400-x-225-amaara-sky.jpg,https://www.dfcc.lk/promotions/amaara-sky-hotel-kandy-4/
-7,2,Sheraton Kosgoda Turtle Beach Resort,Sheraton Kosgoda Turtle Beach Resort,"Offer: 25% Savings on Deluxe Garden View rooms at Sheraton Kosgoda Turtle Beach Resort for double room bookings on Full Board Basis stays with DFCC Credit Cards
-Booking & Stay Period: 01st November to 20th December 2024
-Maximum Bookings: 05 bookings per card
-Reservations Inquiries: 0917 600 100",Valid from 1 November 2024 - 20 December 2024.,25% Savings on Full Board Basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/10/07084828/400-X-225_Sheraton.jpg,https://www.dfcc.lk/promotions/sheraton-kosgoda-turtle-beach-resort/
 7,3,Keells,Keells,"Offer: 30% Savings on fresh Vegetables, Fruits, Seafood and Meat at all Keells outlets for bills over Rs. 5,000/- with DFCC Credit Cards.
 Offer Period: Every Monday from 02nd to 30th December 2024
 Maximum Discount Value: Rs. 1,500/-
@@ -395,3 +184,144 @@ Maximum Discount Value: Rs. 1,500/- per cardholder
 Exempted Items: Liquor, tobacco, utility bill payments & gift vouchers.
 Maximum Quantity: 3Kg or 3 units per item.
 Validity: Valid only for 01 transaction per cardholder per day",22nd & 29th November and 06th & 27th December 2024,"10% Savings on the Total Bill at Cargills Food Hall - Colombo City Centre & Havelock City Mall outlets for bills above Rs. 7,500/- with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/30104124/Cargills-Food-Hall-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/cargills-food-hall/
+7,4,Diliganz,Diliganz,"Offer: 25% Savings at Diliganz – Marino Mall with DFCC Credit Cards.
+Offer Period: 21st & 22nd December 2024
+Maximum Bill Value: Rs. 50,000/- per cardholder
+Location: Diliganz – Marino Mall
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 21 December 2024 - 22 December 2024.,25% Savings at Diliganz - Marino Mall with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/29071415/400-x-225-Diliganz.jpg,https://www.dfcc.lk/promotions/diliganz-3/
+7,4,Kreation House of Cotton,Kreation House of Cotton,"Offer: 20% Savings at Kreation House of Cotton & www.kreationhandlooms.com with DFCC Credit Cards.
+Offer Period: 07th to 09th and 27th to 31st December 2024
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Locations: Borella, Wattala, Mount Lavinia & Wellawatte
+Website: www.kreationhandlooms.com
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",07th to 09th and 27th to 31st December 2024,20% Savings at Kreation House of Cotton & www.kreationhandlooms.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/11/23051053/400-X-225_Kreation.jpg,https://www.dfcc.lk/promotions/kreation-house-of-cotton-2/
+7,4,Ceylon City Mart,Ceylon City Mart,"Offer: 25% Savings at Ceylon City Mart with DFCC Credit Cards.
+*Offer is valid on Fashion & Retail sections only (Apparel, Footwear & Bags, Household, Kitchenware, Electronics, Glassware, Cosmetics & Accessories)
+Offer Period: 07th, 08th, 23rd & 24th December 2024
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: No. 83, H.K. Edmond Mawatha, Galle
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)","07th, 08th, 23rd & 24th  December 2024",25% Savings at Ceylon City Mart with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/31112934/City-Mart-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/ceylon-city-mart-2/
+7,4,AMA Dress Point,AMA Dress Point,"Offer: 25% Savings at AMA Dress Point with DFCC Credit Cards.
+Offer Period: 11th, 21st & 22nd December 2024
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Horana, Bandaragama, Badulla & Minuwangoda
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)","11th, 21st & 22nd December 2024",25% Savings at AMA Dress Point with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/15033430/Ama-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/ama-dresspoint/
+7,4,Nadiyas Textiles,Nadiyas Textiles,"Offer: 20% Savings at Nadiyas Textile with DFCC Credit Cards.
+Offer Period: 12th & 22nd December 2024
+Maximum Bill Value: Rs. 50,000/- per cardholder, per day
+Location: Nawalapitiya, Gampola, Matale, Kandy, Kurunegala, Polonnaruwa, Avissawella.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",12th & 22nd December 2024,20% Savings at Nadiyas Textile with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/17093444/Nadiya-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/nadiyas-textiles-1/
+7,4,Wybe Fashion,Wybe Fashion,"Offer: 20% Savings at Wybe Fashion & www.wybe.lk with DFCC Credit Cards.
+Offer Period: 21st to 24th December 2024
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Location: No. 81, Negombo Road, Ja-Ela.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 21 December 2024 - 24 December 2024.,20% Savings at Wybe Fashion & www.wybe.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/26051827/Wybe-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/wybe-fashion/
+7,4,Zara – Puttalam,Zara – Puttalam,"Offer: Up to 15% Savings at Zara – Puttalam with DFCC Credit Cards.
+Offer Period: 15th to 25th December 2024
+Locations: No. 13, Masjid Road, Puttalam
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 15 December 2024 - 25 December 2024.,Up to 15% Savings at Zara - Puttalam with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/21093720/Zara-Gold-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/zara-redhi-store-puttalam-2/
+7,4,Saree Mandir,Saree Mandir,"Offer 01: 30% Savings at Saree Mandir with DFCC Pinnacle Credit Cards
+Offer 02: 25% Savings at Saree Mandir with DFCC Credit Cards (Excluding Pinnacle Credit Cards)
+Offer Period: 21st & 22nd December 2024
+Location: No. 65, W.A. Silva Mawatha, Colombo 06.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 22nd December 2024,30% Savings with DFCC Pinnacle Credit Cards and 25% Savings with DFCC Credit Cards (Excluding Pinnacle Credit Cards),https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/26134300/400-x-225-saree-mandhir.jpg,https://www.dfcc.lk/promotions/saree-mandir-3/
+7,4,Dirali – Marino Mall,Dirali – Marino Mall,"Offer: 25% Savings at Dirali – Marino Mall with DFCC Credit Cards.
+Offer Period: 21st & 22nd December 2024
+Maximum Bill Value: Rs. 50,000/- per cardholder
+Location: Marino Mall
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 22nd December 2024,25% Savings at Dirali - Marino Mall with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/03/06124543/400-x-225-Dirali.jpg,https://www.dfcc.lk/promotions/dirali-shop-marino-mall/
+7,4,Molly Fashion Circle,Molly Fashion Circle,"Offer: 20% Savings at Molly Fashion Circle with DFCC Credit Cards.
+Offer Period: 21st & 30th December 2024
+Maximum Discount Value: Rs. 50,000/- per cardholder
+Location: Kuliyapitiya, Wattegama and Chilaw.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 30th December 2024,20% Savings at Molly Fashion Circle with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/15092933/Molly-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/molly-fashion-circle-2/
+7,4,Spring & Summer,Spring & Summer,"Offer: 25% Savings at Spring & Summer & www.springandsummer.lk with DFCC Credit Cards.
+Offer Period: 01st, 02nd, 30th & 31st December 2024
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: All Spring & Summer outlets
+Website: www.springandsummer.lk
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)","01st, 02nd, 30th & 31st December 2024",25% Savings at Spring & Summer & www.springandsummer.lk with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/21120637/400-x-225-Spring.jpg,https://www.dfcc.lk/promotions/www-springandsummer-lk-3/
+7,4,Crocodile,Crocodile,"Offer: 30% Savings at Crocodile & www.crocodilesrilanka.com with DFCC Credit Cards.
+Offer Period: 21st & 22nd December 2024
+Location: All Crocodile Outlets
+Website: www.crocodilesrilanka.com
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 22nd December 2024,30% Savings at Crocodile & www.crocodilesrilanka.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/24110339/400-x-225-Crocodile.jpg,https://www.dfcc.lk/promotions/crocodile-2/
+7,4,Emerald,Emerald,"Offer: 30% Savings at Emerald & www.emerald.lk with DFCC Credit Cards.
+Offer Period: 21st & 22nd December 2024
+Location: All Emerald Outlets
+Website: www.emerald.lk
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 22nd December 2024,30% Savings at Emerald & www.emerald.lk with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/20050420/400x225-4.jpg,https://www.dfcc.lk/promotions/emerald-2/
+7,4,ASB Fashion,ASB Fashion,"Offer: 20% Savings at ASB Fashion with DFCC Credit Cards.
+Offer Period: 23rd & 24th December 2024
+Maximum Discount Value: Rs. 30,000/- per cardholder
+Location: All ASB Fashion Outlets
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd & 24th December 2024,20% Savings at ASB Fashion with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/03/18053039/400-X-225_ASB.jpg,https://www.dfcc.lk/promotions/asb-fashion-2/
+7,4,Softlogic Brands,Softlogic Brands,"Offer: 25% Savings at Softlogic Brands with DFCC Credit Cards.
+Offer Period: 23rd & 24th December 2024
+Maximum Bill Value: Rs. 80,000/- per cardholder, per day
+Eligible Softlogic Brands: ODEL, Galleria, Cotton Collection, COCO, ODEL Brands outlet Store, Luv SL, ODEL Sports (Selected Items), odel.lk, Levi’s, Calvin Klein, Tommy Hilfiger, Armani Exchange, Samsonite, ALDO, Mango, Charles & Keith, Nike, Adidas Originals – OGF Mall, Adidas Performance – OGF Mall, Skechers – OGF Mall, Furla, Fossil, Vero Moda, Yamamay, Carpisa, The Toy Store.
+Website: Odel.lk
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd & 24th December 2024,"25% Savings at ODEL, Cotton Collection, Odel.lk, and Softlogic Brands with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/20081850/400X225-5.jpg,https://www.dfcc.lk/promotions/softlogic-brands/
+7,4,Level Outfitters,Level Outfitters,"Offer: 20% Savings at Level Outfitters & www.leveloutfitters.com with DFCC Credit Cards.
+Offer Period: 25th & 26th December 2024
+Maximum Discount Value: Rs. 30,000/- per cardholder
+Location: No. 121, Hill Street, Dehiwala
+Website: www.leveloutfitters.com
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",25th & 26th December 2024,20% Savings at Level Outfitters & www.leveloutfitters.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/15034822/Level-Outfitters-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/level-outfitters/
+7,4,Absolute,Absolute,"Offer: 20% Savings at Absolute & www.absolutebasics.lk with DFCC Credit Cards.
+Offer Period: 18th & 22nd December 2024
+Maximum Discount Value: Rs. 25,000/- per cardholder
+Location: Flagship store – 377B, Galle Road, Colombo 03 & OGF
+Website: www.absolutebasics.lk
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",18th & 22nd December 2024,20% Savings at Absolute & www.absolutebasics.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/15090930/Absolute-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/absolute/
+7,4,Rich Look,Rich Look,"Offer: 20% Savings at Rich Look outlets for bills above Rs. 4,000/- with DFCC Credit Cards.
+Offer Period: 23th & 24th December 2024
+Maximum Discount Value: Rs. 30,000/- per cardholder
+Locations: Maharagama, Negombo, Kalutara, Ratnapura and Kottawa
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23th & 24th December 2024,"20% Savings at Rich Look outlets for bills above Rs. 4,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/03053152/Rich-Look-Logo-Banner-400-X-225-1.jpg,https://www.dfcc.lk/promotions/rich-look/
+7,4,Saheli Fashions,Saheli Fashions,"Offer: 15% Savings at Saheli Fashion – Matara with DFCC Credit Cards.
+Offer Period: 28th & 29th December 2024
+Location: Matara
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",28th & 29th December 2024,15% Savings at Saheli Fashion - Matara with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/26050902/Sahedi-Logo-Banner-400-X-225-1.jpg,https://www.dfcc.lk/promotions/sahelie-fashions/
+7,4,Matara Traders,Matara Traders,"Offer: 20% Savings at Matara Traders with DFCC Credit Cards.
+Offer Period: 20th to 22nd & 29th to 31st December 2024
+Maximum Discount Value: Rs. 30,000/- per cardholder
+Location: Embilipitiya, Sooriyawewa, Walasmulla, Godakawela
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",20th to 22nd & 29 to 31 December 2024,20% Savings at Matara Traders with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/26032136/Matara-Traders-Logo-Banner-400-X-225-1.jpg,https://www.dfcc.lk/promotions/matara-traders/
+7,4,Richway Raja Garments,Richway Raja Garments,"Offer: 20% Savings at Richway Raja Garments with DFCC Credit Cards.
+Offer Period: 27th to 29th of December 2024
+Maximum Discount Value: Rs. 30,000/- per cardholder
+Location: No. 348, Anagarika Dharmapala Mawatha, Matara
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",27th to 29th of December 2024,20% Savings at Richway Raja Garments with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/11/23052955/400-X-225_Richway.jpg,https://www.dfcc.lk/promotions/richway-raja-garments/
+7,4,Isira Fashion,Isira Fashion,"Offer: 25% Savings at Isira Fashion with DFCC Credit Cards.
+Offer Period: 23rd December 2024
+Maximum Discount Value: Rs. 30,000/- per cardholder
+Location: No. 03, Old Airport Road, Ratmalana and No. 418, Maliban Junction, Galle Road, Ratmalana
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd December 2024,25% Savings at Isira Fashion with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/20052449/Isira-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/isira-fashion/
+7,4,Handloom Gallery,Handloom Gallery,"Offer: 20% Savings at Handloom Gallery with DFCC Credit Cards.
+Offer Period: 27th to 30th December 2024
+Location: Battaramulla & Kotte
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",27th to 30th December 2024,20% Savings at Handloom Gallery with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/20052049/Handloom-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/handloom-gallery/
+7,4,Samanmal,Samanmal,"Offer: 30% Savings at Samanmal Outlets orders above Rs. 6,500/- with DFCC Credit Cards.
+Offer Period: 30th November, 21st, 22nd & 28th December 2024
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Matara, Panadura, Embilipitiya
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)","30th November, 21st, 22nd & 28th December 2024","30% Savings at Samanmal Outlets orders above Rs. 6,500/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/27091055/400-x-225-Samanmal.jpg,https://www.dfcc.lk/promotions/samanmal/
+7,4,Sarathchandra Textiles,Sarathchandra Textiles,"Offer: 25% Savings at Sarathchandra Textiles with DFCC Credit Cards.
+Offer Period: 23rd & 24th December 2024
+Maximum Discount Value: Rs. 30,000/- per cardholder
+Location: No. 133, Main Street, Embilipitiya and No. 114/1/1, Ratnapura Road, Pelmadulla.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd & 24th December 2024,25% Savings at Sarathchandra Textiles  with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/03/05071255/400-X-225_Sarathchandra-Textiles.jpg,https://www.dfcc.lk/promotions/sarathchandra-textiles/
+7,4,Shopimo Fashions,Shopimo Fashions,"Offer: 25% Savings at Shopimo Fashions with DFCC Credit Cards
+Offer Period: 28th & 29th December 2024
+Location: No. 67/7, Horana Road, Panadura
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",28th & 29th December 2024,25% Savings at Shopimo Fashions with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/03/18064218/400-X-225_Shopimo.jpg,https://www.dfcc.lk/promotions/shopimo-2/
+7,4,La Vivente,La Vivente,"Offer: 25% Savings at La Vivente with DFCC Credit Cards.
+Offer Period: 29th & 30th November and 21st & 22nd December 2024
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: All La Vivente Outlets
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)","29th, 30th November & 21st, 22nd December 2024",25% Savings at La Vivente with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/12/24081058/400-x-225-Vivante.jpg,https://www.dfcc.lk/promotions/la-vivente/
+7,4,ShirtWorks,ShirtWorks,"Offer: 30% Savings at Shirtworks with DFCC Credit Cards.
+Offer Period: 21st & 22nd December 2024
+Location: All Shirtworks Outlets
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 22nd December 2024,30% Savings at Shirtworks with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/28094434/400-x-225-SWX.jpg,https://www.dfcc.lk/promotions/swx/

@@ -1,4 +1,4 @@
-bank_id,category_id,offer_title,merchant_contact,offer_details_1,offer_validity,discount,image_url,more_details_url
+bank_id,category_id,merchant_details,merchant_contact,offer_details_1,offer_validity,discount,image_url,more_details_url
 6,1,CINNAMON LAKESIDE CHRISTMAS OFFERS 2024,,"Offer : Christmas Eve Dinner - 20% off on Total Bill for Visa Signature & World Mastercard Cards
 
 Minimum bill value per card  Rs.25,000
@@ -28,6 +28,7 @@ Minimum bill value per card Rs.10,000 I  Maximum bill value per card Rs.40,000
 Maximum discount per card card Rs.12,000
 Offer valid on Week Days for Food bills only
 Period : 02 Dec – 06 Dec 2024
+Black out Period - 24th, 25th, and 31st Dec
 
  
 
@@ -80,12 +81,6 @@ Maximum Discount per bill is 3,000/- card per day
 •    All rights regarding the discount offered by the hotel are reserved by the hotel.
 •    The offer is applicable to both Seylan Visa Signature and Worldmaster cards Credit Cards only
 •    10% discount for the X Mas Goodies purchases over Rs. 5000.",Valid from 01-31 Dec 2024,15% OFF WITH YOUR SEYLAN VISA SIGNATURE & WORLD MASTERCARD CREDIT CARDS,https://www.seylan.lk/uploads/RAMADA.jpg,https://www.seylan.lk/ramada-hotel-1
-6,1,JETWING HOTELS VISA SIGNATURE & WORLD MASTERCARD CARD OFFERS,,"Offer valid at Virticle by Jetwing,Jetwing Blue - Kitchen,Jetwing Lighthouse -Cardmom Cafe,Jetwing Seven - Ward 07,Jetwing Sea - Cafe C,Jetwing Beach - The Sands & Elevate by Jetwing
-Minimum bill value Rs.5,000 and above.
-General terms and cinditions apply",Valid from 20 Nov - 20 Dec 2024,20% OFF AT SELECTED RESTAURANTS FOR VISA SIGNATURE & WORLD MASTERCARD CARD HOLDERS,https://www.seylan.lk/uploads/JETWING-HOTELS.jpg,https://www.seylan.lk/jetwing-hotels-visa-signature-world-mastercard-card-offers-1
-6,1,MANGO TREE,,"Offer valid for bills over Rs.5000/-
-Offer valid only for dine in only
-General terms and conditionso of the merchant and bank apply",Valid from  15 Nov - 15 Dec 2024,Enjoy 10% off on total bill for bills above Rs.5000/- for Credit Cards,https://www.seylan.lk/uploads/mango-tree.jpg,https://www.seylan.lk/mango-tree-1
 6,1,JACK TREE,,"Offer valid for bills over Rs.5000/-
 Offer valid only for dine in only 
 General terms and conditionso of the merchant and bank apply",Valid from  15 Nov-31 Dec 2024,20% off on total bill for bills above Rs.5000 for Credit Cards,https://www.seylan.lk/uploads/JACK-TREE.jpg,https://www.seylan.lk/jack-tree-1
@@ -99,10 +94,6 @@ General Terms and conditions of the merchant and bank apply",Valid until 31 Dec 
 •    For food & beverage discounts valid only for a la carte in Rasaketha Restaurant . There will be a maximum discount amount of LKR 5000.00 being offered on the bill
 
   Reservations contact – Eranga / Manori +94 112 049 600",-   Valid up to 31 Dec 2024,Up to 15% discount on all a la carte food menu and beverage menuith your Seylan Bank Credit Card Holders.,https://www.seylan.lk/uploads/rasaketha-new.jpg,https://www.seylan.lk/rasaketha-restaurant-pegasus-reef-hotel-1
-6,1,BURLEYS RESTAURANT,,"15% Credit I 10% Debit Cards
-Offer valid only for Dine-in & Takeaway orders.
-Card offers cannot be combined with any other promotions or discounts offers.
-General terms & conditions apply",Valid on 16 & 17 Dec 2024,Upto 15% Off with your Seylan Cards,https://www.seylan.lk/uploads/BURLEYS.jpg,https://www.seylan.lk/burleys-restaurant-2
 6,1,"Heladiv Tea Club, Colombo",,"This discount will not be applicable to on special days such as Christmas Eve Dinner 24th December , Christmas Day lunch 25th December and New Years Eve Dinner 31st December.  
 Maximum of 3 guests per card only.
 General terms & conditions apply",Valid from 01-31 Dec 2024,Enjoy 10% for on total bill for Seylan Credit Cards,https://www.seylan.lk/uploads/HELADIV.jpg,https://www.seylan.lk/heladiv-tea-club-colombo-1
@@ -154,41 +145,6 @@ General terms & conditions apply",Valid until 31 Dec 2024,20% Off with your Seyl
 General Terms and conditions apply",Valid from 15 Oct to 31 Dec 2024,20% off on Total Bill with your Seylan Credit & Debit Cards,https://www.seylan.lk/uploads/ollGsn3WbMLZ6EyIRPXFKWezkZR4__Chinese%20Lotus.png,https://www.seylan.lk/promotions/cards/dining/chinese-lotus-luxapathiya
 6,1,WAFL CAFE,Tel No : WAFL Café One Galle Face 0117 011778 I WAFL Café Wellawatte 0117 104104,"Valid at One Galle Face outlets and Marine Drive ,Wellawatte outlets
 General terms and conditions apply",Valid from 31 Dec 2024,Enjoy 10% off on total bill for Seylan Credit & Debit Cards,https://www.seylan.lk/uploads/WAFL.jpg,https://www.seylan.lk/wafl-sri-lanka-1
-6,2,THEMA COLLECTION,Tel No : 0772930643 | 0774038168 | 0742955125,"Booking Period : 10th November 2024 to 20th December 2024 
-                
-Travel Period : 10th November 2024 to 20th December 2024  
-
-Hotels :
-
-Maalu Maalu Resort & Spa -Pasikuda
-Aliya Resort & Spa -Sigiriya 
-Kithala Resort, Tissa – Yala 
-Mountbatten Bungalow -Kandy 
-Scottish Planter Glendevon Bungalow - Ragala 
-Wild Glamping – Knuckles 
-Tea & Experience Factory – Mandaramnuwara 
-Wild Glamping – Gal Oya
-Waraka - Udawalawe
-Parangi - Weligama
-
- 
-All SEYLAN BANK Credit/Debit Cardholders are entitled to discounts at above mentioned hotels.  
-                                                                
-Special Terms & Conditions 
-
- The offer will be valid only for SEYLAN BANK Credit/Debit Cardholder. 
-The above offer is valid only for Deluxe rooms on Single, Double, Triple, Quadruple - HB & FB Basis
-Bookings to be made via website.
-Online – www.themacollection.com – Promo Code: SYB6K
-Cancellations/refunds/transfers will NOT be allowed. 
-Offer cannot be combined with any other offer or cannot be extended to other promotions or dates. 
-Offer valid only to Sri Lankan & resident visa holders. 
-Rooms will be given on a first come first serve basis and subject to availability.
-Discounts will not be applicable for extras & meal, child and other Supplements.
-Standard Child policies and hotel policies will applicable & The Bank’s General Credit/Debit card terms and conditions will continue to apply.
-SEYLAN BANK and THEMA COLLECTION reserve the right to change the terms and conditions at any time without prior notice.
-Offers mentioned cannot be exchanged for cash or used in conjunction with other promotional programs or offers.
-Please note the offer is not applicable for corporate outings and day outings, gift vouchers, pre confirmed bookings to be combined with other offers reservations made through any other platforms.",Validity Period: 10th November 2024 to 20th December 2024,"Enjoy 20 % Deluxe Rooms on Single, Double, Triple & Quadruple – HB & FB Basis",https://www.seylan.lk/uploads/THEMA-COLLECTION.jpg,https://www.seylan.lk/theme-resorts-spas-1
 6,2,BROWNS HOTELS & RESORTS,Tel No : 0117 930 930,"The Calm Resort & Spa
 Discount – 35%
 Booking Window – 15th November 2024 – 15th December 2024
@@ -211,10 +167,6 @@ Promo Code – SEY24 to be used on www.brownshotels.com
 •    Blackout dates will apply.
 
 General terms and conditions apply",Valid from 15th Nov to 31 Dec 2024,"Upto 35% off on BB, HB and FB Basis with your Seylan Cards",https://www.seylan.lk/uploads/BROWNS-HOTELS.jpg,https://www.seylan.lk/browns-hotels-resorts-1
-6,2,SHERATON KOSGODA TURTLE BEACH RESORT,Tel No : +94 917 600 100,"For reservations call +94 917 600 100.
-Maximum up to 05 bookings per card.
-Triple room supplement – LKR 12,500 per room per night
-General terms and conditions apply",Valid from  01 Nov - 20 Dec 2024,"Enjoy 25% off on Deluxe Garden View, Double Room on Full Board Basis with your Seylan Cards",https://www.seylan.lk/uploads/SHERATON-KOSGODA.jpg,https://www.seylan.lk/promotions/cards/local-travel/sheraton-kosgoda-turtle-beach-resort
 6,2,OAK RAY HOTELS & RESORTS,Tel No : 076-1061060 / 076-1051050,"Offer valid at below properties
 
 Oak Ray Regency – Kandy (077-2208699)
@@ -231,33 +183,13 @@ Rain Tree by Oak Ray - Thissamaramaya  (077-2208699)
  
 
 General terms and conditions apply",Valid until  30 April 2025,20% for DBL FB & 15% from TPL FB for Seylan Credit Cards,https://www.seylan.lk/uploads/OAKRAY-HOTELS-new.jpg,https://www.seylan.lk/oak-ray-hotels-resorts-1
-6,2,AMAARA HOTELS,Tel No : Hotline - 0770038303,"•    Confirmation – 50% advance payment (100% if within the cancellation period) 
-•    Offer valid only for HB and FB reservations
-•    Check in: 2 pm / Check out 11 am
-•    Card Payments : Link will be sent to the card holders for the card payment after receiving reconfirmation by return email
+6,2,Mount Cinnamon,Tel No : +94 777 288 881,"•    Applicable Meal Plans - Bread & Breakfast , Half Board and Full Board 
+•    This promotion is not applicable for Room only reservations  
+•    Booking window – 10th December – 30th April 2025
+•    Traveling period – till 30th April 2025
+•    Booking contact: +94 77 595 3513 (mention Seylan Bank Credit Card offer while booking)
 
-
-Child Policy :
-Children below 3 years of age sharing with parents will be on complimentary and 3 to 12 year will be charged for meals on booked basis
-
-Child Meals on FB : LKR 3,500 Per Child/Per Night
-Child Meal on HB : LKR 2,500 Per Child/Per Night
-Extra Bed : LKR 2,000
-Baby Cot : Will be provided free of charge (on availability)
-
-Cancellation Policy:
-100% charge if you cancelled within 14 days of check-in
-FOC if cancelled any time before
-
-Driver Quarters : LKR 3,500 Per drive including meals at Amaara Forest Hotel and we do not provide any driver quarters at Amaara Sky Hotel",Validity – 1st October to 19th  December 2024,Up to 30% off or Seylan Credit & Debit Cards,https://www.seylan.lk/uploads/AKMAARA-HOTELS-COMPOSITE.jpg,https://www.seylan.lk/amaara-hotels-1
-6,2,Centauria Wild Udawalawa,Tel No : 0094477634630/31,General terms and conditions apply,Valid until 23 Dec 2024,25% OFF WITH YOUR SEYLAN CARDS,https://www.seylan.lk/uploads/CENTAURIA-WILD.jpg,https://www.seylan.lk/centauria-wild-udawalawa-1
-6,2,Araliya Unawatuna Beach Hotel,Tel No : 091 203 1111,"email : reservations@araliyabeachresort.com 
-
-30% off on Christmas Day 24th including a Dinner Dance & Christmas Brunch on the 25th of December with Infiniti Pool access 
-
-Valid for deluxe rooms
-
-General terms & conditions apply",Valid until 23 Dec 2024,20% off on room rates with your Seylan Cards,https://www.seylan.lk/uploads/ARALIYA-UNAWATUNA.jpg,https://www.seylan.lk/araliya-unawatuna-beach-hotel-1
+General terms & conditions apply",Valid from 10 Dec 2024 - 30 April 2025,20% off on Room Rates with your Seylan Cards,https://www.seylan.lk/uploads/mount-cinnamon.jpg,https://www.seylan.lk/mount-cinnamon-1
 6,2,Kevan’s Casa Hotel,Tel No : 0777935985,"General Peak Compulsory Supplement
 
 24th December – Christmas night on HB/FB – Rs.1500.00 BB – Rs.5000.00 per person
@@ -284,17 +216,6 @@ Melheim Resort and Spa - Haputale
 Melheim Villas - Kandy 
 Melheim Beach - Kalpitiya 
 General terms & conditions apply",Valid until 31st Jan 2025,Enjoy 40% off for Seylan Credit & Debit Cards,https://www.seylan.lk/uploads/MELHEIM-RESORTS.jpg,https://www.seylan.lk/melheim-resorts-1
-6,2,TTS HOSPITALITY,Tel No : 0777183433 - Pawani,"Offers Valid at Below Properties
-The Radh Kandy
-The Other Corner Habarana
-Kalu’s Hideaway Udawalawa
-Victoria Golf Resort Digana
-Kalundewa Retreat Dambulla
-Villa Mankani Dambulla
-Kurokawa Kalutara
-Yahva Bentota
-
-General Terms & Conditions Apply",Valid until 20 Dec 2024 ( The dates would differ from property to property),SPECIAL DISCOUNTS FOR SEYLAN CARDS,https://www.seylan.lk/uploads/TTS-HOSPITALITY.jpg,https://www.seylan.lk/tts-hospitality-1
 6,2,V C VILLAS,,"VC Villas and Resorts
 
 South Lake Resort – Koggala
@@ -395,6 +316,11 @@ Nyne Hotels - Landesi, Galle Fort offer valid on Bed & Breakfast","Nyne Hotels -
 · Terms and Conditions apply
  
 Reservations contact – Eranga / Manori +94 112 049 600",Offer valid up to 31 Dec 2024,30% off on room rates with your seylan cards,https://www.seylan.lk/uploads/PEGASUS-REEF.jpg,https://www.seylan.lk/the-fishery-restaurant-at-pegasus-reef-hotel-1
+6,2,BLUE WATER HOTEL & SPA - WADDUWA,Tel No : 076 889 3696 / 076 889 3693,"15% discount on dining at Dragon Boat Restaurant, Admirals Room Restaurant, and Seven Seas Coffee Shop, 
+The offer is not valid on 24th December Dinner, 25th December Lunch and Dinner, and 31st December Dinner.
+Card member(s) must settle the total bill using their credit card to avail of the discount at the time of payment.
+The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by the service establishment involved in this promotion.
+The offer cannot be combined with any other promotion",Valid until 15 Jan 2025,Up to 15% Off for Seylan Credit Cards,https://www.seylan.lk/uploads/BLUE-WATER-WADDUWA.jpg,https://www.seylan.lk/promotions/cards/local-travel/blue-water-hotel-spa-wadduwa
 6,2,Pearl Oceanic Resort - Trincomalee,Tel No : 0740040096,"Double Room (2 pax) Bed & Breakfast Only
 Triple Room   (3 pax) Bed & Breakfast Only
 Only for direct bookings
@@ -408,44 +334,6 @@ Offer Valid at following Hotels
                                     Joes Resorts Bentota
 General terms and conditions apply",Valid until 31 Dec 2024,20% Off with your Seylan Cards,https://www.seylan.lk/uploads/JOES-RESORTS-COMPILED.jpg,https://www.seylan.lk/joes-resorts-1
 6,2,SUNGREEN RESORT & SPA,,General Terms & Conditions Apply,Valid until 30 April 2025,Enjoy 40% off on Room Rates with your Seylan Cards,https://www.seylan.lk/uploads/SUN-GREEN.jpg,https://www.seylan.lk/sungreen-resort-spa-1
-6,2,UGA ESCAPES,Tel No : 0112117100 / 011 2328832,"Uga Jungle Beach Resort, Trincomalee
-Uga Bay Resort, Passikudah
-Promotion Url    https://reservations.ugaescapes.com/index/promo/code/SEYU/pr/18
- 
-Offer is applicable to selected Seylan Bank issued Credit cards only 
-Offer valid only to Sri Lankans and Resident Visa Holders
-Offer cannot be combined with any other offer
-The offer is valid for stay between 15 October to 19 Dec 24
-Discount valid for Half Board/Full Board Basis. 
-Discount not applicable on supplements
-Meals served on a set menu and not on open buffet
-Discount is a percentage off Rack Rates
-Offer is applicable only on Lagoon Cabin, Jungle Cabin and Beach Cabin room categories
-Full payment must be made by the specified bank cards to enjoy the discount
-Reservations are to be made via the brand website or via the hotel reservations number
-The standard child policy will be applicable in accordance with the standard policy of the hotel
-General bank terms and conditions apply
-Not applicable for pre-confirmed bookings under other rate plans
-A flexible cancellation policy is extended for all bookings made under this exclusive offer.
-Free cancellation 14 days prior to arrival. Cancellations between 14 - 7 days result in a 50% charge. Cancellations made less than 7 days prior to arrival will result in a 100% cancellation charge.
-Rates are valid only for Sri Lankan nationals and guests with Sri Lankan Resident visas holding locally issued cards. In the event the booking is made for a Sri Lankan Resident Visa Holder, guests are required to furnish passports with valid resident visas of all occupants upon arrival. Offer not valid for foreign nationals even if booked by a local card holder.",Valid until 19 Dec 2024,Enjoy 45% off on Room Rates with your Seylan Cards,https://www.seylan.lk/uploads/UGA-COMPOSITE.jpg,https://www.seylan.lk/uga-escapes-1
-6,2,REGAL RESEAU HOTEL & SPA,Tel No : 077 774 4498/ 031 228 1111,"Dining - 10%  Off 
-Reservation Contact - 0779799773
-Names of the Restaurants – Celestia (Main Restaurant) / Sky Track
-
--    Only for Food and Beverage on Ala Carte / Buffet
--    Minimum bill value 10000/-Lkr Before Service Charge & Tax/Vat
- 
-
-Room Reservation Contact - 0777744498
-Terms and Conditions – On availability and Get rack rates from Reservation Department",Valid from until 15 Dec 2024,Enjoy 25% savings on all room categories with your Seylan Credit Cards,https://www.seylan.lk/uploads/REGAL-RESAU.jpg,https://www.seylan.lk/regal-reseau-hotel-spa-1
-6,2,The Blackberry Cottage,Tel No : +94 727 456 456,"Valid for Seylan Credit & Debit Cards on teh below period:
-Stay Period - 13 Dec 2024
- 
-For Direct Bookings
-Use Promo Code (All Caps) - SEYLAN15 
-Booking Link - https://www.theblackberrycottages.com/booking/?hotel_id=1&be-offer=10039089
-General Terms & conditions with Non-refundable policy apply.",Valid until 13 Dec 2024,15% of f with your Seylan Cards,https://www.seylan.lk/uploads/BLACKBERRY-COTTAGE.jpg,https://www.seylan.lk/the-blackberry-cottage-1
 6,2,Serendiva Beach Hotel- Wadduwa,Tel No : 0701517278/ 0775953513,"Special Terms and Conditions
                 Offer only for HB and FB basis only
                 Credit cards only
@@ -470,12 +358,163 @@ BASIS                          : Double, Triple rooms with meals on
  
 
 General Terms and Conditions Apply",Valid until  02 Jan 2025,Up to 25% off with your Seylan Credit/Debit Card,https://www.seylan.lk/uploads/Uoh1KhtwKvollkTpbuOFOBIRdeu7__www.sigiriyajungles.com.jpg,https://www.seylan.lk/promotions/cards/leisure/sigiriya-jungles
+6,3,MAHAJANA SUPER & HYPER MART,Tel No : +94 81 2354526,"Minimum Bill value Rs: 15,000/-
+Maximum discount per bill/per transaction Rs: 2,000/-
+Discount applicable to a single invoice per card per day.
+General terms and conditions apply",Valid from 20 -31 Dec 2024.,15% Off on Total Bill for Seylan Credit & Debit Cards,https://www.seylan.lk/uploads/MAHAJANA-SUPER.jpg,https://www.seylan.lk/mahajana-super-hyper-mart-1
+6,3,Cargills,,"Offer valid only for Seylan Credit Cards
+Valid only for instore purchases at Cargills FoodCity, Express Stores & FoodHall 
+
+      Total Bill Offer (28 Dec 2024)
+
+Minimum bill value Rs,8000/- I Maximum discount Rs.1,000/-
+Maximum quantity of 5 units/ Kg per item under the offer.(Liquor, Tobacco and Gift Voucher items are not applicable for the promotion)
+
+      Dairy Offer ( 2nd & 16th Nov 2024)
+
+Minimum bill of Rs. 5,000 to be eligible.
+Maximum discount of Rs. 1,500 per bill.
+Maximum quantity of 3kg/ 3 items per item per bill
+One Transaction per cardholder per Day
+Offer is not valid for Ice Cream. Click here for the list of products
+Full payment to be made from Seylan Credit Card
+Allowed only for one transaction per Cardholder per day.
+Offer cannot be combined with other offers during the promotion period ( Loyalty Points redemption not valid)
+Total payment should be settled from the card. Loyalty points redeemed bills and refunding bills are not entitled to the discount
+Seylan Bank reserves the right to amend/withdraw this offer at its sole discretion.
+In the event of any dispute, the decision of the Bank shall be final.
+General terms and conditions of the merchant may apply.",No validity,10% Off on Total Bill & 30% Off on dairy category with your Seylan Credit Cards,https://www.seylan.lk/uploads/CARGILLS-CORRECT-LOGO.jpg,https://www.seylan.lk/promotions/cards/supermarket/cargills
+6,3,GLOMARK,,"•    Offer availability -  All outlets (including essentials)  Including online www.glomark.lk 
+
+Minimum Bill Value Rs.10,000
+Maximum Discount Credit Rs.5,000 
+Maximum Discount Debit Rs.2,000
+
+•    Maximum 5 units/5kg per productOne transaction per card per day
+
+*   Excluding categories
+
+     *   , Over the Counter Products, Milk Foods, Eggs, Milk powder, Over the counter products, Malt products, Infant foods, Hot food, Whole chicken, Sugar, Flour, Rice, Pulses, Coconuts, Liquor, Tobacco, Gift vouchers, Electronics, Hampers, Pharmaceuticals, & Furniture",Offer valid on 24 Dec 2024,25% OFF on Total Bill with your Seylan Credit Cards & 10% OFF on Debit Cards,https://www.seylan.lk/uploads/GLOMARK.png,https://www.seylan.lk/glomark-1
+6,3,ARPICO GENERAL PROMO,,"This offer is applicable for Seylan Credit Cardholders.
+Valid only for Fresh fruits,vegetable,meat & seafood ( Fresh category)
+Qty: 3 kg per unit per bill
+Excluding -
+
+                Potatoes, Coconut, Big onion, Packeted Vegetables, Packeted Fruits, Packeted Sea Food & Processed Meat.
+
+Minimum Bill Value Rs.5,000 I Maximum Discount Rs.1,500
+Total payment should be settled from the card. Loyalty points redeemed bills and refunding bills are not entitled to the discount
+General terms and conditions of the Merchant & Bank apply.",VALID EVERY SUNDAY UNTIL 29 DEC 2024,"30% off on for Bills above Rs.5,000 for Fresh fruits,vegetables,meat & seafood for Seylan Credit Cards every Sunday",https://www.seylan.lk/uploads/ARPICO-NEW.jpg,https://www.seylan.lk/promotions/cards/gadgets/arpico-supercentre
 6,3,CARGILLS HAMPERS,,"Minimum purchase value Rs.20,000/-
 Maximum discount Rs.5,000/-
 General terms & conditions apply",Valid from 01-31 Dec 2024,Enjoy 5% Off for Credit Cards,https://www.seylan.lk/uploads/CARGILLS-CORRECT-LOGO.jpg,https://www.seylan.lk/cargills-hampers-1
-6,3,Spar,,"Offer valid only for Seylan Credit Cardholders.
-The Minimum bill value is Rs.25,000 I Maximum Discount Rs.5,000
-Offer cannot be combined with other offers at Spar during the promotion period 
-The total amount has to be paid from a Seylan Credit Card to claim the discount.
-General terms and conditions of the merchants may apply. 
-Seylan Bank General Terms and conditions may apply.,",Valid on 30th November & 22nd December 2024  ( 02 days only),20% off on Total Bill for Credit Cards,https://www.seylan.lk/uploads/SPAR-NEW-DEC-2022.jpg,https://www.seylan.lk/promotions/cards/supermarket/spar
+6,4,SUNIMALS,,General terms and conditions of the merchant and bank apply,Valid from 20-31 Dec 2024,"15% off on total bill for Credit Cards, 10% off on total bill for Debit Cards",https://www.seylan.lk/uploads/sunimals.png,https://www.seylan.lk/sunimals-1
+6,4,MOLLY FASHION CIRCLE,,"Offer valid at :
+
+ No. 64, Tissa Mawatha, Kuliyapitiya
+No 62/1, Kandy Road, Wattegama
+Infront of Ananda College, Colombo Road, Chilaw
+General terms & conditions apply",Valid on 20 Dec  & 31 Dec 2024 (02 days),10% off on Total Bill with your Seylan Cards,https://www.seylan.lk/uploads/molly-fashion-circle.jpg,https://www.seylan.lk/molly-fashion-circle-1
+6,4,STYLE WALK,Tel No : 0759461741,"Offer valid at Style Walk Textile  Pelmadulla
+General Terms & Conditions apply",Valid from 15 -25 Dec 2024,10% off on Total Bill with your Seylan Cards,https://www.seylan.lk/uploads/STYLEWALK.jpg,https://www.seylan.lk/style-walk-1
+6,4,DOWNTOWN,,"•  Offer available locations - 1. Down Town Clothing Store, No:132, Colombo Rd, Maharagama.                                                                                                                    
+                                             2. Down Town Clothing Store, No:173, High Level Rd, Maharagama.                                                                                                               
+                                             3. Down Town Clothing Store (MOKOSH), No:77, High Level Rd, Homagama.
+•  Min. bill - Rs.15,000/-
+• Offer applied for Garment wears only.",• Offer valid on 29th of November & 25th of December 2024,10% off with your Seylan Cards,https://www.seylan.lk/uploads/DOWNTOWN.jpg,https://www.seylan.lk/downtown-1
+6,4,Kingsman Perennial,Tel No : 0114 856 990,"10% off for Credit Cards
+7.5% off for Debit Cards
+Minimum Spend LKR 15,000. Maximum LKR 200,000
+Not applicable on perfumes & leather products
+Cannot be used in combination with other in store offers
+General terms & conditions apply",No validity,Enjoy upto 10% off with your Seylan Cards,https://www.seylan.lk/uploads/KINGSMAN.jpg,https://www.seylan.lk/kingsman-perennial-1
+6,4,DSI,,"Above discount is not applicable for discounted, price reduced and items that are used for other promotions
+Offer only valid at DSI showrooms,Factory outlets,Franchise outlets        
+The offer cannot be used in conjunction with other promotions.
+Max transaction amount for discount Rs.40,000/- per card per day
+General Terms & Conditions of the Merchant & Bank apply",Valid on 28 Dec 2024,15% for Seylan Credit Cards & 10% For Debit Cards,https://www.seylan.lk/uploads/YERxx3VDdDJSTMzBT1kKpEbv50fr__DSI.jpg,https://www.seylan.lk/promotions/cards/shoes-accessories/dsi
+6,4,DSI PREMIER,,"Above discount is not applicable for discounted, price reduced and items that are used for other promotions
+Offer only valid at DSI PREMIER showrooms & Exclusive Brand Outlets on availability (Adidas,Clarks,asics Fila,Modare,Moleknha,Moleca,Vizzano,Puma,Red Tape,Reebok,Won Wllx, US Polo & Avi)      
+The offer cannot be used in conjunction with other promotions.
+Max transaction amount for discount Rs.40,000/- per card per day
+General Terms & conditions of the Merchant & Bank apply",Valid on 28 Dec 2024,30% off on total bill for Credit Card & 10% off for Debit Cards,https://www.seylan.lk/uploads/LyGgf9Jts7oehJvo8CFx5XP4izcr__DSI%20PREMIER.jpg,https://www.seylan.lk/promotions/cards/shoes-accessories/dsi-premier
+6,4,BATA,,"Offer valid for Seylan Credit & Debit Cards
+General Terms & Conditions of the Merchant & Bank Apply",Valid from 07-25 Dec 2024,10% off on total bill for Credit & Debit Cards,https://www.seylan.lk/uploads/HjQVn4w49z1zmidbTi1YHQv1Zo5w__BATA.jpg,https://www.seylan.lk/promotions/cards/shoes-accessories/bata
+6,4,Abans,Tel No : +94 11 5 77 5000 +94 11 2 37 6000 +94 11 5 77 8950,"•Offert Valid at 
+
+Abans Retail 0%, 6M, 12M,24M & 60M Instalment Plans Available. Contact Merchant to Convert
+Abans Elite  - 0%, 6M, 12M,24M & 60M Instalment Plans Available. Contact Merchant to Convert
+Abans Apple Showrooms - 0%, 6M, 12M,24M & 60M Instalment Plans Available. Contact Merchant to Convert
+Abans Auto   - 0%, 6M, 12M,24M & 60M Instalment Plans Available. Contact Merchant to Convert
+
+ 
+
+Seasonal Offer up to 50% off 
+Date : From 15th Nov to 31st Dec 2024 
+
+Discount valid for Selected items only, extended warranty & Free gifts will be given for selected items.
+ 
+Black Friday, Discount up to 60% off 
+Date : From 27th to 30th Nov 
+Selected items only
+
+ Offers are valid for selected products at all Abans showrooms island-wide and online at www.buyabans.com
+ 
+•    Min Transaction Rs. 10,000 and maximum Rs.1 mio
+•    General terms and conditions apply",Valid until 31 Dec 2024,"0%, 6M, 12M,24M & 60M Instalment Plans Available with your Seylan Credit Cards",https://www.seylan.lk/uploads/ABANS.png,https://www.seylan.lk/promotions/cards/gadgets/abans-elite
+6,4,Damro,,"Up to 10% discounts for up to 36 months
+Contact Merchant to convert
+Minimum transaction amount Rs.10,000 & maximum Rs.1 Million
+Offer not valid for online purchases
+General terms and conditions of the merchant may apply.",Valid until 31 Dec 2024,"0%, 6M, 12M, 24M & 36M Instalment Plans Available with your Seylan Credit Cards",https://www.seylan.lk/uploads/e5fFMoif1NMAWNukPJEpAFoS052E__Damro.png,https://www.seylan.lk/promotions/cards/electronics/damro
+6,4,Browns,,"Additional 10% Off on Credit and Debit Cards on www.brownsdeals.com & Browns & Centre Col -10 shpwroom .
+Promo Code : SLB#2024. 
+General terms and conditions apply.",Offer valid on below dates,Special Discounts upto 50% of on selected products with your Seylan Cards,https://www.seylan.lk/uploads/5FQyWzV1xcVnGW3prTBfM6moeOm4__BROWNS.jpg,https://www.seylan.lk/promotions/cards/gadgets/browns
+6,4,SYNNEX IT SOLUTION PVT LTD,Tel No : Nadeesha : 0743916567 Piumi :0743916564,"www.synnex.lk
+
+Discount for Debit and Credit Cardholders
+•    Up to 10% for Credit cards
+•    Up to 15% for Debit cards
+
+Terms and Conditions
+•    Call 011 2008888 to convert
+•    Min Transaction Rs.10,000 and maximum Rs.1 mio
+•    General terms and conditions apply",Valid until  30 April 2025,"Up to 10% off with 0% Instalment plans for 3M,6M & 12M with your Seylan Credit Cards",https://www.seylan.lk/uploads/SYNNEX.jpg,https://www.seylan.lk/synnex-it-solution-pvt-ltd-1
+6,4,SALA ENTERPRISES,,"Call 0112008888 to convert
+Minimum Transaction Rs.10,000 and maximum Rs.1 mio
+Customer should mention whether its and online or instore transaction at the time of making the conversion to EPP
+Offer valid instore and online
+General terms and conditions apply",Valid until 31 Dec 2024,"0%, 3M, 6M & 12M Instalment plans Available for Seylan Credit Cards",https://www.seylan.lk/uploads/sala.jpg,https://www.seylan.lk/sala-enterprises-1
+6,4,Supun Super Centre Pvt LTD,Tel No : 011 250 4908,"Discount Not Valid for Air Conditioner
+General terms & conditions apply",Valid from 01 Nov - 31 Dec 2024,Upto 10% off with your Seylan Cards,https://www.seylan.lk/uploads/SUPUN-SUPER-CENTRE.jpg,https://www.seylan.lk/supun-super-centre-pvt-ltd-1
+6,4,Celltronics Pvt Ltd,Tel No : +94 11 2574 475,"www.celltronics.lk
+
+Up to 30% off on Selected Accessories 
+10% discount on Samsung mobile phones, Tablets (Company Device), and Nokia mobile phones (Company Device)
+0% Instalment plans for 3M,6M & 12M with your Seylan Credit Cards
+Call  0112008888 & Convert
+This offer cannot be combined with any other current promotions.
+General terms and conditions apply",Valid from 01 Nov - 31 Dec 2024,Special Discounts for Seylan Cards with Installment Plans,https://www.seylan.lk/uploads/CELLTRONICS.jpg,https://www.seylan.lk/celltronics-pvt-ltd-1
+6,4,Singer Sri Lanka,,"Special Seasonal Offers as below for online only:
+
+Upto 10% extra discounts for Singer Brand on 11th & 12th December
+
+Upto 10% extra discounts  on selected brands valid only online from 11th to 13th December
+
+Easy payment Plans is applicable for all Seylan Credit Cardholders at Merchant Level
+Valid at all Singer/Singer Mega/Singer Homes/Singer Plus & online
+Contact Merchant to convert.
+Min Transaction Rs.10,000 and maximum Rs.1 mio
+In case the cardholder wishes to pay-off the Payment Plan before the due period, the Cardholder should inform Seylan Call Centre of his/her intention. In such event of an early settlement, the future interest will be waived –off and 4% early settlement fee shall be applicable on the remaining capital outstanding.
+General terms and conditions of the Merchant & Bank apply.",Valid until 31 Dec 2024,Upto 60% off on selected products with Easy Payment Plans your Seylan Credit Card,https://www.seylan.lk/uploads/SINGER-COMPOSITE.jpg,https://www.seylan.lk/promotions/cards/electronics/singer
+6,4,The Spark Tech Solutions (Pvt) Ltd.,Tel No : 0702080808,"Contact merchant to convert
+Minimum Transaction Value is 10,000/-
+Until 31st December 2024
+In case the cardholder wishes to pay-off the Payment Plan before the due period, the Cardholder should inform Seylan Call Centre of his/her intention. In such event of an early settlement, 4% early settlement fee shall be applicable on the remaining capital outstanding
+The General Terms & Conditions of Seylan Bank PLC will apply.",Valid until 31 Dec 2024,"0%,3M,6M & 12M installment plans with your Seylan Credit Cards",https://www.seylan.lk/uploads/Sparktech.jpg,https://www.seylan.lk/the-spark-tech-solutions-pvt-ltd-1
+6,4,Gen Arc,Tel No : 076-0601900,"https://genarc.lk/
+
+Call 011 2008888 to convert
+Min Transaction Rs.10,000 and maximum Rs.1 mio
+In case the cardholder wishes to pay-off the Payment Plan before the due period, the Cardholder should inform Seylan Call Centre of his/her intention. In such event of an early settlement, the future interest will be waived –off and 4% early settlement fee shall be applicable on the remaining capital outstanding.
+General terms and conditions apply",Valid until 31 Dec 2024,0% Instalment Plans for 3M with your Seylan Credit Card,https://www.seylan.lk/uploads/GEN-Arc.jpg,https://www.seylan.lk/gen-arc-1

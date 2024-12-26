@@ -35,7 +35,7 @@ async function scrapeCombankPromotions() {
         ]
     });
 
-    const categoriesToScrape = ['#food-restaurants', '#supermarket', '#leisure'];
+    const categoriesToScrape = ['#food-restaurants', '#supermarket', '#leisure','#seasonal-offers'];
     const results = [];
 
     for (const category of categoriesToScrape) {
@@ -60,7 +60,9 @@ async function scrapeCombankPromotions() {
 
         if (categoryData) {
             const categoryId = category === '#food-restaurants' ? 1 :
-                               category === '#supermarket' ? 2 : 3;
+                               category === '#supermarket' ? 3 : 
+                               category === '#leisure' ? 2 :
+                               category === '#seasonal-offers' ? 4 : 4;
 
             for (const offer of categoryData.offers) {
                 let merchantDetails = '';

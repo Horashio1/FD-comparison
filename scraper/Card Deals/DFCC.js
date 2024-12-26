@@ -19,9 +19,10 @@ async function scrapeDFCCPromotions() {
 
     const baseURL = 'https://www.dfcc.lk';
     const categories = [
-        { name: 'restaurants', url: `${baseURL}/promotions-categories/dining` },
+        { name: 'dining', url: `${baseURL}/promotions-categories/dining` },
         { name: 'hotels', url: `${baseURL}/promotions-categories//hotels` },
-        { name: 'shopping', url: `${baseURL}/promotions-categories/supermarket` }
+        { name: 'groceries', url: `${baseURL}/promotions-categories/supermarket` },
+        { name: 'shopping', url: `${baseURL}/promotions-categories/clothing__retail` }
     ];
 
     const results = [];
@@ -120,14 +121,16 @@ scrapeDFCCPromotions().then(async results => {
     for (const categoryResult of results) {
         const categoryName = categoryResult.category;
         let category_id;
-        if (categoryName === 'restaurants') {
+        if (categoryName === 'dining') {
             category_id = 1;
         } else if (categoryName === 'hotels') {
             category_id = 2;
-        } else if (categoryName === 'shopping') {
+        } else if (categoryName === 'groceries') {
             category_id = 3;
+        } else if (categoryName === 'shopping') {
+            category_id = 4;
         } else {
-            category_id = 0; // Default category ID if not matched
+            category_id = 4; // Default category ID if not matched
         }
 
         for (const promo of categoryResult.promotions) {

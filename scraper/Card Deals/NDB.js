@@ -56,9 +56,10 @@ async function scrapeCategory(category, url) {
 
 async function scrapeNDBPromotions() {
     const categories = [
-        { name: 'Shopping', url: 'https://www.ndbbank.com/cards/card-offers/supermarkets', id: 3 },
+        { name: 'Groceries', url: 'https://www.ndbbank.com/cards/card-offers/supermarkets', id: 3 },
         { name: 'Dining', url: 'https://www.ndbbank.com/cards/card-offers/restaurants-pubs', id: 1 },
-        { name: 'Hotels', url: 'https://www.ndbbank.com/cards/card-offers/hotels-villas', id: 2 }
+        { name: 'Hotels', url: 'https://www.ndbbank.com/cards/card-offers/hotels-villas', id: 2 },
+        { name: 'Shopping', url: 'https://www.ndbbank.com/cards/card-offers/clothing-accessories', id: 4 }
     ];
 
     const csvFilePath = path.join(__dirname, 'scraped_results', 'NDB_data.csv');
@@ -98,10 +99,9 @@ async function scrapeNDBPromotions() {
                 offer_title: `${promo.promoDetails.split(' ').slice(0, 2).join(' ')} at ${promo.merchantName}`,
                 merchant_details: promo.merchantName,
                 merchant_contact: promo.merchantPhone, // Corrected reference to promo.merchantPhone
-                offer_details_1: promo.promoDetails, // Include both promoDetails and merchantDetails
-                offer_details_2: promo.merchantDetails,
+                discount: promo.promoDetails, // Include both promoDetails and merchantDetails
+                offer_details_1: promo.merchantDetails,
                 offer_validity: promo.validity,
-                discount: '',
                 image_url: promo.merchantImage,
                 more_details_url: category.url
             });

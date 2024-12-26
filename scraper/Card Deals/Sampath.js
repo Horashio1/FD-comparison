@@ -18,8 +18,9 @@ async function scrapeSampathPromotions() {
     // Define categories and their URLs
     const categories = {
         dining: 'https://www.sampath.lk/sampath-cards/credit-card-offer?firstTab=dining',
-        supermarkets: 'https://www.sampath.lk/sampath-cards/credit-card-offer?firstTab=super_markets',
-        hotels: 'https://www.sampath.lk/sampath-cards/credit-card-offer?firstTab=hotels'
+        groceries: 'https://www.sampath.lk/sampath-cards/credit-card-offer?firstTab=super_markets',
+        hotels: 'https://www.sampath.lk/sampath-cards/credit-card-offer?firstTab=hotels',
+        shopping: 'https://www.sampath.lk/sampath-cards/credit-card-offer?firstTab=fashion'
     };
 
     const results = [];
@@ -44,15 +45,15 @@ async function scrapeSampathPromotions() {
 
                 const promoElements = promoContainer.querySelectorAll('.card-offer-block');
                 return Array.from(promoElements).map(card => {
-                    const imageUrl = card.querySelector('.img-wrap img')?.src || 'No image URL';
-                    const discount = card.querySelector('.discount p')?.innerText || 'No discount';
-                    const merchant = card.querySelector('.place')?.innerText?.trim() || 'No merchant information';
-                    const validity = card.querySelector('.date')?.innerText?.replace('Valid till', '').trim() || 'No validity';
-                    const contact = card.querySelector('.contact')?.innerText?.replace('Contact No:', '').trim() || null;
-                    const moreDetailsUrl = card.querySelector('a')?.href || 'No more details URL';
+                    const imageUrl = card.querySelector('.img-wrap img')?.src || '';
+                    const discount = card.querySelector('.discount p')?.innerText || '';
+                    const merchant = card.querySelector('.place')?.innerText?.trim() || '';
+                    const validity = card.querySelector('.date')?.innerText?.replace('Valid till', '').trim() || '';
+                    const contact = card.querySelector('.contact')?.innerText?.replace('Contact No:', '').trim() || '';
+                    const moreDetailsUrl = card.querySelector('a')?.href || '';
 
                     // Capture all <p> tags inside the card-name class
-                    const details = Array.from(card.querySelectorAll('.card-name p')).map(p => p.innerText.trim()).join('\n') || 'No details';
+                    const details = Array.from(card.querySelectorAll('.card-name p')).map(p => p.innerText.trim()).join('\n') || '';
 
                     return {
                         imageUrl,
@@ -70,7 +71,7 @@ async function scrapeSampathPromotions() {
             promotions.forEach(promotion => {
                 results.push({
                     bank_id: 2,
-                    category_id: category === 'dining' ? 1 : category === 'hotels' ? 2 : 3,
+                    category_id: category === 'dining' ? 1 : category === 'hotels' ? 2 : category === 'groceries' ? 3 : category === 'shopping' ? 4 : 0,
                     offer_title: `${promotion.discount} at ${promotion.merchant}`,
                     merchant_details: promotion.merchant,
                     offer_details_1: promotion.details,
@@ -124,7 +125,7 @@ async function autoScroll(page) {
     await page.evaluate(async () => {
         await new Promise((resolve) => {
             const distance = 200; // Scroll step
-            const delay = 100; // Delay between steps in ms
+            const delay = 300; // Delay between steps in ms
             const timer = setInterval(() => {
                 const scrollHeight = document.body.scrollHeight;
                 window.scrollBy(0, distance);
