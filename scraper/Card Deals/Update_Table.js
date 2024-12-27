@@ -19,7 +19,8 @@ const banksToUpdate = [
   // { bank_id: 7, bank_name: 'DFCC', fileName: 'DFCC_data.csv' },
   // { bank_id: 8, bank_name: 'HSBC', fileName: 'HSBC_data.csv' },
   // { bank_id: 9, bank_name: 'Nations Trust Bank', fileName: 'NTB_data.csv' },
-  { bank_id: 10, bank_name: 'Amex', fileName: 'Amex_data.csv' },
+  // { bank_id: 10, bank_name: 'Amex', fileName: 'Amex_data.csv' },
+  { bank_id: 11, bank_name: 'Peoples Bank', fileName: 'PeoplesBank_data.csv' },
 ];
 
 async function updateBankOffers() {

@@ -11,9 +11,10 @@ const nextConfig = {
       'ndbbankweb.ndbbank.com',
       'www.sampath.lk',
       'www.hnb.net',
-    'www.seylan.lk',
-  'www.americanexpress.lk',
-'www.hsbc.lk'], // Add the domain of your image source
+      'www.seylan.lk',
+      'www.americanexpress.lk',
+      'www.hsbc.lk', 'www.peoplesbank.lk'],
+    // Add the domain of your image source
   },
 };
 
