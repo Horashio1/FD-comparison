@@ -4,14 +4,14 @@ const path = require('path');
 const csvWriter = require('csv-writer').createObjectCsvWriter;
 
 async function scrapeCombankPromotions() {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
     // Navigate to the ComBank rewards promotions page
     await page.goto('https://www.combank.lk/rewards-promotions', {
         waitUntil: 'networkidle2',
         timeout: 60000, // e.g., 60 seconds
-    });
+      });
 
     // Wait for the promotions to load
     await page.waitForSelector('.offers-area');
@@ -38,12 +38,10 @@ async function scrapeCombankPromotions() {
         ]
     });
 
-    // Update this array to include any new categories you'd like to scrape
-    const categoriesToScrape = ['#food-restaurants', '#supermarket', '#leisure', '#seasonal-offers'];
+    const categoriesToScrape = ['#food-restaurants', '#supermarket', '#leisure','#seasonal-offers'];
     const results = [];
 
     for (const category of categoriesToScrape) {
-        // Evaluate the category on the page
         const categoryData = await page.evaluate((category) => {
             const categoryElement = document.querySelector(category);
             if (!categoryElement) return null;
@@ -64,35 +62,29 @@ async function scrapeCombankPromotions() {
         }, category);
 
         if (categoryData) {
-            // Category IDs for reference. Adjust these as needed:
-            const categoryId =
-                category === '#food-restaurants' ? 1 :
-                category === '#supermarket'      ? 3 :
-                category === '#leisure'          ? 2 :
-                category === '#seasonal-offers'  ? 4 : 4;
+            const categoryId = category === '#food-restaurants' ? 1 :
+                               category === '#supermarket' ? 3 : 
+                               category === '#leisure' ? 2 :
+                               category === '#seasonal-offers' ? 4 : 4;
 
-            // **New**: Print how many promos were scraped in each category
-            console.log(`Scraped ${categoryData.offers.length} promos in category: ${categoryData.categoryName}`);
-
-            // Process each offer
             for (const offer of categoryData.offers) {
                 let merchantDetails = '';
                 const title = offer.title;
-
-                // Logic to parse merchant details from the title
+                
+                // New logic to handle different title formats
                 if (title.includes('at ')) {
                     const atIndex = title.indexOf('at ') + 3;
                     let endIndex = title.length;
-
-                    // If there's a "with" after "at", use it as the cutoff
+                    
+                    // If there's a "with" after "at", use it as the end point
                     const withAfterAt = title.indexOf('with ', atIndex);
                     if (withAfterAt !== -1) {
                         endIndex = withAfterAt;
                     }
-
+                    
                     merchantDetails = title.substring(atIndex, endIndex).trim();
-
-                    // Capitalize the first character of merchantDetails
+                    
+                    // Capitalize the first character of merchant_details
                     if (merchantDetails.length > 0) {
                         merchantDetails = merchantDetails.charAt(0).toUpperCase() + merchantDetails.slice(1);
                     }
@@ -101,7 +93,6 @@ async function scrapeCombankPromotions() {
                 let moreInfo = '';
                 let moreInfoImageUrl = '';
 
-                // Navigate to the details page to get more info
                 if (offer.link) {
                     const detailsPage = await browser.newPage();
                     await detailsPage.goto(offer.link, { waitUntil: 'networkidle2' });
@@ -137,7 +128,6 @@ async function scrapeCombankPromotions() {
         }
     }
 
-    // Write results to CSV
     await csvWriterInstance.writeRecords(results);
     console.log(`Data successfully written to ${csvFilePath}`);
 

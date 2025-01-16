@@ -1,4 +1,7 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
+const path = require('path');
+const csvWriter = require('csv-writer').createObjectCsvWriter;
 
 async function scrapeCategory(category, url) {
     console.log(`Scraping category: ${category}`);
@@ -20,13 +23,13 @@ async function scrapeCategory(category, url) {
         const promotions = await page.evaluate(() => {
             const cards = Array.from(document.querySelectorAll('.ant-card'));
             return cards.map(card => {
-                const coverImage = card.querySelector('.ant-image img')?.src || 'No cover image';
-                const merchantImage = card.querySelector('.ant-card-meta-avatar img')?.src || 'No merchant image';
-                const merchantName = card.querySelector('.ant-card-meta-title')?.innerText || 'No merchant name';
-                const promoDetails = card.querySelector('.PromotionMobile_details__z7myj h5')?.innerText || 'No promo details';
-                const validity = card.querySelector('.PromotionMobile_validity__39zdc span')?.innerText || 'No validity information';
-                const merchantDetails = card.querySelector('.PromotionMobile_merchantDescription__1BkVS span')?.innerText || 'No merchant details';
-                const merchantPhone = Array.from(card.querySelectorAll('.PromotionMobile_merchantDescription__1BkVS li')).map(li => li.innerText).join(', ') || 'No phone number';
+                const coverImage = card.querySelector('.ant-image img')?.src || '';
+                const merchantImage = card.querySelector('.ant-card-meta-avatar img')?.src || '';
+                const merchantName = card.querySelector('.ant-card-meta-title')?.innerText || '';
+                const promoDetails = card.querySelector('.PromotionMobile_details__z7myj h5')?.innerText || '';
+                const validity = card.querySelector('.PromotionMobile_validity__39zdc span')?.innerText || '';
+                const merchantDetails = card.querySelector('.PromotionMobile_merchantDescription__1BkVS span')?.innerText || '';
+                const merchantPhone = Array.from(card.querySelectorAll('.PromotionMobile_merchantDescription__1BkVS li')).map(li => li.innerText).join(', ') || '';
 
                 return {
                     coverImage,
@@ -53,20 +56,60 @@ async function scrapeCategory(category, url) {
 
 async function scrapeNDBPromotions() {
     const categories = [
-        { name: 'Shopping', url: 'https://www.ndbbank.com/cards/card-offers/supermarkets' },
-        { name: 'Dining', url: 'https://www.ndbbank.com/cards/card-offers/restaurants-pubs' },
-        { name: 'Hotels', url: 'https://www.ndbbank.com/cards/card-offers/hotels-villas' }
+        { name: 'Groceries', url: 'https://www.ndbbank.com/cards/card-offers/supermarkets', id: 3 },
+        { name: 'Dining', url: 'https://www.ndbbank.com/cards/card-offers/restaurants-pubs', id: 1 },
+        { name: 'Hotels', url: 'https://www.ndbbank.com/cards/card-offers/hotels-villas', id: 2 },
+        { name: 'Shopping', url: 'https://www.ndbbank.com/cards/card-offers/clothing-accessories', id: 4 }
     ];
 
-    const allPromotions = {};
+    const csvFilePath = path.join(__dirname, 'scraped_results', 'NDB_data.csv');
+    const csvDir = path.dirname(csvFilePath);
+
+    if (!fs.existsSync(csvDir)) {
+        fs.mkdirSync(csvDir, { recursive: true });
+    }
+
+    const csvWriterInstance = csvWriter({
+        path: csvFilePath,
+        header: [
+            { id: 'bank_id', title: 'bank_id' },
+            { id: 'category_id', title: 'category_id' },
+            { id: 'offer_title', title: 'offer_title' },
+            { id: 'merchant_details', title: 'merchant_details' },
+            { id: 'merchant_contact', title: 'merchant_contact' },
+            { id: 'offer_details_1', title: 'offer_details_1' },
+            { id: 'offer_details_2', title: 'offer_details_2' },
+            { id: 'offer_validity', title: 'offer_validity' },
+            { id: 'discount', title: 'discount' },
+            { id: 'image_url', title: 'image_url' },
+            { id: 'more_details_url', title: 'more_details_url' }
+        ]
+    });
+
+    const allData = [];
 
     for (const category of categories) {
         const result = await scrapeCategory(category.name, category.url);
-        allPromotions[category.name] = result.promotions;
+        const categoryId = category.id;
+
+        for (const promo of result.promotions) {
+            allData.push({
+                bank_id: 4,
+                category_id: categoryId,
+                offer_title: `${promo.promoDetails.split(' ').slice(0, 2).join(' ')} at ${promo.merchantName}`,
+                merchant_details: promo.merchantName,
+                merchant_contact: promo.merchantPhone, // Corrected reference to promo.merchantPhone
+                discount: promo.promoDetails, // Include both promoDetails and merchantDetails
+                offer_details_1: promo.merchantDetails,
+                offer_validity: promo.validity,
+                image_url: promo.merchantImage,
+                more_details_url: category.url
+            });
+        }
     }
 
-    console.log('Final JSON:');
-    console.log(JSON.stringify(allPromotions, null, 2));
+    await csvWriterInstance.writeRecords(allData);
+    console.log('CSV file has been written successfully.');
 }
 
 scrapeNDBPromotions();

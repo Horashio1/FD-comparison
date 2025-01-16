@@ -5,8 +5,6 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectItem, SelectContent, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { supabase } from "../../supabaseClient";
-// import Title from "@/components/Title"; // Removed since it's unused
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function AboutPage() {
@@ -28,15 +26,23 @@ export default function AboutPage() {
     setIsSubmitting(true);
 
     try {
-      const { error } = await supabase.from("user_feedback").insert({
-        feedback_type: feedbackType,
-        feedback,
-        user_email: userEmail || null,
-        subscribed: subscribeNewsletter,
+      // const response = await fetch("https://script.google.com/macros/s/AKfycbyU5A5hWXO1KD2CQXAnGESnMJSS_6U_MEFXZt8nPyl2igT9JCPFX9ZIwbvbIAQR2aXc/exec", {
+        await fetch("https://script.google.com/macros/s/AKfycbyU5A5hWXO1KD2CQXAnGESnMJSS_6U_MEFXZt8nPyl2igT9JCPFX9ZIwbvbIAQR2aXc/exec", {
+
+        method: "POST",
+        mode: "no-cors", // Add this line
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          feedback_type: feedbackType,
+          feedback,
+          user_email: userEmail || null,
+          subscribed: subscribeNewsletter,
+        }),
       });
-
-      if (error) throw error;
-
+      // Since response is opaque, skip reading its content
+      setShowSuccess(true);
       setShowSuccess(true);
       setTimeout(() => {
         setShowSuccess(false);
@@ -129,9 +135,9 @@ export default function AboutPage() {
                   <SelectValue placeholder="Select feedback type" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="Comment">💬 General Feedback</SelectItem>
-                  <SelectItem value="Bug">⚠️ Issue</SelectItem>
-                  <SelectItem value="Idea">💡 Improvement</SelectItem>
+                  <SelectItem value="General Feedback">💬 General Feedback</SelectItem>
+                  <SelectItem value="Issue">⚠️ Issue</SelectItem>
+                  <SelectItem value="Idea">💡 Idea</SelectItem>
                 </SelectContent>
               </Select>
             </div>

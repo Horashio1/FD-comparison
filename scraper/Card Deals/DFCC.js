@@ -22,7 +22,8 @@ async function scrapeDFCCPromotions() {
         { name: 'dining', url: `${baseURL}/promotions-categories/dining` },
         { name: 'hotels', url: `${baseURL}/promotions-categories//hotels` },
         { name: 'groceries', url: `${baseURL}/promotions-categories/supermarket` },
-        { name: 'shopping', url: `${baseURL}/promotions-categories/clothing__retail` }
+        { name: 'shopping', url: `${baseURL}/promotions-categories/clothing__retail` },
+        { name: 'shopping', url: `${baseURL}/promotions-categories/home-appliances` }
     ];
 
     const results = [];
@@ -31,8 +32,13 @@ async function scrapeDFCCPromotions() {
         console.log(`Scraping category: ${category.name}`);
         const categoryResults = { category: category.name, promotions: [] };
 
-        // Navigate to the category page with retry logic
-        await safeGoto(page, category.url);
+        // Navigate to the category page with retry logic and handle timeouts gracefully
+        try {
+            await safeGoto(page, category.url);
+        } catch (err) {
+            console.error(`Timeout occurred navigating to ${category.url}: ${err.message}`);
+            continue; // Move on to the next category if navigation fails
+        }
 
         // Scroll to load all elements
         await autoScroll(page);
@@ -53,6 +59,9 @@ async function scrapeDFCCPromotions() {
                     return { promoLink, imageUrl, title, discount, validity };
                 });
             });
+
+            // Print how many promos were scraped for this category
+            console.log(`Scraped ${promotions.length} promotions for category ${category.name}`);
 
             for (const promo of promotions) {
                 try {

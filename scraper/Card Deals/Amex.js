@@ -84,47 +84,56 @@ async function scrapeAmexPromotions(page) {
                 // For categories that require skipping featured promos
                 promoBoxes = await page.$$eval('.col-sm-6.col-md-4.col-lg-2.alloffer-box', boxes => {
                     return boxes.map(box => {
-                        // Check if the box contains the inner promotion container to avoid featured promos
-                        const promoInner = box.querySelector('.alloffer-box-inner.box-bg');
-                        if (!promoInner) {
-                            return null; // Exclude boxes that don't contain the promotion inner container
-                        }
-
+                        // Select the anchor tag that contains the promo details
+                        const promoLinkElement = box.querySelector('a.alloffer-box-inner');
+                        if (!promoLinkElement) return null; // Skip if promo link is not found
+                
+                        // Extract discount text from .value-limit span
                         const discountElement = box.querySelector('.value-limit span');
                         const discount = discountElement ? discountElement.innerText.trim() : '';
-
+                
+                        // Merchant name or heading
                         const merchantElement = box.querySelector('.alloffer-heading');
                         const merchantName = merchantElement ? merchantElement.innerText.trim() : '';
-
+                
+                        // Validity text - assuming it's the last div inside .alloffer-text
                         const validityElements = box.querySelectorAll('.alloffer-text div');
                         const validityText = validityElements.length > 0 ? validityElements[validityElements.length - 1].innerText.trim() : '';
-
-                        const promoLink = promoInner.getAttribute('href');
+                
+                        // Build full promo URL
+                        const promoLink = promoLinkElement.getAttribute('href');
                         const fullPromoLink = promoLink.startsWith('http') ? promoLink : `https://www.americanexpress.lk${promoLink}`;
-
+                
                         return { discount, merchantName, validity: validityText, promoLink: fullPromoLink };
-                    }).filter(promo => promo !== null); // Remove null entries
+                    }).filter(promo => promo !== null); // Filter out null results
                 });
+                
             } else {
                 // For categories that do not require skipping featured promos (e.g., groceries)
                 promoBoxes = await page.$$eval('.col-sm-6.col-md-4.col-lg-2.alloffer-box', boxes => {
                     return boxes.map(box => {
+                        // Select the anchor tag that contains the promo details
+                        const promoLinkElement = box.querySelector('a.alloffer-box-inner');
+                        if (!promoLinkElement) return null; // Skip if promo link is not found
+                
+                        // Extract discount text from .value-limit span
                         const discountElement = box.querySelector('.value-limit span');
                         const discount = discountElement ? discountElement.innerText.trim() : '';
-
+                
+                        // Merchant name or heading
                         const merchantElement = box.querySelector('.alloffer-heading');
                         const merchantName = merchantElement ? merchantElement.innerText.trim() : '';
-
+                
+                        // Validity text - assuming it's the last div inside .alloffer-text
                         const validityElements = box.querySelectorAll('.alloffer-text div');
                         const validityText = validityElements.length > 0 ? validityElements[validityElements.length - 1].innerText.trim() : '';
-
-                        // **Corrected Selector**: Only select the <a> with class 'alloffer-box-inner box-bg'
-                        const promoLinkElement = box.querySelector('.alloffer-box-inner.box-bg');
-                        const promoLink = promoLinkElement ? promoLinkElement.getAttribute('href') : '';
+                
+                        // Build full promo URL
+                        const promoLink = promoLinkElement.getAttribute('href');
                         const fullPromoLink = promoLink.startsWith('http') ? promoLink : `https://www.americanexpress.lk${promoLink}`;
-
+                
                         return { discount, merchantName, validity: validityText, promoLink: fullPromoLink };
-                    }).filter(promo => promo !== null && promo.promoLink); // Remove null entries and ensure promoLink exists
+                    }).filter(promo => promo !== null); // Filter out null results
                 });
             }
 

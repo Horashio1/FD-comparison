@@ -11,16 +11,16 @@ const updatedTimestamp = currentTimestamp.toISOString();
 
 const banksToUpdate = [
   { bank_id: 1, bank_name: 'Combank', fileName: 'Combank_data.csv' },
-  // { bank_id: 2, bank_name: 'Sampath Bank', fileName: 'Sampath_data.csv' },
-  // { bank_id: 3, bank_name: 'HNB', fileName: 'HNB_data.csv' },
+  { bank_id: 2, bank_name: 'Sampath Bank', fileName: 'Sampath_data.csv' },
+  { bank_id: 3, bank_name: 'HNB', fileName: 'HNB_data.csv' },
   { bank_id: 4, bank_name: 'NDB Bank', fileName: 'NDB_data.csv' },
-  // { bank_id: 5, bank_name: 'BOC', fileName: 'BOC_data.csv' },
-  // { bank_id: 6, bank_name: 'Seylan Bank', fileName: 'Seylan_data.csv' },
+  { bank_id: 5, bank_name: 'BOC', fileName: 'BOC_data.csv' },
+  { bank_id: 6, bank_name: 'Seylan Bank', fileName: 'Seylan_data.csv' },
   { bank_id: 7, bank_name: 'DFCC', fileName: 'DFCC_data.csv' },
-  // { bank_id: 8, bank_name: 'HSBC', fileName: 'HSBC_data.csv' },
-  // { bank_id: 9, bank_name: 'Nations Trust Bank', fileName: 'NTB_data.csv' },
-  // { bank_id: 10, bank_name: 'Amex', fileName: 'Amex_data.csv' },
-  // { bank_id: 11, bank_name: 'Peoples Bank', fileName: 'PeoplesBank_data.csv' },
+  { bank_id: 8, bank_name: 'HSBC', fileName: 'HSBC_data.csv' },
+  { bank_id: 9, bank_name: 'Nations Trust Bank', fileName: 'NTB_data.csv' },
+  { bank_id: 10, bank_name: 'Amex', fileName: 'Amex_data.csv' },
+  { bank_id: 11, bank_name: 'Peoples Bank', fileName: 'PeoplesBank_data.csv' },
 ];
 
 async function updateBankOffers() {

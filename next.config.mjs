@@ -5,18 +5,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['res.cloudinary.com',
-      'kbcaevsuxnajykrzhjco.supabase.co',
-      's3.ap-southeast-1.amazonaws.com',
-      'ndbbankweb.ndbbank.com',
-      'www.sampath.lk',
-      'www.hnb.net',
-      'www.seylan.lk',
-      'www.americanexpress.lk',
-      'www.hsbc.lk', 'www.peoplesbank.lk'],
-    // Add the domain of your image source
+    remotePatterns: [
+      { hostname: 'res.cloudinary.com' },
+      { hostname: 'kbcaevsuxnajykrzhjco.supabase.co' },
+      { hostname: 's3.ap-southeast-1.amazonaws.com' },
+      { hostname: 'ndbbankweb.ndbbank.com' },
+      { hostname: 'www.sampath.lk' },
+      { hostname: 'www.hnb.net' },
+      { hostname: 'www.seylan.lk' },
+      { hostname: 'www.americanexpress.lk' },
+      { hostname: 'www.hsbc.lk' },
+      { hostname: 'www.peoplesbank.lk' },
+    ],
+    // You can specify other properties if needed, like protocol, port, etc.
   },
 };
-
 
 export default nextConfig;
