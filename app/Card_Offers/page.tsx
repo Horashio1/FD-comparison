@@ -5,8 +5,9 @@ import Image from 'next/image'
 import { supabase } from '../../supabaseClient'
 import { Button } from "@/components/ui/button"
 import { ArrowUpCircle } from 'lucide-react'
-import { OfferCard } from "@/components/OfferCard";
+import { OfferCard } from "@/components/OfferCard"
 
+// ---- Interfaces ----
 interface Bank {
   id: number
   bank_name: string
@@ -22,6 +23,7 @@ interface Category {
 interface SupabaseOffer {
   id: number
   offer_title: string
+  updated_at: string
   bank_id: number
   category_id: number
   merchant_details: string
@@ -42,6 +44,7 @@ interface SupabaseOffer {
 interface Offer {
   id: number
   offer_title: string
+  updated_at: string
   bank_id: number
   category_id: number
   merchant_details: string
@@ -55,32 +58,35 @@ interface Offer {
 }
 
 export default function Page() {
+  // ---- States ----
   const [banks, setBanks] = useState<Bank[]>([])
   const [categories, setCategories] = useState<Category[]>([])
   const [offers, setOffers] = useState<Offer[]>([])
+
+  // Initially, no bank is selected, but we will auto-select the first bank once data loads
   const [selectedBankId, setSelectedBankId] = useState<number | null>(null)
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null)
+
+  // Dialog tracking
   const [openDialogId, setOpenDialogId] = useState<number | null>(null)
 
-  // Scroll to Top Logic
+  // Scroll-to-top
   const [showScrollTop, setShowScrollTop] = useState(false)
 
+  // Loader for the entire page
+  const [isLoading, setIsLoading] = useState(true)
+
+  // ---- Scroll to Top Logic ----
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) {
-        setShowScrollTop(true)
-      } else {
-        setShowScrollTop(false)
-      }
+      setShowScrollTop(window.scrollY > 200)
     }
 
     window.addEventListener("scroll", handleScroll)
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
+    return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  // Handle back button
+  // ---- Handle Back Button (Dialog) ----
   useEffect(() => {
     const handleBackButton = (e: PopStateEvent) => {
       if (openDialogId !== null) {
@@ -88,81 +94,134 @@ export default function Page() {
         setOpenDialogId(null)
       }
     }
-
     window.addEventListener('popstate', handleBackButton)
     return () => window.removeEventListener('popstate', handleBackButton)
   }, [openDialogId])
 
-  // Update history when dialog opens/closes
+  // ---- Update history when dialog opens/closes ----
   useEffect(() => {
     if (openDialogId !== null) {
       window.history.pushState({ dialogOpen: true }, '')
     }
   }, [openDialogId])
 
+  // ---- Scroll to top function ----
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
-  // Fetch data from Supabase
+  // ---- Single fetch to load banks, categories, offers, then preload images ----
   useEffect(() => {
     const fetchData = async () => {
-      const { data: banksData, error: banksError } = await supabase
-        .from('banks')
-        .select('*')
-      if (banksError) {
-        console.error('Error fetching banks:', banksError)
-      } else if (banksData) {
-        setBanks(banksData as Bank[])
-      }
+      try {
+        // 1) Parallel fetch for banks, categories, offers
+        const [banksRes, categoriesRes, offersRes] = await Promise.all([
+          supabase.from('banks').select('*'),
+          supabase.from('card_offer_categories').select('*'),
+          supabase
+            .from('card_offers')
+            .select(
+              `id, offer_title, updated_at, bank_id, category_id,
+               merchant_details, offer_details_1, offer_details_2, 
+               image_url, discount, offer_validity, more_details_url,
+               banks(logo), card_offer_categories(name)`
+            )
+        ])
 
-      const { data: categoriesData, error: categoriesError } = await supabase
-        .from('card_offer_categories')
-        .select('*')
-      if (categoriesError) {
-        console.error('Error fetching categories:', categoriesError)
-      } else if (categoriesData) {
-        setCategories(categoriesData as Category[])
-      }
+        // 2) Check for errors
+        if (banksRes.error) {
+          throw new Error(`Error fetching banks: ${banksRes.error.message}`)
+        }
+        if (categoriesRes.error) {
+          throw new Error(`Error fetching categories: ${categoriesRes.error.message}`)
+        }
+        if (offersRes.error) {
+          throw new Error(`Error fetching offers: ${offersRes.error.message}`)
+        }
 
-      const { data: offersData, error: offersError } = await supabase
-        .from('card_offers')
-        .select('*, banks(logo), card_offer_categories(name)')
+        const fetchedBanks = (banksRes.data || []) as Bank[]
+        const fetchedCategories = (categoriesRes.data || []) as Category[]
+        const fetchedSupabaseOffers = (offersRes.data || []) as SupabaseOffer[]
 
-      if (offersError) {
-        console.error('Error fetching offers:', offersError)
-      } else if (offersData) {
-        setOffers(
-          (offersData as SupabaseOffer[]).map((offer) => ({
-            id: offer.id,
-            offer_title: offer.offer_title,
-            bank_id: offer.bank_id,
-            category_id: offer.category_id,
-            merchant_details: offer.merchant_details,
-            offer_details_1: offer.offer_details_1,
-            offer_details_2: offer.offer_details_2,
-            image_url: offer.image_url,
-            discount: offer.discount,
-            offer_validity: offer.offer_validity,
-            more_details_url: offer.more_details_url,
-            bank_logo: offer.banks.logo,
-          }))
+        // 3) Transform supabase offers to our local Offer shape
+        const fetchedOffers: Offer[] = fetchedSupabaseOffers.map((offer) => ({
+          id: offer.id,
+          offer_title: offer.offer_title,
+          updated_at: offer.updated_at,
+          bank_id: offer.bank_id,
+          category_id: offer.category_id,
+          merchant_details: offer.merchant_details,
+          offer_details_1: offer.offer_details_1,
+          offer_details_2: offer.offer_details_2,
+          image_url: offer.image_url,
+          discount: offer.discount,
+          offer_validity: offer.offer_validity,
+          more_details_url: offer.more_details_url,
+          bank_logo: offer.banks?.logo || "",
+        }))
+
+        // 4) Preload images
+        const bankLogos = fetchedBanks.map((b) => b.logo).filter(Boolean)
+        const categoryIcons = fetchedCategories.map((c) => c.icon_url).filter(Boolean)
+        const offerImages = fetchedOffers.map((o) => o.image_url).filter(Boolean)
+
+        const allImages = [...bankLogos, ...categoryIcons, ...offerImages]
+        await Promise.all(
+          allImages.map((url) => {
+            return new Promise<void>((resolve) => {
+              const img = new window.Image()
+              img.src = url
+              // Resolve on either load or error
+              img.onload = () => resolve()
+              img.onerror = () => resolve()
+            })
+          })
         )
-      }
 
-      if (banksData && banksData.length > 0) {
-        setSelectedBankId((banksData[0] as Bank).id)
+        // 5) Set data into state
+        setBanks(fetchedBanks)
+        setCategories(fetchedCategories)
+        setOffers(fetchedOffers)
+
+        // 6) Select the first bank by default (if any)
+        if (fetchedBanks.length > 0) {
+          setSelectedBankId(fetchedBanks[0].id)
+        }
+
+        // 7) Stop loading
+        setIsLoading(false)
+      } catch (err) {
+        console.error(err)
+        setIsLoading(false)
       }
     }
 
     fetchData()
   }, [])
 
-  // Filter offers based on selected bank and category
+  // ---- If still loading, show a spinner ----
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900" />
+      </div>
+    )
+  }
+
+  // ---- Filter Offers Based on Selected Bank and/or Category ----
   const filteredOffers = offers.filter((offer) =>
-    (selectedBankId !== null && offer.bank_id === selectedBankId) &&
-    (selectedCategoryId === null || offer.category_id === selectedCategoryId)
+    (selectedBankId == null || offer.bank_id === selectedBankId) &&
+    (selectedCategoryId == null || offer.category_id === selectedCategoryId)
   )
+
+  // ---- Find the most recent updated_at among these filtered offers ----
+  const lastUpdatedDateStr = filteredOffers.reduce((latest: string | null, o) => {
+    if (!o.updated_at) return latest
+    return (!latest || o.updated_at > latest) ? o.updated_at : latest
+  }, null)
+  const lastUpdatedFormatted = lastUpdatedDateStr
+    ? new Date(lastUpdatedDateStr).toLocaleDateString("en-GB") // DD/MM/YYYY
+    : null
 
   return (
     <div className="container mx-auto p-4 space-y-6 overflow-x-hidden">
@@ -207,36 +266,59 @@ export default function Page() {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold mt-6">Select a Category</h2>
         <div className="flex flex-wrap gap-2 w-full">
-          {categories.map((category) => (
-            <Button
-              key={category.id}
-              variant={selectedCategoryId === category.id ? "default" : "outline"}
-              className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1"
-              onClick={() => {
-                const newSelected = selectedCategoryId === category.id ? null : category.id
-                setSelectedCategoryId(newSelected)
-              }}
-            >
-              <div className="relative w-24 h-14 flex items-center justify-center">
-                <Image
-                  src={category.icon_url || "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"}
-                  alt={`${category.name} icon`}
-                  fill
-                  className={`object-contain ${selectedCategoryId === category.id ? "invert" : ""}`}
-                />
-              </div>
-              <span className="font-medium text-base text-center">{category.name}</span>
-            </Button>
-          ))}
+          {categories.map((category) => {
+            const isSelected = selectedCategoryId === category.id
+            return (
+              <Button
+                key={category.id}
+                variant={isSelected ? "default" : "outline"}
+                className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1"
+                onClick={() => {
+                  const newSelected = isSelected ? null : category.id
+                  setSelectedCategoryId(newSelected)
+                }}
+              >
+                <div className="relative w-24 h-14 flex items-center justify-center">
+                  <Image
+                    src={
+                      category.icon_url ||
+                      "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"
+                    }
+                    alt={`${category.name} icon`}
+                    fill
+                    className={`object-contain ${isSelected ? "invert" : ""}`}
+                  />
+                </div>
+                <span className="font-medium text-base text-center">{category.name}</span>
+              </Button>
+            )
+          })}
         </div>
       </section>
 
       {/* Offers */}
       <section className="space-y-2">
         <h2 className="text-xl font-semibold">Available Offers</h2>
-        {selectedBankId === 9 ? (
+
+        {/* Show "Last updated" if a bank is selected and there are relevant offers */}
+        {selectedBankId && filteredOffers.length > 0 && lastUpdatedFormatted && (
+          <small className="text-gray-500 ml-4">
+            Last updated {lastUpdatedFormatted}
+          </small>
+        )}
+
+        {/* If no bank is selected, show nothing for offers */}
+        {!selectedBankId && (
+          <p className="text-md pt-4 pb-4">Please select a bank to view offers.</p>
+        )}
+
+        {/* If a specific bank (e.g. ID=9), show "Coming soon..." */}
+        {selectedBankId === 9 && (
           <p className="text-md pt-4 pb-4">Coming soon ...</p>
-        ) : (
+        )}
+
+        {/* Otherwise, show the filtered offers */}
+        {selectedBankId && selectedBankId !== 9 && (
           <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
             {filteredOffers.map((offer) => (
               <OfferCard key={offer.id} offer={offer} />

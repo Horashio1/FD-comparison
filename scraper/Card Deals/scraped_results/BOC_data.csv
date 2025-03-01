@@ -1,4 +1,19 @@
 bank_id,category_id,offer_title,merchant_details,offer_details_1,offer_validity,discount,image_url,more_details_url,merchant_contact
+5,2,20% OFF at Centauria Wild,Centauria Wild,"Reservations - 047 763 4630 / 076 360 0965
+20% off for BOC Credit & 15% off for Debit Cardholders
+From 20th January to 30th May 2025
+*Conditions apply.",30 May 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/7251/media-250130101507.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/centauria-wild/product,
+5,2,10% OFF at Centauria City Hotel,Centauria City Hotel,"Reservations - 047 223 0044 / 076 360 0972
+10% off for BOC Credit & Debit Cardholders
+From 20th January to 31st May 2025
+*Conditions apply.",31 May 2025,10% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/7234/media-250127031931.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/centauria-city-hotel/product,
+5,2,25% OFF at Rain Tree by Oak Ray,Rain Tree by Oak Ray,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/7231/media-250127121655.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/rain-tree-by-oak-ray/product,Reservations : 077 220 8699
+5,2,15% OFF at Centauria Lake,Centauria Lake,"Reservations - 047 226 1523 / 047 223 0514
+15% off for BOC Credit & 10% off for Debit Cardholders
+From 20th January to 30th June 2025
+*Conditions apply.",30 Jun 2025,15% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/7229/media-250127101048.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/centauria-lake/product,
 5,2,20% OFF at Lotus Estate Colombo,Lotus Estate Colombo,"20% off on full board, half board and bed & breakfast basis for BOC Credit & Debit Cardholders
 From 04th September 2024 to 30th April 2025
 *Conditions apply.",30 Apr 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/7144/media-241230113143.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/lotus-estate-colombo/product,Reservations : 011 258 1132 | 077 959 4545
@@ -14,6 +29,51 @@ From 01st October 2024 to 31st March 2025
 5,2,15% OFF at Araliya Red Hotel,Araliya Red Hotel,"Reservations - 070 470 0829 / 052 222 6000
 15% off for BOC Credit & Debit Cardholders
 *Conditions apply.",31 Mar 2025,15% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/6329/media-240507032729.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/araliya-red-hotel/product,
+5,2,35% OFF at Tropical Life Resort & Spa,Tropical Life Resort & Spa,"35% off for BOC Credit & Debit Cardholders
+From 07th January to 30th March 2025
+*Conditions apply.",30 Mar 2025,35% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/6080/media-240113013347.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/tropical-life-resort-spa/product,Reservations : 066 203 0300 | 077 722 5151
+5,2,25% OFF at Oak Ray Serene Garden,Oak Ray Serene Garden,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5632/media-230826102701.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/oak-ray-serene-garden/product,Reservations : 077 220 8699
+5,2,25% OFF at Oak Ray Elephant Lake,Oak Ray Elephant Lake,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5630/media-230826102549.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/oak-ray-elephant-lake/product,Reservations : 077 220 8699
+5,2,20% OFF at Hotel Sudu Araliya,Hotel Sudu Araliya,"20% off on Deluxe Room Category for BOC Credit & Debit Cardholders
+From 01st February to 31st March 2025
+*Conditions apply.",31 Mar 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5613/media-230826085855.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/hotel-sudu-araliya/product,Reservations : 076 531 5390 / 027 222 4849
+5,2,20% OFF at Sheraton Kosgoda Turtle Beach Resort,Sheraton Kosgoda Turtle Beach Resort,"Inquiries : 074 390 1102 / 0917 600 100
+20% off on All Wedding Packages for BOC Credit & Debit Cardholders
+Bookings made on or before 31st March 2025
+*Conditions apply.",31 Mar 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5598/media-230823042104.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/sheraton-kosgoda-turtle-beach-resort/product,
+5,2,25% OFF at Oak Ray Wild Yala,Oak Ray Wild Yala,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5584/media-230822111944.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/oak-ray-wild-yala/product,Reservations : 077 220 8699
+5,2,25% OFF at Oak Ray Ella Gap,Oak Ray Ella Gap,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5582/media-230822111711.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/oak-ray-ella-gap/product,Reservations : 077 220 8699
+5,2,25% OFF at Oak Ray Summer Hill Breeze,Oak Ray Summer Hill Breeze,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5580/media-230822105756.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/oak-ray-summer-hill-breeze/product,Reservations : 077 220 8699
+5,2,25% OFF at Oak Ray Tea Bush,Oak Ray Tea Bush,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5578/media-230822105518.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/oak-ray-tea-bush/product,Reservations : 077 220 8699
+5,2,25% OFF at Fresco Water Villa,Fresco Water Villa,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5576/media-230822104401.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/fresco-water-villa/product,Reservations : 077 220 8699
+5,2,25% OFF at Pelwehera Village Resort,Pelwehera Village Resort,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5574/media-230822104038.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/pelwehera-village-resort/product,Reservations : 077 220 8699
+5,2,25% OFF at Senani Hotel,Senani Hotel,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5572/media-230822103832.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/senani-hotel/product,Reservations : 077 220 8699
+5,2,25% OFF at Oak Ray Regency,Oak Ray Regency,"25% off on DBL FB & 20% off on TPL FB for BOC Credit Cardholders
+Valid from 10th January to 30th April 2024
+*Conditions apply.",30 Apr 2025,25% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5570/media-230822103335.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/oak-ray-regency/product,Reservations : 077 220 8699
+5,2,20% OFF at Sea Horse,Sea Horse,"20% off on full board & half board basis for BOC Credit & Debit Cardholders
+From 01st February to 30th April 2025
+*Conditions apply.",30 Apr 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5661/media-230904040631.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/sea-horse/product,Reservations : 077 730 0579 | 077 772 0579
+5,2,20% OFF at Tree Nature Resort,Tree Nature Resort,"20% off for BOC Credit & Debit Cardholders
+*Conditions apply.",31 Mar 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5176/media-230620025353.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/tree-nature-resort/product,Reservations : 077 703 3603
 5,2,20% OFF at Joe’s Resort Unawatuna,Joe’s Resort Unawatuna,"20% off on full board, half board and bed & breakfast basis for BOC Credit & Debit Cardholders
 From 04th September 2024 to 30th April 2025
 *Conditions apply.",30 Apr 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5144/media-230615100309.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/joes-resort-unawatuna/product,Reservations : 011 258 1132 | 077 959 4545
@@ -26,8 +86,7 @@ From 04th September 2024 to 30th April 2025
 5,2,20% OFF at Apa Villa Thalpe,Apa Villa Thalpe,"20% off on full board, half board and bed & breakfast basis for BOC Credit & Debit Cardholders
 From 04th September 2024 to 30th April 2025
 *Conditions apply.",30 Apr 2025,20% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5138/media-230615090724.JPG,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/apa-villa-thalpe/product,Reservations : 011 258 1132 | 077 959 4545
-5,2,FLAT  15% OFF at Findmyfare.com,Findmyfare.com,"Flat 15% off to Any Destination on Any Airline on base fare for BOC Credit & Debit Cards
-Booking Period : 06th - 31st January 2025 | Travel Before : 31st August 2025
-Bookings made through www.findmyfare.com ( Promo Code : BOC15 )
-Inquiries : 0117 247 365
-*Conditions apply.",31 Jan 2025,FLAT  15% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/5504/media-230819050945.jpg,https://www.boc.lk/personal-banking/card-offers/travel-and-leisure/findmyfarecom-1/product,
+5,4,UP TO  12% OFF at Crazy Jets,Crazy Jets,"Up to 12% off on base fare component of flight bookings for BOC Credit & Debit Cardholders
+Easy Settlement Plans available up to 24 months for Credit Cardholders
+( https://www.boc.lk/download-forms#credit-cards )
+*Conditions apply.",31 Mar 2025,UP TO  12% OFF,https://s3.ap-southeast-1.amazonaws.com/static.boc.lk/7255/media-250130114727.jpg,https://www.boc.lk/personal-banking/card-offers/online/crazy-jets/product,

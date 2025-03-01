@@ -1,106 +1,147 @@
 bank_id,category_id,offer_title,merchant_details,offer_details_1,offer_details_2,discount,image_url,more_details_url
-1,1,Enjoy the art of dining at Cinnamon Grand Colombo with ComBank Credit Cards,Cinnamon Grand Colombo,"Offer–15% discount for Credit Cards
-Offer valid at Lagoon, Breeze Bar, Nuga Gama and Plates Restaurants
-Offer valid for Lunch & Dinner Only.
-Offer valid from Monday to Friday till 31st January 2025
-Maximum bill value to be Rs.40,000/-",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-credit-card-offer-with-Cinnamon-Grand.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/October/Cinnamon-Grand-Colombo-Credit-Card-offer-web-thumb.jpg,http://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-cinnamon-grand-colombo-with-combank-credit-cards
-1,1,Enjoy the art of dining at Cinnamon Grand Colombo with ComBank Platinum Debit Cards,Cinnamon Grand Colombo,"Discount - 10% for Platinum Debit Cards
-Offer valid at Lagoon, Breeze Bar, Nuga Gama and Plates Restaurants
-Offer valid for Lunch & Dinner.
-Offer valid till 31st January 2025
-Maximum bill value to be Rs. 40,000/-
+1,1,Enjoy the art of dining at your favourite softlogic restaurant with ComBank Credit and Debit Cards,Your favourite softlogic restaurant,"Discount -
+-25% for Credit Cards and15% for Debit Cards at Crystal Jade.
+-20% for Credit Cards and 15% for Debit Cards at Burger King, Popeyes ,Delifrance, Baskin Robbins & Subway(Subway Outlets at Rajagiriya, Havelock Mall, Colombo 03 & Mount Lavinia Only)
+Offer valid for Dine in & Takeaway
+Offer valid for Delivery at Crystal Jade only
+Offer valid on every Wednesday from 05th to 26th February 2025",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Softlogic-Restaurant-Offer-new.jpg,Up to 25% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Softlogic-Restaurant-Offer-new-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-your-favourite-softlogic-restaurant-with-combank-credit-and-debit-cards
+1,1,Valentine's High Tea at Cinnamon Lakeside Colombo with ComBank Credit Cards,Cinnamon Lakeside Colombo,"Offer - 15% discount for Credit Cards 
+Offer valid only on every Saturday and Sunday from 08th to 23rd February 2025
+Offer valid on High Tea.
+Minimum bill value to be Rs.5,000/-
+Maximum discount valueto be Rs.10,000/-
+Visit – The Lounge Restaurant at Cinnamon Lakeside ",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Cinnamon-Lakeside-valentines-HIgh-tea-Offer-with-combank-credit-cards.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Cinnamon-Lakeside-valentines-HIgh-tea-Offer-with-combank-credit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/valentines-high-tea-at-cinnamon-lakeside-colombo-with-combank-credit-cards
+1,1,Enjoy the art of dining at your favourite Softlogic Restaurant (Jaffna Outlets) with ComBank Credit and Debit Cards,Your favourite Softlogic Restaurant (Jaffna Outlets),"Discount-20% for Credit Cards & 10% for Debit Cards
+Offer valid from 06th to 20th February 2025
+Offer valid for Dine-in & Takeaway
+Visit – Burger King, Popeyes and Baskin Robbins (Jaffna Outlets)",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Softlogic-Restaurant--Jaffna-Offer-for-combank-credit-and-debit-cards.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Softlogic-Restaurant--Jaffna-Offer-for-combank-credit-and-debit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-your-favourite-softlogic-restaurant-jaffna-outlets-with-combank-credit-and-debit-cards
+1,1,Enjoy the art of dining at Blue Orbit by Citrus with ComBank Platinum Debit Cards,Blue Orbit by Citrus,"Offer - 10% discount for Platinum Debit Cards
+Offer valid till 28th February 2025
+Maximum number of 04 persons per card per dayduring the promotional period
+Reservations - 0765444111 / 0765443333
 Offer applicable for following Platinum Debit Cards;
 -Visa Elite
 -Visa Debit Platinum
 -Mastercard Debit Platinum
--UnionPay Debit Platinum",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-Platinum-debit-card-offer-with-Cinnamon-Grand.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/October/Cinnamon-Grand-Colombo-Dining-Offer-with-Combank-Platinum-Debit-cards-web-thumb.jpg,http://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-cinnamon-grand-colombo-with-combank-platinum-debit-cards
+-UnionPay Debit Platinum",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/ComBank-Platimum-Debit-card-offer-with-Blue-Orbit-by-Citrus.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/ComBank-Platimum-Debit-card-offer-with-Blue-Orbit-by-Citrus-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-blue-orbit-by-citrus-with-combank-platinum-debit-cards
+1,1,Enjoy the art of dining at Blue Orbit by Citrus with ComBank Credit Cards,Blue Orbit by Citrus,"Offer -15% discount for Credit Cards
+Offer valid till 28th February 2025
+Maximum number of 04 persons per card per dayduring the promotional period
+Reservations –076 544 4111 / 076 544 3333",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/ComBank-Credit-card-offer-with-Blue-Orbit-by-Citrus.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/ComBank-Credit-card-offer-with-Blue-Orbit-by-Citrus-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-blue-orbit-by-citrus-with-combank-credit-cards
+1,1,Enjoy the art of dining at Cinnamon Grand Colombo with ComBank Platinum Debit Cards,Cinnamon Grand Colombo,"Discount - 10% discount for Platinum Debit Cards
+Offer valid at Lagoon, Breeze Bar, Nuga Gama and Plates Restaurants
+Offer valid for Lunch & Dinner.
+Offer valid till 28th February 2025
+Maximum bill value to be Rs. 40,000/-
+Offer applicable for following Platinum Debit Cards-
+-Visa Elite
+-Visa Debit Platinum
+-Mastercard Debit Platinum
+-UnionPay Debit Platinum",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Cinnamon-Grand-Offer-with-Combank-Platinum-Debit-Card.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Cinnamon-Grand-Offer-with-Combank-Platinum-Debit-Card-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-cinnamon-grand-colombo-with-combank-platinum-debit-cards
+1,1,Enjoy the art of dining at Cinnamon Grand Colombo with ComBank Credit Cards,Cinnamon Grand Colombo,"Offer–15% discount for Credit Cards
+Offer valid at Lagoon, Breeze Bar, Nuga Gama and Plates Restaurants
+Offer valid for Lunch & Dinner Only.
+Offer valid fromMonday to Friday till 28th February 2025
+Maximum bill value to be Rs.40,000/-",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Cinnamon-Grand-Offer-with-Combank-credit-card.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Cinnamon-Grand-Offer-with-Combank-credit-card-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-cinnamon-grand-colombo-with-combank-credit-cards
+1,1,Enjoy the art of dining at Cinnamon Lakeside Colombo with ComBank Platinum Debit Cards,Cinnamon Lakeside Colombo,"Discount - 10% for Platinum Debit Cards
+Offer valid at Cinnamon Lakeside – Royal Thai, The Dining room & Long Feng Restaurants
+Offer valid from 01st to 28th February 2025
+Offer validon Lunch and Dinner
+Maximum discount to be Rs.5,000/-",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Cinnamon-Lakeside-Platinum-Debit.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Cinnamon-Lakeside-Platinum-Debit-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-cinnamon-lakeside-colombo-with-combank-platinum-debit-cards
+1,1,Enjoy the art of dining at Cinnamon Lakeside Colombo with ComBank Credit Cards,Cinnamon Lakeside Colombo,"Offer - 15% discount for Credit Cards 
+Offer valid at Cinnamon Lakeside – Royal Thai, The Dining room & Long Feng Restaurants
+Offer valid from 01st to 28th February 2025
+Offer valid on Lunch and Dinner.
+Minimum bill value to be Rs.5,000/-
+Maximum discount valueto be Rs.10,000/-",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Cinnamon-lakeside-combank-Credit-cards.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Cinnamon-lakeside-combank-Credit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-cinnamon-lakeside-colombo-with-combank-credit-cards
+1,1,Enjoy the art of dining at Hilton Colombo Residences with ComBank Credit Cards,Hilton Colombo Residences,"Offer–15% discount for Credit Cards
+Offer valid atFlow, Level 3(Pool side) and Basico Restaurants
+Offer valid for full cakes at Basico Restaurant
+Offer valid on Breakfast, Lunch and Dinner
+Offer valid from 01st to 28th February 2025
+Maximum bill value Rs.80,000/-
+Minimum bill value Rs. 5,000/-",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Hilton-offer-with-combank-credit-cards.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Hilton-offer-with-combank-credit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-hilton-colombo-residences-with-combank-credit-cards
+1,1,Enjoy the art of dining at Mount Lavinia Hotel with ComBank Credit cards,Mount Lavinia Hotel,"Offer-10% discount for Credit Cards 
+Offer valid from 01st to 28th February 2025.
+Offer applicable on Lunch & Dinner Buffet
+Maximum bill value to be Rs.50,000/-
+Reservations – 0112711711 / fbreservations@mountlaviniahotel.com
+Visit – Mount Lavinia Governor’s Restaurant",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Combank-credit-card-offer-with-MOunt-lavinia.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Combank-credit-card-offer-with-MOunt-lavinia-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-mount-lavinia-hotel-with-combank-credit-cards
+1,1,Enjoy the art of dining at Waters Edge with ComBank Credit Cards,Waters Edge,"Offer - 15% discount for Credit Cards
+Offervalid for Dine in at Thunapaha, Boardwalk& Bavarian Garden, Diyatha Stationand Pranzo
+Offer valid for Take away at Bakery at the Edge & Bakery at the Lake (Full Cakes Only)
+Offer not valid for promotional items at Bakery at the Edge&Bakery at the Lake 
+Maximum bill value to be Rs.30,000/-
+Offer valid from Wednesday to Sunday till 28th February 2025
+Blackout dates – 14th February 2025",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Waters-Edge-Dining-Offer-for-ComBank-Credit-Card.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Waters-Edge-Dining-Offer-for-ComBank-Credit-Card-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-waters-edge-with-combank-credit-cards
+1,1,Enjoy the art of dining at Creamy Creation and Creamy Cafe with ComBank Credit and Debit Cards,Creamy Creation and Creamy Cafe,"Offer - 30% discount for Credit Cards & 15% discount for Debit Cards
+Offer valid from 31st January to 02nd February 2025
+Offer valid at No. 67/2, Kandy Road, Jaffna",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Creamy-Creations-%26-Creamy-Cafe-Offer-with-combank-credit-and-debit-cards.jpg,Up to 30% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Creamy-Creations-%26-Creamy-Cafe-Offer-with-combank-credit-and-debit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-creamy-creation-and-creamy-cafe-with-combank-credit-and-debit-cards
+1,1,Enjoy the art of dining at your favourite restaurant with ComBank Credit and Debit Cards,Your favourite restaurant,"The promotion is open for allCredit and Debit Cardsissued by Commercial Bank of Ceylon PLC.
+Offer valid for Sri Lankans and Expatriates only.
+All payments to be settled with the Commercial Bank Creditand Debit Cards only.
+This offer cannot be exchanged for cash or used in conjunction with other promotional programs or offers conducted by the Bank or the offer partner.
+The General Creditand Debit Cardterms and conditions will continue to apply.
+This offer is bound by the terms and conditions of the partnering merchant and Commercial Bank of Ceylon PLC.
+Commercial Bank of Ceylon PLC reserve the right to change and/or modify all or any of the rules, terms and conditions applicable to this promotion at any given time with or withoutprior notice to the Cardholders.
+Commercial Bank of Ceylon PLC - Card Centre accepts no liability for the quality of goods or services provided by the offer partners in this promotion.
+If any dispute arises regarding any of the terms & conditions contained herein, the decision of the Commercial Bank of Ceylon PLC - Card Centre shall be final.",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Common-Restaurnat-Offer.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/ComBank-credit-card-restaurant-offers-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-your-favourite-restaurant-with-combank-credit-and-debit-cards
 1,1,Enjoy the art of dining at Taj Samudra with ComBank Credit Cards,Taj Samudra,"Offer - 20% Discount for Credit Cards
-Offer valid from Friday to Sunday till 31st January 2025
+Offer valid from Friday to Sunday till 28th February 2025
+Maximum bill value to be Rs. 40,000/-
 Offer valid for Lunch & Dinner A la carte and Buffets
 Offer applicable Restaurants:
 -Ports of Call
 -YUMI Japanese Resto Bar
 -Navratna Indian Restaurant
--Golden Dragon - Chinese ",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-credit-card-offer-with-Taj-Samudra-Colombo.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-credit-card-offer-with-Taj-Samudra-Colombo-thumb.jpg,http://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-taj-samudra-with-combank-credit-cards
-1,1,Enjoy the art of dining at Mount Lavinia Hotel with ComBank Credit cards,Mount Lavinia Hotel,"Offer-10% discount for Credit Cards 
-Offer valid till 31st January 2025.
-Offer applicable on Lunch & Dinner Buffet
-Visit – Mount Lavinia Governor’s Restaurant",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2024/December/Mount-lavinia-lunch-buffet-offer-for-Combank-credit-cards-web%2B.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/December/Mount-lavinia-lunch-buffet-offer-for-Combank-credit-cards-web-thumb.jpg,http://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-mount-lavinia-hotel-with-combank-credit-cards
-1,1,Enjoy the art of dining at Blue Orbit by Citrus with ComBank Credit Cards,Blue Orbit by Citrus,"Offer -15% discount for Credit Cards
-Offer valid till 31st January 2025
-Maximum number of 04 persons per card per dayduring the promotional period
-Reservations –0765 444 111 / 0765 443 333",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2024/December/Combank-Blue-Orbit-Credit-offer-web.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/December/Combank-credit-card-offer-with-Orbit-by-citrus-web-thumb.jpg,http://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-blue-orbit-by-citrus-with-combank-credit-cards
-1,1,Enjoy the art of dining at Blue Orbit by Citrus with ComBank Platinum Debit Cards,Blue Orbit by Citrus,"Offer - 10% discount for Platinum Debit Cards
-Offer valid till 31st January 2025
-Maximum number of 04 persons per card per dayduring the promotional period
-Reservations - 0765 444 111 / 0765 443 333
-Offer applicable for following Platinum Debit Cards;
--Visa Elite
--Visa Debit Platinum
--Mastercard Debit Platinum
--UnionPay Debit Platinum",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2024/December/Combank-Platinum-Debit-Offer-with-Blue-Orbit--web.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/December/Combank-Platinum-debit-card-offer-with-Orbit-by-citrus-web-thumb.jpg,http://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-blue-orbit-by-citrus-with-combank-platinum-debit-cards
-1,3,Enjoy the best supermarket deals at Arpico for the Total Bill with ComBank Credit Cards,Arpico for the Total Bill,"Offer valid for Total Bill Value
-Discount – 20% for Credit Cards
-Offer valid on 07th & 21st January 2025
-Minimum bill value Rs 7,500/-
-Maximum discount for Credit Cards Rs.3,000/-
-Maximum 3kg or 3 items of the same kind per day
-One transaction per card per day",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-credit-cards-offer-with-Arpico-Total-Bill.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-credit-cards-offer-with-Arpico-Total-Bill-thumb.jpg,http://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-arpico-for-the-total-bill-with-combank-credit-cards
-1,3,Enjoy the best supermarket fresh deals at Arpico with ComBank Credit Cards,Arpico,"Offer valid for Fresh Vegetables, Fruits, Seafood & Meat
-Discount - 30% for Credit Cards
-Offer valid on every Sunday till 26th January 2025
-Minimum bill value Rs.5,000/-
+-Golden Dragon - Chinese ",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Taj-samudra-hotel-combank-credit-card-offer.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-credit-card-offer-with-Taj-Samudra-Colombo-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-taj-samudra-with-combank-credit-cards
+1,3,Enjoy the best supermarket deals at Arpico with ComBank Credit Cards,Arpico,"Offer valid for Total Bill Value
+Discount –20% for Credit Cards
+Offer valid on11th & 25th February 2025
+Minimum bill value to be Rs 7,500/-
 Maximum discount value to be Rs.3,000/-
-Maximum 3kg or 3 items of the same kind per bill
-One transaction per card per day.",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/ComBank-Credit-Card-offer-with-Arpico.jpg,Up to 30% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/ComBank-Credit-Card-offer-with-Arpico-thumb.jpg,http://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-fresh-deals-at-arpico-with-combank-credit-cards
-1,3,Enjoy the best supermarket fresh deals at Softlogic Glomark with ComBank Credit and Debit Cards,Softlogic Glomark,"Offer - 35% discount for Credit Cards & 25% for Debit Cards
-Offer valid for Vegetables, Fruits, Fish and Meat
-Offer valid on every Wednesday till 29th January 2025
-From 10.00 a.m. to 8.00 p.m.
-Minimum bill value to be Rs. 4,000/-
-Maximum discount for Credit & Debit Cards to be Rs. 3,500/- 
 Maximum 3kg or 3 items of the same kind per day
-One Transaction per card per day
-Visit – All GLOMARK outlets & www.glomark.lk",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combamk-Credit-and-debit-card-offer-with-Glomar-Fresh-deals.jpg,Up to 35% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combamk-Credit-and-debit-card-offer-with-Glomar-Fresh-deals-thumb.jpg,http://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-fresh-deals-at-softlogic-glomark-with-combank-credit-and-debit-cards
+One transaction per card per day",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Arpico-Total-Bill-offer-with-combank-credit-cards.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-credit-cards-offer-with-Arpico-Total-Bill-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-arpico-with-combank-credit-cards
 1,3,Enjoy the best supermarket deals at Laugfs Super with ComBank Credit Cards,Laugfs Super,"Offer valid for Total Bill Value
 Discount – 10% for Credit Cards 
-Offer valid on every Sunday till 26th January 2025
+Offer valid on every Sunday till 23rd February 2025
 Minimum bill value Rs 5,000/-
 Maximum discount for Credit Cards Rs.1,000/- 
-One Transaction per card per day",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-Credit-card-offer-with-Laugfs.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-card-offer-with-Laugfs-thumb.jpg,http://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-laugfs-super-with-combank-credit-cards
+One Transaction per card per day",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Laugfs-Total-bill-credit-card-offer.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-card-offer-with-Laugfs-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-laugfs-super-with-combank-credit-cards
+1,3,Enjoy the best supermarket fresh deals at Arpico with ComBank Credit Cards,Arpico,"Offer valid for FreshVegetables, Fruits, Seafood & Meat
+Discount - 30% for Credit Cards
+Offer valid on every Sunday till 23rd February 2025
+Minimum bill value to be Rs.5,000/-
+Maximum discount value to be Rs.3,000/-
+Maximum 3kg or 3 items of the same kind per bill
+One transaction per card per day.",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Arpico-Offer-with-combank-credit-cards.jpg,Up to 30% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/ComBank-Credit-Card-offer-with-Arpico-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-fresh-deals-at-arpico-with-combank-credit-cards
+1,3,Enjoy the best supermarket fresh deals at Softlogic Glomark with ComBank Credit and Debit Cards,Softlogic Glomark,"Offer - 30% discount for Credit Cards & 25% for Debit Cards
+Offer valid for Vegetables, Fruits, Fish and Meat
+Offer valid on every Wednesday till 26th February 2025
+From 10.00 a.m. to 8.00 p.m.
+Minimum bill value to be Rs. 4,000/-
+Maximum discount for Credit & Debit Cards to be Rs. 3,000/- 
+Maximum 3kg or 3 items of the same kind per day
+One Transaction per card per day
+Visit – All GLOMARK outlets & www.glomark.lk",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Glomark-fresh-deals-offer-with-combank-credit-and-debit-cards.jpg,Up to 30% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combamk-Credit-and-debit-card-offer-with-Glomar-Fresh-deals-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-fresh-deals-at-softlogic-glomark-with-combank-credit-and-debit-cards
 1,3,Enjoy the best supermarket deals at Softlogic Glomark with ComBank Credit Cards,Softlogic Glomark,"Offer valid for Total Bill Value
-Discount - 20% for Credit Cards
-Offer valid on every Thursday till 30th January 2025
+Discount - 20% discount for Credit Cards
+Offer valid on every Thursday till 27th February 2025
 Minimum bill value to be Rs 5,000/-
-Maximum discount for Credit to be Rs.4,000/-
+Maximum discount for Credit Cards to be Rs.4,000/-
 Maximum 5kg or 5 items of the same kind per day
 One transaction per card per day
-Visit – All GLOMARK outlets & www.glomark.lk",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-Credit-Card-offer-with-Glomark.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-Card-offer-with-Glomark-thumb.jpg,http://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-softlogic-glomark-with-combank-credit-cards
+Visit – All GLOMARK outlets & www.glomark.lk",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Glomark-offer-with-combank-credit-cards.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-Card-offer-with-Glomark-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-softlogic-glomark-with-combank-credit-cards
 1,3,Enjoy the best supermarket deals at Keells with ComBank Credit Cards,Keells,"Offer valid for Fresh Vegetables, Fruits, Seafood & Meat 
 Discount - 25% for Credit Cards
-Offer valid on every Saturday till 25th January 2025
+Offer valid on every Saturday till 22nd February 2025
 Minimum bill value to be Rs.4,000/-
-Maximum discount value to be Rs.1,000/-
-One transaction per card per day",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-Credit-card-Offer-with-Keells.jpg,Up to 25% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-card-Offer-with-Keells-thumb.jpg,http://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-keells-with-combank-credit-cards
-1,2,Find your perfect getaway with unmatched discounts,,,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2024/December/hotel-offers-for-ComBank-credit-and-Debit-cards-web-main.jpg,Up to 50% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/January/Hotel-Offer-web-thumb.jpg,http://www.combank.lk/rewards-promotion/leisure/find-your-perfect-getaway-with-unmatched-discounts
+Maximum discount value to be Rs.1,250/-
+One transaction per card per day",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Keels-Offer-with-combank-credit-cards.jpg,Up to 25% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-card-Offer-with-Keells-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-keells-with-combank-credit-cards
+1,2,Relax at your favourite holiday destination with ComBank Credit and Debit Cards,Your favourite holiday destination,,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Hotel-Offer-with-Combank-credit-and-debit-cards.jpg,Up to 40% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/ComBank-credit-and-debit-cards-year-round-hotel-offers-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/relax-at-your-favourite-holiday-destination-with-combank-credit-and-debit-cards
 1,2,Step into a world of wonders and thrills with Pearl Bay using ComBank Credit and Debit Cards,,"Offer- 20% discount for Credit & Debit Cards
 Offer valid at SplashBay Only
 Opening Days- Tuesday to Sunday
 Offer valid till 31st March 2025
 Call - 0114 226 000
-Visit - www.thepearlbay.com",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-Credit-and-debit-card-offer-with-PearlBay.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-and-debit-card-offer-with-PearlBay-thumb.jpg,http://www.combank.lk/rewards-promotion/leisure/step-into-a-world-of-wonders-and-thrills-with-pearl-bay-using-combank-credit-and-debit-cards
-1,2,Enjoy your perfect getaway at Mount Lavinia Hotel with ComBank Credit Cards,Mount Lavinia Hotel,"Offer-20% discount for Credit Cards 
-Offer valid till 31st January 2025.
-Offer valid for overnight Stays with HB & FB meal Plans only
-Email – reservation@mountlaviniahotel.com
-Contact - 0112711711",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2024/December/Mount-Lavinia-Hotel-Dec-Extended-web.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/December/Combank-credit-card-offer-with-mount-lavinia-hotel-web-thumb.jpg,http://www.combank.lk/rewards-promotion/leisure/enjoy-your-perfect-getaway-at-mount-lavinia-hotel-with-combank-credit-cards
-1,4,Enjoy exclusive deals to make your celebrations even better with ComBank Credit and Debit Cards,,"The promotion is open for all Credit and Debit Cards issued by Commercial Bank of Ceylon PLC.
-Offer valid for Sri Lankans and Expatriates only. 
-All payments to be settled with the Commercial Bank Credit and Debit Cards only. 
-This offer cannot be exchanged for cash or used in conjunction with other promotional programs or offers conducted by the Bank or the offer partner.
-The General Credit and Debit Cards terms and conditions will continue to apply.
-This offer is bound by the terms and conditions of the partnering merchant and Commercial Bank of Ceylon PLC.
-Commercial Bank of Ceylon PLC reserve the right to change and/or modify all or any of the rules, terms and conditions applicable to this promotion at any given time with or  without prior notice to the Cardholders.
-Commercial Bank of Ceylon PLC - Card Centre accepts no liability for the quality of goods or services provided by the offer partners in this promotion.
-If any dispute arises regarding any of the terms & conditions contained herein, the decision of the Commercial Bank of Ceylon PLC - Card Centre shall be final.",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/ComBank-Credit-Card-Thaipongal-Offer.jpg,Up to 30% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/ComBank-Credit-Card-Thaipongal-Offer-thumb.jpg,http://www.combank.lk/rewards-promotion/seasonal-offers/enjoy-exclusive-deals-to-make-your-celebrations-even-better-with-combank-credit-and-debit-cards
-1,4,Up to 50% discounts at the highest number of outlets across the country with ComBank Cards.,The highest number of outlets across the country,,,Up to 50% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/November/New-ComBank-December-Seasonal-Offer-2024-Thumb.jpg,http://www.combank.lk/rewards-promotion/seasonal-offers/up-to-50-discounts-at-the-highest-number-of-outlets-across-the-country-with-combank-cards
+Visit - www.thepearlbay.com",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-Credit-and-debit-card-offer-with-PearlBay.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-and-debit-card-offer-with-PearlBay-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/step-into-a-world-of-wonders-and-thrills-with-pearl-bay-using-combank-credit-and-debit-cards

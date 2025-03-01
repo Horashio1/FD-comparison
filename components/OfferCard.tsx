@@ -128,9 +128,9 @@ View Offer: ${shareUrl}
               <Image
                 src={offer.bank_logo || "/placeholder-logo.png"}
                 alt="Bank logo"
-                width={40}
-                height={40}
-                className="object-contain"
+                width={20}  // Base dimension (desktop)
+                height={20} // Base dimension (desktop)
+                className="object-contain sm:w-15 sm:h-15"
               />
             </div>
           </div>
@@ -240,9 +240,8 @@ View Offer: ${shareUrl}
             {/* If there's no more_details_url, Share takes full width */}
             <Button
               onClick={handleShare}
-              className={`bg-gray-200 text-black hover:bg-gray-300 flex items-center justify-center ${
-                offer.more_details_url ? "w-1/2" : "w-full"
-              } h-12`}
+              className={`bg-gray-200 text-black hover:bg-gray-300 flex items-center justify-center ${offer.more_details_url ? "w-1/2" : "w-full"
+                } h-12`}
             >
               <Share2 className="mr-2 h-4 w-4" />
               Share
