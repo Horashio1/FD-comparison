@@ -33,12 +33,10 @@ interface SupabaseOffer {
   discount?: string
   offer_validity?: string
   more_details_url?: string
-  banks: {
-    logo: string
-  }
+  banks: Bank | Bank[] // Can be either a single Bank or an array of Banks
   card_offer_categories: {
     name: string
-  }
+  }[] // Change to array
 }
 
 interface Offer {
@@ -157,8 +155,10 @@ export default function Page() {
           discount: offer.discount,
           offer_validity: offer.offer_validity,
           more_details_url: offer.more_details_url,
-          bank_logo: offer.banks?.logo || "",
-        }))
+          bank_logo: Array.isArray(offer.banks)
+          ? (offer.banks[0]?.logo || "")
+          : (offer.banks?.logo || ""),
+                }))
 
         // 4) Preload images
         const bankLogos = fetchedBanks.map((b) => b.logo).filter(Boolean)

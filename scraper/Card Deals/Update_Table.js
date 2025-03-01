@@ -1,9 +1,10 @@
-require('dotenv').config({ path: '../../.env' });
+import dotenv from 'dotenv';
+import fs from 'fs';
+import path from 'path';
+import csvParser from 'csv-parser';
+import { supabase } from '../../supabaseClient';
 
-const fs = require('fs');
-const path = require('path');
-const csvParser = require('csv-parser');
-const { supabase } = require('../../supabaseClient');
+dotenv.config({ path: '../../.env' });
 
 const currentTimestamp = new Date();
 currentTimestamp.setTime(currentTimestamp.getTime() + (5.5 * 60 * 60 * 1000)); // Add 5.5 hours
