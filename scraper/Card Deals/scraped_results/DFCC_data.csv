@@ -1,78 +1,39 @@
 bank_id,category_id,offer_title,merchant_details,offer_details_1,offer_validity,discount,image_url,more_details_url
-7,1,Subway,Subway,"Offer: 20% Savings on dine-in & takeaway at Subway with DFCC Credit Cards.
-Offer Period: Every Tuesday from 11th to 25th February 2025
-Locations: Rajagiriya, Col. 03, Mt. Lavinia & Havelock City Mall
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Every Tuesday from 11th to 25th February 2025,20% Savings on dine-in & takeaway at Subway with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/11/24104612/400-X-225_Subway.jpg,https://www.dfcc.lk/promotions/subway-2-2/
-7,1,Popeyes,Popeyes,"Offer: 20% Savings on dine-in & takeaway at Popeyes with DFCC Credit Cards.
-Offer Dates: Every Tuesday from 11th to 25th February 2025
-Locations: All Popeyes Outlets
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Every Tuesday from 11th to 25th February 2025,20% Savings on dine-in & takeaway at Popeyes with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/04/07052703/Popeyes-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/popeyes-2/
-7,1,Crystal Jade,Crystal Jade,"Offer: 25% Savings on dine-in & takeaway at Crystal Jade with DFCC Credit Cards.
-Offer Period: Every Tuesday from 11th to 25th February 2025
-Location: One Galle Face Mall
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Every Tuesday from 11th to 25th February 2025,25% Savings on dine-in & takeaway at Crystal Jade with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/07/07053509/Crystal-Jade-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/crystal-jade-2/
-7,1,Burger King,Burger King,"Offer: 20% Savings on dine-in & takeaway at Burger King with DFCC Credit Cards.
-Offer Period: Every Tuesday from 11th to 25th February 2025
-Locations: All Burger King Outlets
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Every Tuesday from 11th to 25th February 2025,20% Savings on dine-in & takeaway at Burger King with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/04/06094621/Burger-King-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/burger-king-2-2/
-7,1,Delifrance,Delifrance,"Offer: 20% Savings on dine-in & takeaway at Delifrance with DFCC Credit Cards.
-Offer Period: Every Tuesday from 11th to 25th February 2025
-Locations: All Delifrance Outlets
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Every Tuesday from 11th to 25th February 2025,20% Savings on dine-in & takeaway at Delifrance with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/07/30055755/400-X-225_Delifrance.jpg,https://www.dfcc.lk/promotions/delifrance-2/
-7,1,Baskin Robbins,Baskin Robbins,"Offer: 20% Savings on dine-in & takeaway at Baskin Robbins with DFCC Credit Cards.
-Offer Period: Every Tuesday from 11th to 25th February 2025
-Locations: All Baskin Robins Outlets
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Every Tuesday from 11th to 25th February 2025,20% Savings on dine-in & takeaway at Baskin Robbins with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/02/07051946/Baskin-Robbins-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/baskin-robbins-3/
-7,1,Hilton Colombo Residences,Hilton Colombo Residences,"Offer: 20% Savings on dine-in at Hilton Colombo Residences Dining Restaurants with DFCC Credit Cards.
-Participating Restaurants:
-1. Basico Bar & Lounge
-2. Flow
-Offer Period: 22nd January to 28th February 2025
-Blackout Date: 08th February 2025
-Maximum Bill Value: Rs. 80,000/- per cardholder
-Reservations Number: 0115 344 644
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 22 January 2025 - 28 February 2025.,20% Savings on dine-in at Hilton Colombo Residences Dining Restaurants with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/01/20110743/Hilton-Residences-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/hilton-colombo-residencies/
-7,1,Burger Hangover,Burger Hangover,"Offer: 20% Savings on dine-in & takeaway at Burger Hangover for bills above Rs. 2,500/- exclusively with DFCC Credit Cards
-Offer period: 25th January to 28th February 2025
-Location: No. 562/12, Lower Bagatala Road, Colombo 03
-Maximum Bill Value: Rs. 20,000/- per cardholder, per day
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 25 January 2025 - 28 February 2025.,"20% Savings on dine-in & takeaway at Burger Hangover for bills above Rs. 2,500/- exclusively with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/11/22115142/Burger-Hangover-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/burger-hangover/
-7,1,Waters Edge Restaurants,Waters Edge Restaurants,"Offer: 20% Savings on dine-in at Water’s Edge Restaurants with DFCC Credit Cards.
-*The offer is valid only on food.
-Participating Restaurants:
-1.Pranzo
-2.Thuna Paha
-3.The Bavarian Garden
-4.Boardwalk
-5.Bakery at the Edge (Full Cakes)
-6.Bakery at the Lake (Full Cakes)
-Offer Period: 01st January to 28th February 2025
-Blackout Date: 14th February 2025
-Maximum Bill Value: Rs. 35,000/- per cardholder.
-Reservations Number: 0112 863 863
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Pinnacle & Corporate Credit Cards)",Valid from 1 January 2025 - 28 February 2025.,20% Savings on dine-in at Water's Edge Restaurants with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/07/05074209/400-X-225_Waters-Edge.jpg,https://www.dfcc.lk/promotions/waters-edge-restaurants/
-7,1,The Blue Water Hotel & Spa,The Blue Water Hotel & Spa,"Offer: 15% Savings on dine-in at The Blue Water Hotel & Spa, Wadduwa – Dining Restaurants with DFCC Credit Cards
-Participating Restaurants:
-1. Dragon Boat Restaurant
-2. Admiral’s Room
-3. Seven Seas Coffee Shop
-Offer Period: 22nd January to 28th February 2025
-Reservation Numbers: 076 889 3696 / 074 363 8943
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 22 January 2025 - 28 February 2025.,"15% Savings on dine-in at The Blue Water Hotel & Spa, Wadduwa - Dining Restaurants with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/01/23101550/The-Blue-Water-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/the-blue-water-hotel-spa-wadduwa/
-7,1,Döner & Dürüm,Döner & Dürüm,"Offer: 25% Savings on dine-in & takeaway at Doner & Durum with DFCC Credit Cards.
-Offer Period: 25th January to 28th February 2025
-Locations:
-1. No. 128, Thimbirigasyaya Road, Colombo 05.
-2. No. 534/4, Madiwela Road, Thalawathugoda.
-Maximum Bill Value: Rs. 30, 000/- per cardholder
-Reservations Numbers: 0779977993 (Colombo 05)/ 0783977790 (Thalawathugoda)
-Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Valid from 25 January 2025 - 28 February 2025.,25% Savings on dine-in & takeaway at Doner & Durum with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/01/23111012/Doner-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/doner-durum/
-7,1,Ceylon Curry Club,Ceylon Curry Club,"Offer: 20% Savings on dine-in at The Ceylon Curry Club with DFCC Credit Cards
-Offer Period: 01st to 28th February 2025
+7,1,Tilapiya – Colombo,Tilapiya – Colombo,"Offer: 15% Savings on the A la carte menu for dine-in at Tilapiya – Colombo with DFCC Credit Cards.
+Offer Period: 17th February to 30th April 2025
+Offer Validity:
+-Monday to Sunday (Lunch: 12pm – 5pm)
+-Sunday to Wednesday (Dinner: 6pm – 11pm)
 Maximum Bill Value: Rs. 30,000/- per cardholder
-Location: No. 02, Dutch Hospital Shopping Precinct, Colombo 01.
-Reservation Number: 0773 393 391/ 0114 266 363
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 February 2025 - 28 February 2025.,20% Savings on dine-in at The Ceylon Curry Club with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/18114956/Ceylon-Curry-Club-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/ceylon-curry-club/
+Location: No. 11B, MS 4 Mini Stand, Phillip Gunewardana Mawatha, Colombo 07.
+Reservation Number: 0779 494 394",Valid from 17 February 2025 - 30 April 2025.,15% Savings on the A la carte menu for dine-in at Tilapiya - Colombo with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/02/20091455/Tilapiya-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/tilapiya-colombo/
+7,1,Cinnamon Grand Colombo Restaurants,Cinnamon Grand Colombo Restaurants,"Offer 01: 20% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Credit Cards (Excluding Pinnacle Credit Cardholders)
+* Maximum Discount: Rs. 7,000/- per cardholder
+Offer 02: 30% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Pinnacle Credit Cards.
+* Maximum Discount: Rs. 10,000/- per cardholder
+Participating Restaurants:
+Plates
+The Lagoon
+The London Grill
+Cheers Pub
+Nuga Gama
+Plates
+The Lagoon
+The London Grill
+Cheers Pub
+Nuga Gama
+Offer Period: 01st to 31st March 2025
+Reservation Number: 0112 437 437",Valid from 1 March 2025 - 31 March 2025.,Up to 30% Savings on dine-in at Cinnamon Grand Colombo Restaurants with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/06/04114609/Cinnamon-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/cinnamon-grand-colombo-restaurants/
+7,2,"Amaara Forest Hotel, Sigiriya","Amaara Forest Hotel, Sigiriya","Offer: 30% Savings at Amaara Forest Hotel Sigiriya on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
+Booking & Stay Period: 01st January to 31st March 2025
+Reservations Website: www.amaarahotels.com by using Promo code DFCCC.
+Reservations Number: 0770 038 312
+Eligible Card Categories: All DFCC Credit Cardholders",Valid from 1 January 2025 - 31 March 2025.,30% Savings at Amaara Forest Hotel Sigiriya on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/01/27065919/400-x-225-amaara-forest.jpg,https://www.dfcc.lk/promotions/amaara-forest-hotel-sigiriya-4/
+7,2,Amaara Sky Hotel – Kandy,Amaara Sky Hotel – Kandy,"Offer: 30% Savings at Amaara Sky Hotel Kandy on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
+Booking & Stay Period: 01st January to 31st March 2025
+Reservations Website: www.amaarahotels.com by using Promo code DFCCC.
+Reservations Number: 0770 038 312
+Eligible Card Categories: All DFCC Credit Cardholders",Valid from 1 January 2025 - 31 March 2025.,30% Savings at Amaara Sky Hotel Kandy n half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/02/20113127/400-x-225-amaara-sky.jpg,https://www.dfcc.lk/promotions/amaara-sky-hotel-kandy-6/
 7,2,Empire Hotels,Empire Hotels,"Offer: 30% Savings at Empire Hotels on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards.
 Booking & Stay Period: 11th February to 31st March 2025
 Participating Properties:
@@ -97,40 +58,14 @@ Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Card
 Booking & Stay Period: 01st January to 31st March 2025
 Reservations Number: 0662 030 300
 Eligible Card Categories: All DFCC Credit Cards (Excluding DFCC Corporate Credit Cards)",Valid from 1 January 2025 - 31 March 2025.,35% Savings at Tropical Life Resort & Spa Dambulla with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/14111855/Tropical-Life-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/tropical-life-resort-spa-dambulla/
-7,2,Amaara Forest Hotel – Sigiriya,Amaara Forest Hotel – Sigiriya,"Offer: 30% Savings at Amaara Forest Hotel, Sigiriya on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
-Booking & Stay Period: 01st January to 31st March 2025
-Reservations Website: www.amaarahotels.com by using Promo code: DFCCC.
-Reservations Number: 0770 038 312
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 January 2025 - 31 March 2025.,"30% Savings at Amaara Forest Hotel, Sigiriya with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/02/20112323/400-x-225-amaara-forest.jpg,https://www.dfcc.lk/promotions/amaara-forest-hotel/
-7,2,Amaara Sky Hotel – Kandy,Amaara Sky Hotel – Kandy,"Offer: 30% Savings at Amaara Sky Hotel Kandy on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
-Booking & Stay Period: 01st January to 31st March 2025
-Reservations Website: www.amaarahotels.com by using promo code DFCCC.
-Reservations Number: 0770 038 312
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 January 2025 - 31 March 2025.,30% Savings at Amaara Sky Hotel Kandy with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/02/20113127/400-x-225-amaara-sky.jpg,https://www.dfcc.lk/promotions/amaara-sky-hotel-kandy-4/
 7,3,Keells,Keells,"Offer: 30% Savings on fresh Vegetables, Fruits, Seafood and Meat at all Keells outlets for bills over Rs. 5,000/- with DFCC Credit Cards.
-Offer Period: Every Monday from 03rd to 24th February 2025
+Offer Period: Every Monday from 03rd to 24th March 2025
 Maximum Savings: Rs. 1,500/-
 Minimum Bill Value: Rs. 5,000/-
 Maximum Quantity: 3Kg or 3 units from each item
 Validity: Valid only for 01 transaction per cardholder per day
 Exempted Items: Packed or processed vegetables, fruits, seafood & meat
 Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Every Monday from 03rd to 24th February 2025,"30% Savings on fresh Vegetables, Fruits, Seafood and Meat at all Keells outlets for bills over Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/06/18052446/400-x-225-Keells.jpg,https://www.dfcc.lk/promotions/keells-5/
-7,3,LAUGFS SUPER,LAUGFS SUPER,"Offer: 10% Savings on the Total Bill at Laugfs Super for bills over Rs. 5,000/- with DFCC Credit Cards.
-Offer Period: Every Tuesday from 07th January to 25th February 2025
-Maximum Savings: Rs. 1,500/-
-Minimum Bill Value: Rs 5,000/-
-Maximum Quantity: 3kg/ 3 units each from the categories of milk powder, rice, sugar, dhal & flour.
-Other Products: Maximum quantity of 3kg/ 3 units per item.
-Validity: Valid only for 01 transaction per cardholder per day.
-Exempted Items: Liquor, tobacco, pharmaceuticals, existing discounted products, gift vouchers, hampers, gas purchases & utility bill payments.
-Eligible Card Categories: All DFCC Credit Cards (excluding DFCC Corporate Credit Cards)",Every Tuesday from 07th January to 25th February 2025,"10% Savings on the Total Bill at Laugfs Super for bills over Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/09/12090402/400-x-225-Laugfs.jpg,https://www.dfcc.lk/promotions/laugfs-super-2/
-7,3,Arpico Super Centres,Arpico Super Centres,"Offer: 30% Savings on fresh Vegetables, Fruits, Seafood and Meat at Arpico Super Centres and Daily outlets for bills above Rs. 5,000/- with DFCC Credit Cards.
-Offer Period: Every Thursdays from 06th to 20th February 2025
-Maximum Savings: Rs. 1,500/-
-Maximum Quantity: 3Kg or 3 units from each eligible item
-Exempted Items: Potatoes, coconut, big onion, whole chicken, and packaged vegetables, fruits, seafood, and processed meat.
-Validity: Valid only for 01 transaction per cardholder per day
-Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Every Thursdays from 06th to 20th February 2025,"30% Savings on fresh Vegetables, Fruits, Seafood and Meat at Arpico Super Centres and Daily outlets for bills above Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/05073746/Arpico-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/arpico-super-centres-3/
 7,3,GLOMARK Supermarkets,GLOMARK Supermarkets,"Offer: 25% Savings at GLOMARK Supermarkets & www.glomark.lk for bills above Rs. 7,500/- with DFCC Credit Cards.
 Offer Dates: 07th & 21st February and 07th & 21st March 2025
 Maximum Savings: Rs. 5,000/-
@@ -138,6 +73,28 @@ Exempted Items: Milk foods, eggs, milk powder, over-the-counter products, malt 
 Maximum Quantity: Maximum 5 units/5kg per product
 Validity: Valid only for 01 transaction per cardholder per day
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",07th & 21st February and 07th & 21st March 2025,"25% Savings at GLOMARK Supermarkets & www.glomark.lk for bills above Rs. 7,500/- with DFCC Credit Cards",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/09/26053934/400-x-225-Glomark.jpg,https://www.dfcc.lk/promotions/glomark-supermarkets-2/
+7,4,Dilshan Drapers,Dilshan Drapers,"Offer: 15% Savings on selected Curtains and Furniture Fabrics with 12 & 24 Months 0% Easy Payment Plans at Dilshan Drapers with DFCC Credit Cards.
+Offer Period: 01st March to 30th April 2025
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 March 2025 - 30 April 2025.,15% Savings on selected Curtains and Furniture Fabrics with 12 & 24 Months 0% Easy Payment Plans at Dilshan Drapers with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/02/25115213/Dilshan-Drapers-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/dilshan-drapers/
+7,4,Alpha Industries,Alpha Industries,"Offer: 12 & 24 Months 0% Easy Payment Plans at Alpha Industries with DFCC Credit Cards.
+Offer Period: 01st February to 30th April 2025
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
+Easy Payment Plan Setup Fee and Transaction Limits:
+
+Tenure	12 Months
+
+Easy Payment Plan
+
+	24 Months
+
+Easy Payment Plan
+
+
+Minimum Transaction Value	Rs. 25,000/-	Rs. 100,000/-
+Maximum Transaction Value	Rs. 1,000,000/-	Rs. 1,000,000/-
+P.M Processing Fee	0%	0%
+Setup Fee	Rs. 2,500/-	Rs. 4,000/-",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Alpha Industries with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/02/20061739/Alpha-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/alpha-industries/
 7,4,Softlogic Furniture,Softlogic Furniture,"Offer: 12 & 24 Months 0% Easy Payment Plans at Softlogic Furniture with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All Softlogic Furniture showrooms
@@ -190,7 +147,7 @@ Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 
 Offer Period: 01st February to 30th April 2025
 Locations: All Dinapala showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Dinapala showrooms with DFCC Credit Cards.,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/dinapala-group-epp/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Dinapala showrooms with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/09/03090435/Dinapalapala-Group-Online-Hall-Thumb.jpg,https://www.dfcc.lk/promotions/dinapala-group-epp/
 7,4,Fits Retail,Fits Retail,"Offer: 12 & 24 Months 0% Easy Payment Plans at Fits Retail with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Location: No. 9, Abdul Caffor Mawatha, Colombo 03.
@@ -209,12 +166,12 @@ Locations: One Galle Face Mall & Thalawathugoda",Valid from 4 August 2021,12 Mon
 Offer Period: 01st February to 30th April 2025
 Locations: All Häfele showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Häfele with DFCC Credit Cards.,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/hafele/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Häfele with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/04101651/Hafele-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/hafele/
 7,4,Lanka Tiles,Lanka Tiles,"Offer: 12 & 24 Months 0% Easy Payment Plans at Lankatiles showrooms with DFCC Credit Cards
 Offer Period: 01st February to 30th April 2025
 Locations: All Lankatiles showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Lankatiles showrooms with DFCC Credit Cards,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/lanka-tiles/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Lankatiles showrooms with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/12/25105134/Lanka-Tiles-Web-Banners_400-X-225-2.jpg,https://www.dfcc.lk/promotions/lanka-tiles/
 7,4,Nisaco,Nisaco,"Offer: 12 & 24 Months 0% Easy Payment Plans at Nisaco showrooms with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All Nisaco showrooms
@@ -224,37 +181,37 @@ Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 
 Offer Period: 01st February to 30th April 2025
 Locations: All Rocell showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Rocell Ceramics with DFCC Credit Cards.,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/rocell/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Rocell Ceramics with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/05042622/Rocell-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/rocell/
 7,4,Singer,Singer,"Offer: 12 & 24 Months 0% Easy Payment Plans at Singer with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All Singer Showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Singer with DFCC Credit Cards.,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/singer-4/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Singer with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/09/04063241/Singer-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/singer-4/
 7,4,Singer Mega,Singer Mega,"Offer: 12 & 24 Months 0% Easy Payment Plans at Singer Mega with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All Singer Mega Showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Singer Mega with DFCC Credit Cards.,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/singer-mega/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Singer Mega with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/08/12095706/Singer-Mega-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/singer-mega/
 7,4,www.singersl.com,www.singersl.com,"Offer: 12 & 24 Months 0% Easy Payment Plans www.singersl.com with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Website: www.singersl.com
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans www.singersl.com with DFCC Credit Cards,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/www-singersl-com/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans www.singersl.com with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/09/06041251/400-X-225_Singer.lk_.jpg,https://www.dfcc.lk/promotions/www-singersl-com/
 7,4,Seetha Holdings,Seetha Holdings,"Offer: 12 & 24 Months 0% Easy Payment Plans at Seetha Holdings with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All Seetha Holdings showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Seetha Holdings with DFCC Credit Cards.,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/seetha-holdings-epp/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Seetha Holdings with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/06/29110256/400-x-225-Seetha.jpg,https://www.dfcc.lk/promotions/seetha-holdings-epp/
 7,4,Softlogic,Softlogic,"Offer: 12 & 24 Months 0% Easy Payment Plans at Softlogic showrooms with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All Softlogic showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Softlogic showrooms with DFCC Credit Cards,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/softlogic-epp/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Softlogic showrooms with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/05/26025700/Softlogic-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/softlogic-epp/
 7,4,Softlogic Max,Softlogic Max,"Offer: 12 & 24 Months 0% Easy Payment Plans at Softlogic MAX with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All Softlogic MAX Showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Softlogic MAX with DFCC Credit Cards.,"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E",https://www.dfcc.lk/promotions/softlogic-max-epp/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Softlogic MAX with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/06/26115116/400-x-225-Softlogic-Max.jpg,https://www.dfcc.lk/promotions/softlogic-max-epp/
 7,4,www.mysoftlogic.lk,www.mysoftlogic.lk,"Offer: 12 & 24 Months 0% Easy Payment Plans www.softlogic.lk with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Website: www.softlogic.lk

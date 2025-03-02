@@ -1,116 +1,191 @@
 bank_id,category_id,merchant_details,offer_details_1,offer_validity,discount,image_url,more_details_url
-12,1,Waters Edge – Thuna Paha,"25% Off for Signature Cards
-20% Off for Gold and Platinum Cards
-Offer Valid until 28th February 2025.",Until 28th Feb,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2022/06/thuna_paha.jpg,https://www.unionb.com/offer/waters-edge-thuna-paha/
+12,1,Waters Edge-Pranzo,"25% Off for Signature Cards.
+20% Off for Gold and Platinum Cards.
+Offer Valid until 31st March 2025.",Until 31st March,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/03/Pranzo-logo-1-e1693818925920.jpg,https://www.unionb.com/offer/waters-edge-pranzo/
+12,1,Uber Eats,"35% off on first two orders.
+Promo Code: ub1050
+Eligibility: All Union Bank Credit Cards for existing users.
+Offer valid Until 31st March 2025.",Until 31st March,35% OFF,https://www.unionb.com/wp-content/uploads/2025/02/UBER-Eats-Logo-e1740634830809.jpg,https://www.unionb.com/offer/uber-eats-2/
+12,1,Uber Eats (New Users),"55% off on first two orders.
+Promo Code: ub55
+Eligibility: All Union Bank Credit Cards for new Uber Eats users.
+Offer valid Until 31st March 2025.",Until 31st March,55% OFF,https://www.unionb.com/wp-content/uploads/2025/02/UBER-Eats-Logo-e1740634830809.jpg,https://www.unionb.com/offer/uber-eats/
+12,1,Waters Edge – Thuna Paha,"25% Off for Signature Cards.
+20% Off for Gold and Platinum Cards.
+Valid on Food only, Excludes all baverages.
+Offer valid until 30th April 2025.",Until 30th April,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2022/06/thuna_paha.jpg,https://www.unionb.com/offer/waters-edge-thuna-paha/
 12,1,Cinnamon Grand Colombo – Plates,"30% off on Signature credit cards.
 20% off on Gold and Platinum credit cards.
-Maximum discount Rs. 10,000. per cardholder.
-This offer is valid only for dine-in.
-Offer valid until 28th February 2025.",Until 28th Feb,Up to 30% OFF,https://www.unionb.com/wp-content/uploads/2022/10/Plates-1-2-e1693980463605.jpeg,https://www.unionb.com/offer/cinnamon-grand-plates/
-12,1,Taj Samudra Colombo – Navratna,"50% for Signature Cards and 30% for Gold and Platinum cards. (Valid on Food only)
-Max. discount Rs. 10,000.
-Discount will be offered on only one transaction Per card / Per day.
-Offer valid until 28th February 2025.",Until 28th Feb,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2022/11/navaratna-e1667371963168.png,https://www.unionb.com/offer/taj-samudra-navaratna/
-12,1,Taj Samudra Colombo – Golden Dragon,"50% for Signature Cards and 30% for Gold and Platinum cards. (Valid on Food only)
-Max. discount Rs. 10,000.
-Discount will be offered on only one transaction Per card / Per day.
-Offer valid until 28th February 2025.",Until 28th Feb,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2022/11/tajgoldendragon-1-e1667452582489.jpg,https://www.unionb.com/offer/taj-samudra-golden-dragon/
-12,1,Taj Samudra Colombo – Ports of Call,"50% for Signature Cards and 30% for Gold and Platinum cards. (Valid on Food only)
-Max. discount Rs. 10,000.
-Discount will be offered on only one transaction Per card / Per day.
-Offer valid until 28th February 2025.",Until 28th Feb,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2022/11/tajportofcall-logo-4.jpg,https://www.unionb.com/offer/taj-samudra-ports-of-call/
+This offer is valid only for dinner.
+Call 0112437437 for reservations.
+Offer valid until 30th April 2025.",Until 30th April,Up to 30% OFF,https://www.unionb.com/wp-content/uploads/2022/10/Plates-1-2-e1693980463605.jpeg,https://www.unionb.com/offer/cinnamon-grand-plates/
+12,1,Taj Samudra Colombo – Navratna,"50% for Signature Cards and 30% for Gold and Platinum cards.
+Max. discount Rs. 15,000.
+Offer valid until 30th April 2025.",Until 30th April,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2022/11/navaratna-e1667371963168.png,https://www.unionb.com/offer/taj-samudra-navaratna/
+12,1,Taj Samudra Colombo – Golden Dragon,"50% for Signature Cards and 30% for Gold and Platinum cards.
+Max. discount Rs. 15,000.
+Offer valid until 30th April 2025.",Until 30th April,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2022/11/tajgoldendragon-1-e1667452582489.jpg,https://www.unionb.com/offer/taj-samudra-golden-dragon/
+12,1,Taj Samudra Colombo – Ports of Call,"50% for Signature Cards and 30% for Gold and Platinum cards.
+Max. discount Rs. 15,000.
+Offer valid until 30th April 2025.",Until 30th April,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2022/11/tajportofcall-logo-4.jpg,https://www.unionb.com/offer/taj-samudra-ports-of-call/
+12,1,Lagoon Cinnamon Grand,"30% off on Signature credit cards.
+20% off on Gold and Platinum credit cards.
+This offer is valid only for dinner.
+Call 0112437437 for reservations.
+Offer valid until 30th April 2025.",Until 30th April,Up to 30% OFF,https://www.unionb.com/wp-content/uploads/2023/10/Lagoon-Cinnamon-Grand.jpg,https://www.unionb.com/offer/villa-lagoonscape-negombo/
 12,1,Waters Edge – Bakery at the Edge,"25% Off for Signature Cards.
 20% Off for Gold and Platinum Cards.
 Offer valid on Full Cakes.
-Offer Valid until 28th February 2025.",Until 28th Feb,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/02/Bakery-Logo_-e1676012095654.jpg,https://www.unionb.com/offer/bakery-at-the-edge/
-12,1,Waters Edge – Broadwalk & Bavarian Garden,"25% Off for Signature Cards
-20% Off for Gold and Platinum Cards
-Offer Valid until 28th February 2025.",Until 28th Feb,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/02/BB-Logo-01-e1693808640148.jpg,https://www.unionb.com/offer/bavarian-garden/
+Offer Valid until 30th April 2025.",Until 30th April,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/02/Bakery-Logo_-e1676012095654.jpg,https://www.unionb.com/offer/bakery-at-the-edge/
+12,1,Waters Edge – Broadwalk & Bavarian Garden,"25% Off for Signature Cards.
+20% Off for Gold and Platinum Cards.
+Valid on Food only, Excludes all baverages.
+Offer valid until 30th April 2025.",Until 30th April,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/02/BB-Logo-01-e1693808640148.jpg,https://www.unionb.com/offer/bavarian-garden/
 12,1,Waters Edge – Bakery at the Lake,"25% Off for Signature Cards.
 20% Off for Gold and Platinum Cards.
 Offer valid on Full Cakes.
-Offer Valid until 28th February 2025.",Until 28th Feb,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/02/Bakery-AT-The-Lake-e1676012173825.png,https://www.unionb.com/offer/bakery-at-the-lake/
-12,1,Waters Edge-Pranzo,"25% Off for Signature Cards.
-20% Off for Gold and Platinum Cards.
-Offer Valid until 28th February 2025.",Until 28th Feb,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/03/Pranzo-logo-1-e1693818925920.jpg,https://www.unionb.com/offer/waters-edge-pranzo/
+Offer Valid until 30th April 2025.",Until 30th April,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/02/Bakery-AT-The-Lake-e1676012173825.png,https://www.unionb.com/offer/bakery-at-the-lake/
 12,1,Cinnamon Grand Colombo – Cheers Pub,"30% off on Signature credit cards.
 20% off on Gold and Platinum credit cards.
-Maximum discount Rs. 10,000. per cardholder.
-This offer is valid only for dine-in.
-Offer valid until 28th February 2025.",Until 28th Feb,Up to 30% OFF,https://www.unionb.com/wp-content/uploads/2023/05/Cheers-Pub-01-1-e1683187499751.png,https://www.unionb.com/offer/cinnamon-grand-colombo-cheers-pub/
-12,1,Waters Edge – Dine at Home,"25% Off for Signature Cards
-20% Off for Gold and Platinum Cards
-Offer Valid until 28th February 2025.",Until 28th Jan,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/08/Dine-at-home-e1693479340421.png,https://www.unionb.com/offer/waters-edge-home-delivery/
-12,1,Cinnamon Grand Colombo – Breeze Bar,"30% off on Signature credit cards.
-20% off on Gold and Platinum credit cards.
-Maximum discount Rs. 10,000. per cardholder.
-This offer is valid only for dine-in.
-Offer valid until 28th February 2025.",Until 28 Feb,Up to 30% OFF,https://www.unionb.com/wp-content/uploads/2023/09/Breeze-Bar-01-e1693981077748.png,https://www.unionb.com/offer/cinnamon-grand-colombo-breeze-bar/
-12,1,Taj Samudra Colombo – YUMI,"50% for Signature Cards and 30% for Gold and Platinum cards. (Valid on Food only)
-Max. discount Rs. 10,000.
-Discount will be offered on only one transaction Per card / Per day.
-Offer valid until 28th February 2025.",Until 28th Feb,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2023/09/YUMI-Logo-e1695874030966.png,https://www.unionb.com/offer/taj-samudra-colombo-yumi/
+This offer is valid only for dinner.
+Call 0112437437 for reservations.
+Offer valid until 30th April 2025.",Until 30th April,Up to 30% OFF,https://www.unionb.com/wp-content/uploads/2023/05/Cheers-Pub-01-1-e1683187499751.png,https://www.unionb.com/offer/cinnamon-grand-colombo-cheers-pub/
+12,1,Waters Edge – Dine at Home,"25% Off for Signature Cards.
+20% Off for Gold and Platinum Cards.
+Valid on Food only, Excludes all baverages.
+Offer valid until 30th April 2025.",Until 30th April,Up to 25% OFF,https://www.unionb.com/wp-content/uploads/2023/08/Dine-at-home-e1693479340421.png,https://www.unionb.com/offer/waters-edge-home-delivery/
+12,1,Taj Samudra Colombo – YUMI,"50% for Signature Cards and 30% for Gold and Platinum cards.
+Max. discount Rs. 15,000.
+Offer valid until 30th April 2025.",Until 30th April,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2023/09/YUMI-Logo-e1695874030966.png,https://www.unionb.com/offer/taj-samudra-colombo-yumi/
 12,1,Waters Edge – Diyantha Station,"25% Off for Signature Cards.
 20% Off for Gold and Platinum Cards.
-Offer Valid until 28th February 2025.",Until 28th Feb,Up to 25% off,https://www.unionb.com/wp-content/uploads/2024/07/Diyatha-Station.webp,https://www.unionb.com/offer/diyantha-station/
+Valid on Food only, Excludes all beverages.
+Offer valid until 30th April 2025.",Until 30th April,Up to 25% off,https://www.unionb.com/wp-content/uploads/2024/07/Diyatha-Station.webp,https://www.unionb.com/offer/diyantha-station/
 12,1,Nugagama – Cinnamon Grand,"Up to 50% off.
-Call 0112 437 437 for reservations.
-Offer valid until 28th February 2025.",Until 28th Feb,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2024/07/Nugagama-Cinnamon-Grand-1.jpg,https://www.unionb.com/offer/nugagama-cinnamon-grand/
-12,2,Suisse Hotels Kandy,"30% off (from the standard rates) on Full Board basis. (Valid on all cards)
-Website www.ekhohotels.com
-Promo Code: UB50
-Booking Period: 25th & 26th February 2025.
-Stay Period: 01st April to 31st October 2025.",25 & 26 Feb,30% OFF,https://www.unionb.com/wp-content/uploads/2025/02/Hotel-Suisse-color.png,https://www.unionb.com/offer/suisse-hotels-kandy/
-12,2,EKHO Sigiriya,"50% off (from the standard rates) on Full Board basis. (Valid on all cards)
-Website www.ekhohotels.com
-Promo Code: UB50
-Booking Period: 25th & 26th February 2025.
-Stay Period: 01st April to 31st October 2025.",25 & 26 Feb,50% OFF,https://www.unionb.com/wp-content/uploads/2025/02/EKHO_Sigiriya.png,https://www.unionb.com/offer/ekho-sigiriya/
-12,2,EKHO Lake House,"50% off (from the standard rates) on Full Board basis. (Valid on all cards)
-Website www.ekhohotels.com
-Promo Code: UB50
-Booking Period: 25th & 26th February 2025.
-Stay Period: 01st April to 31st October 2025.",25 & 26 Feb,50% OFF,https://www.unionb.com/wp-content/uploads/2025/02/EKHO_LakeHouse-1.png,https://www.unionb.com/offer/ekho-lake-house/
-12,2,EKHO Safari Tissamaharama,"50% off (from the standard rates) on Full Board basis. (Valid on all cards)
-Website www.ekhohotels.com
-Promo Code: UB50
-Booking Period: 25th & 26th February 2025.
-Stay Period: 01st April to 31st October 2025.",25 & 26 Feb,50% OFF,https://www.unionb.com/wp-content/uploads/2025/02/EKHO-Safari-Tissa-e1739501204723.png,https://www.unionb.com/offer/ekho-safari-tissamaharama/
-12,2,EKHO Surf Bentota,"50% off (from the standard rates) on Full Board basis
-Booking Period: 25th & 26th February 2025
-Stay Period: 01st April to 31st October 2025
-Website: www.ekhohotels.com
-Promo Code: UB50
-Offer valid for all Union Bank Credit Cards
-Maximum two rooms / two nights per card",25 & 26 Feb,50% off,https://www.unionb.com/wp-content/uploads/2020/07/ekho-main-logo.png,https://www.unionb.com/offer/ekho-surf-bentota/
-12,2,0% – Travel & Leisure,"Up to 24 months EMI Plans.
-Offer valid until 28th February 2025.",Until 28 Feb,Up to 24 Months EMI Plans,https://www.unionb.com/wp-content/uploads/2024/01/0-Logo-e1725513388610.png,https://www.unionb.com/offer/0-travel-leisure/
-12,2,Walaa Kulu by 98 Acres,"30% off (from the standard rates) on Bed & Breakfast basis.
-Booking Period: 10th to 28th February 2025
-Stay Period: 10th February to 31st March 2025
-Hotline: 0772944244",Until 28 Feb,30% OFF,https://www.unionb.com/wp-content/uploads/2025/02/Walaa-Kulu-by-98-Acres-e1739505517486.jpg,https://www.unionb.com/offer/walaa-kulu-by-98-acres/
-12,2,Le Maas Tota Villa,"30% off (from the standard rates) on Half Board & Full Board basis.
-Hotline: 0775 995 999.
-Booking Period: 10th to 28th February 2025
-Stay Period: 10th February to 31st March 2025",Until 28 Feb,30% OFF,https://www.unionb.com/wp-content/uploads/2025/02/LMT-Logo-1-e1739505710911.jpg,https://www.unionb.com/offer/le-maas-tota-villa/
-12,3,Laugfs Supermarkets,"10% off on bills above Rs. 5,000. Max. discount Rs. 1,000.
-Offer valid until 22nd February 2025 on Every Saturday.",Until 22nd Feb (Every Saturday),10% off on the total bill,https://www.unionb.com/wp-content/uploads/2019/08/laugfs-Super.jpg,https://www.unionb.com/offer/laugfs/
-12,3,Arpico,"20% off on bills above Rs. 5,000. Max. discount Rs. 2,000.
-Offer valid on 08th & 22nd February 2025.",08 & 22 Feb,20% off on total bill,https://www.unionb.com/wp-content/uploads/2021/03/Arpico-logo.png,https://www.unionb.com/offer/arpico-3/
-12,3,Keells – On Total Bill,"20% off on bills above Rs. 15,000. Max. discount Rs. 5,000.
-Offer valid for Union Bank Signature Credit Cards.
-Offer valid on 23rd February 2025.",23 Feb,20% off on total bill,https://www.unionb.com/wp-content/uploads/2021/03/keells.jpg,https://www.unionb.com/offer/keells-unilever-products/
-12,3,Glomark,"25% off on total bill for Credit Cards & 10% on Debit Cards. Max. discount Rs. 2,500.
-Minimum bill of Rs. 5,000 to be eligible.
+This offer is valid only for dinner.
+Call 0112437437 for reservations.
+Offer valid until 30th April 2025.",Until 30th April,Up to 50% OFF,https://www.unionb.com/wp-content/uploads/2024/07/Nugagama-Cinnamon-Grand-1.jpg,https://www.unionb.com/offer/nugagama-cinnamon-grand/
+12,2,Sigiriya Jungles,"35% on weekdays and 30% on weekends and holidays HB or FB basis.
+Maximum 2 rooms per card.
+One transaction per day/ Per card at each partnering merchant.
+For Reservations 0114 508 508.
+Offer valid until 30th April 2025.",Until 30th April,Up to 35% OFF,https://www.unionb.com/wp-content/uploads/2024/07/Sigiriya-Jungles-logo-1-e1721285287959.jpg,https://www.unionb.com/offer/sigiriya-jungles/
+12,2,Wild Escape – Yala,"10% off on full villa bookings.
+Maximum 2 rooms per card.
+One transaction per day/ Per card at each partnering merchant.
+For Reservations 0114 508 508.
+Offer valid until 30th April 2025.",Until 30th April,10% OFF,https://www.unionb.com/wp-content/uploads/2024/07/WildEscape-Logo-e1721285880808.jpg,https://www.unionb.com/offer/wild-escape-yala/
+12,3,Uber Eats (Supermarkets),"35% off on first two grocery orders
+Promo Code: ub1750
+Offer valid Until 31st March 2025.
+Eligibility: All Union Bank Credit Cards for existing users.",Until 31st March,35% OFF,https://www.unionb.com/wp-content/uploads/2025/02/UBER-Eats-Logo-e1740634830809.jpg,https://www.unionb.com/offer/uber-eats-supermarkets/
+12,4,Shirtworks,"30% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount Rs. 10,000 per card unless specified.
+One transaction per day/ Per card at each partnering merchant
+Offer valid on 10th & 11th March 2025.",10 & 11 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2018/12/shirt-works.jpg,https://www.unionb.com/offer/shirtworks/
+12,4,Crocodile,"30% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount Rs. 10,000 per card unless specified.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 10th & 11th March 2025.",10 & 11 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2020/03/crocodile.png,https://www.unionb.com/offer/crocodile/
+12,4,Emerald,"30% off on Credit Cards & 15% off on Debit Cards.
+Maximum discount Rs. 10,000 per card unless specified.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 10th & 11th March 2025.",10 & 11 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2022/10/Emerald-Logo-e1731479234191.png,https://www.unionb.com/offer/cinnamon-wild-yala/
+12,4,Sriyani Dress Point,"30% off on Credit Cards.
+Maximum discount Rs. 10,000 per card unless specified.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 13th & 14th March 2025.",13 & 14 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2023/03/Untitled-e1679058362411.png,https://www.unionb.com/offer/sriyani-dress-point/
+12,4,Shopimo,"25% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount Rs. 10,000 per card unless specified.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 15th & 16th March 2025.",15 & 16 Mar,25% Off,https://www.unionb.com/wp-content/uploads/2021/03/shopimo.jpg,https://www.unionb.com/offer/shopimo/
+12,4,Piyarathna Tex,"20% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount Rs. 10,000 per card unless specified.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on the 20th & 21st March 2025.",20 & 21 Mar,20% OFF,https://www.unionb.com/wp-content/uploads/2021/03/Piyaratne-tex.png,https://www.unionb.com/offer/priyantha-tex/
+12,4,Dilly & Carlo,"30% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount Rs. 15,000 per card.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 20th & 21st March 2025.",20 & 21 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2022/11/cq5dam.web_.880.1000.jpeg,https://www.unionb.com/offer/dilly-carlo/
+12,4,Uptown Liberty Plaza,"20% Off on Union Bank Credit Cards.
+Maximum discount Rs. 10,000 per card.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 21st & 22nd March 2025.",21 & 22 Mar,20% OFF,https://www.unionb.com/wp-content/uploads/2022/03/logo200x84png.png,https://www.unionb.com/offer/up-town-kandy/
+12,4,Stripes and Checks,"30% Off on Union Bank Credit Card.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid Online  www.stripesandchecksinc.com
+Offer valid on 21st & 22nd March 2025.",21 & 22 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2025/01/stripes-checks-logo.jpg,https://www.unionb.com/offer/stripes-and-checks/
+12,4,Zigzag,"30% off on Credit Cards & 15% off on Debit Cards.
+Maximum discount Rs. 10,000 per card.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid Online www.zigzag.lk
+Promo codes : Credit card – UBC30, Debit card – UB15.
+Offer valid on 21st & 23rd March 2025.",21 & 23 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2021/03/zig-zag.jpg,https://www.unionb.com/offer/zigzag/
+12,4,Molly,"20% Off on Credit Cards & 10% Off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
 Offer valid for all Union Bank Credit Cards.
-Visit online  www.glomark.lk
-Offer valid on every Sunday until 23rd February 2025.",Until 23rd Jan (Every Sunday),25% Off,https://www.unionb.com/wp-content/uploads/2019/04/Glomark.jpg,https://www.unionb.com/offer/32176/
-12,3,Cargills Foodcity,"10% off on bills above Rs. 8,000. Max. discount Rs. 1,000.
-Offer valid Every Friday until 25th February  2025.",Until 25th Feb,10% off on the total bill,https://www.unionb.com/wp-content/uploads/2021/04/1603180863682-1-e1693809462249.jpg,https://www.unionb.com/offer/cargills-mondays/
-12,3,Keells,"25% off on Fresh Produce on Credit Cards. Max. discount Rs. 1,500.
-Minimum bill of Rs. 4,000 to be eligible.
-Every Friday until 28th February 2025.",Until 28th Feb (Every Friday),25% off on Fresh Produce,https://www.unionb.com/wp-content/uploads/2021/03/keells.jpg,https://www.unionb.com/offer/keells-fridays/
-12,4,Vogue Jewellers,"45% Off on Diamond and Precious Stone- studded Jewellery.
-Offer valid until 28th February 2025.",Until 28th Feb,45% OFF,https://www.unionb.com/wp-content/uploads/2021/03/vogue.jpg,https://www.unionb.com/offer/vogue-jewellers/
-12,4,0% – Gadgets & Home Appliances,"Offer Valid Up to 24 months EMI Plans.
-Offer valid until 28th February 2025.",Until 28 Feb,Up to 24 Months EMI Plans,https://www.unionb.com/wp-content/uploads/2024/01/0-Logo-e1725513388610.png,https://www.unionb.com/offer/0-gadgets-home-appliances/
+Offer valid on 21st & 25th March 2025.",21 & 25 Mar,20% OFF,https://www.unionb.com/wp-content/uploads/2023/11/Untitled-2-e1731256060693.png,https://www.unionb.com/offer/molly/
+12,4,New Manel,"25% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 26th & 27th March 2025.",26 & 27 Mar,25% Off,https://www.unionb.com/wp-content/uploads/2024/03/New-Manel-Logo-e1710913620975.png,https://www.unionb.com/offer/new-manel/
+12,4,NOLIMIT,"30% Off on all Union Bank Credit Cards.
+Maximum discount available for bill value above Rs.10,000.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 28th March 2025.",28th Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2023/11/Nolimit-Logo.png,https://www.unionb.com/offer/nolimit/
+12,4,CIB,"20% off on Credit Cards | 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+Offer valid for all Union Bank Credit Cards.
+Offer valid from 29th & 30th March 2025.",29 & 30 Mar,20% OFF,https://www.unionb.com/wp-content/uploads/2021/03/CIB.jpg,https://www.unionb.com/offer/cib/
+12,4,CIB Curtains,"20% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+Offer valid for all Union Bank Credit Cards.
+Offer valid on 29th & 30th March 2025.",29 & 30 Mar,20% OFF,https://www.unionb.com/wp-content/uploads/2021/03/CIB-Curtains.jpg,https://www.unionb.com/offer/cib-curtains/
+12,4,Wijaya Saree Mandir,"20% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+Offer valid for all Union Bank Credit Cards.
+Offer valid on 29th & 30th March 2025.",29 & 30 Mar,20% OFF,https://www.unionb.com/wp-content/uploads/2021/10/Wijaya-Saree-e1635171627809.jpg,https://www.unionb.com/offer/wijaya-saree-mandir-2/
+12,4,Amante,"30% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 29th & 30th March 2025.",29 - 30 Mar,30% OFF,https://www.unionb.com/wp-content/uploads/2022/11/amante.jpg,https://www.unionb.com/offer/mas-amante/
+12,4,Wijaya House of Tailors,"20% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+Offer valid for all Union Bank Credit Cards.
+Offer valid on 29th & 30th March 2025.",29 & 30 Mar,20% OFF,https://www.unionb.com/wp-content/uploads/2022/03/House-of-tailors-e1647414198982.png,https://www.unionb.com/offer/house-of-tailors/
+12,4,AriElle,"20% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+Offer valid for all Union Bank Credit Cards.
+Offer valid on 29th & 30th March 2025.",29 & 30 Mar,20% Off,https://www.unionb.com/wp-content/uploads/2024/02/Ari.jpg,https://www.unionb.com/offer/arielle-3/
+12,4,Spring & Summer,"25% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 30th & 31st March 2025.",30 & 31 Mar,25% OFF,https://www.unionb.com/wp-content/uploads/2021/03/spring-and-summer.jpg,https://www.unionb.com/offer/spring-summer/
+12,4,Diliganz,"25% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 31st March & 01st April 2025.",31Mar & 01 Apr,25% OFF,https://www.unionb.com/wp-content/uploads/2023/03/Diliganz-e1679057984533.png,https://www.unionb.com/offer/diliganz/
+12,4,Dirali,"25% off on Credit Cards & 10% off on Debit Cards.
+Maximum discount available for bill value above Rs.10,000.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 31st March & 01st April 2025.",31Mar & 01 Apr,25% OFF,https://www.unionb.com/wp-content/uploads/2023/03/Dirali-e1679057789606.jpg,https://www.unionb.com/offer/dirali/
+12,4,Thilakma,"30% off on Credit Cards.
+Max Discount – LKR 10,000 per day/ Per Card.
+One transaction per day/ Per card at each partnering merchant
+Offer Valid on 01st & 02nd April 2025.",01 & 02 April,30% Off,https://www.unionb.com/wp-content/uploads/2022/03/thilakma-logo-grey-403215_header_logo.png,https://www.unionb.com/offer/thilakma/
+12,4,Isira Fashion,"25% Off on Credit Cards & 10% Off on Debit Cards.
+Maximum discount Rs. 10,000 per card.
+One transaction per day/ Per card at each partnering merchant.
+Offer valid on 24th March & 02nd April 2025.",24 Mar & 02 Apr,25% OFF,https://www.unionb.com/wp-content/uploads/2023/11/ISIRA-FASHION-e1710431034555.jpg,https://www.unionb.com/offer/isira-fashion/
+12,4,Singer Mega,"Up to 60% off on selected products – Credit & Debit Cards.
+Offer valid from 1st March to 30th April 2025.",1st March - 30th April,Up to 60% OFF,https://www.unionb.com/wp-content/uploads/2021/03/singer-mega.jpg,https://www.unionb.com/offer/singer-mega/
+12,4,Chamara Hardware,"50% Discount to Multilac brilliant white paint (Imcluding Emulsion, Weathergurd, 3in1, Wall filler)
+40% to Nippon Breeze Paint
+40% to Men Power Tools
+40% Nippon Primium Water Base
+25% to Anton Pvc
+25% Orange switches & Socktets
+15% to All of other General Hardware products
+Promotion Period: From 20th February to 31th April 2025
+Location: 51/62 Rukamale, Pannipitiya
+",Until 31st April,Up to 50% Off,https://www.unionb.com/wp-content/uploads/2025/02/Chamara-Hardwhere-e1740126526423.jpg,https://www.unionb.com/offer/chamara-hardware/
