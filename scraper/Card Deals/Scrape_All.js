@@ -8,11 +8,11 @@ const runUpdateTableAfterScrapers = true;
 // List of bank scrapers to run in sequence.
 // Comment any line out to skip that particular scraper.
 const scrapersToRun = [
-  { bankName: 'Amex', script: 'Amex.js' },
-  { bankName: 'BOC', script: 'BOC.js' },
-  { bankName: 'ComBank', script: 'Combank.js' },
-  { bankName: 'DFCC', script: 'DFCC.js' },
-  { bankName: 'HNB', script: 'HNB.js' },
+  // { bankName: 'Amex', script: 'Amex.js' }, // DID NOT WORK
+  // { bankName: 'BOC', script: 'BOC.js' }, // Need proper logs printed like Combank
+  // { bankName: 'ComBank', script: 'Combank.js' },
+  // { bankName: 'DFCC', script: 'DFCC.js' },
+  // { bankName: 'HNB', script: 'HNB.js' }, // DID NOT WORK
   { bankName: 'HSBC', script: 'HSBC.js' },
   { bankName: 'NDB', script: 'NDB.js' },
   { bankName: 'PeoplesBank', script: 'PeoplesBank.js' },

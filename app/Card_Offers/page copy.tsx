@@ -61,7 +61,7 @@ export default function Page() {
   const [categories, setCategories] = useState<Category[]>([])
   const [offers, setOffers] = useState<Offer[]>([])
 
-  // Initially, no bank is selected, but we will auto-select the first bank once data loads
+  // Initially, no bank or category is selected, but we will auto-select the first ones once data loads
   const [selectedBankId, setSelectedBankId] = useState<number | null>(null)
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null)
 
@@ -108,7 +108,7 @@ export default function Page() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
-  // ---- Single fetch to load banks, categories, offers, then preload images ----
+  // ---- Single fetch to load banks, categories, offers, then preload images for the initially selected bank and category ----
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -156,39 +156,47 @@ export default function Page() {
           offer_validity: offer.offer_validity,
           more_details_url: offer.more_details_url,
           bank_logo: Array.isArray(offer.banks)
-          ? (offer.banks[0]?.logo || "")
-          : (offer.banks?.logo || ""),
-                }))
+            ? (offer.banks[0]?.logo || "")
+            : (offer.banks?.logo || ""),
+        }))
 
-        // 4) Preload images
-        const bankLogos = fetchedBanks.map((b) => b.logo).filter(Boolean)
-        const categoryIcons = fetchedCategories.map((c) => c.icon_url).filter(Boolean)
-        const offerImages = fetchedOffers.map((o) => o.image_url).filter(Boolean)
+        // 4) Auto-select the first bank and first category if available
+        if (fetchedBanks.length > 0) {
+          setSelectedBankId(fetchedBanks[0].id)
+        }
+        if (fetchedCategories.length > 0) {
+          setSelectedCategoryId(fetchedCategories[0].id)
+        }
 
-        const allImages = [...bankLogos, ...categoryIcons, ...offerImages]
+        // 5) Preload images for initially selected bank, category, and related offers
+        const initialBankLogo = fetchedBanks.length > 0 ? [fetchedBanks[0].logo] : []
+        const initialCategoryIcon = fetchedCategories.length > 0 ? [fetchedCategories[0].icon_url] : []
+        const initialFilteredOffers = fetchedOffers.filter((offer) =>
+          fetchedBanks.length > 0 &&
+          fetchedCategories.length > 0 &&
+          offer.bank_id === fetchedBanks[0].id &&
+          offer.category_id === fetchedCategories[0].id
+        )
+        const initialOfferImages = initialFilteredOffers.map((o) => o.image_url).filter(Boolean)
+
+        const initialImages = [...initialBankLogo, ...initialCategoryIcon, ...initialOfferImages]
         await Promise.all(
-          allImages.map((url) => {
+          initialImages.map((url) => {
             return new Promise<void>((resolve) => {
               const img = new window.Image()
               img.src = url
-              // Resolve on either load or error
               img.onload = () => resolve()
               img.onerror = () => resolve()
             })
           })
         )
 
-        // 5) Set data into state
+        // 6) Set data into state
         setBanks(fetchedBanks)
         setCategories(fetchedCategories)
         setOffers(fetchedOffers)
 
-        // 6) Select the first bank by default (if any)
-        if (fetchedBanks.length > 0) {
-          setSelectedBankId(fetchedBanks[0].id)
-        }
-
-        // 7) Stop loading
+        // 7) Stop loading to show the page
         setIsLoading(false)
       } catch (err) {
         console.error(err)
@@ -198,6 +206,50 @@ export default function Page() {
 
     fetchData()
   }, [])
+
+  // ---- Asynchronously preload remaining images after the page is shown ----
+  useEffect(() => {
+    if (!isLoading) {
+      // Preload remaining bank logos (for banks that are not the initially selected)
+      const remainingBankLogos = banks
+        .filter((b) => b.id !== selectedBankId)
+        .map((b) => b.logo)
+        .filter(Boolean)
+      // Preload remaining category icons (for categories not initially selected)
+      const remainingCategoryIcons = categories
+        .filter((c) => c.id !== selectedCategoryId)
+        .map((c) => c.icon_url)
+        .filter(Boolean)
+      // Preload offer images not already loaded for the initial filter
+      const initialOfferImages = offers
+        .filter((o) => o.bank_id === selectedBankId && o.category_id === selectedCategoryId)
+        .map((o) => o.image_url)
+        .filter(Boolean)
+      const allOfferImages = offers.map((o) => o.image_url).filter(Boolean)
+      const remainingOfferImages = allOfferImages.filter(
+        (url) => !initialOfferImages.includes(url)
+      )
+
+      const remainingImages = [
+        ...remainingBankLogos,
+        ...remainingCategoryIcons,
+        ...remainingOfferImages,
+      ]
+
+      Promise.all(
+        remainingImages.map((url) =>
+          new Promise<void>((resolve) => {
+            const img = new window.Image()
+            img.src = url
+            img.onload = () => resolve()
+            img.onerror = () => resolve()
+          })
+        )
+      ).then(() => {
+        console.log("Remaining images preloaded")
+      })
+    }
+  }, [isLoading, banks, categories, offers, selectedBankId, selectedCategoryId])
 
   // ---- If still loading, show a spinner ----
   if (isLoading) {
@@ -214,23 +266,31 @@ export default function Page() {
     (selectedCategoryId == null || offer.category_id === selectedCategoryId)
   )
 
-  // ---- Find the most recent updated_at among these filtered offers ----
-  const lastUpdatedDateStr = filteredOffers.reduce((latest: string | null, o) => {
-    if (!o.updated_at) return latest
-    return (!latest || o.updated_at > latest) ? o.updated_at : latest
-  }, null)
-  const lastUpdatedFormatted = lastUpdatedDateStr
-    ? new Date(lastUpdatedDateStr).toLocaleDateString("en-GB") // DD/MM/YYYY
-    : null
+// ---- Find the most recent updated_at among these filtered offers ----
+const lastUpdatedDateStr = filteredOffers.reduce((latest: string | null, o) => {
+  if (!o.updated_at) return latest
+  return (!latest || o.updated_at > latest) ? o.updated_at : latest
+}, null)
+
+const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
+  const lastUpdatedDate = new Date(lastUpdatedDateStr)
+  const now = new Date()
+  const diffTime = now.getTime() - lastUpdatedDate.getTime()
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
+  if (diffDays === 0) return "Today"
+  if (diffDays === 1) return "1 day ago"
+  return `${diffDays} days ago`
+})() : null
+
 
   return (
     <div className="container mx-auto p-4 space-y-6 overflow-x-hidden">
       <h1 className="text-2xl font-bold mb-4">Bank Card Offers</h1>
 
       {/* Bank Selection */}
-      <section className="space-y-2">
+      <section className="space-y-4">
         <h2 className="text-xl font-semibold">Select Your Bank</h2>
-        <div className="grid w-full gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
+        <div className="grid w-full gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-7">
           {banks.map((bank) => {
             const isSelected = selectedBankId === bank.id
             return (
@@ -264,7 +324,7 @@ export default function Page() {
 
       {/* Category Selection */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold mt-6">Select a Category</h2>
+        <h2 className="text-xl font-semibold mt-10">Select a Category</h2>
         <div className="flex flex-wrap gap-2 w-full">
           {categories.map((category) => {
             const isSelected = selectedCategoryId === category.id
@@ -298,11 +358,11 @@ export default function Page() {
 
       {/* Offers */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold">Available Offers</h2>
+        <h2 className="text-xl font-semibold mt-10">Available Offers</h2>
 
         {/* Show "Last updated" if a bank is selected and there are relevant offers */}
         {selectedBankId && filteredOffers.length > 0 && lastUpdatedFormatted && (
-          <small className="text-gray-500 ml-4">
+          <small className="text-gray-500">
             Last updated {lastUpdatedFormatted}
           </small>
         )}

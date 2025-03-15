@@ -113,7 +113,7 @@ View Offer: ${shareUrl}
                      transition-all duration-150 hover:shadow-lg active:scale-95"
           onClick={() => setOpen(true)}
         >
-          <div className="relative h-20 flex justify-center items-center overflow-hidden bg-white-100">
+          <div className="relative h-32 flex justify-center items-center overflow-hidden bg-white-100">
             <Image
               src={
                 offer.image_url ||
@@ -122,29 +122,29 @@ View Offer: ${shareUrl}
               alt="Offer image"
               width={150}
               height={80}
-              className="object-contain"
+              className="object-contain w-full h-full"
             />
             <div className="absolute top-1 left-1">
               <Image
                 src={offer.bank_logo || "/placeholder-logo.png"}
                 alt="Bank logo"
-                width={20}  // Base dimension (desktop)
-                height={20} // Base dimension (desktop)
+                width={20}
+                height={20}
                 className="object-contain sm:w-15 sm:h-15"
               />
             </div>
           </div>
           <CardContent className="p-3 flex flex-col space-y-2 items-start">
-            <p className="text-sm font-semibold truncate-2-lines w-full">
+            <p className="text-md sm:text-lg font-bold truncate-2-lines w-full">
               {offer.merchant_details}
             </p>
             {offer.discount && (
-              <span className="text-xs font-bold text-white bg-green-500 px-3 py-1 rounded break-words">
+              <span className="text-xs sm:text-base font-bold sm:font-large text-white bg-[#36b753] px-3 py-1 rounded break-words">
                 {offer.discount.length > 40
                   ? `${offer.discount.substring(0, 37)}...`
                   : offer.discount}
               </span>
-            )}
+            )}  
           </CardContent>
         </Card>
       </DialogTrigger>
@@ -178,7 +178,8 @@ View Offer: ${shareUrl}
                 src={offer.image_url}
                 alt="Offer banner"
                 fill
-                className="object-cover"
+                className="object-contain"
+                sizes="(max-width: 768px) 100vw, 768px"
               />
             </div>
           )}

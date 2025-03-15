@@ -33,10 +33,14 @@ interface SupabaseOffer {
   discount?: string
   offer_validity?: string
   more_details_url?: string
-  banks: Bank | Bank[] // Can be either a single Bank or an array of Banks
+  banks: {
+    logo: string
+  } | {
+    logo: string
+  }[]
   card_offer_categories: {
     name: string
-  }[] // Change to array
+  }[]
 }
 
 interface Offer {
@@ -112,11 +116,19 @@ export default function Page() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // 1) Parallel fetch for banks, categories, offers
-        const [banksRes, categoriesRes, offersRes] = await Promise.all([
+        // 1) Parallel fetch for banks and categories
+        const [banksRes, categoriesRes] = await Promise.all([
           supabase.from('banks').select('*'),
           supabase.from('card_offer_categories').select('*'),
-          supabase
+        ])
+
+        // 2) Fetch all offers using pagination
+        let allOffers: SupabaseOffer[] = []
+        let page = 0
+        const pageSize = 1000
+        
+        while (true) {
+          const offersRes = await supabase
             .from('card_offers')
             .select(
               `id, offer_title, updated_at, bank_id, category_id,
@@ -124,22 +136,31 @@ export default function Page() {
                image_url, discount, offer_validity, more_details_url,
                banks(logo), card_offer_categories(name)`
             )
-        ])
+            .range(page * pageSize, (page + 1) * pageSize - 1)
 
-        // 2) Check for errors
+          if (offersRes.error) {
+            throw new Error(`Error fetching offers: ${offersRes.error.message}`)
+          }
+
+          if (!offersRes.data || offersRes.data.length === 0) {
+            break // No more records to fetch
+          }
+
+          allOffers = [...allOffers, ...offersRes.data]
+          page++
+        }
+
+        // Check for errors in banks and categories
         if (banksRes.error) {
           throw new Error(`Error fetching banks: ${banksRes.error.message}`)
         }
         if (categoriesRes.error) {
           throw new Error(`Error fetching categories: ${categoriesRes.error.message}`)
         }
-        if (offersRes.error) {
-          throw new Error(`Error fetching offers: ${offersRes.error.message}`)
-        }
 
         const fetchedBanks = (banksRes.data || []) as Bank[]
         const fetchedCategories = (categoriesRes.data || []) as Category[]
-        const fetchedSupabaseOffers = (offersRes.data || []) as SupabaseOffer[]
+        const fetchedSupabaseOffers = allOffers as SupabaseOffer[]
 
         // 3) Transform supabase offers to our local Offer shape
         const fetchedOffers: Offer[] = fetchedSupabaseOffers.map((offer) => ({
@@ -325,14 +346,16 @@ const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
       {/* Category Selection */}
       <section className="space-y-2">
         <h2 className="text-xl font-semibold mt-10">Select a Category</h2>
-        <div className="flex flex-wrap gap-2 w-full">
-          {categories.map((category) => {
+        <div className="flex flex-wrap gap-2 w-full md:grid md:grid-cols-7">
+          {categories
+            .sort((a, b) => a.id - b.id) // Sort categories by ID
+            .map((category) => {
             const isSelected = selectedCategoryId === category.id
             return (
               <Button
                 key={category.id}
                 variant={isSelected ? "default" : "outline"}
-                className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1"
+                className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1 md:flex-none"
                 onClick={() => {
                   const newSelected = isSelected ? null : category.id
                   setSelectedCategoryId(newSelected)
@@ -349,7 +372,7 @@ const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
                     className={`object-contain ${isSelected ? "invert" : ""}`}
                   />
                 </div>
-                <span className="font-medium text-base text-center">{category.name}</span>
+                <span className="font-medium text-base md:text-lg text-center">{category.name}</span>
               </Button>
             )
           })}
