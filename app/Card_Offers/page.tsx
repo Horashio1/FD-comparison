@@ -288,9 +288,9 @@ const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
       <h1 className="text-2xl font-bold mb-4">Bank Card Offers</h1>
 
       {/* Bank Selection */}
-      <section className="space-y-2">
+      <section className="space-y-4">
         <h2 className="text-xl font-semibold">Select Your Bank</h2>
-        <div className="grid w-full gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
+        <div className="grid w-full gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-7">
           {banks.map((bank) => {
             const isSelected = selectedBankId === bank.id
             return (
@@ -324,7 +324,7 @@ const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
 
       {/* Category Selection */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold mt-6">Select a Category</h2>
+        <h2 className="text-xl font-semibold mt-10">Select a Category</h2>
         <div className="flex flex-wrap gap-2 w-full">
           {categories.map((category) => {
             const isSelected = selectedCategoryId === category.id
@@ -358,7 +358,7 @@ const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
 
       {/* Offers */}
       <section className="space-y-2">
-        <h2 className="text-xl font-semibold">Available Offers</h2>
+        <h2 className="text-xl font-semibold mt-10">Available Offers</h2>
 
         {/* Show "Last updated" if a bank is selected and there are relevant offers */}
         {selectedBankId && filteredOffers.length > 0 && lastUpdatedFormatted && (
