@@ -185,9 +185,7 @@ export default function Page() {
         if (fetchedBanks.length > 0) {
           setSelectedBankId(fetchedBanks[0].id)
         }
-        if (fetchedCategories.length > 0) {
-          setSelectedCategoryId(fetchedCategories[0].id)
-        }
+        setSelectedCategoryId(1)  // Explicitly set to category ID 1
 
         // 5) Preload images for initially selected bank, category, and related offers
         const initialBankLogo = fetchedBanks.length > 0 ? [fetchedBanks[0].logo] : []
