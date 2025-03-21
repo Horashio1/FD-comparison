@@ -64,7 +64,11 @@ export default function Page() {
 
   const [openDialogId, setOpenDialogId] = useState<number | null>(null)
   const [showScrollTop, setShowScrollTop] = useState(false)
-  const [isLoading, setIsLoading] = useState(true)
+  
+  // More granular loading states
+  const [isLoadingEssentials, setIsLoadingEssentials] = useState(true)
+  const [isLoadingOffers, setIsLoadingOffers] = useState(true)
+  const [isLoadingComplete, setIsLoadingComplete] = useState(false)
 
   // ---- Scroll to Top Logic ----
   useEffect(() => {
@@ -99,17 +103,101 @@ export default function Page() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
-  // ---- Fetch Data and Preload Essential Images (Banks, Categories and Initial Offer Cards) ----
+  // Helper function to preload images and return a promise
+  const preloadImage = (url: string): Promise<void> => {
+    return new Promise<void>((resolve) => {
+      if (!url) {
+        resolve()
+        return
+      }
+      const img = new window.Image()
+      img.src = url
+      img.onload = () => resolve()
+      img.onerror = () => resolve() // Still resolve on error to prevent blocking
+    })
+  }
+
+  // ---- Step 1: Fetch Banks and Categories and Preload Their Images ----
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchEssentialData = async () => {
       try {
-        // 1) Parallel fetch for banks and categories
+        // 1) Fetch banks and categories
         const [banksRes, categoriesRes] = await Promise.all([
           supabase.from('banks').select('*'),
           supabase.from('card_offer_categories').select('*'),
         ])
 
-        // 2) Fetch all offers using pagination
+        if (banksRes.error) {
+          throw new Error(`Error fetching banks: ${banksRes.error.message}`)
+        }
+        if (categoriesRes.error) {
+          throw new Error(`Error fetching categories: ${categoriesRes.error.message}`)
+        }
+
+        const fetchedBanks = (banksRes.data || []) as Bank[]
+        const fetchedCategories = (categoriesRes.data || []) as Category[]
+
+        // 2) Select initial bank and category
+        const initialBank = fetchedBanks.length > 0 ? fetchedBanks[0] : null
+        const initialCategory =
+          fetchedCategories.length > 2
+            ? fetchedCategories[2]
+            : fetchedCategories.length > 0
+            ? fetchedCategories[0]
+            : null
+
+        // 3) Preload bank logos and category icons
+        const bankLogos = fetchedBanks.map(bank => bank.logo).filter(Boolean)
+        const categoryIcons = fetchedCategories.map(category => category.icon_url).filter(Boolean)
+
+        // Prioritize initial selection logos
+        const initialLogos = [
+          initialBank?.logo,
+          initialCategory?.icon_url
+        ].filter(Boolean) as string[]
+        
+        const otherLogos = [...bankLogos, ...categoryIcons].filter(
+          url => !initialLogos.includes(url)
+        )
+
+        // First preload the initial logos (critical path)
+        await Promise.all(initialLogos.map(preloadImage))
+        
+        // Set banks and categories data as soon as initial logos are loaded
+        setBanks(fetchedBanks)
+        setCategories(fetchedCategories)
+        
+        if (initialBank) {
+          setSelectedBankId(initialBank.id)
+        }
+        if (initialCategory) {
+          setSelectedCategoryId(initialCategory.id)
+        }
+        
+        // Then preload the rest of logos in background
+        Promise.all(otherLogos.map(preloadImage))
+        
+        setIsLoadingEssentials(false)
+        
+      } catch (err) {
+        console.error("Error loading essential data:", err)
+        setIsLoadingEssentials(false)
+      }
+    }
+
+    fetchEssentialData()
+  }, [])
+
+  // ---- Step 2: Fetch Offers and Preload Initial Selection Offers ----
+  useEffect(() => {
+    // Only start loading offers after essential data is loaded
+    if (isLoadingEssentials || !selectedBankId || !selectedCategoryId) {
+      return
+    }
+
+    const fetchOffersData = async () => {
+      try {
+        // 1) Fetch all offers using pagination
         let allOffers: SupabaseOffer[] = []
         let page = 0
         const pageSize = 1000
@@ -128,26 +216,17 @@ export default function Page() {
           if (offersRes.error) {
             throw new Error(`Error fetching offers: ${offersRes.error.message}`)
           }
+          
           if (!offersRes.data || offersRes.data.length === 0) {
             break // No more records to fetch
           }
+          
           allOffers = [...allOffers, ...offersRes.data]
           page++
         }
 
-        if (banksRes.error) {
-          throw new Error(`Error fetching banks: ${banksRes.error.message}`)
-        }
-        if (categoriesRes.error) {
-          throw new Error(`Error fetching categories: ${categoriesRes.error.message}`)
-        }
-
-        const fetchedBanks = (banksRes.data || []) as Bank[]
-        const fetchedCategories = (categoriesRes.data || []) as Category[]
-        const fetchedSupabaseOffers = allOffers as SupabaseOffer[]
-
-        // 3) Transform offers to our local Offer shape
-        const fetchedOffers: Offer[] = fetchedSupabaseOffers.map((offer) => ({
+        // 2) Transform offers to our local Offer shape
+        const fetchedOffers: Offer[] = allOffers.map((offer) => ({
           id: offer.id,
           offer_title: offer.offer_title,
           updated_at: offer.updated_at,
@@ -165,88 +244,79 @@ export default function Page() {
             : (offer.banks?.logo || ""),
         }))
 
-        // 4) Select initial bank and category (using the first bank and a chosen category)
-        const initialBank = fetchedBanks.length > 0 ? fetchedBanks[0] : null
-        const initialCategory =
-          fetchedCategories.length > 2
-            ? fetchedCategories[2]
-            : fetchedCategories.length > 0
-            ? fetchedCategories[0]
-            : null
-
-        if (initialBank) {
-          setSelectedBankId(initialBank.id)
-        }
-        if (initialCategory) {
-          setSelectedCategoryId(initialCategory.id)
-        }
-
-        // 5) Preload essential images: bank logos, category icons, and offer card images for the initial selection
-        const initialBankLogo = initialBank ? [initialBank.logo] : []
-        const initialCategoryIcon = initialCategory ? [initialCategory.icon_url] : []
-        const initialOfferImages =
-          initialBank && initialCategory
-            ? fetchedOffers
-                .filter((offer) => offer.bank_id === initialBank.id && offer.category_id === initialCategory.id)
-                .map((offer) => offer.image_url)
-                .filter(Boolean)
-            : []
-        const essentialImages = [...initialBankLogo, ...initialCategoryIcon, ...initialOfferImages]
-
-        await Promise.all(
-          essentialImages.map((url) => {
-            return new Promise<void>((resolve) => {
-              const img = new window.Image()
-              img.src = url
-              img.onload = () => resolve()
-              img.onerror = () => resolve()
-            })
-          })
-        )
-
-        // 6) Set the fetched data and finish loading
-        setBanks(fetchedBanks)
-        setCategories(fetchedCategories)
+        // Set offers data right away
         setOffers(fetchedOffers)
-        setIsLoading(false)
+        
+        // 3) Preload initial offer images for selected bank and category (critical path)
+        const initialOffers = fetchedOffers.filter(
+          offer => offer.bank_id === selectedBankId && offer.category_id === selectedCategoryId
+        )
+        
+        const initialOfferImages = initialOffers.map(offer => offer.image_url).filter(Boolean)
+        
+        // Preload initial offer images
+        await Promise.all(initialOfferImages.map(preloadImage))
+        
+        setIsLoadingOffers(false)
+        setIsLoadingComplete(true)
+        
+        // 4) Background preload the rest of the offers for this bank and other categories
+        const bankOfferImages = fetchedOffers
+          .filter(offer => offer.bank_id === selectedBankId && offer.category_id !== selectedCategoryId)
+          .map(offer => offer.image_url)
+          .filter(Boolean)
+          
+        // Do this in the background without awaiting
+        Promise.all(bankOfferImages.map(preloadImage))
+          .then(() => {
+            // 5) Then preload remaining offers in background with low priority
+            const remainingOfferImages = fetchedOffers
+              .filter(offer => offer.bank_id !== selectedBankId)
+              .map(offer => offer.image_url)
+              .filter(Boolean)
+              
+            // Load these with very low priority, in batches
+            const chunkSize = 10
+            for (let i = 0; i < remainingOfferImages.length; i += chunkSize) {
+              const chunk = remainingOfferImages.slice(i, i + chunkSize)
+              setTimeout(() => {
+                chunk.forEach(url => {
+                  const img = new window.Image()
+                  img.src = url
+                })
+              }, (i / chunkSize) * 500) // Staggered loading with 500ms between batches
+            }
+          })
+          
       } catch (err) {
-        console.error(err)
-        setIsLoading(false)
+        console.error("Error loading offers:", err)
+        setIsLoadingOffers(false)
+        setIsLoadingComplete(true)
       }
     }
 
-    fetchData()
-  }, [])
+    fetchOffersData()
+  }, [isLoadingEssentials, selectedBankId, selectedCategoryId])
 
-  // ---- Background Preloading for Offer Images on Selection Change ----
+  // ---- Preload Images on Selection Change (After Initial Load) ----
   useEffect(() => {
-    if (!isLoading && selectedBankId !== null && selectedCategoryId !== null) {
+    if (isLoadingComplete && selectedBankId !== null && selectedCategoryId !== null) {
       const filteredOfferImages = offers
         .filter((offer) => offer.bank_id === selectedBankId && offer.category_id === selectedCategoryId)
         .map((offer) => offer.image_url)
         .filter(Boolean)
 
-      filteredOfferImages.forEach((url) => {
-        const img = new window.Image()
-        img.src = url
-      })
+      // Preload images for the current selection
+      Promise.all(filteredOfferImages.map(preloadImage))
     }
-  }, [selectedBankId, selectedCategoryId, offers, isLoading])
+  }, [selectedBankId, selectedCategoryId, offers, isLoadingComplete])
 
-  // ---- Optional: Preload All Offer Images in Background (if volume is manageable) ----
-  useEffect(() => {
-    if (!isLoading && offers.length > 0) {
-      offers.forEach((offer) => {
-        const img = new window.Image()
-        img.src = offer.image_url
-      })
-    }
-  }, [isLoading, offers])
-
-  if (isLoading) {
+  // Show loading spinner if essential data isn't loaded yet
+  if (isLoadingEssentials) {
     return (
       <div className="flex items-center justify-center h-screen">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-gray-900" />
+        {/* <p className="ml-4">Loading banks...</p> */}
       </div>
     )
   }
@@ -306,6 +376,7 @@ export default function Page() {
                     width={120}
                     height={60}
                     className="object-contain md:h-[100px] h-[50px] w-[140px]"
+                    priority={true}
                   />
                 </div>
               </Button>
@@ -341,6 +412,7 @@ export default function Page() {
                       alt={`${category.name} icon`}
                       fill
                       className={`object-contain ${isSelected ? "invert" : ""}`}
+                      priority={true}
                     />
                   </div>
                   <span className="font-medium text-base md:text-lg text-center">{category.name}</span>
@@ -368,7 +440,14 @@ export default function Page() {
           <p className="text-md pt-4 pb-4">Coming soon ...</p>
         )}
 
-        {selectedBankId && selectedBankId !== 9 && (
+        {isLoadingOffers && selectedBankId && selectedBankId !== 9 && (
+          <div className="flex items-center justify-center h-40">
+            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-900" />
+            <p className="ml-4">Loading offers...</p>
+          </div>
+        )}
+
+        {!isLoadingOffers && selectedBankId && selectedBankId !== 9 && (
           <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
             {filteredOffers.map((offer) => (
               <OfferCard key={offer.id} offer={offer} />

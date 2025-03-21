@@ -33,10 +33,8 @@ interface SupabaseOffer {
   discount?: string
   offer_validity?: string
   more_details_url?: string
-  banks: Bank | Bank[] // Can be either a single Bank or an array of Banks
-  card_offer_categories: {
-    name: string
-  }[] // Change to array
+  banks: { logo: string } | { logo: string }[]
+  card_offer_categories: { name: string }[]
 }
 
 interface Offer {
@@ -61,17 +59,11 @@ export default function Page() {
   const [categories, setCategories] = useState<Category[]>([])
   const [offers, setOffers] = useState<Offer[]>([])
 
-  // Initially, no bank or category is selected, but we will auto-select the first ones once data loads
   const [selectedBankId, setSelectedBankId] = useState<number | null>(null)
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null)
 
-  // Dialog tracking
   const [openDialogId, setOpenDialogId] = useState<number | null>(null)
-
-  // Scroll-to-top
   const [showScrollTop, setShowScrollTop] = useState(false)
-
-  // Loader for the entire page
   const [isLoading, setIsLoading] = useState(true)
 
   // ---- Scroll to Top Logic ----
@@ -79,7 +71,6 @@ export default function Page() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 200)
     }
-
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
@@ -108,15 +99,23 @@ export default function Page() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
-  // ---- Single fetch to load banks, categories, offers, then preload images for the initially selected bank and category ----
+  // ---- Fetch Data and Preload Essential Images (Banks, Categories and Initial Offer Cards) ----
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // 1) Parallel fetch for banks, categories, offers
-        const [banksRes, categoriesRes, offersRes] = await Promise.all([
+        // 1) Parallel fetch for banks and categories
+        const [banksRes, categoriesRes] = await Promise.all([
           supabase.from('banks').select('*'),
           supabase.from('card_offer_categories').select('*'),
-          supabase
+        ])
+
+        // 2) Fetch all offers using pagination
+        let allOffers: SupabaseOffer[] = []
+        let page = 0
+        const pageSize = 1000
+
+        while (true) {
+          const offersRes = await supabase
             .from('card_offers')
             .select(
               `id, offer_title, updated_at, bank_id, category_id,
@@ -124,24 +123,30 @@ export default function Page() {
                image_url, discount, offer_validity, more_details_url,
                banks(logo), card_offer_categories(name)`
             )
-        ])
+            .range(page * pageSize, (page + 1) * pageSize - 1)
 
-        // 2) Check for errors
+          if (offersRes.error) {
+            throw new Error(`Error fetching offers: ${offersRes.error.message}`)
+          }
+          if (!offersRes.data || offersRes.data.length === 0) {
+            break // No more records to fetch
+          }
+          allOffers = [...allOffers, ...offersRes.data]
+          page++
+        }
+
         if (banksRes.error) {
           throw new Error(`Error fetching banks: ${banksRes.error.message}`)
         }
         if (categoriesRes.error) {
           throw new Error(`Error fetching categories: ${categoriesRes.error.message}`)
         }
-        if (offersRes.error) {
-          throw new Error(`Error fetching offers: ${offersRes.error.message}`)
-        }
 
         const fetchedBanks = (banksRes.data || []) as Bank[]
         const fetchedCategories = (categoriesRes.data || []) as Category[]
-        const fetchedSupabaseOffers = (offersRes.data || []) as SupabaseOffer[]
+        const fetchedSupabaseOffers = allOffers as SupabaseOffer[]
 
-        // 3) Transform supabase offers to our local Offer shape
+        // 3) Transform offers to our local Offer shape
         const fetchedOffers: Offer[] = fetchedSupabaseOffers.map((offer) => ({
           id: offer.id,
           offer_title: offer.offer_title,
@@ -160,28 +165,36 @@ export default function Page() {
             : (offer.banks?.logo || ""),
         }))
 
-        // 4) Auto-select the first bank and first category if available
-        if (fetchedBanks.length > 0) {
-          setSelectedBankId(fetchedBanks[0].id)
+        // 4) Select initial bank and category (using the first bank and a chosen category)
+        const initialBank = fetchedBanks.length > 0 ? fetchedBanks[0] : null
+        const initialCategory =
+          fetchedCategories.length > 2
+            ? fetchedCategories[2]
+            : fetchedCategories.length > 0
+            ? fetchedCategories[0]
+            : null
+
+        if (initialBank) {
+          setSelectedBankId(initialBank.id)
         }
-        if (fetchedCategories.length > 0) {
-          setSelectedCategoryId(fetchedCategories[0].id)
+        if (initialCategory) {
+          setSelectedCategoryId(initialCategory.id)
         }
 
-        // 5) Preload images for initially selected bank, category, and related offers
-        const initialBankLogo = fetchedBanks.length > 0 ? [fetchedBanks[0].logo] : []
-        const initialCategoryIcon = fetchedCategories.length > 0 ? [fetchedCategories[0].icon_url] : []
-        const initialFilteredOffers = fetchedOffers.filter((offer) =>
-          fetchedBanks.length > 0 &&
-          fetchedCategories.length > 0 &&
-          offer.bank_id === fetchedBanks[0].id &&
-          offer.category_id === fetchedCategories[0].id
-        )
-        const initialOfferImages = initialFilteredOffers.map((o) => o.image_url).filter(Boolean)
+        // 5) Preload essential images: bank logos, category icons, and offer card images for the initial selection
+        const initialBankLogo = initialBank ? [initialBank.logo] : []
+        const initialCategoryIcon = initialCategory ? [initialCategory.icon_url] : []
+        const initialOfferImages =
+          initialBank && initialCategory
+            ? fetchedOffers
+                .filter((offer) => offer.bank_id === initialBank.id && offer.category_id === initialCategory.id)
+                .map((offer) => offer.image_url)
+                .filter(Boolean)
+            : []
+        const essentialImages = [...initialBankLogo, ...initialCategoryIcon, ...initialOfferImages]
 
-        const initialImages = [...initialBankLogo, ...initialCategoryIcon, ...initialOfferImages]
         await Promise.all(
-          initialImages.map((url) => {
+          essentialImages.map((url) => {
             return new Promise<void>((resolve) => {
               const img = new window.Image()
               img.src = url
@@ -191,12 +204,10 @@ export default function Page() {
           })
         )
 
-        // 6) Set data into state
+        // 6) Set the fetched data and finish loading
         setBanks(fetchedBanks)
         setCategories(fetchedCategories)
         setOffers(fetchedOffers)
-
-        // 7) Stop loading to show the page
         setIsLoading(false)
       } catch (err) {
         console.error(err)
@@ -207,51 +218,31 @@ export default function Page() {
     fetchData()
   }, [])
 
-  // ---- Asynchronously preload remaining images after the page is shown ----
+  // ---- Background Preloading for Offer Images on Selection Change ----
   useEffect(() => {
-    if (!isLoading) {
-      // Preload remaining bank logos (for banks that are not the initially selected)
-      const remainingBankLogos = banks
-        .filter((b) => b.id !== selectedBankId)
-        .map((b) => b.logo)
+    if (!isLoading && selectedBankId !== null && selectedCategoryId !== null) {
+      const filteredOfferImages = offers
+        .filter((offer) => offer.bank_id === selectedBankId && offer.category_id === selectedCategoryId)
+        .map((offer) => offer.image_url)
         .filter(Boolean)
-      // Preload remaining category icons (for categories not initially selected)
-      const remainingCategoryIcons = categories
-        .filter((c) => c.id !== selectedCategoryId)
-        .map((c) => c.icon_url)
-        .filter(Boolean)
-      // Preload offer images not already loaded for the initial filter
-      const initialOfferImages = offers
-        .filter((o) => o.bank_id === selectedBankId && o.category_id === selectedCategoryId)
-        .map((o) => o.image_url)
-        .filter(Boolean)
-      const allOfferImages = offers.map((o) => o.image_url).filter(Boolean)
-      const remainingOfferImages = allOfferImages.filter(
-        (url) => !initialOfferImages.includes(url)
-      )
 
-      const remainingImages = [
-        ...remainingBankLogos,
-        ...remainingCategoryIcons,
-        ...remainingOfferImages,
-      ]
-
-      Promise.all(
-        remainingImages.map((url) =>
-          new Promise<void>((resolve) => {
-            const img = new window.Image()
-            img.src = url
-            img.onload = () => resolve()
-            img.onerror = () => resolve()
-          })
-        )
-      ).then(() => {
-        console.log("Remaining images preloaded")
+      filteredOfferImages.forEach((url) => {
+        const img = new window.Image()
+        img.src = url
       })
     }
-  }, [isLoading, banks, categories, offers, selectedBankId, selectedCategoryId])
+  }, [selectedBankId, selectedCategoryId, offers, isLoading])
 
-  // ---- If still loading, show a spinner ----
+  // ---- Optional: Preload All Offer Images in Background (if volume is manageable) ----
+  useEffect(() => {
+    if (!isLoading && offers.length > 0) {
+      offers.forEach((offer) => {
+        const img = new window.Image()
+        img.src = offer.image_url
+      })
+    }
+  }, [isLoading, offers])
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -260,28 +251,29 @@ export default function Page() {
     )
   }
 
-  // ---- Filter Offers Based on Selected Bank and/or Category ----
+  // ---- Filter Offers Based on Selected Bank and Category ----
   const filteredOffers = offers.filter((offer) =>
     (selectedBankId == null || offer.bank_id === selectedBankId) &&
     (selectedCategoryId == null || offer.category_id === selectedCategoryId)
   )
 
-// ---- Find the most recent updated_at among these filtered offers ----
-const lastUpdatedDateStr = filteredOffers.reduce((latest: string | null, o) => {
-  if (!o.updated_at) return latest
-  return (!latest || o.updated_at > latest) ? o.updated_at : latest
-}, null)
+  // ---- Find the Most Recent Updated Date ----
+  const lastUpdatedDateStr = filteredOffers.reduce((latest: string | null, o) => {
+    if (!o.updated_at) return latest
+    return (!latest || o.updated_at > latest) ? o.updated_at : latest
+  }, null)
 
-const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
-  const lastUpdatedDate = new Date(lastUpdatedDateStr)
-  const now = new Date()
-  const diffTime = now.getTime() - lastUpdatedDate.getTime()
-  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
-  if (diffDays === 0) return "Today"
-  if (diffDays === 1) return "1 day ago"
-  return `${diffDays} days ago`
-})() : null
-
+  const lastUpdatedFormatted = lastUpdatedDateStr
+    ? (() => {
+        const lastUpdatedDate = new Date(lastUpdatedDateStr)
+        const now = new Date()
+        const diffTime = now.getTime() - lastUpdatedDate.getTime()
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
+        if (diffDays === 0) return "Today"
+        if (diffDays === 1) return "1 day ago"
+        return `${diffDays} days ago`
+      })()
+    : null
 
   return (
     <div className="container mx-auto p-4 space-y-6 overflow-x-hidden">
@@ -325,34 +317,36 @@ const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
       {/* Category Selection */}
       <section className="space-y-2">
         <h2 className="text-xl font-semibold mt-10">Select a Category</h2>
-        <div className="flex flex-wrap gap-2 w-full">
-          {categories.map((category) => {
-            const isSelected = selectedCategoryId === category.id
-            return (
-              <Button
-                key={category.id}
-                variant={isSelected ? "default" : "outline"}
-                className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1"
-                onClick={() => {
-                  const newSelected = isSelected ? null : category.id
-                  setSelectedCategoryId(newSelected)
-                }}
-              >
-                <div className="relative w-24 h-14 flex items-center justify-center">
-                  <Image
-                    src={
-                      category.icon_url ||
-                      "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"
-                    }
-                    alt={`${category.name} icon`}
-                    fill
-                    className={`object-contain ${isSelected ? "invert" : ""}`}
-                  />
-                </div>
-                <span className="font-medium text-base text-center">{category.name}</span>
-              </Button>
-            )
-          })}
+        <div className="flex flex-wrap gap-2 w-full md:grid md:grid-cols-7">
+          {categories
+            .sort((a, b) => a.id - b.id)
+            .map((category) => {
+              const isSelected = selectedCategoryId === category.id
+              return (
+                <Button
+                  key={category.id}
+                  variant={isSelected ? "default" : "outline"}
+                  className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1 md:flex-none"
+                  onClick={() => {
+                    const newSelected = isSelected ? null : category.id
+                    setSelectedCategoryId(newSelected)
+                  }}
+                >
+                  <div className="relative w-24 h-14 flex items-center justify-center">
+                    <Image
+                      src={
+                        category.icon_url ||
+                        "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"
+                      }
+                      alt={`${category.name} icon`}
+                      fill
+                      className={`object-contain ${isSelected ? "invert" : ""}`}
+                    />
+                  </div>
+                  <span className="font-medium text-base md:text-lg text-center">{category.name}</span>
+                </Button>
+              )
+            })}
         </div>
       </section>
 
@@ -360,24 +354,20 @@ const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold mt-10">Available Offers</h2>
 
-        {/* Show "Last updated" if a bank is selected and there are relevant offers */}
         {selectedBankId && filteredOffers.length > 0 && lastUpdatedFormatted && (
           <small className="text-gray-500">
             Last updated {lastUpdatedFormatted}
           </small>
         )}
 
-        {/* If no bank is selected, show nothing for offers */}
         {!selectedBankId && (
           <p className="text-md pt-4 pb-4">Please select a bank to view offers.</p>
         )}
 
-        {/* If a specific bank (e.g. ID=9), show "Coming soon..." */}
         {selectedBankId === 9 && (
           <p className="text-md pt-4 pb-4">Coming soon ...</p>
         )}
 
-        {/* Otherwise, show the filtered offers */}
         {selectedBankId && selectedBankId !== 9 && (
           <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
             {filteredOffers.map((offer) => (
