@@ -1,4 +1,23 @@
 bank_id,category_id,offer_title,merchant_details,offer_details_1,offer_details_2,discount,image_url,more_details_url
+1,1,Enjoy your favourite pizza at Pizza Hut with ComBank UnionPay Credit and Debit Cards,Pizza Hut,"Offer- Buy any Large Pizza and get a same range Large Pizza Free for ComBank Union Pay Credit & Debit Cards
+Offer valid on 23rd March 2025
+Maximum 2 deals per card & cannot combine with other offers or meal deal.
+Offer valid for Dine-in, Takeaway & Delivery (Hotline) orders
+Offer applicable for following Union Pay Credit & Debit Cards
+-Union Pay Asia Prestige Diamond
+-Union Pay Asia Prestige Platinum
+-Union Pay Gold
+-Union Pay Debit Gold
+-Union Pay Debit Platinum",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Pizza-Hut-Offer-with-ComBank-Union-Pay-Cards.jpg,,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/March/Pizza-Hut-Offer-with-ComBank-Union-Pay-Cards-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-your-favourite-pizza-at-pizza-hut-with-combank-unionpay-credit-and-debit-cards
+1,1,Enjoy the art of dining at Food Studio with ComBank Credit Cards,Food Studio,"Offer – 20% discount for Credit Cards
+Offer valid from 15th to 31st March 2025
+Minimum bill value Rs.3,000/-
+Maximum bill value Rs.50,000/-
+Offer valid for dine-in and takeaway
+Offer valid at –
+-One Galle Face - Khabayan, Samba, Sumatran Spice, Kathi Kanteen, Hotel Manoli, Shiok,Champion Slice, Suksamran Thai, Tokyo Shokudo, China Express, Bamboo Boy, ETC
+-Colombo City Center - Primo, Suksamran Thai, Sumatran Spice, Mughlabar, China Express,Champion Slice, ETC, Tokyo Shokudo
+-Havelock City Mall - Layards Wharf by Food Studio",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/food-studio-offers-with-combank-credit-cards.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/March/food-studio-offers-with-combank-credit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/food-restaurants/enjoy-the-art-of-dining-at-food-studio-with-combank-credit-cards
 1,1,Enjoy the art of dining at your favourite softlogic restaurant with ComBank Credit and Debit Cards,Your favourite softlogic restaurant,"Discount -
 -25% for Credit Cards and 10% for Debit Cards at Crystal Jade.
 -20% for Credit Cards and 10% for Debit Cards at Burger King, Popeyes,Delifrance, Baskin Robbins & Subway(Subway Outlets at Rajagiriya, Havelock Mall, Colombo 03 & Mount Lavinia Only)
@@ -108,13 +127,6 @@ Offer valid on every Saturday till 29th March 2025
 Minimum bill value to be Rs.4,000/-
 Maximum discount value to be Rs.1,250/-
 One transaction per card per day",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Keels-offer-with-combank-credit-cards.jpg,Up to 25% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-card-Offer-with-Keells-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-keells-with-combank-credit-cards
-1,3,Enjoy the best supermarket deals at Arpico for the Total Bill with ComBank Debit Cards,Arpico for the Total Bill,"Offer valid for Total Bill Value
-Discount - 10% for Debit Cards
-Offer valid on 11th & 18th March 2025
-Minimum bill value to be Rs.5,000/-
-Maximum discount value to be Rs.1,000/-
-One transaction per card per day
-Maximum 3kg or 3 items of the same kind per bill",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Arpico-Total-Bill-offer-for-Combank-debit-card.jpg,Up to 10% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Arpico-Supermarket-Total-Bill-for-Debit-Card-offer-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-deals-at-arpico-for-the-total-bill-with-combank-debit-cards
 1,3,Enjoy the best supermarket deals at Spar Supermarket with ComBank Credit Cards,Spar Supermarket,"Offer valid for Total Bill Value
 Discount – 20% for Credit Cards
 Offer valid on 25th March & 25th April 2025
@@ -142,6 +154,17 @@ Maximum discount value to be Rs.3,000/-
 Maximum 3kg or 3 items of the same kind per bill
 One transaction per card per day.",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Arpico-fresh-deals-discountsr-for-combank-credit-cards.jpg,Up to 30% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/ComBank-Credit-Card-offer-with-Arpico-thumb.jpg,https://www.combank.lk/rewards-promotion/supermarket/enjoy-the-best-supermarket-fresh-deals-at-arpico-with-combank-credit-cards
 1,2,Relax at your favourite holiday destination with ComBank Credit and Debit Cards,Your favourite holiday destination,,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Hotel-Offers-and-discounts-for-combank-credit-and-debit-cards-March2025.jpg,Up to 35% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/ComBank-credit-and-debit-cards-year-round-hotel-offers-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/relax-at-your-favourite-holiday-destination-with-combank-credit-and-debit-cards
+1,2,Enjoy your perfect getaway at the Fortress Resort and Spa with ComBank Credit Cards,The Fortress Resort and Spa,"Offer – Complimentary meal upgrades from Bed & Breakfast to Half Board & Half Board to Full Board for Credit Cards
+Booking Period- From 21st to 23rd March 2025
+Travel period – Till 30th April 2025
+Reservations - Call +94914389400 | WhatsApp +94771889641
+Email – reservations@thefortress.lk
+Visit – www.fortressresortandspa.com",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Fortress-Resort-and-Spa-Offer-with-combank-credit-cards.jpg,,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/March/Fortress-Resort-and-Spa-Offer-with-combank-credit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/enjoy-your-perfect-getaway-at-the-fortress-resort-and-spa-with-combank-credit-cards
+1,2,Enjoy your perfect getaway at Mount Lavinia Hotel with ComBank Credit Cards,Mount Lavinia Hotel,"Offer- 20% discount for Credit Cards 
+Booking Period – From 20th March to 30th April 2025
+Stay Period – From 20th March to 31st May 2025
+Offer applicable for FB, HB & BB Basis.
+Reservations – 0112711711 / reservation@mountlaviniahotel.com",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Mount-lavinia-hotel-stay-offer-for-combank-credit-cards-main.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/March/Mount-lavinia-hotel-stay-offer-for-combank-credit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/enjoy-your-perfect-getaway-at-mount-lavinia-hotel-with-combank-credit-cards
 1,2,Enjoy your perfect getaway at Amaya Hotels with ComBank Credit and Debit Cards,Amaya Hotels,"Offer – Up to 30% discount for Credit & Debit Cards
 Travel Period: From 15th March - 30th June 2025
 Booking period: From 15th March - 30th April 2025
@@ -166,19 +189,6 @@ Participating hotels -
 -Heritance Tea Factory
 -Heritance Ahungalla
 -Tuurya Kalutara",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Aiten-spence-offer-with-combank-credit-cards.jpg,Up to 41% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/March/Aiten-spence-offer-with-combank-credit-cards-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/relax-at-your-favourite-aitken-spence-hotel-with-combank-credit-cards
-1,2,Enjoy your perfect getaway at Cinnamon Sri Lanka Resorts with ComBank Credit Cards,Cinnamon Sri Lanka Resorts,"Offer - 15% discount for Credit Cards
-Booking Period– From 15th to 17th March 2025
-Stay Period – From 01st April to 31st October 2025
-Offer valid on full board basis for all room categories
-Promo Code –COM15
-Reservation - 011 2 161 161 or cinnamonhotels.com/Global 
-Offer valid at ;
--Cinnamon Bey Beruwala
--Hikka Tranz by Cinnamon
--Cinnamon Wild Yala
--Cinnamon Citadel Kandy
--Habarana Lodge
--Habarana Village",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/March/Cinnamon-hotel-offer-combank-credit-cards.jpg,Up to 15% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2024/November/Cinnamon-Hotel-Flash-Offer-web-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/enjoy-your-perfect-getaway-at-cinnamon-sri-lanka-resorts-with-combank-credit-cards
 1,2,Dive into Serendipity of pure leisure with ComBank Mastercard Cards,,"Offer- Up to 15% discount for  ComBank Mastercard Cards 
 10% off for 2 night stays and 15% off for 3 night stays at all Serendipity Collection Villas.
 Booking valid till 30th June 2025
@@ -207,5 +217,4 @@ Opening Days- Tuesday to Sunday
 Offer valid till 31st March 2025
 Call - 0114 226 000
 Visit - www.thepearlbay.com",https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/January/Combank-Credit-and-debit-card-offer-with-PearlBay.jpg,Up to 20% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/January/Combank-Credit-and-debit-card-offer-with-PearlBay-thumb.jpg,https://www.combank.lk/rewards-promotion/leisure/step-into-a-world-of-wonders-and-thrills-with-pearl-bay-using-combank-credit-and-debit-cards
-1,4,Celebrate Avurudhu with your loved ones with ComBank Credit & Debit Cards,,,,Up to 60% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/March/Combank-Credit-and-Debit-cards-April-Seasonal-Promo-2025-thumb.jpg,https://www.combank.lk/rewards-promotion/seasonal-offers/celebrate-avurudhu-with-your-loved-ones-with-combank-credit-debit-cards
-1,4,Celebrate Women's Day with Exclusive Discounts for Anagi Credit & Debit Cards,,,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Main%20Offers/2025/February/Anagi-Debit-Card-offers-for-Womens-Day.jpg,Up to 50% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/February/Anagi-Debit-Card-offers-for-Womens-Day-thumb.jpg,https://www.combank.lk/rewards-promotion/seasonal-offers/celebrate-womens-day-with-exclusive-discounts-for-anagi-credit-debit-cards
+1,4,Celebrate Avurudhu with your loved ones with ComBank Credit & Debit Cards,,,,Up to 60% Off,https://s3.ap-southeast-1.amazonaws.com/static.combank.cloud/photos/shares/Offers/Thumb%20Images/2025/March/Combank-Credit-and-Debit-cards-April-Seasonal-Promo-2025-thumb-New.jpg,https://www.combank.lk/rewards-promotion/seasonal-offers/celebrate-avurudhu-with-your-loved-ones-with-combank-credit-debit-cards

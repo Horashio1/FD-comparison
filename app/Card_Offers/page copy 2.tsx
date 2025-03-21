@@ -65,7 +65,7 @@ export default function Page() {
   const [categories, setCategories] = useState<Category[]>([])
   const [offers, setOffers] = useState<Offer[]>([])
 
-  // Initially, no bank or category is selected
+  // Initially, no bank or category is selected, but we will auto-select the first ones once data loads
   const [selectedBankId, setSelectedBankId] = useState<number | null>(null)
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null)
 
@@ -83,6 +83,7 @@ export default function Page() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 200)
     }
+
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
@@ -111,7 +112,7 @@ export default function Page() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
-  // ---- Fetch Data and Preload Initial Images ----
+  // ---- Single fetch to load banks, categories, offers, then preload images for the initially selected bank and category ----
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -140,9 +141,11 @@ export default function Page() {
           if (offersRes.error) {
             throw new Error(`Error fetching offers: ${offersRes.error.message}`)
           }
+
           if (!offersRes.data || offersRes.data.length === 0) {
             break // No more records to fetch
           }
+
           allOffers = [...allOffers, ...offersRes.data]
           page++
         }
@@ -178,26 +181,24 @@ export default function Page() {
             : (offer.banks?.logo || ""),
         }))
 
-        // 4) Select first bank and category from the arrays
-        const initialBank = fetchedBanks.length > 0 ? fetchedBanks[0] : null
-        const initialCategory = fetchedCategories.length > 0 ? fetchedCategories[2] : null
-
-        if (initialBank) {
-          setSelectedBankId(initialBank.id)
+        // 4) Auto-select the first bank and first category if available
+        if (fetchedBanks.length > 0) {
+          setSelectedBankId(fetchedBanks[0].id)
         }
-        if (initialCategory) {
-          setSelectedCategoryId(initialCategory.id)
-        }
+        setSelectedCategoryId(1)  // Explicitly set to category ID 1
 
         // 5) Preload images for initially selected bank, category, and related offers
-        const initialBankLogo = initialBank ? [initialBank.logo] : []
-        const initialCategoryIcon = initialCategory ? [initialCategory.icon_url] : []
+        const initialBankLogo = fetchedBanks.length > 0 ? [fetchedBanks[0].logo] : []
+        const initialCategoryIcon = fetchedCategories.length > 0 ? [fetchedCategories[0].icon_url] : []
         const initialFilteredOffers = fetchedOffers.filter((offer) =>
-          initialBank && initialCategory && offer.bank_id === initialBank.id && offer.category_id === initialCategory.id
+          fetchedBanks.length > 0 &&
+          fetchedCategories.length > 0 &&
+          offer.bank_id === fetchedBanks[0].id &&
+          offer.category_id === fetchedCategories[0].id
         )
         const initialOfferImages = initialFilteredOffers.map((o) => o.image_url).filter(Boolean)
+
         const initialImages = [...initialBankLogo, ...initialCategoryIcon, ...initialOfferImages]
-        
         await Promise.all(
           initialImages.map((url) => {
             return new Promise<void>((resolve) => {
@@ -225,15 +226,15 @@ export default function Page() {
     fetchData()
   }, [])
 
-  // ---- Asynchronously Preload Remaining Images ----
+  // ---- Asynchronously preload remaining images after the page is shown ----
   useEffect(() => {
     if (!isLoading) {
-      // Preload remaining bank logos
+      // Preload remaining bank logos (for banks that are not the initially selected)
       const remainingBankLogos = banks
         .filter((b) => b.id !== selectedBankId)
         .map((b) => b.logo)
         .filter(Boolean)
-      // Preload remaining category icons
+      // Preload remaining category icons (for categories not initially selected)
       const remainingCategoryIcons = categories
         .filter((c) => c.id !== selectedCategoryId)
         .map((c) => c.icon_url)
@@ -269,7 +270,7 @@ export default function Page() {
     }
   }, [isLoading, banks, categories, offers, selectedBankId, selectedCategoryId])
 
-  // ---- If Still Loading, Show a Spinner ----
+  // ---- If still loading, show a spinner ----
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -284,21 +285,22 @@ export default function Page() {
     (selectedCategoryId == null || offer.category_id === selectedCategoryId)
   )
 
-  // ---- Find the Most Recent Updated Date ----
-  const lastUpdatedDateStr = filteredOffers.reduce((latest: string | null, o) => {
-    if (!o.updated_at) return latest
-    return (!latest || o.updated_at > latest) ? o.updated_at : latest
-  }, null)
+// ---- Find the most recent updated_at among these filtered offers ----
+const lastUpdatedDateStr = filteredOffers.reduce((latest: string | null, o) => {
+  if (!o.updated_at) return latest
+  return (!latest || o.updated_at > latest) ? o.updated_at : latest
+}, null)
 
-  const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
-    const lastUpdatedDate = new Date(lastUpdatedDateStr)
-    const now = new Date()
-    const diffTime = now.getTime() - lastUpdatedDate.getTime()
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
-    if (diffDays === 0) return "Today"
-    if (diffDays === 1) return "1 day ago"
-    return `${diffDays} days ago`
-  })() : null
+const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
+  const lastUpdatedDate = new Date(lastUpdatedDateStr)
+  const now = new Date()
+  const diffTime = now.getTime() - lastUpdatedDate.getTime()
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
+  if (diffDays === 0) return "Today"
+  if (diffDays === 1) return "1 day ago"
+  return `${diffDays} days ago`
+})() : null
+
 
   return (
     <div className="container mx-auto p-4 space-y-6 overflow-x-hidden">
@@ -344,34 +346,34 @@ export default function Page() {
         <h2 className="text-xl font-semibold mt-10">Select a Category</h2>
         <div className="flex flex-wrap gap-2 w-full md:grid md:grid-cols-7">
           {categories
-            .sort((a, b) => a.id - b.id)
+            .sort((a, b) => a.id - b.id) // Sort categories by ID
             .map((category) => {
-              const isSelected = selectedCategoryId === category.id
-              return (
-                <Button
-                  key={category.id}
-                  variant={isSelected ? "default" : "outline"}
-                  className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1 md:flex-none"
-                  onClick={() => {
-                    const newSelected = isSelected ? null : category.id
-                    setSelectedCategoryId(newSelected)
-                  }}
-                >
-                  <div className="relative w-24 h-14 flex items-center justify-center">
-                    <Image
-                      src={
-                        category.icon_url ||
-                        "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"
-                      }
-                      alt={`${category.name} icon`}
-                      fill
-                      className={`object-contain ${isSelected ? "invert" : ""}`}
-                    />
-                  </div>
-                  <span className="font-medium text-base md:text-lg text-center">{category.name}</span>
-                </Button>
-              )
-            })}
+            const isSelected = selectedCategoryId === category.id
+            return (
+              <Button
+                key={category.id}
+                variant={isSelected ? "default" : "outline"}
+                className="flex flex-col items-center space-y-2 h-auto py-4 px-2 min-w-[0px] flex-1 md:flex-none"
+                onClick={() => {
+                  const newSelected = isSelected ? null : category.id
+                  setSelectedCategoryId(newSelected)
+                }}
+              >
+                <div className="relative w-24 h-14 flex items-center justify-center">
+                  <Image
+                    src={
+                      category.icon_url ||
+                      "https://res.cloudinary.com/ddqtjwpob/image/upload/v1709144289/restaurant_hjpgyh.png"
+                    }
+                    alt={`${category.name} icon`}
+                    fill
+                    className={`object-contain ${isSelected ? "invert" : ""}`}
+                  />
+                </div>
+                <span className="font-medium text-base md:text-lg text-center">{category.name}</span>
+              </Button>
+            )
+          })}
         </div>
       </section>
 
@@ -386,7 +388,7 @@ export default function Page() {
           </small>
         )}
 
-        {/* If no bank is selected, prompt user */}
+        {/* If no bank is selected, show nothing for offers */}
         {!selectedBankId && (
           <p className="text-md pt-4 pb-4">Please select a bank to view offers.</p>
         )}

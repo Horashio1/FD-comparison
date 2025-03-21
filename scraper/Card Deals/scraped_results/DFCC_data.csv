@@ -1,4 +1,22 @@
 bank_id,category_id,offer_title,merchant_details,offer_details_1,offer_validity,discount,image_url,more_details_url
+7,1,Ichiban Japanese Restaurant,Ichiban Japanese Restaurant,"Offer: 20% Savings on dine-in & takeaway at Ichiban Japanese Restaurant for bills over Rs. 5,000/- with DFCC Credit Cards.
+Offer Period: 20th March to 30th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: No. 375, 2/1, Perera Mawatha, Sri Jayawardenapura, Kotte
+Reservation Number: 0762 312 1 31
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 20 March 2025 - 30 April 2025.,"20% Savings on dine-in & takeaway at Ichiban Japanese Restaurant for bills over Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/21103103/ICHIBAN_400-X-225_-2.jpg,https://www.dfcc.lk/promotions/ichiban-japanese-restaurant/
+7,1,Indian Affair,Indian Affair,"Offer: 20% Savings on takeaway at Indian Affair with DFCC Credit Cards.
+Offer Period: Every Thursday & Friday from 06th March to 25th April 2025
+Maximum Bill Value: Rs. 10,000/- per cardholder, per day
+Locations: Crescat Boulevard, Colombo 05, Maharagama, Mount Lavinia, Nawala, Welisara, Thalawathugoda & Kiribathgoda",Every Thursday & Friday from 06th March to 25th April 2025,20% Savings on takeaway at Indian Affair with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/17032416/Indian-Affair-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/indian-affair/
+7,1,Solo Bowl,Solo Bowl,"Offer: 20% Savings on takeaway at Solo Bowl with DFCC Credit Cards.
+Offer Period: Every Thursday & Friday from 06th March to 25th April 2025
+Maximum Bill Value: Rs. 10,000/- per cardholder, per day
+Locations: Crescat Boulevard, Colombo 05, Maharagama, Mount Lavinia, Nawala, Welisara, Thalawathugoda & Kiribathgoda",Every Thursday & Friday from 06th March to 25th April 2025,20% Savings on takeaway at Solo Bowl with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/17031949/Solo-Bowl-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/solo-bowl/
+7,1,Full’r Burgers,Full’r Burgers,"Offer: 20% Savings on dine-in and takeaway at Full’r Burgers with DFCC Credit Cards.
+Offer Period: Every Thursday & Friday from 06th March to 25th April 2025
+Maximum Bill Value: Rs. 10,000/- per cardholder, per day
+Locations: Crescat Boulevard, Colombo 05, Maharagama, Mount Lavinia, Nawala, Welisara & Thalawathugoda",Every Thursday & Friday from 06th March to 25th April 2025,20% Savings on dine-in and takeaway at Full’r Burgers with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/17031132/Fullr-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/fullr-burgers/
 7,1,The Blue Water Hotel & Spa – Wadduwa,The Blue Water Hotel & Spa – Wadduwa,"Offer: 15% Savings on dine-in at The Blue Water Hotel & Spa – Wadduwa Dining Restaurants with DFCC Credit Cards.
 Participating Restaurants:
 1. Dragon Boat Restaurant
@@ -30,13 +48,13 @@ Offer Period: 12th March to 30th April 2025
 Buffet Time: 7.00 pm to 10.00 pm
 Reservation Number: 0704 211 545
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 12 March 2025 - 30 April 2025.,20% Savings on Dinner Buffet at Radisson Hotel - Kandy with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13111147/Radisson-Kandy-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/radisson-hotel-kandy-3/
-7,1,Radisson Hotels,Radisson Hotels,"Offer: Enjoy Special Savings at Radisson Dining Restaurants for Iftar with DFCC Credit Cards.
+7,1,Radisson Hotels,Radisson Hotels,"Offer: Enjoy up to 15% Savings on dine-in this Ramadan Season at Radisson Hotel Colombo, Radisson Hotel Kandy & Radisson Blu Resort Galle with DFCC Credit Cards.
 1. Iftar platter – 10% Savings at Radisson Hotel Colombo, Radisson Hotel Kandy & Radisson Blu Resort Galle.
 2. Iftar followed by Dinner buffet – 15% Savings at Radisson Hotel Colombo, Radisson Hotel Kandy & Radisson Blu Resort Galle.
 3. Sawan Promotion – 10% Savings at Radisson Hotel Colombo & Radisson Blu Resort Galle.
-4. Eid Al Fitar Dinner (Ramadan Dinner) – 10% Savings at Radisson Hotel Colombo..
+4. Eid Al Fitr Dinner (Ramadan Dinner) – 10% Savings at Radisson Hotel Colombo..
 Offer Period: 07th to 31st March 2025
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 7 March 2025 - 31 March 2025.,Enjoy Special Savings at Radisson Dining Restaurants for Iftar with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26030920/Radisson-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/radisson-hotels/
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 7 March 2025 - 31 March 2025.,"Enjoy up to 15% Savings on dine-in this Ramadan Season at Radisson Hotel Colombo, Radisson Hotel Kandy & Radisson Blue Resort Galle with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/26030920/Radisson-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/radisson-hotels/
 7,1,The Blue Orbit By Citrus,The Blue Orbit By Citrus,"Offer: 20% Savings on Lunch and Dinner Buffet at Blue Orbit by Citrus with DFCC Credit Cards.
 *Valid for a maximum of 6 buffet bookings per card.
 Offer Period: 15th March to 30th April 2025
@@ -119,6 +137,13 @@ Offer Period: 15th March to 30th April 2025
 Location: No. 06, Kinross Avenue, Colombo 04.
 Maximum Bill Value: Rs. 30, 000/- per cardholder, per day
 Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Valid from 15 March 2025 - 30 April 2025.,25% Savings on dine-in & takeaway at Cafe Kinross with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/30071849/Kinross-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/cafe-kinross/
+7,1,Roccos,Roccos,"Offer: 25% Savings on dine-in & takeaway at Roccos with DFCC Credit Cards.
+Offer Period: 25th March to 30th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Locations: Colombo 07 and Rajagiriya
+Reservation Numbers:
+0771 423 131 (Colombo 07)
+0771 262 121 (Rajagiriya)",Valid from 25 November 2024 - 30 April 2025.,25% Savings on dine-in & takeaway at Roccos with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/08095854/Roccos-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/roccos/
 7,1,The Emperor’s Den,The Emperor’s Den,"Offer: 20% Savings on dine-in at The Emperor’s Den with DFCC Credit Cards.
 Offer period: 15th March to 15th April 2025
 Maximum Bill Value: Rs. 40,000/- per cardholder, per day
@@ -160,21 +185,76 @@ Offer Period: 15th March to 30th April 2025
 Maximum Bill Value: Rs.30,000/- per cardholder, per day.
 Location: No. 931 Kotte Road, Ethul kotte
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards).",Valid from 15 March 2025 - 30 April 2025.,"20% Savings on dine-in & takeaway at The Commons - Ethul Kotte for bills above Rs. 3,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/02073724/Commons-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/the-commons-ethul-kotte/
+7,1,Siam House Restaurant,Siam House Restaurant,"Offer: 20% Savings on dine-in at Siam House Restaurant with DFCC Credit Cards.
+Offer Period: 20th March to 30th April 2025
+Locations:
+1) No. 17, Melbourne Avenue, Colombo 04.
+2) No. 98, Horton Place, Colombo 07.
+Maximum Bill Value: Rs. 30, 000/- per cardholder, per day
+Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Valid from 20 March 2024 - 30 April 2025.,20% Savings on dine-in at Siam House Restaurant with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/08/22043210/Siam-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/siam-house-restaurant/
+7,1,Virticle by Jetwing,Virticle by Jetwing,"Offer: 20% Savings on dine-in at Virticle by Jetwing with DFCC Credit Cards.
+Offer Period: 20th March to 20th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 March 2025 - 20 April 2025.,20% Savings on dine-in at Virticle by Jetwing with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17130257/Virticle-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/28853/
 7,1,Colombo Steak House,Colombo Steak House,"Offer: 20% Savings on dine-in & takeaway at Colombo Steak House with DFCC Credit Cards.
 Offer Period: 15th March to 30th April 2025
 Locations: Havelock City Mall & Col. 04
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 15 March 2025 - 30 April 2025.,20% Savings on dine-in & takeaway at Colombo Steak House with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/07/11084553/Steak-House-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/colombo-steak-house-havelock-city-mall/
+7,1,Jetwing Jaffna – Peninsula,Jetwing Jaffna – Peninsula,"Offer: 20% Savings on dine-in at Jetwing Jaffna – Peninsula with DFCC Credit Cards.
+Offer Period: 20th March to 20th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 March 2025 - 20 April 2025.,20% Savings on dine-in at Jetwing Jaffna - Peninsula with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17133111/Jetwing-Jaffna-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/jetwing-jaffna-jaffna-2/
+7,1,Jetwing Sea – Café C,Jetwing Sea – Café C,"Offer: 20% Savings on dine-in at Jetwing Sea – Café C with DFCC Credit Cards.
+Offer Period: 20th March to 20th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 March 2025 - 20 April 2025.,20% Savings on dine-in at Jetwing Sea – Café C with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17132759/Jetwing-Sea-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/jetwing-sea-2/
+7,1,Jetwing Colombo Seven – Ward 7,Jetwing Colombo Seven – Ward 7,"Offer: 20% Savings on dine-in at Jetwing Colombo Seven – Ward 7 with DFCC Credit Cards.
+Offer Period: 20th March to 20th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 March 2025 - 20 April 2025.,20% Savings on dine-in at Jetwing Colombo Seven – Ward 7 with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17132322/Jetwing-Colombo-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/jetwing-colombo-seven-ward-7-2/
+7,1,Jetwing Beach – The Sands and Black Coral,Jetwing Beach – The Sands and Black Coral,"Offer: 20% Savings on dine-in at Jetwing Beach – The Sands and Black Coral with DFCC Credit Cards.
+Offer Period: 20th March to 20th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 March 2025 - 20 April 2025.,20% Savings on dine-in at Jetwing Beach – The Sands and Black Coral with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17132137/Jetwing-Beach-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/jetwing-beach-the-sands-2-2/
+7,1,Jetwing Lighthouse – Cardamom Café,Jetwing Lighthouse – Cardamom Café,"Offer: 20% Savings on dine-in at Jetwing Lighthouse – Cardamom Café with DFCC Credit Cards.
+Offer Period: 20th March to 20th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 March 2025 - 20 April 2025.,20% Savings on dine-in at Jetwing Lighthouse - Cardamom Café with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/17131035/Jetwing-Lighthouse-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/jetwing-lighthouse-cardamom-cafe/
+7,1,Jetwing Blue – The Kitchen,Jetwing Blue – The Kitchen,"Offer: 20% Savings on dine-in at Jetwing Blue – The Kitchen with DFCC Credit Cards.
+Offer Period: 20th March to 20th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cards)",Valid from 20 March 2025 - 20 April 2025.,20% Savings on dine-in at Jetwing Blue - The Kitchen with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/01042919/400-x-225-Jetwing-Bkue.jpg,https://www.dfcc.lk/promotions/jetwing-blue-negombo-the-kitchen-2/
 7,1,Great Wall Restaurants,Great Wall Restaurants,"Offer: 25% Savings on dine-in at Great Wall Restaurants with DFCC Credit Cards
 Offer Period: 01st March to 30th April 2025
 Maximum Bill Value: Rs. 30,000/- per cardholder
 Locations: Colombo 07, Pelawatta & Kalubowila
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 1 March 2025 - 30 April 2025.,25% Savings on dine-in at Great Wall Restaurants with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/10/03083922/Great-Wall-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/monsoon-colombo/
+7,2,Birds Resort – Hambantota,Birds Resort – Hambantota,"Offer: 15% Savings at Birds Resort – Hambantota on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards.
+Booking Period: 15th to 31st March 2025
+Stay Period: 01st to 30th April 2025
+Reservations Number: 077 030 3067
+Eligible Card Categories: All DFCC Credit Cards (Excluding DFCC Corporate Credit Cards)",Valid from 15 March 2025 - 31 March 2025.,15% Savings at Birds Resort - Hambantota with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/21102351/Birds-Resort_400-X-225.jpg,https://www.dfcc.lk/promotions/birds-resort-hambantota/
+7,2,Hunas Falls – Kandy,Hunas Falls – Kandy,"Offer: 35% Savings at Hunas Falls – Kandy on double and triple room bookings on half board and full board basis with DFCC Credit Cards.
+Booking Dates: 22nd & 23rd March 2025 (48 Hours)
+Stay Period: 23rd March to 30th June 2025
+Reservation Website: www.hunasfallshotelkandy.com using the Promo Code: DFCC25
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 22 March 2025 - 23 March 2025.,35% Savings at Hunas Falls - Kandy with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/21101250/Hunas-Falls-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/hunas-falls-kandy/
 7,2,Radisson Blu Resort Galle,Radisson Blu Resort Galle,"Offer: 20% Savings at Radisson Blu Resort Galle on Double and Triple room bookings on half board & full board basis stays with DFCC Credit Cards.
 Booking Period: 24th March to 05th April 2025
 Stay Period: 01st to 30th April 2025
 Blackout Dates: 12th to 15th April 2025
 Reservation Number: 0112 030 541 (Promo Code: RBA)
 Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 24 March 2025 - 5 April 2025.,20% Savings at Radisson Blu Resort Galle with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13110252/Radisson-Galle-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/radisson-blu-resort-galle/
+7,2,"Amaara Forest Hotel, Sigiriya","Amaara Forest Hotel, Sigiriya","Offer: 30% Savings at Amaara Forest Hotel Sigiriya on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
+Booking & Stay Period: 01st January to 31st March 2025
+Reservations Website: www.amaarahotels.com by using Promo code DFCCC.
+Reservations Number: 0770 038 312
+Eligible Card Categories: All DFCC Credit Cardholders",Valid from 1 January 2025 - 31 March 2025.,30% Savings at Amaara Forest Hotel Sigiriya on half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/01/27065919/400-x-225-amaara-forest.jpg,https://www.dfcc.lk/promotions/amaara-forest-hotel-sigiriya-4/
+7,2,Amaara Sky Hotel – Kandy,Amaara Sky Hotel – Kandy,"Offer: 30% Savings at Amaara Sky Hotel Kandy on double and triple room bookings on half board & full board basis stays with DFCC Credit Cards
+Booking & Stay Period: 01st January to 31st March 2025
+Reservations Website: www.amaarahotels.com by using Promo code DFCCC.
+Reservations Number: 0770 038 312
+Eligible Card Categories: All DFCC Credit Cardholders",Valid from 1 January 2025 - 31 March 2025.,30% Savings at Amaara Sky Hotel Kandy n half board & full board basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/02/20113127/400-x-225-amaara-sky.jpg,https://www.dfcc.lk/promotions/amaara-sky-hotel-kandy-6/
 7,2,Radisson Resort- Kandy,Radisson Resort- Kandy,"Offer: 15% Savings at Radisson Resort Kandy on Double and Triple room bookings on half board & full board basis stays with DFCC Credit Cards.
 Booking Period: 24th March to 05th April 2025
 Stay Period: 01st to 30th April 2025
@@ -225,27 +305,27 @@ Participating Properties:
 Booking Period: 15th March to 30th April 2025
 Stay Period: 15th March to 30th June 2025
 Reservation Website: www.boutiquecollectionbyamaya.com using the Promo Code: DFCC25
-Reservations Number: 0772 953 527",Valid from 15 March 2025 - 30 April 2025.,30% Savings at Boutique Collection by Amaya stays with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/10032856/400x225-10.jpg,https://www.dfcc.lk/promotions/boutique-collection-by-amaya/
+Reservations Number: 0772 953 527",Valid from 15 March 2025 - 30 April 2025.,30% Savings at Boutique Collection by Amaya stays with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/13053524/Amaya-Boutique-Collection-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/boutique-collection-by-amaya/
 7,2,Amaya Resorts & Spas,Amaya Resorts & Spas,"Offer: Up to 30% Savings at Amaya Resorts & Spas on double and triple room bookings on bed & breakfast, half board & full Board Basis stays with DFCC Credit Cards.
 Participating Properties:
-Amaya Hills Kandy – 30% Savings
-Amaya Beach Pasikudah – 30% Savings
-Amaya Lake Dambulla – 25% Savings
-Amaya Hills Kandy – 30% Savings
-Amaya Beach Pasikudah – 30% Savings
-Amaya Lake Dambulla – 25% Savings
-Booking Period: 15th March to 30th April 2025
-Stay Period: 15th March to 30th June 2025
+Amaya Hills Kandy – Up to 30% Savings
+Amaya Beach Pasikudah – Up to 30% Savings
+Amaya Lake Dambulla – Up to 25% Savings
+Amaya Hills Kandy – Up to 30% Savings
+Amaya Beach Pasikudah – Up to 30% Savings
+Amaya Lake Dambulla – Up to 25% Savings
+Booking Period: 20th March to 30th April 2025
+Stay Period: Till 30th June 2025
 Reservations Website: www.amayaresorts.com by using Promo code DFCC25
 Reservations Number: 011 4 767 888
-Eligible Card Categories: All DFCC Credit Cardholders (Excluding Corporate Credit Cards)",Valid from 15 March 2025 - 30 April 2025.,Up to 30% Savings at Amaya Resorts & Spas with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/27051236/Amaya-resorts-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/amaya-resorts-spas/
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding Corporate Credit Cards)",Valid from 20 March 2025 - 30 April 2025.,Up to 30% Savings at Amaya Resorts & Spas with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/27051236/Amaya-resorts-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/amaya-resorts-spas/
 7,2,Sheraton Kosgoda Turtle Beach Resort,Sheraton Kosgoda Turtle Beach Resort,"Offer: 25% Savings on Deluxe Garden View rooms at Sheraton Kosgoda Turtle Beach Resort for double room bookings on Full Board Basis stays with  DFCC Credit Cards
-Booking Period: 18th, 19th & 20th March 2025
+Booking Period: 18th, 19th & 20th April 2025
 Stay Period: Till 31st May 2025
 Maximum bookings: 05 bookings per card
-Reservations Inquiries : 0917 600 100","18th, 19th & 20th March 2025",25% Savings on Full Board Basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/10/07084828/400-X-225_Sheraton.jpg,https://www.dfcc.lk/promotions/sheraton-kosgoda-turtle-beach-resort/
-7,2,Cinnamon Hotels & Resorts,Cinnamon Hotels & Resorts,"Offer: 15% Savings at Cinnamon Hotels & Resorts for double and triple room bookings on full board basis stays with DFCC Credit Cards.
-Participating Restaurants:
+Reservations Inquiries : 0917 600 100","18th, 19th & 20th April 2025",25% Savings on Full Board Basis stays with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/10/07084828/400-X-225_Sheraton.jpg,https://www.dfcc.lk/promotions/sheraton-kosgoda-turtle-beach-resort/
+7,2,Cinnamon Hotels & Resorts,Cinnamon Hotels & Resorts,"Offer: 15% Savings at selected Cinnamon Hotels & Resorts for double and triple room bookings on full board basis stays with DFCC Credit Cards.
+Participating Hotels & Resorts:
 1. Cinnamon Bey Beruwala
 2. Hikka Tranz by Cinnamon
 3. Cinnamon Wild Yala
@@ -255,8 +335,25 @@ Participating Restaurants:
 7. Habarana Village
 Offer Period: 18th to 21st March 2025
 Stay Period: 01st April to 31st October 2025
+Blackout Dates: 12th to 15th April 2025
 Reservations Website: www.cinnamonhotels.com/Global using Promo Code: DFCC15
 Reservations Number: 0112 161 161",Valid from 18 March 2025 - 21 March 2025.,15% Savings at Cinnamon Hotels & Resorts with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/05/25064010/cinnamon-hotels-and-resorts.jpg,https://www.dfcc.lk/promotions/cinnamon-lakeside-colombo-3/
+7,2,Aitken Spence Hotels,Aitken Spence Hotels,"Offer: Up to 41% Savings at selected Aitken Spence Hotels on double and triple room bookings on full board basis stays with DFCC Credit Cards.
+Participating Properties:
+Heritance Tea Factory – 30%
+Sentido Heritance Negombo – 41% (DBL Room Basis only)
+Turyaa Kalutara – 37%
+Amethyst Resort – 37%
+The Rainforest Ecolodge 34% (DBL Room Basis only)
+Heritance Tea Factory – 30%
+Sentido Heritance Negombo – 41% (DBL Room Basis only)
+Turyaa Kalutara – 37%
+Amethyst Resort – 37%
+The Rainforest Ecolodge 34% (DBL Room Basis only)
+Booking Period:  17th March to 9th April 2025
+Stay Period: 17th March to 30th April 2025
+Blackout Dates: 10th to 15th April 2025
+Reservations Website: https://www.aitkenspencehotels.com/cc-offer-mar-2025",Valid from 17 March 2025 - 9 April 2025.,Up to 41% Savings on full board basis stays with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/07/12111904/Aitken-Spence-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/aitken-spence-hotels/
 7,2,The Radh Hotel Kandy,The Radh Hotel Kandy,"Offer: 20% Savings on 1-night stays at The Radh Hotel Kandy for double & triple room bookings on half board & full board basis with DFCC Credit Cards.
 Booking & Stay Period: 01st to 30th April 2025
 Black out dates: 11th to 16th April 2025
@@ -322,13 +419,6 @@ Other Products: Maximum quantity of 3kg/ 3 units per item.
 Validity: Valid only for 01 transaction per cardholder per day.
 Exempted Items: Liquor, tobacco, pharmaceuticals, existing discounted products, gift vouchers, hampers, gas purchases & utility bill payments.
 Eligible Card Categories: All DFCC Credit Cards (excluding DFCC Corporate Credit Cards)",Every Tuesday from 04th March to 29th April 2025,"10% Savings on the Total Bill at Laugfs Super for bills over Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/09/12090402/400-x-225-Laugfs.jpg,https://www.dfcc.lk/promotions/laugfs-super-2/
-7,3,Arpico Super Centres,Arpico Super Centres,"Offer: 30% Savings on fresh Vegetables, Fruits and Seafood at Arpico Super Centres and Daily outlets for bills above Rs. 5,000/- with DFCC Credit Cards.
-Offer Period: Every Thursdays from 06th to 20th March 2025
-Maximum Savings: Rs. 1,500/-
-Maximum Quantity: 3Kg or 3 units from each eligible item
-Exempted Items: Potatoes, coconut, big onion, whole chicken, and packaged vegetables, fruits, seafood, and processed meat.
-Validity: Valid only for 01 transaction per cardholder per day
-Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Every Thursdays from 06th to 20th March 2025,"30% Savings on fresh Vegetables, Fruits, Seafood and Meat at Arpico Super Centres and Daily outlets for bills above Rs. 5,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/05073746/Arpico-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/arpico-super-centres-3/
 7,3,Arpico Super Centres,Arpico Super Centres,"Offer: 20% Savings on the Total Bill at Arpico Super Centres and Daily outlets for bills above Rs. 7,500/- with DFCC Credit Cards
 Offer Period: 27th March 2025
 Maximum Savings: Rs. 2,000/- per cardholder, per day
@@ -356,6 +446,238 @@ Offer Period: 23rd to 31st March 2025
 Maximum Savings: Rs. 4,000/- per cardholder during the offer period
 Exempted Items: Rice, Sugar, Dhal, Chickpeas, Green Peas, Green Gram, Milk Powder, Tobacco and discounted items Click here for more information.
 Eligible Card Categories: All DFCC Credit Cardholders (excluding DFCC Corporate Credit Cards)",Valid from 23 March 2025 - 31 March 2025.,10% Savings on www.cargillsonline.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/05/27051925/Cargills-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/www-cargillsonline-com-2/
+7,4,KRESTORE – Anuradhapura,KRESTORE – Anuradhapura,"Offer: 15% Savings at KRESTORE – Anuradhapura with DFCC Credit Cards.
+Offer Period: 21st to 23rd March 2025
+Location: New Town, Anuradhapura
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 21 March 2025 - 23 March 2025.,15% Savings at KRESTORE - Anuradhapura with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/21075716/KRESTORE_400-X-225.jpg,https://www.dfcc.lk/promotions/krestore-anuradhapura/
+7,4,Harsha Fashion,Harsha Fashion,"Offer: 25% Savings at Harsha Fashion with DFCC Credit Cards.
+Offer Period: 23rd March and 06th & 07th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: No. 109, 111 Olcott Mawatha, Colombo 011
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd March and 06th & 07th April 2025,25% Savings at Harsha Fashion with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/20121429/HF-LOGO_400-X-225.jpg,https://www.dfcc.lk/promotions/harsha-fashion/
+7,4,Lida Fashion,Lida Fashion,"Offer: 20% Savings at Lida Fashion – Aluthgama with DFCC Credit Cards.
+Offer Period: 20th & 21st March 2025
+Location: No. 29A, Station Road, Aluthgama
+Inquiry Numbers: 0342 270 531, 0342 270 593
+Email Address: lidafashion.lk@yahoo.com
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 20 March 2025 - 21 March 2025.,20% Savings at Lida Fashion - Aluthgama with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/19120009/Lida-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/lida-fashion/
+7,4,Mora Clothing – Negombo,Mora Clothing – Negombo,"Offer: 20% Savings at Mora Clothing – Negombo with DFCC Credit Cards.
+Offer Period: 20th to 31st March and 05th to 15th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Minimum Bill Value: Rs. 5,000/-
+Location: No. 451/1, Mirigama Road, Negombo
+Inquiries: 031-2222567
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",20th to 31st March and 05th to 15th April 2025,20% Savings at Mora Clothing - Negombo with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/03/19091118/Mora-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/mora-clothing-negombo/
+7,4,Diliganz,Diliganz,"Offer: 25% Savings at Diliganz with DFCC Credit Cards.
+Offer Period: 20th & 21st March 2025
+Maximum Bill Value: Rs. 50,000/- per cardholder
+Location: Marino Mall & Gampaha
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 20 March 2025 - 21 March 2025.,25% Savings at Diliganz with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/29071415/400-x-225-Diliganz.jpg,https://www.dfcc.lk/promotions/diliganz-3/
+7,4,Super Kids – Panadura,Super Kids – Panadura,"Offer: 20% Savings at Super Kids – Panadura with DFCC Credit Cards.
+Offer Dates: 26th & 27th March 2025
+Location: No. 356, Galle Road, Panadura
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 26 March 2025 - 27 March 2025.,20% Savings at Super Kids - Panadura with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/12/17110335/400x225-3.jpg,https://www.dfcc.lk/promotions/super-kids-panadura-2/
+7,4,Nithijaya Saree,Nithijaya Saree,"Offer: 25% Savings at Nithijaya Saree with DFCC Credit Cards.
+Offer Period: 17th to 23rd March 2025
+Location: 260A, Old Kottawa Road, Embuldeniya Nugegoda.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 17 March 2025 - 23 March 2025.,25% Savings at Nithijaya Saree with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/25110019/Nithijaya-Saree-Logo-Banner-400-X-225.jpg,https://www.dfcc.lk/promotions/nithijaya-saree/
+7,4,Queen Nithijaya Saree,Queen Nithijaya Saree,"Offer: 25% Savings at Queen Nithijaya Saree with DFCC Credit Cards.
+Offer Period: 17th to 23rd March 2025
+Location: No. 78, Pagoda Road, Nugegoda
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 17 March 2025 - 23 March 2025.,25% Savings at Queen Nithijaya Saree with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/25110530/Queen-Nithijaya-Logo-Banner-400-X-225.jpg,https://www.dfcc.lk/promotions/queen-nithijaya-saree/
+7,4,ZigZag,ZigZag,"Offer: 25% Savings at Zigzag & www.zigzag.lk with DFCC Credit Cards.
+Offer Period: 28th, 29th & 30th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: All Zigzag Outlets
+Website: www.zigzag.lk
+Promo Code: DFCC25
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 28 March 2025 - 30 March 2025.,25% Savings at Zigzag & www.zigzag.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/03/06100347/400-x-225-Zigzag.jpg,https://www.dfcc.lk/promotions/zigzag/
+7,4,Kreation House of Cotton,Kreation House of Cotton,"Offer: 20% Savings at Kreation House of Cotton & www.kreationhandlooms.com with DFCC Credit Cards.
+Offer Period: 25th to 27th March and 04th to 06th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Locations: Borella, Wattala, Mount Lavinia & Wellawatte
+Website: www.kreationhandlooms.com
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",25th to 27th March and 04th to 06th April 2025,20% Savings at Kreation House of Cotton & www.kreationhandlooms.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/11/23051053/400-X-225_Kreation.jpg,https://www.dfcc.lk/promotions/kreation-house-of-cotton-2/
+7,4,Ceylon City Mart,Ceylon City Mart,"Offer: 25% Savings at Ceylon City Mart with DFCC Credit Cards.
+Offer Period: 23rd & 24th March and 02nd & 03rd April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: No. 83, H.K Edmond Mawatha, Galle
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd & 24th March and 02nd & 03rd April 2025,25% Savings at Ceylon City Mart with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/31112934/City-Mart-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/ceylon-city-mart-2/
+7,4,Nora Reed,Nora Reed,"Offer: 25% Savings at Nora Reed with DFCC Credit Cards.
+Offer Period: 22nd March and 11th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Location: No. 1C, Bagathale Road, Colombo 03
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",22nd March and 11th April 2025,25% Savings at Nora Reed with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/03/25063152/400-X-225_Nora-Reed-New.jpg,https://www.dfcc.lk/promotions/nora-reed-2/
+7,4,Avirate,Avirate,"Offer: 20% Savings at Avirate outlet with DFCC Credit Cards.
+Offer Period: 29th & 30th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: No. 30 Maitland Cres, Colombo 07, CCC
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards).",Valid from 29 March 2025 - 30 March 2025.,20% Savings at Avirate outlet with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/25055802/400-x-225-Avirate.jpg,https://www.dfcc.lk/promotions/avirate/
+7,4,NOLIMIT,NOLIMIT,"Offer: 25% Savings at NOLIMIT Outlets & www.nolimit.lk with DFCC Credit Cards.
+Offer Period: 25th March and 07th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Location: All NOLIMIT Outlets
+Website: www.nolimit.lk
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",25th March and 07th April 2025,25% Savings at NOLIMIT Outlets & www.nolimit.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/11/28071851/No-Limit-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/nolimit-3/
+7,4,AMA Dress Point,AMA Dress Point,"Offer: 25% Savings at AMA Dress Point with DFCC Credit Cards.
+Offer Period: 29th, 30th & 31st March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Horana, Bandaragama, Badulla & Minuwangoda
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 29 March 2025 - 31 March 2025.,25% Savings at AMA Dress Point with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/15033430/Ama-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/ama-dresspoint/
+7,4,Nadiyas Textiles,Nadiyas Textiles,"Offer: 20% Savings at Nadiyas Textile with DFCC Credit Cards.
+Offer Period: 22nd March and 03rd April 2025
+Maximum Bill Value: Rs. 50,000/- per cardholder, per day
+Location: Nawalapitiya, Gampola, Matale, Kandy, Kurunegala, Polonnaruwa, Avissawella.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",22nd March and 03rd April 2025,20% Savings at Nadiyas Textile with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/03/17093444/Nadiya-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/nadiyas-textiles-1/
+7,4,Wybe Fashion,Wybe Fashion,"Offer: 25% Savings at Wybe Fashion & www.wybe.lk with DFCC Credit Cards.
+Offer Period: 22nd & 23rd March and 11th to 13th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Location: No. 81, Negombo Road, Ja-Ela.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",22nd & 23rd March and 11th to 13th April 2025,25% Savings at Wybe Fashion & www.wybe.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/26051827/Wybe-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/wybe-fashion/
+7,4,House of Fashions,House of Fashions,"Offer: 25% Savings at House of Fashion with DFCC Credit Cards.
+Offer Period: 22nd March 2025
+Maximum Bill Value: Rs. 50,000/- per cardholder, per day
+Location:
+1. No. 28 R. A. De Mel Mawatha, Colombo 05
+2. No. 101 D. S. Senanayake Mawatha, Colombo 08
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",22nd March 2025,25% Savings at House of Fashion with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/19084441/400-x-225-HOF.jpg,https://www.dfcc.lk/promotions/house-of-fashions/
+7,4,Dirali – Marino Mall,Dirali – Marino Mall,"Offer: 25% Savings at Dirali – Marino Mall with DFCC Credit Cards.
+Offer Period: 20th & 21st March 2025
+Maximum Bill Value: Rs. 50,000/- per cardholder
+Location: Marino Mall
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 20 March 2025 - 21 March 2025.,25% Savings at Dirali - Marino Mall with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2020/03/06124543/400-x-225-Dirali.jpg,https://www.dfcc.lk/promotions/dirali-shop-marino-mall/
+7,4,Molly Fashion Circle,Molly Fashion Circle,"Offer: 20% Savings at Molly Fashion Circle with DFCC Credit Cards.
+Offer Period: 21st & 29th March 2025
+Maximum Bill Value: Rs. 50,000/- per cardholder
+Location: No. 64, Tissa Mawatha, Kuliyapitiya Infront of Ananda College, Colombo Road, Chilaw.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 29th March 2025,20% Savings at Molly Fashion Circle with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/15092933/Molly-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/molly-fashion-circle-2/
+7,4,NISACO MALL,NISACO MALL,"Offer: 20% Savings at NISACO MALL with DFCC Credit Cards.
+Offer Period: 22nd & 23th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: No. 311, Borella Road, Athurugiriya
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 22 March 2025 - 23 March 2025.,20% Savings at NISACO MALL with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/18050748/Nisaco-Mall-Web-Banners_400-X-225-2.jpg,https://www.dfcc.lk/promotions/nisaco-mall-2/
+7,4,The Vanta Studios,The Vanta Studios,"Offer: 25% Savings at The Vanta Studios with DFCC Credit Cards.
+Offer Period: 24th & 25th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Location: All Vanta Studios Outlets
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 24 March 2025 - 25 March 2025.,25% Savings at The Vanta Studios with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/08/17071549/400-X-225_The-Vanta-Studios.jpg,https://www.dfcc.lk/promotions/the-vanta-studios-2/
+7,4,Spring & Summer,Spring & Summer,"Offer: 25% Savings at Spring & Summer & www.springandsummer.lk with DFCC Credit Cards.
+Offer Period: 28th & 29th March and 07th & 08th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: All Spring & Summer Outlets
+Website: www.springandsummer.lk
+Promo Codes: SSDFCC25
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",28th & 29th March and 07th & 08th April 2025,25% Savings at Spring & Summer & www.springandsummer.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/21120637/400-x-225-Spring.jpg,https://www.dfcc.lk/promotions/www-springandsummer-lk-3/
+7,4,DOWN TOWN,DOWN TOWN,"Offer: 20% Savings at Down Town orders above Rs. 15,000/- with DFCC Credit Cards.
+Offer Period: 21st & 23rd March and 04th & 06th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location:
+1. No. 132, Colombo Road, Maharagama,
+2. No. 173, High Level Road, Maharagama,
+3. No. 77, High Level Road, Homagama.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 23rd March and 04th & 06th April 2025,"20% Savings at Down Town orders above Rs. 15,000/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/04/03112912/Downtown-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/down-town/
+7,4,The Kids Warehouse,The Kids Warehouse,"Offer: 25% Savings at The Kids Warehouse & www.tkw.lk with DFCC Credit Cards.
+Offer Period: 23rd, 24th & 25th March and 05th & 06th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: No. 25, Visaka Road, Colombo 04
+Website: www.tkw.lk
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)","23rd, 24th & 25th March and 05th & 06th April 2025",25% Savings at The Kids Warehouse & www.tkw.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/10/17041930/400-x-225-TKW.jpg,https://www.dfcc.lk/promotions/the-kids-warehouse-2/
+7,4,New Manel Fashion,New Manel Fashion,"Offer: 25% Savings at New Manel Fashion House – Maharagama with DFCC Credit Cards
+Offer Period: 21st & 22nd March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder
+Location: Maharagama
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding DFCC Corporate Credit Cardholders)",Valid from 21 March 2025 - 22 March 2025.,25% Savings at New Manel Fashion House - Maharagama with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/15040617/New-Manel-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/new-manel-fashion/
+7,4,ASB Fashion,ASB Fashion,"Offer: 20% Savings at ASB Fashion with DFCC Credit Cards.
+Offer Period: 25th March and 03th April 2025
+Maximum Savings Value: Rs. 30,000/- per cardholder
+Location: All ASB Fashion Outlets
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 25 March 2025 - 3 April 2025.,20% Savings at ASB Fashion with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/03/18053039/400-X-225_ASB.jpg,https://www.dfcc.lk/promotions/asb-fashion-2/
+7,4,Super Fashion,Super Fashion,"Offer: 25% Savings at Super Fashion with DFCC Credit Cards.
+Offer Period: 25th & 26th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Super Fashion – Panadura
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 25 March 2025 - 26 March 2025.,25% Savings at Super Fashion with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/27081624/400-x-super-fashion.jpg,https://www.dfcc.lk/promotions/super-fashion/
+7,4,Softlogic Brands,Softlogic Brands,"Offer: 25% Savings at ODEL, Cotton Collection and Softlogic Brands with DFCC Credit Cards.
+Offer Period: 20th & 21st March 2025
+Maximum Savings: Rs. 20,000/- per cardholder, per day
+Eligible Softlogic Brands: ODEL, Galleria, Cotton Collection, COCO, ODEL Brands outlet store, ODEL Sports (Selected Items), Luv SL, odel.lk, Levi’s, Calvin Klein, Armani Exchange, Tommy Hilfiger, Mango, Charles & Keith, Aldo, Nike, Adidas Originals – OGF MAll, Adidas – OGF Mall, Skechers – OGF Mall, Samsonite, Yamamay, Vero Moda and The Toy Store
+Eligible Card Categories: All DFCC Credit Cards(Excluding Corporate Credit Cards)",Valid from 20 March 2025 - 21 March 2025.,"25% Savings at ODEL, Cotton Collection and Softlogic Brands with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/20030849/BA-Avurudu-Mar-Promo-Logo-Line-Up-400x225-1.jpg,https://www.dfcc.lk/promotions/softlogic-brands/
+7,4,Nils,Nils,"Offer: 20% Savings at Nils outlets and nilsonline.lk with DFCC Credit Cards.
+Offer Period: 28th, 29th & 30th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: All Nils outlets
+Website: nilsonline.lk
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",25th & 26th November and 14th & 15th December 2024,20% Savings atNils outlets and nilsonline.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/03/12043713/400-X-225_Nils.jpg,https://www.dfcc.lk/promotions/nils/
+7,4,TOYTOPIA,TOYTOPIA,"Offer: 20% Savings at Toytopia outlets with DFCC Credit Cards.
+Offer Period: 24th, 25th & 26th March 2025
+Eligible Card Categories: All DFCC Credit Cards (Excluding DFCC Credit Cardholders)",Valid from 24 March 2025 - 26 March 2025.,20% Savings at Toytopia outlets with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/19065926/Toytopia-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/toytopia/
+7,4,Stripes & Checks,Stripes & Checks,"Offer: 25% Savings at Stripes and Checks & www.stripesandchecksinc.com with DFCC Credit Cards.
+Offer Period: 23rd & 24th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Havelock, Ward Place, Mount Lavinia, OGF Mall – L3, CCC Mall – L1
+Website: www.stripesandchecksinc.com
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 23 March 2025 - 24 March 2025.,25% Savings at Stripes & Checks & www.stripesandchecksinc.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/13112844/Stripes-and-Checks-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/stripes-checks-2/
+7,4,Celcius Luxury Bedding,Celcius Luxury Bedding,"Offer: 25% Savings at Celcius showrooms with DFCC Credit Cards.
+Offer Period: 27th to 30th March 2025
+Location: All Celcius showrooms
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 27 March 2025 - 30 March 2025.,25% Savings at Celcius showrooms with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/26084610/Celsius-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/celcius-luxury-bedding/
+7,4,Nirmani Dress Point,Nirmani Dress Point,"Offer: 25% Savings at Nirmani Dress Point with DFCC Credit Cards.
+Offer Period: 21st & 24th March 2025
+Maximum Bill Value: Rs. 40,000/- per cardholder, per day
+Location:
+1. No. 55, Bank Side, Anuradhapura,
+2. No. 26/6, Anuradhapura Road, Thambuttegama
+3. No. 86, Yakalla Road, Kekirawa.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st & 24th March 2025,25% Savings at Nirmani Dress Point with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/03102128/Nirmani-Web-Banners_400-X-225-1.jpg,https://www.dfcc.lk/promotions/nirmani-dress-point-2/
+7,4,ZUZI,ZUZI,"Offer: 20% Savings at ZUZI Fashion with DFCC Credit Cards.
+Offer Period: 22nd March and 06th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Kotahena Col.13, Wellawatte & Hatton
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",22nd March and 06th April 2025,20% Savings at ZUZI Fashion with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2022/03/22060144/400-X-225_Zuzi.jpg,https://www.dfcc.lk/promotions/zuzi/
+7,4,TKS Fashion,TKS Fashion,"Offer: 20% Savings at TKS Fashion – Ampara with DFCC Credit Cards.
+Offer Period: 21st March and 02nd April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: TKS Fashion Corner, DS Senanayake Street, Ampara
+Inquiry Number: 0778 323 030
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",21st March & 02nd April 2025,20% Savings at TKS Fashion - Ampara with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/04/20042949/TKS-LOGO-400-X-225.jpg,https://www.dfcc.lk/promotions/sudharmans-2/
+7,4,DISEL,DISEL,"Offer: 25% Savings at DISEL Fashion with DFCC Credit Cards.
+Offer Period: 23rd March and 06th & 07th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location:
+1. No. 98, Old Negombo Road, kanuwana, Ja-Ela
+2. No. 168, Old Negombo Road, kanuwana, Ja-Ela
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd March and 06th & 07th April 2025,25% Savings at DISEL Fashion with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2023/04/20121659/DF-LOGO_400-X-225.jpg,https://www.dfcc.lk/promotions/disel/
+7,4,Prasad Fashion Square,Prasad Fashion Square,"Offer: 25% Savings at Prasad Fashion Square with DFCC Credit Cards.
+Offer Period: 27th & 28th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Kottawa, Homagama, Matara and Eheliyagoda
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 27 March 2025 - 28 March 2025.,25% Savings at Prasad Fashion Square with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/12/30065220/Prasad-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/prasad-fashion-square-2/
+7,4,MONDY,MONDY,"Offer: 25% Savings at Mondy & www.mondy78.com with DFCC Credit Cards.
+Offer Period: 27th & 28th March 2025
+Maximum Savings Value: Rs. 30,000/- per cardholder
+Location: No. 78, Dharmapala Mawatha, Colombo 03
+Website: www.mondy78.com
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 27 March 2025 - 28 March 2025.,25% Savings at Mondy & www.mondy78.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/03/09113530/400-X-225_Mondy.jpg,https://www.dfcc.lk/promotions/mondy/
+7,4,Romafour,Romafour,"Offer: 20% Savings at Romafour with DFCC Credit Cards.
+Offer Period: 25th, 26th & 27th March and 04th, 05th & 06th April 2025
+Location: No. 71, Galle Road, Colombo 04.
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)","25th, 26th & 27th March and 04th, 05th & 06th April 2025",20% Savings at Romafour with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2021/03/16120700/400-X-225_romafour.jpg,https://www.dfcc.lk/promotions/romafour/
+7,4,Samanmal,Samanmal,"Offer: 35% Savings at Samanmal outlets orders above Rs. 7,500/- with DFCC Credit Cards.
+Offer Period: 23rd March and 06th April 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Matara, Panadura, Embilipitiya
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",23rd March and 06th April 2025,"35% Savings at Samanmal outlets orders above Rs. 7,500/- with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/27091055/400-x-225-Samanmal.jpg,https://www.dfcc.lk/promotions/samanmal/
+7,4,Prasad Textiles,Prasad Textiles,"Offer: 25% Savings at Prasad Textiles with DFCC Credit Cards.
+Offer Period: 27th & 28th March 2025
+Maximum Bill Value: Rs. 30,000/- per cardholder, per day
+Location: Piliyandala
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 27 March 2025 - 28 March 2025.,25% Savings at Prasad Textiles with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/12/04043450/400-x-225-Prasad-Textiles.jpg,https://www.dfcc.lk/promotions/prasad-textiles/
+7,4,Fashion Bug,Fashion Bug,"Offer: 30% Savings at Fashion Bug Outlets & www.fashionbug.lk with DFCC Credit Cards.
+Ofer Period: 28th & 29th March and 06th April 2025
+Maximum Bill Value: Rs. 40,000/- per cardholder, per day
+Location: All Fashion Bug Outlets
+Website: www.fashionbug.lk
+Eligible Card Categories: All DFCC Credit Cardholders (Excluding Corporate Credit Card)",28th & 29th March and 06th April 2025,30% Savings at Fashion Bug Outlets & www.fashionbug.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/11102223/Fashion-Bug-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/fashion-bug/
 7,4,Multilac Paints,Multilac Paints,"Offer: Up to 50% Savings on selected Multilac paints with 12 & 24 Months 0% Easy Payment Plans at Multilac Paints with DFCC Credit Cards.
 Offer Period: 15th March to 30th April 2025
 Locations: All Hafele showrooms
@@ -371,10 +693,10 @@ Offer Period: 06th January to 31st March 2025
 Locations: All Arpico Supercentres
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
 Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 6 January 2025 - 31 March 2025.,12 & 24 Months 0% Easy Payment Plans at Arpico Supercentre with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/07/10060617/400-x-225-Arpico-1.jpg,https://www.dfcc.lk/promotions/12-24-months-0-easy-payment-plans-at-arpico-supercentre-and-electronics/
-7,4,Dilshan Drapers,Dilshan Drapers,"Offer: 12 & 24 Months 0% Easy Payment Plans at Dilshan Drapers with DFCC Credit Cards.
-Offer Period: 01st March to 30th April 2025
+7,4,Dilshan Drapers,Dilshan Drapers,"Offer: 15% Savings on selected curtains & Furniture Fabrics with 12 & 24 Months 0% Easy Payment Plans at Dilshan Drapers with DFCC Credit Cards.
+Offer Period: 15th March to 30th April 2025
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 March 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Dilshan Drapers with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/02/25115213/Dilshan-Drapers-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/dilshan-drapers/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 15 March 2025 - 30 April 2025.,15% Savings on selected curtains & Furniture Fabrics with 12 & 24 Months 0% Easy Payment Plans at Dilshan Drapers with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2025/02/25115213/Dilshan-Drapers-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/dilshan-drapers/
 7,4,Alpha Industries,Alpha Industries,"Offer: 12 & 24 Months 0% Easy Payment Plans at Alpha Industries with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
@@ -412,11 +734,11 @@ Offer Period: 01st February to 30th April 2025
 Website: www.buyabans.com
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
 Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at www.buyabans.com with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/11/05104927/400-x-225-Buy-Abans.jpg,https://www.dfcc.lk/promotions/www-buyabans-com-2/
-7,4,Arpico Furniture,Arpico Furniture,"Offer: 12 & 24 Months 0% Easy Payment Plans at Arpico Furniture with DFCC Credit Cards.
-Offer Period: 01st February to 30th April 2025
+7,4,Arpico Furniture,Arpico Furniture,"Offer: Up to 20% Savings on selected products 12 & 24 Months 0% Easy Payment Plans at Arpico Furniture with DFCC Credit Cards.
+Offer Period: 10th March to 30th April 2025
 Locations: All Arpico Furniture showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Arpico Furniture with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/05/25064053/arpico-furniture.jpg,https://www.dfcc.lk/promotions/arpico-furniture-epp/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 10 March 2025 - 30 April 2025.,Up to 20% Savings on selected products 12 & 24 Months 0% Easy Payment Plans at Arpico Furniture with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/05/25064053/arpico-furniture.jpg,https://www.dfcc.lk/promotions/arpico-furniture-epp/
 7,4,CameraLK,CameraLK,"Offer: 12 & 24 Months 0% Easy Payment Plans at CameraLK with DFCC Credit Cards.
 Offer Period: 01st February to 30th April 2025
 Locations: All CameraLK showrooms and sub-companies
@@ -431,11 +753,11 @@ Offer Period: 01st February to 30th April 2025
 Locations: All Damro showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
 Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Damro with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/04/02070913/400-x-225-Damro.jpg,https://www.dfcc.lk/promotions/damro-up-to-60-days-2-2-2/
-7,4,Dankotuwa Porcelain,Dankotuwa Porcelain,"Offer: 12 & 24 Months 0% Easy Payment Plans at Dankotuwa Porcelain with DFCC Credit Cards.
-Offer Period: 01st February to 30th April 2025
+7,4,Dankotuwa Porcelain,Dankotuwa Porcelain,"Offer: Up to 20% Savings on selected products with 12 & 24 months 0% Easy Payment Plans at Dankotuwa Porcelain with DFCC Credit Cards.
+Offer Period: 15th March to 28th April 2025
 Locations: All Dankotuwa Porcelain showrooms
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Dankotuwa Porcelain with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/25105036/dANKOTUWA-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/dankotuwa/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 15 March 2025 - 28 April 2025.,Up to 20% Savings on selected products with 12 & 24 months 0% Easy Payment Plans at Dankotuwa Porcelain with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/03/25105036/dANKOTUWA-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/dankotuwa/
 7,4,Dinapala Group,Dinapala Group,"Offer: Up to 30% Savings on selected products with 12 & 24 Months 0% Easy Payment Plans at Dinapala showrooms with DFCC Credit Cards.
 Offer Period: 01st March to 30th April 2025
 Locations: All Dinapala showrooms
@@ -500,14 +822,14 @@ Offer Period: 15th March to 30th April 2025
 Website: www.softlogic.lk
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
 Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 15 March 2025 - 30 April 2025.,Up to 50% Savings on selected products with 12 & 24 Months 0% Easy Payment Plans at www.mysoftlogic.lk with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2019/06/26115923/400-x-225-Softlogic.lk_.jpg,https://www.dfcc.lk/promotions/www-mysoftlogic-lk-epp/
-7,4,The Concept Store,The Concept Store,"Offer: Upto 50% Savings on selected products with 12 & 24 Months 0% Easy Payment Plans at The Concept Store with DFCC Credit Cards.
-Offer Period: 15th March to 30th April 2025
-Validity: Site-wide purchases only
+7,4,The Concept Store,The Concept Store,"Offer: Upto 40% Savings on selected products with 12 & 24 Months 0% Easy Payment Plans at The Concept Store with DFCC Credit Cards.
+Offer Period: 15th March to 10th April 2025
+Validity: Online and In-store purchases only
 Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)
-Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 15 March 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at The Concept Store with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/04121510/Concept-Web-Banners_400-X-225-1-1.jpg,https://www.dfcc.lk/promotions/the-concept-store/
-7,4,Quantum Fitness,Quantum Fitness,"Offer: 15% Savings on selected products at Quantum Fitness for purchases above Rs. 30,000/- with 12 & 24 Months 0% Easy Payment Plans at Quantum Fitness showrooms with DFCC Credit Cards.
-Offer Period: 01st March to 30th April 2025
-Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 1 February 2025 - 30 April 2025.,12 & 24 Months 0% Easy Payment Plans at Quantum Fitness showrooms with DFCC Credit Cards,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/18021234/Quantum-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/fire-works/
+Easy Payment Plan Setup Fee and Transaction Limits:",Valid from 15 March 2025 - 10 April 2025.,Upto 40% Savings on selected products with 12 & 24 Months 0% Easy Payment Plans at The Concept Store with DFCC Credit Cards.,https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/11/04121510/Concept-Web-Banners_400-X-225-1-1.jpg,https://www.dfcc.lk/promotions/the-concept-store/
+7,4,Quantum Fitness,Quantum Fitness,"Offer: 15% Savings on selected products for purchases above Rs. 30,000/- with 12 & 24 Months 0% Easy Payment Plans at Quantum Fitness showrooms with DFCC Credit Cards.
+Offer Period: 01st to 31st March April 2025
+Eligible Card Categories: All DFCC Credit Cards (Excluding Corporate Credit Cards)",Valid from 1 February 2025 - 31 March 2025.,"15% Savings on selected products for purchases above Rs. 30,000/- with 12 & 24 Months 0% Easy Payment Plans at Quantum Fitness showrooms with DFCC Credit Cards.",https://s3.ap-southeast-1.amazonaws.com/dfcc.lk/wp-content/uploads/2024/09/18021234/Quantum-Web-Banners_400-X-225.jpg,https://www.dfcc.lk/promotions/fire-works/
 7,4,Browns Deals,Browns Deals,"Offer: Upto 50% Savings on selected products with 12 & 24 Months 0% Easy Payment Plans at Browns Deals with DFCC Credit Cards.
 Offer Period: 01st March to 30th April 2025
 Locations: All Browns Deals showrooms
