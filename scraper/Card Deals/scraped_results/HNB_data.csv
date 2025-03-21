@@ -1,8 +1,4 @@
 bank_id,category_id,offer_title,merchant_details,merchant_contact,merchant_locations,offer_details_1,offer_details_2,offer_validity,discount,image_url,more_details_url
-3,1,"20% OFF ON TOTAL BILL ABOVE LKR 1,000 AT SUBWAY - ONE GALLE FACE",Subway - One Galle Face,0112 334 333,,"Offer cannot be combined with any other offers or promotions
-Min. bill - LKR 1,000 per transaction
-Max. bill - LKR 25,000 per card per day
-Gift voucher and already discounted items are excluded",No eligibility,07th March to 07th April 2025,"20% off on bills above LKR 1,000",https://www.hnb.net/images/cardpromotions/subway-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/subway-ogf
 3,1,"20% OFF ON BILLS ABOVE LKR 1,500 FOR DINE-IN @ THE BEACH PARK - PORT CITY COLOMBO",The Beach Park,"0757000500
 0113047500",Port City Colombo,"Offer cannot be combined with any other offer
 Min. bill - LKR 1,500 per transaction
@@ -48,13 +44,16 @@ One redemption per user per card per day",All HNB Credit Cards,Till 24th April 
 0765604972",,"Maximum discount will be LKR 10,000 per card per day
 Offer excluded on gift vouchers and cannot be combined with other offers
 Offer is not valid on festive days and special promotional events",All HNB Credit Cards,Till 31st March 2025,"20% off on dine-in at,
-Breeze Bar
 Cheers
 Lagoon
 Nuga Gama
 Plates
 Tea Lounge (High Tea only)
 Cedar (Old Cheers Pub) - Ramadan Offer",https://www.hnb.net/images/cardpromotions/cinnamon-grand-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/cinnamon-grand-colombo
+3,1,"20% OFF ON TOTAL BILL ABOVE LKR 1,000 AT SUBWAY - ONE GALLE FACE",Subway - One Galle Face,0112 334 333,,"Offer cannot be combined with any other offers or promotions
+Min. bill - LKR 1,000 per transaction
+Max. bill - LKR 25,000 per card per day
+Gift voucher and already discounted items are excluded",No eligibility,07th March to 07th April 2025,"20% off on bills above LKR 1,000",https://www.hnb.net/images/cardpromotions/subway-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/subway-ogf
 3,1,20% OFF ON DINE-IN AND DELIVERY AT WATERS EDGE,Waters Edge,"Boardwalk – 0774127307
 Kobe – 0769880367
 Pranzo – 0766733169
@@ -191,16 +190,8 @@ Maximum discount available bill value Rs. 25,000 per card per day.",All HNB Cred
 3,1,10% OFF ON TOTAL BILL FOR DINING AT CEYLON CURRY CLUB,Ceylon Curry Club,"0773393391
 0114266363",Colombo 01,"Offer cannot be combined with any other offer
 Excluding date - 24th & 25th & 31st December 2024",All HNB Credit / Debit Cards,Till 31st March 2025,10% off on total bill for dining,https://www.hnb.net/images/cardpromotions/ceylon-curry-club.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/ceylon-curry-club
-3,1,"20% OFF ON ORDERS ABOVE LKR 3,000 FOR A LA CARTE MENU AT SELECTED CHINESE DRAGON CAFE OUTLETS",Chinese Dragon Cafe - Selected outlets,0117808080 ( Promo Code : DSW5 ),"Bambalapitiya
-Rajagiriya
-Mount Lavinia
-Nugegoda
-Pelawatta
-Wattala","This Promotion cannot be combined with any other promotions or food offers
-Minimum per order value will be LKR 3,000 (Except online orders)
-Maximum discount available order value will be LKR 20,000 (Except online orders)
-Offer not applicable for Dragon packs and new products
-Offer is not applicable at Kandana & Kaduwela outlets",All HNB Credit cards,13th to 16th March 2025,"20% off on orders above LKR 3,000 for A la carte menu",https://www.hnb.net/images/cardpromotions/chinese-dragon-logo-new.png,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/chinese-dragon-cafe-selected-outlets-cc
+3,1,"20% OFF ON BILLS ABOVE LKR 5,000 FOR DINE -IN & TAKE AWAY AT ICHIBAN JAPANESE RESTAURANT",Ichiban Japanese Restaurant,0762312131,"Sri Jayewardenapura,Kotte","Offer cannot be combined with any other offers or promotions
+Min. bill - LKR 5,000 per transaction",All HNB Credit cards,Till 30th April 2025,"20% off on bills above LKR 5,000 for dine -in & take away",https://www.hnb.net/images/cardpromotions/izakaya-ichiban-casual-japanese-logo-new.png,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/ichiban-japanese-restaurant
 3,1,20% OFF ON TOTAL BILL AT JADE RESTAURANTS FOR DINE-IN & TAKE AWAY,Jade Restaurant,0112818181,"Maharagama
 Jubilee Post","Maximum bill value is Rs.25,000
 Minimum bill value is Rs.4,000 per order
@@ -254,6 +245,11 @@ Offer is not applicable at Kandana & Kaduwela outlets",All HNB Credit cards,15th
 3,1,15% OFF ON A LA CARTE FOR DINE-IN AT TILAPIYA COLOMBO,Tilapiya Colombo,+94 77 949 4394,Colombo 07 (Racecourse),Offer cannot be combined with any other existing offers,All HNB Credit Cards,"Till 30th April 2025
 Monday to Sunday (Lunch: 12pm to 5pm) 
 Sunday to Wednesday (Dinner: 6pm to 11pm)",15% off on A la carte for dine-in,https://www.hnb.net/images/cardpromotions/tilapiya-colombo.png,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/tilapiya-colombo
+3,1,"20% OFF ON BILLS ABOVE LKR 5,000 FOR DINE-IN & TAKE-AWAY AT COLOMBO STEAK HOUSE",Colombo Steak House,0741247890,"Havelock city mall
+Marine drive","Offer valid for dine-in & take-away.
+Maximum discount available bill value will be LKR 25,000 per card.
+Minimum bill value will be LKR 10,000.
+This offer cannot be combined with any other existing offers.",All HNB Credit Cards,Till 30th April 2025,"20% off on bills above LKR 5,000 for dine-in & take-away",https://www.hnb.net/images/cardpromotions/sigiriya-king.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/colombo-steak-house
 3,1,UP TO 30% OFF ON SELECTED BAKERY ITEMS AT JANITHA BARKERS,Janitha Barkers,,"Raddoluwa
 1A-10, NHS, Raddolugama
 362/A/15/1, NHS Road, Raddolugama
@@ -367,12 +363,6 @@ Eligibility: All HNB Credit Cards (Valid for Club members only)",https://www.hnb
 0112626111",Ratmalana,"Offer cannot be combined with any other offers
 Offer Valid for Lunch Only (from 10am to 3pm)
 Minimum bill value will be LKR 4,900 per card per day",All HNB Credit & Debit Card,Till 30th April 2025,"10% off on bills above LKR 4,900 for dine-in (From 10 AM to 3PM)",https://www.hnb.net/images/cardpromotions/shanghai-chinese-lotus.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/shanghai-chinese-lotus-chinese-lotus-lux
-3,1,BUY A CLASSIC OR ABOVE RANGE LARGE PAN PIZZA & GET A DELIGHT RANGE LARGE PAN PIZZA FREE AT PIZZA HUT,Pizza Hut,0112729729,All Pizza Hut outlets excluding BIA (Katunayake) outlet,"Valid for Dine-In, Takeaway, Delivery & Online orders
-Max. 2 Pizzas can be purchased per card per day
-Offer cannot be combined with any other promotions
-FREE Delight Range Large Pan Pizza will be offered for Classic or above range Large Pan Pizza purchases only",HNB Credit Cards,19th March 2025 (3rd Wednesday),Buy a Classic or above range Large Pan Pizza & get a Delight Range Large Pan Pizza FREE,https://www.hnb.net/images/cardpromotions/pizza-hut-new-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/pizza-hut
-3,1,"15% OFF ON DINE-IN AT INDIAN SUMMER RESTAURANT, GALLE",Indian Summer Restaurant,0912249150,Galle,"Offer cannot be combined with any other offer
-Maximum bill value will be LKR 50,000 per card per day",HNB Credit Cards,05th March to 30th March 2025,15% off on dine-in,https://www.hnb.net/images/cardpromotions/indian-summer-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/indian-summer-restaurant
 3,1,BUY ONE GET ONE FREE À LA CARTE MENU ITEM (FREE À LA CARTE MENU DEAL WILL BE SAME AS PURCHASED) AT TACO BELL,Taco Bell Cuisine Type: Fast food,0112738738,"Horton Place
 Negombo
 Rajagiriya
@@ -393,11 +383,25 @@ Chalupa  
 Classic Burrito 
 Rice Bowl 
 (Free item will be same as purchased item)",https://www.hnb.net/images/cardpromotions/taco-bell-new-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/taco-bell
+3,1,"15% OFF ON DINE-IN AT INDIAN SUMMER RESTAURANT, GALLE",Indian Summer Restaurant,0912249150,Galle,"Offer cannot be combined with any other offer
+Maximum bill value will be LKR 50,000 per card per day",HNB Credit Cards,05th March to 30th March 2025,15% off on dine-in,https://www.hnb.net/images/cardpromotions/indian-summer-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/indian-summer-restaurant
 3,1,15% OFF ON DINE-IN FOR FOOD BILL AT SPOONS MOUNT LAVINIA,SPOONS MOUNT LAVINIA,0117 833 844,Mount Lavinia,"Offer cannot be combined with any other offer.
 Valid on food for dine-in",No eligibility,11th March to 30th April 2025,15% off on food items (dine-in only),https://www.hnb.net/images/cardpromotions/spoons-mount-lavinia.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/spoons-mount-lavinia
 3,1,15% OFF ON DINE-IN FOR FOOD BILL AT LOON TAO MOUNT LAVINIA,LOON TAO,0117 833 896,Mount Lavinia,"Offer cannot be combined with any other offer.
 Valid on food for dine-in",No eligibility,11th March to 30th April 2025,15% off on food items (dine-in only),https://www.hnb.net/images/cardpromotions/loon-tao.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/loon-tao
-3,1,No title,No merchant,,,No terms,No eligibility,No period,No offer,No image,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/burger-king
+3,1,"5% OFF ON CAKES BILLS ABOVE LKR 5,000 AT LEOPARDS",Leopards,,Gampaha,"Offer cannot be combined with any other offer
+Offer valid only for cakes.
+Minimum bill value will be LKR 5,000 per card per day","HNB Credit Cards
+ 
+
+Location: Gampaha",12th to 30th April 2025,"5% off on Cakes bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/leopards-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/leopards
+3,1,BUY A CLASSIC OR ABOVE RANGE LARGE PAN PIZZA & GET A DELIGHT RANGE LARGE PAN PIZZA FREE AT PIZZA HUT,Pizza Hut,0112729729,All Pizza Hut outlets excluding BIA (Katunayake) outlet,"Valid for Dine-In, Takeaway, Delivery & Online orders
+Max. 2 Pizzas can be purchased per card per day
+Offer cannot be combined with any other promotions
+FREE Delight Range Large Pan Pizza will be offered for Classic or above range Large Pan Pizza purchases only",HNB Credit Cards,16th April 2025 (3rd Wednesday),Buy a Classic or above range Large Pan Pizza & get a Delight Range Large Pan Pizza FREE,https://www.hnb.net/images/cardpromotions/pizza-hut-new-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/pizza-hut
+3,1,20% OFF ON DINE-IN & TAKE-AWAY AT BURGER KING RESTAURANTS (EVERY WEDNESDAY),Burger King,,Locations,"Offer cannot be combined with any other offers
+Maximum discount will be LKR 5,000 per card per day
+Offer will be excluded for delivery orders",All HNB Credit Cards,5th March to 30th April 2025 (Every Wednesday),20% off on total bill for dine-in & take-away,https://www.hnb.net/images/cardpromotions/burger-king-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/credit-cards/burger-king
 3,1,20% OFF ON DINE-IN & TAKE-AWAY AT POPEYES RESTAURANTS (EVERY WEDNESDAY),Popeyes,0112 123 123,"GLOMARK, Mt. Lavinia (Basement)
 Bambalapitiya
 Negombo
@@ -568,6 +572,11 @@ Maximum bill value will be LKR 50,000 per card per day",HNB Debit Cards,05th Ma
 Valid on food for dine-in",No eligibility,11th March to 30th April 2025,15% off on food items (dine-in only),https://www.hnb.net/images/cardpromotions/loon-tao.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/debit-cards/loon-tao
 3,1,15% OFF ON DINE-IN FOR FOOD BILL AT SPOONS MOUNT LAVINIA,SPOONS MOUNT LAVINIA,0117 833 844,Mount Lavinia,"Offer cannot be combined with any other offer.
 Valid on food for dine-in",No eligibility,11th March to 30th April 2025,15% off on food items (dine-in only),https://www.hnb.net/images/cardpromotions/spoons-mount-lavinia.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/debit-cards/spoons-mount-lavinia
+3,1,"10% OFF ON BILLS ABOVE LKR 5,000 FOR DINE-IN & TAKE-AWAY AT COLOMBO STEAK HOUSE",Colombo Steak House,0741247890,"Havelock city mall
+Marine drive","Offer valid for dine-in & take-away.
+Maximum discount available bill value will be LKR 25,000 per card.
+Minimum bill value will be LKR 10,000.
+This offer cannot be combined with any other existing offers.",All HNB Debit Cards,Till 30th April 2025,"10% off on bills above LKR 5,000 for dine-in & take-away",https://www.hnb.net/images/cardpromotions/sigiriya-king.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/debit-cards/colombo-steak-house
 3,1,10% OFF ON DINE-IN & TAKE-AWAY AT BURGER KING RESTAURANTS (EVERY WEDNESDAY),Burger King,,Locations,"Offer cannot be combined with any other offers
 Maximum discount will be LKR 5,000 per card per day
 Offer will be excluded for delivery orders",All HNB Debit Cards,5th March to 30th April 2025 (Every Wednesday),10% off on total bill for dine-in & take-away,https://www.hnb.net/images/cardpromotions/burger-king-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/debit-cards/burger-king
@@ -603,6 +612,11 @@ Colombo 03
 Havelock City Mall","Offer cannot be combined with any other offers.
 Maximum discount will be LKR 5,000 per card per day.
 Offer will be excluded for delivery orders.",No eligibility,5th March to 30th April 2025 (Every Wednesday),10% off on total bill for dine-in & take-away,https://www.hnb.net/images/cardpromotions/subway-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/dining/debit-cards/subway
+3,2,25% OFF ON FB BASIS AT SHERATON KOSGODA TURTLE BEACH RESORT,Sheraton Kosgoda Turtle Beach Resort,0917600100,Kosgoda,"Offer cannot be combined with at other existing offers.
+Offer valid maximum up to 05 bookings per card.",All HNB Credit cardsReservations: 0917600100,"Booking period: 17th to 19th March & 4th to 6th April 2025
+
+
+Staying period: Till 31st May 2025","25% off (from the rack rates) on Full Board Basis for Deluxe Garden View, Double Rooms",https://www.hnb.net/images/cardpromotions/sheraton-kosgoda-turtle-beach-resort.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/sheraton-kosgoda-turtle-beach-resort
 3,2,25% OFF ON HB & FB BASIS AT HUNAS FALLS - KANDY,Hunas Falls - Kandy,https://bit.ly/3FhjqxF (Promo code: HFH2025),Kandy,"Offer cannot be combined with any other offers or promotions
 All bookings are strictly subject to availability on the website
 Blackout dates will apply
@@ -617,6 +631,12 @@ Offer not valid between 11th April to 16th April 2025.
 Rooms are subject to availability.
 50% advance payment to be made to secure the booking.",All HNB Credit Cards,01st March to 30th June 2025,"30% off (from rack rates) on Half Board & Full Board basis (March & April)
 35% off (from rack rates) on Half Board & Full Board (May & June)",https://www.hnb.net/images/cardpromotions/villa-mankani-dambulla.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/villa-mankani-dambulla
+3,2,"20% OFF ON FB, HB AND BB BASIS AT WATER GARDEN SIGIRIYA",Water Garden Sigiriya,"0664933000
+0762185833",Sigiriya,"The card member(s) is/are to settle the total bill via their Credit Card to be eligible for the discount offered when making reservations.
+The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.
+Offer cannot be combined with any other promotion, pre confirmed bookings
+If a reservation is cancelled after the full payment is done (even if it is outside the cancellation period) the amount paid will be held as credit which can be utilized for a reservation on a future date decided unanimously by the client and hotel.",All HNB Credit Cards,"Booking Period: Till 30th May 2025 
+Stay Period: 01st April to 30th May 2025","20% off ( from rack rate) on Full Board, Half Board , Bed and Breakfast basis",https://www.hnb.net/images/cardpromotions/water-garden-sigiriya.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/water-garden-sigiriya
 3,2,"20% OFF ON BB, HB AND FB BASIS AT HOTEL SIGIRIYA",Hotel Sigiriya,www.brownshotels.com (Promo code: HNB25),Sigiriya,"All bookings for both offers are strictly subject to availability on the website
 Blackout dates will apply
 Offer cannot be combined with any other offers",All HNB Credit Cards,"Booking Period: 15thMarch to 30th April 2025
@@ -809,19 +829,12 @@ Email: sales1@lankailahotels.com / sales2@lankailahotels.com / reservations
 Exclusion Period: 20th December 2024 to 10th of January 2025","25% off (from rack rates) on Full Board , Half Board and Bed & breakfast basis
  
 Validity",https://www.hnb.net/images/cardpromotions/oga-reach.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/oga-reach
-3,2,"30% OFF (FROM RACK RATE) ON HB, FB & BB BASIS AT OCCIDENTAL EDEN BERUWALA",Occidental Eden Beruwala,"Reservation - 0344 888 888
-Email - reservations.eden@brownshotels.com (Promo code: HNB30)","Beruwala
+3,2,"25% OFF ON FB, HB AND BB BASIS AT CEYLAN LODGE - ANURADHAPURA",Ceylan Lodge,"Call: 0701725959
+E-mail: sales1@lankailahotels.com / sales2@lankailahotels.com / reservations@lankailahotels.com",Anuradhapura,Offer cannot be combined with any other existing offers.,All HNB Credit Card,"Till 30th April 2025
  
-Website: www.brownshotels.com","Offer cannot be combined with any other offers
-Offer is valid on Half board, Full board & Bed and Breakfast basis",All HNB Credit Cards,"Booking Period: 10th to 16th March 2025
-
-
-Stay Period: 01st to 30th April 2025","30% off (from rack rate) on Half board, Full board and Bed & Breakfast basis",https://www.hnb.net/images/cardpromotions/occidental-eden-beruwala.png,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/occidental-eden-beruwala
-3,2,25% OFF ON FB BASIS AT SHERATON KOSGODA TURTLE BEACH RESORT,Sheraton Kosgoda Turtle Beach Resort,0917600100,Kosgoda,"Offer cannot be combined with at other existing offers.
-Offer valid maximum up to 05 bookings per card.",All HNB Credit cardsReservations: 0917600100,"Booking period: 17th to 19th March & 4th to 6th April 2025
-
-
-Staying period: Till 31st May 2025","25% off (from the rack rates) on Full Board Basis for Deluxe Garden View, Double Rooms",https://www.hnb.net/images/cardpromotions/sheraton-kosgoda-turtle-beach-resort.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/sheraton-kosgoda-turtle-beach-resort
+Exclusion Period: 20th December 2024 to 10th January 2025","25% off (from rack rates) on Full Board , Half Board and Bed & breakfast basis
+ 
+Validity",https://www.hnb.net/images/cardpromotions/ceylan-lodge.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/ceylan-lodge
 3,2,UP TO 25% OFF ON FB BASIS AT SELECTED OAK RAY HOTELS & RESORTS,Oak Ray Hotels & Resorts,"25% for Double Full Board basis & 20% off for Triple Full Board basis (from the rack rate) at,
 Oak Ray Regency – Kandy 
 Oak Ray Serene Garden – Kandy 
@@ -855,12 +868,6 @@ Oak Ray Summer Hill Breeze – Nuwara Eliya 
 Oak Ray Ella Gap – Ella 
 Oak Ray Wild Yala – Thissamaramaya 
 Rain Tree by Oak Ray – Thissamaramaya",https://www.hnb.net/images/cardpromotions/oak-ray-hotels-and-resort.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/oak-ray-hotels
-3,2,"25% OFF ON FB, HB AND BB BASIS AT CEYLAN LODGE - ANURADHAPURA",Ceylan Lodge,"Call: 0701725959
-E-mail: sales1@lankailahotels.com / sales2@lankailahotels.com / reservations@lankailahotels.com",Anuradhapura,Offer cannot be combined with any other existing offers.,All HNB Credit Card,"Till 30th April 2025
- 
-Exclusion Period: 20th December 2024 to 10th January 2025","25% off (from rack rates) on Full Board , Half Board and Bed & breakfast basis
- 
-Validity",https://www.hnb.net/images/cardpromotions/ceylan-lodge.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/ceylan-lodge
 3,2,"20% OFF (FORM RACK RATE )ON BB,FB AND HB BASIS AT HIKKADUWA BEACH HOTELS",Hikkaduwa Beach Hotels,"0770136481
 reservations@hbeachhotel.com",Hikkaduwa,Offer cannot be combined with any other offer.,"All HNB Credit CardsReservations: 
 
@@ -1211,6 +1218,8 @@ The offer shall not apply to pre-confirmed bookings and group bookings.",All HNB
 Full payment is required in advance to confirm and secure the booking
 Booking is non-refundable.",All HNB Credit Card,"Booking period: 15th March to 30th April 2025
 Stay period: 15th March to 30th June 2025","30% off (from the rack rates) on Bed & Breakfast, Half Board and Full Board basis",https://www.hnb.net/images/cardpromotions/tri-logo-new.png,"https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/tri,-koggala"
+3,2,"20% OFF ON HB , DBL ROOM BASIS AT DREAM CLIFF MOUNTAIN RESORT, HAPUTALE",Dream cliff Mountain Resort - Haputale,"0777878797
+0557857600",Haputale,Offer cannot be combined with any other existing offers.,All HNB Credit card,20th April to 30th June 2025,"20% off (from rack rates) on Half Board , Double Room basis",https://www.hnb.net/images/cardpromotions/dream-cliff-logo.png,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/dream-cliff-mountain-resort-haputale
 3,2,"15% OFF ON BB, HB & FB BASIS AT BIRDS RESORT HAMBANTOTA",Birds Resort Hambantota,0770303067 / 0472077799,Hambantota,Offer cannot be combined with any other offer,"Eligibility: All HNB Credit & Debit Cards
  
 Contact:  0770303067 / 0472077799 
@@ -1467,6 +1476,10 @@ Rates are inclusive of taxes & service charges.
 Rooms are subject to availability.
 50% advance payment to be made to secure the booking.",All HNB Credit Card,01st March to 30th June 2025 (Black out period will be applicable),20% off (from rack rates) on Half Board basis,https://www.hnb.net/images/cardpromotions/tribe-yala-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/tribe-yala
 3,2,10% OFF (FROM RACK RATES) ON ENTIRE VILLA AT WILDESCAPES YALA,WildEscapes - Yala,0114508508,Yala,Offer cannot be combined with any other offer.,All HNB Credit/ Debit card,Till 30th April 2025,10% off (from rack rates) on entire villa (14 pax),https://www.hnb.net/images/cardpromotions/wildescpe-new-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/wildescapes-yala
+3,2,"UP TO 45% OFF (FROM RACK RATES) ON FB, HB BASIS A CLUB MANGO - GO KALPITIYA",Club Mango - Go,"0773286998
+0774871554",Kalpitiya,"50% payment will have to be done from the card at the time of booking to confirm
+Offer cannot be combined with any other offer.",All HNB Credit Cards,20th March to 30th June 2025,"45% off (from rack rates) on Full Board and Half Board basis ( Weekdays : Sunday -Thursday )
+40% off (from rack rates) on Full Board and Half Board basis (Weekend : Friday - Saturday )",https://www.hnb.net/images/cardpromotions/club-mango.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/club-mango-go
 3,2,"10% OFF ON BB , HB & FB AT BEST WESTERN ELYON, COLOMBO",Best western Elyon - Colombo,"117527527 – 30 
 0776411612
 Website : www.bestwesterncolombo.com",Colombo,"Booking Policy
@@ -1579,6 +1592,10 @@ Reservations : www.brownshotels.com (Promo code: HNB25)","All bookings for bot
 Blackout dates will apply
 Offer cannot be combined with any other offers",All HNB Credit Cards,"Booking Period: 15thMarch to 15th April 2025
 Travel Period: 01st May to 30th June 2025","20% off (from rack rates) on Bed & Breakfast, Half Board and Full Board basis",https://www.hnb.net/images/cardpromotions/dickwella-resort-spa-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/dickwella-resort-spa
+3,2,"50% OFF ON BB, HB & FB BASIS AT THE GLENROSS LIVING KALUTARA",The Glenross Living,0741729781,Kalutara,"The card member(s) is/are to settle the total bill via their Credit Card to be eligible for the discount offered when making reservations.
+The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.
+Offer cannot be combined with any other promotion, pre-confirmed bookings.
+If a reservation is cancelled after the full payment is done (even if it is outside the cancellation period) the amount paid will be held as credit which can be utilized for a reservation on a future date decided unanimously by the client and hotel.",All HNB Credit Cards,20th March to 30th May 2025,"50% off on ( from rack rate ) Bed & Breakfast, Half Board and Full Board basis",https://www.hnb.net/images/cardpromotions/glenross-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/the-glenross-living-kalutara
 3,2,15% OFF (FROM RACK RATES) ON TPL ROOM ONLY BASIS AT KAYJAY PALMS KALKUDAH,Kayjay Palms – Kalkudah,0742021777,Kalkudah,Offer cannot be combined with any other offers.,All HNB Credit Card,Till 31st August 2025,15% off (from rack rates) on TPL room only basis,https://www.hnb.net/images/cardpromotions/kay-jay-palm-kalkudha-logo.png,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/kayjay-palms-kalkudah
 3,2,15% OFF (FROM RACK RATES) ON TPL ROOM ONLY BASIS AT KAYJAY WILD WILPATTU,Kayjay wild Wilpattu,0742021777,Wilpattu,Offer cannot be combined with any other offers.,All HNB Credit Card,Till 31st August 2025,15% off (from rack rates) on TPL room only basis,https://www.hnb.net/images/cardpromotions/kay-jay-wild-wilpattu-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/kayjay-wild-wilpattu
 3,2,20% OFF ON FB & HB ON DBL & TPL ROOM BASIS AT RADISSON BLU RESORT GALLE,Radisson Blu Resort Galle,0112030541 (Promo code: RBA),Galle,"Offer cannot be combined with any other offer.
@@ -1704,6 +1721,11 @@ Offer not valid between 11th April to 16th April 2025.
 50% advance payment to be made to secure the booking.",All HNB Credit Cards,01st April to 30th June 2025 (Black out period will be applicable),"10% off (from rack rates) on Half Board & Full Board basis for one-night stay (April) 
 20% off (from rack rates) on Half Board & Full Board basis for one-night stays (May & June)",https://www.hnb.net/images/cardpromotions/kalundewa-retreat-dambulla.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/kalundewa-retreat-dambulla
 3,2,10% OFF ON HB & FB BASIS AT SIGIRIYA KINGDOM GATE HOTEL,Sigiriya Kingdom Gate Hotel,0777429000,Sigiriya,Offer cannot be combined with any other offers,All HNB Credit / Debit Cards,20th March to 31st December 2025,10% off (from rack rate) on Full board and Half board basis,https://www.hnb.net/images/cardpromotions/sigiriya-kingdom-resort-and-spa-logo-new.jpeg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/sigiriya-kingdom-gate-hotel-cc
+3,2,"20% OFF ON RO, BB, FB & HB BASIS AT LAKEGALA RESORT, HATHTHOTA",Lakegala Resort - Haththota,077 777 4008,"Haththota
+ 
+Website: www.lakegalaresort.com",Offer cannot be combined with any other promotions.,All HNB Credit Cards,1st to 30th April 2025,"20% off (from the rack rates) on Room only, Bed & Breakfast, Half Board and Full Board",https://www.hnb.net/images/cardpromotions/lakegala-resort.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/credit-cards/lakegala-resort-haththota
+3,2,"15% OFF ON HB , DBL ROOM BASIS AT DREAM CLIFF MOUNTAIN RESORT, HAPUTALE",Dream cliff Mountain Resort - Haputale,"0777878797
+0557857600",Haputale,Offer cannot be combined with any other existing offers.,All HNB Debit Card,20th April to 30th June 2025,"15% off (from rack rates) on Half Board , Double Room basis",https://www.hnb.net/images/cardpromotions/dream-cliff-logo.png,https://www.hnb.net/personal/promotions/card-promotions/hotels/debit-cards/dream-cliff-mountain-resort-haputale-dc
 3,2,20% OFF ON ROOM RATE FOR IN-DOOR PATIENTS AT SIDDHALEPA AYURVEDA HOSPITAL MT. LAVINIA,Siddhalepa Ayurveda Hospital,"0773710139 
 0112738622",Mt. Lavinia,Offer cannot be combined with any other offer,All HNB Credit and Debit Cards,Till 30th April 2025,20% off on room rate for in-door patients,https://www.hnb.net/images/cardpromotions/siddhalepa-ayurveda-hospital.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/debit-cards/siddhalepa-ayurveda-hospital
 3,2,"25% OFF (FROM THE RACK RATES) ON FB, HB & BB BOARD BASIS AT ELEPHANT TRAIL",Elephant Trail,0768289353,Udawalawe,"and Conditions
@@ -1967,6 +1989,10 @@ If any dispute arises regarding any of the terms and conditions contained herewi
 The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC. 
 Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services. 
 The General Credit/Debit cards terms and conditions will continue to apply.",15th to 31st March 2025 (April Pre-Bookings Discount in March),"15% off (from rack rates) on Bed & Breakfast, Full Board and Half Board basis",https://www.hnb.net/images/cardpromotions/birds-resort.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/debit-cards/birds-resort-hambantota-dc
+3,2,"UP TO 30% OFF (FROM RACK RATES) ON FB, HB BASIS A CLUB MANGO - GO KALPITIYA",Club Mango - Go,"0773286998
+0774871554",Kalpitiya,"50% payment will have to be done from the card at the time of booking to confirm
+Offer cannot be combined with any other offer.",All HNB Debit Cards,20th March to 30th June 2025,"30% off (from rack rates) on Full Board and Half Board basis (Weekdays : Sunday -Thursday )
+25% off (from rack rates) on Full Board and Half Board basis (Weekend : Friday - Saturday )",https://www.hnb.net/images/cardpromotions/club-mango.jpg,https://www.hnb.net/personal/promotions/card-promotions/hotels/debit-cards/club-mango-go
 3,3,"20% OFF ON 300+ DAIRY ITEMS FOR BILLS ABOVE LKR 4,000 AT CARGILLS FOOD CITY, EXPRESS & FOOD HALL OUTLETS",Cargills Food City,,"Cargills Food City, Express & Food Hall outlets","Minimum bill value will be LKR 4,000
 Maximum discount applicable per bill, per day will be LKR 1,000
 Maximum quantity per bill, per day is 5 units/kg of each product
@@ -2085,11 +2111,13 @@ Up to 15% off on selected merchants (Click here for more details)
 Special discount on Galle Face Hotel (Click here for more details)
 10% off at Smiggle (Click here for more details)
 10% off on ticket purchase for The Sunset Social through Tickets.lk (Click here for more details)
+Special HNB Mastercard Credit card Avurudu Spend & Win Campaign (Click here for more details)
 Offer cannot combine with any other promotions.
 Terms and conditions will be applicable",HNB Mastercard Credit Card,Till 31st December 2025,"Up to 15% off on selected merchants (Click here for more details) 
 Special discount on Galle Face Hotel (Click here for more details) 
 10% off at Smiggle (Click here for more details) 
 10% off on ticket purchase for The Sunset Social through Tickets.lk (Click here for more details)
+Special HNB Mastercard Credit card Avurudu Spend & Win Campaign (Click here for more details) 
 Eligibility: HNB Mastercard Credit Card
  
 Offer",https://www.hnb.net/images/cardpromotions/mastercard-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/shopping/credit-cards/hnb-mastercard-credit-card
@@ -2118,6 +2146,187 @@ If any dispute arises regarding any of the terms and conditions contained herewi
 The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.
 Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.
 The General Credit card terms and conditions will continue to apply.",https://www.hnb.net/images/cardpromotions/arpico-daily-supercentre-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/shopping/credit-cards/arpico-hyde-park-arpico-wattla-arpico-negombo-arpico-dehiwala-arpico-battaramulla-arpico-nawinna
+3,3,ENJOY EXCLUSIVE DISCOUNTS WITH SELECTED PARTNERS AT HAVELOCK CITY MALL,,,,"Offers are available only at Havelock City Mall outlets only
+Offers cannot be combined with any other offers
+Selected branded items and gift vouchers are excluded
+Offers are available on selected days from 04th to 06th April 2025
+Merchant
+IMAXscopecinemas.com
+Buy One Get One Free on IMAX Tickets
+Valid for Credit Cards
+Valid from 04th to 06th April 2025
+Max. 2 Free Tickets per card
+Click here for more details
+Deedat www.deedatclothing.com
+20% off on Credit Cards
+Valid on 04th April 2025
+Max. bill - LKR 50,000 per card
+Cool Planet  Moonstone
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Hameedia  Signature
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Dilly & Carlo
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 75,000 per card per day
+Mimosa  The Vanta Studios
+25% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+NV Cosmetics
+20% off on Credit & Debit Cards
+Valid on 06th April 2025
+Jia Moda
+20% off on Credit Cards
+15% off on Debit Cards
+Valid on 04th & 05th April 2025
+Street82
+20% off on Credit & Debit Cards
+Valid for Orange Tag items only
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+Leather Collection
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+LCY London
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 2,500
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Pizza Hut
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Taco Bell
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+PappaRich
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Steak House
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 5,000
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away",No eligibility,No period,"are available only at Havelock City Mall outlets only
+Offers cannot be combined with any other offers
+Selected branded items and gift vouchers are excluded
+Offers are available on selected days from 04th to 06th April 2025 
+Offers: 
+ 
+Logo
+Merchant 
+T&Cs 
+IMAXscopecinemas.com
+Buy One Get One Free on IMAX Tickets
+Valid for Credit Cards
+Valid from 04th to 06th April 2025
+Max. 2 Free Tickets per card
+Click here for more details
+Deedat www.deedatclothing.com
+20% off on Credit Cards
+Valid on 04th April 2025
+Max. bill - LKR 50,000 per card
+Promo code: HNB20D for online txns
+Cool Planet  Moonstone
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Hameedia  Signature
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Dilly & Carlo
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 75,000 per card per day
+Mimosa  The Vanta Studios
+25% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+NV Cosmetics
+20% off on Credit & Debit Cards
+Valid on 06th April 2025
+Jia Moda
+20% off on Credit Cards
+15% off on Debit Cards
+Valid on 04th & 05th April 2025
+Street82
+20% off on Credit & Debit Cards
+Valid for Orange Tag items only
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+Leather Collection
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+LCY London
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+KFC
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 2,500
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Pizza Hut
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Taco Bell
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+PappaRich
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Steak House
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 5,000
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+ 
+General Terms & Conditions:
+The promotions are open to all holders of Mastercard and Visa Credit/Debit Cards issued by Hatton National Bank PLC.  
+The card member(s) is/are to settle the total bill via their HNB Mastercard and Visa Credit/Debit Card to be eligible for the discount offered.  
+The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.  
+Hatton National Bank PLC reserves the right to withdraw, modify or change all or any of the rules, terms & conditions applicable to this promotion at any given time without prior notice.  
+If any dispute arises regarding any of the terms and conditions contained herewith, the decision of the respective service establishment and Hatton National Bank PLC shall be final.  
+The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.  
+Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.  
+The General Credit/Debit card terms and conditions will continue to apply.",https://www.hnb.net/images/cardpromotions/havelock-city-mall.jpg,https://www.hnb.net/personal/promotions/card-promotions/shopping/credit-cards/havelock-city-mall-offers
 3,3,"10% OFF ON BILLS ABOVE LKR 7,500 AT GLOMARK OUTLETS AND ONLINE STORE",Glomark - Softlogic Supermarkets,,"Wattala 
 Delkanda
 Kurunegala
@@ -2153,123 +2362,6 @@ For other products - Maximum quantity per bill per day will be 3kg/ units
 Offer cannot be combined with any other existing offers
 Minimum bill value will exclude Liquor, tobacco, pharmaceuticals, existing discounted products, gift vouchers, hampers, gas purchases & utility bill payments
 Offer valid only for walk-in customers and excluded for online purchases",All HNB Debit Cardholders,Till 27th March 2025 from 4pm to 8pm (Every Thursday),"5% off on total bill above LKR 3,000",https://www.hnb.net/images/cardpromotions/laugfs-super.jpg,https://www.hnb.net/personal/promotions/card-promotions/shopping/debit-cards/laugfs-supermarket
-3,4,25% OFF AT HOUSE OF FASHIONS,House of Fashions,,"Borella
-Bambalapitiya","Maximum discount available bill value will be LKR 100,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,"15th March 2025
-29th March 2025
-05th April 2025",25% off,https://www.hnb.net/images/cardpromotions/house-of-fashion.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/house-of-fashions
-3,4,"25% OFF AT ODEL, COTTON COLLECTION AND SELECTED SOFTLOGIC BRANDS",ODEL Odel.lk Cotton Collection COCO by Cotton Collection Softlogic Brands (selected brands),,,"Offer cannot be combined with any other existing offers
-Max. discount available bill value will be LKR 200,000 per card per day
-Selected branded items are excluded
-Discount is not applicable for Watches at Galleria",All HNB Credit Cards,15th and 16th March 2025,"25% off at,
- 
- 
-Logo
-Brand
-Location
-ODEL
-Alexandra Place
-One Galle Face Mall
-Havelock City Mall
-Mount Lavinia
-Kohuwala
-Thalawathugoda
-Kiribathgoda
-Negombo
-Moratuwa K-Zone
-Panadura
-Kandy City Centre
-Kurunegala
-ODEL Mall Kandy
-ODEL.LK 
- 
-Cotton Collection
-Dharmapala Mawatha
-Kandy City Centre
-COCO by Cotton Collection
-One Galle Face Mall
-Luv SL
-One Galle Face Mall
-Dutch Hospital
-Negombo
-Queens Hotel - Kandy
-Centara Ceysands
-Resort and Spa - Bentota
-ODEL Sports
-Havelock City Mall
-Galleria
-Havelock Road
-Kandy City Centre 
-Levi’s
-Havelock City Mall
-Calvin Klein
-One Galle Face Mall
-Tommy Hilfiger
-One Galle Face Mall
-Armani Exchange
-One Galle Face Mall
-Charles & Keith
-One Galle Face Mall
-MANGO
-One Galle Face Mall
-ALDO
-One Galle Face Mall
-Havelock City Mall
-Nike
-One Galle Face Mall
-Adidas Originals
-One Galle Face Mall
-Adidas Performance
-One Galle Face Mall
-Skechers
-One Galle Face Mall
-The Toy Store
-One Galle Face Mall
-Carpisa
-ODEL: L1 OGF
-OGF Mall (temporarily closed)
-Yamamay
-One Galle Face Mall
-Vero Moda
-One Galle Face Mall
-Samsonite
-Havelock City Mall",https://www.hnb.net/images/cardpromotions/softlogic-odel-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/odel-odel-lk-cotton-collection-coco-by-cotton-collection-softlogic-brands-selected-brands
-3,4,20% OFF AT DILLY & CARLO,Dilly & Carlo,,"Flagship Store (Flower Rd)
-One Galle Face Mall
-Havelock City
-Crescat Boulevard
-Majestic City
-The Blue Water – Wadduwa
-Website: www.dillyandcarlo.com","Maximum discount available bill value will be LKR 50,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items, gift vouchers, price reduce items are excluded
-Discounted items are excluded",All HNB Credit Cards,15th & 16th March 2025,20% off,https://www.hnb.net/images/cardpromotions/dilly-carlo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/dilly-carlo
-3,4,"20% OFF ON BILLS ABOVE LKR 6,000 AT RICH LOOK",Rich Look,,"Maharagama
-Negombo
-Kalutara
-Ratnapura
-Kottawa","Min. bill - LKR 6,000 per transaction
-Maximum discount available bill value will be LKR 50,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,15th & 16th March 2025,"20% off on bills above LKR 6,000",https://www.hnb.net/images/cardpromotions/rich-look.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/rich-look
-3,4,25% OFF AT HEMANTHA TEXTILES,Hemantha Textiles,,"Maharagama
-Kaduwela","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,16th & 28th March 2025,25% off,https://www.hnb.net/images/cardpromotions/hemantha-textiles-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/hemantha-textiles
-3,4,25% OFF AT OPAL FASHION,OPAL Fashion,,"Maharagama
-Nugegoda","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,16th & 28th March 2025,25% off,https://www.hnb.net/images/cardpromotions/opal-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/opal-fashion
-3,4,20% OFF AT ZUZI,Zuzi,,"Kotahena
-Hatton","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,21st March & 05th April 2025,20% off,https://www.hnb.net/images/cardpromotions/zuzi.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/zuzi
 3,4,"25% OFF AT ALL HAMEEDIA, ENVOY MANSION, SIGNATURE & H-SPORTS OUTLETS",Hameedia Envoy Mansion Signature H-Sports,,All outlets,"Maximum discount available bill value will be LKR 100,000 per card per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -2284,6 +2376,12 @@ Discounted items and gift vouchers are excluded",Eligibility: All HNB Credit Ca
 
 
 04th April 2025",25% off,https://www.hnb.net/images/cardpromotions/nolimit-white-bg-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/nolimit
+3,4,20% OFF AT ZUZI,Zuzi,,"Kotahena
+Hatton
+Wellawatte","Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Credit Cards,21st March & 05th April 2025,20% off,https://www.hnb.net/images/cardpromotions/zuzi.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/zuzi
 3,4,20% OFF AT SUPUL,Supul,,"Malabe
 Kaduwela
 Hanwella
@@ -2292,73 +2390,9 @@ Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded
 Offer will not be applicable on Promotional Items, Cosmetics, Perfumes and Gift Vouchers.",All HNB Credit Cards,22nd March & 04th April 2025,20% off,https://www.hnb.net/images/cardpromotions/supul.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/supul
-3,4,UP TO 50% + EXTRA 10% OFF AT BOSS,BOSS,,Colombo City Centre,"Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,15th to 17th March 2025,Up to 50% + extra 10% off,https://www.hnb.net/images/cardpromotions/boss-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/boss
-3,4,UP TO 40% + EXTRA 10% OFF AT UNDER ARMOUR,Under Armour,,"CCC
-Racecourse Mall","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,15th to 17th March 2025,Up to 40% + extra 10% off,https://www.hnb.net/images/cardpromotions/under-armour.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/under-armour
-3,4,UP TO 60% + EXTRA 5% OFF AT SKECHERS,Skechers,,"Colombo City Centre
-Racecourse Mall
-Selected Abans Elite Showrooms
-Website: www.buyabans.com","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,15th to 17th March 2025,Up to 60% + extra 5% off,https://www.hnb.net/images/cardpromotions/skechers-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/skechers
-3,4,UP TO 30% + EXTRA 5% OFF AT TITAN WATCHES,TITAN Watches,,"CCC
-Havelock City Mall
-OGF
-Racecourse Mall
-Selected Abans Elite Showrooms
-Website: www.buyabans.com","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded","Eligibility: All HNB Credit Cards  
- 
-Special Terms & Conditions:
-
-Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded
-
-
-General Terms & Conditions:
-
-The promotions are open to all holders of Mastercard and Visa Credit Cards issued by Hatton National Bank PLC.
-The card member(s) is/are to settle the total bill via their HNB Mastercard and Visa Credit Card to be eligible for the discount offered.
-The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.
-Hatton National Bank PLC reserves the right to withdraw, modify or change all or any of the rules, terms & conditions applicable to this promotion at any given time without prior notice.
-If any dispute arises regarding any of the terms and conditions contained herewith, the decision of the respective service establishment and Hatton National Bank PLC shall be final.
-The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.
-Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.
-The General Credit card terms and conditions will continue to apply.",15th to 17th March 2025,Up to 30% + extra 5% off,https://www.hnb.net/images/cardpromotions/titan.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/titan-watches
-3,4,UP TO 30% + EXTRA 5% OFF AT TIMES SQUARE WATCHES,Times Square Watches,,"Colombo City Centre
-Havelock City Mall
-One Galle Face Mall
-Racecourse
-Selected Abans Elite Showrooms","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,15th to 17th March 2025,Up to 30% + extra 5% off,https://www.hnb.net/images/cardpromotions/times-square.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/times-square-watches
-3,4,UP TO 70% + EXTRA 5% OFF AT MINISO,MINISO,,"All MINISO Outlets
- 
-Website: www.buyabans.com  
- 
-Special Terms and Conditions:
-Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Card,15th to 17th March 2025,Up to 70% + extra 5% off,https://www.hnb.net/images/cardpromotions/miniso.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/miniso
 3,4,20% OFF AT KELLY FELDER,Kelly Felder,,"Colombo 03
 Nugegoda
-Colombo City Centre","Maximum discount available bill value will be LKR 25,000 per day
+Colombo City Centre - Level 02","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded
@@ -2377,16 +2411,83 @@ Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded
 Offer will not be applicable on Promotional Items, Cosmetics, Perfumes and Gift Vouchers.",All HNB Credit Cards,22nd March & 02nd April 2025,20% off,https://www.hnb.net/images/cardpromotions/redvers-buller-www-kellyfelder-com-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/redvers-buller
+3,4,20% OFF AT MONDY,Mondy,,"Colombo 03 
+ 
+Website: www.mondy78.com","Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded
+Discounted items are not eligible for exchange",All HNB Credit Cards,22nd & 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/mondy.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/mondy
 3,4,20% OFF AT CHENARA DODGE,Chenara DODGE,,"CCC (2 outlets)
 KCC 
 Kandy","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded",HNB Credit Cards,22nd & 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/chenara-dodge-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/chenara-dodge
-3,4,25% OFF AT THE FACTORY OUTLET,The Factory Outlet,,,"Maximum discount available bill value will be LKR 25,000 per day
+3,4,20% OFF AT ARIENTI,Arienti,,"Colombo 03
+Negombo","Min. bill value will be LKR 7,500 per transaction
+Max. discount valid bill value will be LKR 25,000 per card per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,14th to 16th March 2025,25% off,https://www.hnb.net/images/cardpromotions/the-factory-outlet-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-factory-outlet-ccc
+Discounted items and gift vouchers are excluded",HNB Credit Cards,24th & 25th March 2025,20% off,https://www.hnb.net/images/cardpromotions/arienti-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/arienti
+3,4,20% OFF AT ZIGZAG,Zigzag,,"Colombo 03
+Negombo 
+Website: www.zigzag.lk  (Promo code: HNB20)","Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Credit cards,21st to 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/zigzag-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/zigzag-cc
+3,4,25% OFF AT HOUSE OF FASHIONS,House of Fashions,,"Borella
+Bambalapitiya","Maximum discount available bill value will be LKR 100,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Credit Cards,"29th March 2025
+05th April 2025",25% off,https://www.hnb.net/images/cardpromotions/house-of-fashion.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/house-of-fashions
+3,4,20% OFF AT BAYLEEE,Bayleee,,"CCC
+Thimbirigasyaya","Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,19th to 21st March 2025,20% off,https://www.hnb.net/images/cardpromotions/bayleee.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/bayleee
+3,4,15% OFF AT HANDLOOM GALLERY,Handloom Gallery,,"Battaramulla
+Ethulkotte","Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,20th & 21st March 2025,15% off,https://www.hnb.net/images/cardpromotions/handloom-gallery.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/handloom-gallery
+3,4,20% OFF AT BOLTGEAR,BOLTGEAR,,OGF,"Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,20th March to 12th April 2025,20% off,https://www.hnb.net/images/cardpromotions/boltgear.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/boltgear
+3,4,15% OFF AT COTTON ISLAND,Cotton Island,,"Pelawatta
+Wellawatta","Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,21st to 23rd March 2025,15% off,https://www.hnb.net/images/cardpromotions/cotton-island.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/cotton-island
+3,4,20% OFF AT NORA REED,,,,,No eligibility,No period,has temporarily been called off.,https://www.hnb.net/images/cardpromotions/nora-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/nora-reed
+3,4,20% OFF AT COMFORTON,Comforton,,Colombo 03,"Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,22nd & 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/comforton.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/comforton
+3,4,25% OFF AT THE BRANDS WAREHOUSE,The Brands Warehouse,,Wellawatta,"Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Credit Cards,22nd & 23rd March 2025,25% off,https://www.hnb.net/images/cardpromotions/brands-warehouse.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-brands-warehouse
+3,4,15% OFF AT MAGS COLLECTION,Mags Collection,,Pelawatta,"Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Credit Cards,"22nd & 23rd March,
+13th April 2025",15% off,https://www.hnb.net/images/cardpromotions/magas-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/mags-collection
+3,4,15% OFF AT KREATION,Kreation,,"Borella
+Wattala 
+Mount Lavinia
+Wellawatte","Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items, fabrics & gift vouchers are excluded",HNB Credit Cards,"23th to 25th March,
+01st to 03rd & 11th to 13th April 2025",15% off,https://www.hnb.net/images/cardpromotions/kreation-house.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/kreation
+3,4,25% OFF AT HEMANTHA TEXTILES,Hemantha Textiles,,"Maharagama
+Kaduwela","Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Credit Cards,28th March 2025,25% off,https://www.hnb.net/images/cardpromotions/hemantha-textiles-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/hemantha-textiles
+3,4,25% OFF AT OPAL FASHION,OPAL Fashion,,"Maharagama
+Nugegoda","Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,28th March 2025,25% off,https://www.hnb.net/images/cardpromotions/opal-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/opal-fashion
 3,4,20% OFF ON SELECTED ITEMS AT BLUENGOLD,BlueNGold,,"Royal College, Colombo 07","Valid for selected items
 Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
@@ -2405,6 +2506,7 @@ Maximum discount available bill value will be LKR 25,000 per day",All HNB Credit
 Colombo 03
 Nugegoda
 OGF
+Colombo City Center
 Negombo
 Kandy City Centre
 Mawanella","Maximum discount available bill value will be LKR 25,000 per day
@@ -2448,20 +2550,15 @@ Offer",https://www.hnb.net/images/cardpromotions/birkenstock-logo.jpg,https://ww
 3,4,15% OFF AT STUDIO CLOTHING,Studio Clothing,,"Colombo 6
 Negombo","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All  HNB Credit Cards,"14th & 15th March,
-05th & 06th April 2025",15% off,https://www.hnb.net/images/cardpromotions/studio.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/studio-clothing
+Discounted items and gift vouchers are excluded",All  HNB Credit Cards,05th & 06th April 2025,15% off,https://www.hnb.net/images/cardpromotions/studio.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/studio-clothing
 3,4,10% OFF AT NEW CROWN FASHION,New Crown Fashion,,Minuwangoda,Offer cannot be combined with any other existing offers.,All HNB Credit / Debit Cards,15th March to 15th April 2025,10% off,https://www.hnb.net/images/cardpromotions/new-crown-fashion-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/new-crown-fashion
 3,4,10% OFF AT JUMANA FACTORY OUTLET,Jumana Factory Outlet,,"128G, Bope Road, Galle
 247, Colombo Main Road, Mahamodara, Galle","Offer cannot be combined with any other existing offers.
 Minimum bill value will be LKR 10,000 per card",All HNB Credit / Debit Cards,10th March to 13th April 2025,10% off,https://www.hnb.net/images/cardpromotions/jumana-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/jumana-factory-outlet
 3,4,15% OFF AT WYBE FASHION,Wybe Fashion,,Ja-ela,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,"15th & 16th March 2025
-28th to 30th March 2025
+Discounted items and gift vouchers are excluded",HNB Credit Cards,"28th to 30th March 2025
 10th to 12th April 2025",15% off,https://www.hnb.net/images/cardpromotions/wybe-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/wybe-fashion
-3,4,10% OFF AT TOP CHOICE,Top Choice,,Negombo,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,14th & 18th March 2025,10% off,https://www.hnb.net/images/cardpromotions/top-choice.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/top-choice
 3,4,25% OFF AT FASHION BUG,Fashion Bug,,"Colpetty
 Wellawatte 
 Kotahena 
@@ -2511,11 +2608,6 @@ Welisara","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",HNB Credit Cards,01st & 02nd April 2025,20% off,https://www.hnb.net/images/cardpromotions/the-factory-outlet-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-factory-outlet-cc
-3,4,15% OFF AT COTTON ISLAND,Cotton Island,,"Pelawatta
-Wellawatta","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,21st to 23rd March 2025,15% off,https://www.hnb.net/images/cardpromotions/cotton-island.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/cotton-island
 3,4,20% OFF AT COTTON ISLAND,Cotton Island,,"Pelawatta
 Wellawatta","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
@@ -2525,8 +2617,7 @@ Discounted items and gift vouchers are excluded",All HNB Credit Cards,09th & 10t
 One Galle Face Mall","Valid for selected items for bills above LKR 10,000
 Max. discount valid bill value will be LKR 40,000 per card per day
 Offer cannot be combined with any other offers or promotions
-Selected branded items, gift vouchers, price reduce items are excluded",HNB Credit Cards,"13th & 14th March,
-10th & 11th April 2025","15% off on bills above LKR 10,000",https://www.hnb.net/images/cardpromotions/jezza-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/jezza
+Selected branded items, gift vouchers, price reduce items are excluded",HNB Credit Cards,10th & 11th April 2025,"15% off on bills above LKR 10,000",https://www.hnb.net/images/cardpromotions/jezza-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/jezza
 3,4,20% OFF AT SITHSELA FASHION,Sithsela Fashion,,Mathugama,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -2571,10 +2662,6 @@ Discounted items and gift vouchers are excluded",HNB Credit Cards,29th & 30th Ma
 3,4,15% OFF AT FIELD,Field,,Colombo 04,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,10th March to 30th April 2025,15% off,https://www.hnb.net/images/cardpromotions/field-logo.jpeg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/field
-3,4,25% OFF AT THE BRANDS WAREHOUSE,The Brands Warehouse,,Wellawatta,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,22nd & 23rd March 2025,25% off,https://www.hnb.net/images/cardpromotions/brands-warehouse.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-brands-warehouse
 3,4,20% OFF AT THE BRANDS WAREHOUSE,The Brands Warehouse,,Wellawatta,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -2652,10 +2739,6 @@ Website: www.stripesandchecksinc.com",20% off,https://www.hnb.net/images/cardpro
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,29th March & 02nd April 2025,20% off,https://www.hnb.net/images/cardpromotions/asb-fashion-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/asb-fashion
-3,4,20% OFF AT BAYLEEE,Bayleee,,"CCC
-Thimbirigasyaya","Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,19th to 21st March 2025,20% off,https://www.hnb.net/images/cardpromotions/bayleee.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/bayleee
 3,4,15% OFF AT ADITI,Aditi,,"Mahabage
 OGF
 Kadawatha
@@ -2731,11 +2814,6 @@ Aluthgama","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,"29th to 31st March
 05th & 06th April 2025",15% off,https://www.hnb.net/images/cardpromotions/ekmi-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/ekmi-shopping-cc
-3,4,15% OFF AT MAGS COLLECTION,Mags Collection,,Pelawatta,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,"22nd & 23rd March,
-13th April 2025",15% off,https://www.hnb.net/images/cardpromotions/magas-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/mags-collection
 3,4,20% OFF AT JUNIOR WAREHOUSE,Junior Warehouse,,Mount Lavinia,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,"21st & 22nd March
@@ -2762,28 +2840,21 @@ One Galle Face","Maximum discount available bill value will be LKR 25,000 per da
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,29th & 30th March 2025,25% off,https://www.hnb.net/images/cardpromotions/babycare-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/babycare
-3,4,20% OFF AT COMFORTON,Comforton,,Colombo 03,"Maximum discount available bill value will be LKR 25,000 per day
+3,4,"20% OFF ON BILLS ABOVE LKR 5,000 AT ABSOLUTE",ABSOLUTE,,"Flagship Store - Colombo 03
+One Galle Face Mall
+Website: www.absolutebasics.lk","Offer cannot be combined with any other offer
+Minimum bill value will be LKR 5,000 per transaction
+Offer is valid for full priced items only",HNB Credit & Debit Cards,05th and 06th April 2025,"20% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/absolute-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/absolute
+3,4,25% OFF AT SAREE MANDIR,Saree Mandir,,Colombo 06,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,22nd & 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/comforton.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/comforton
-3,4,25% OFF AT THE KIDS WAREHOUSE,The Kids Warehouse,,Colombo 04,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,"17th to 19th March 2025
- 
-
-
-Website: www.tkw.lk",25% off,https://www.hnb.net/images/cardpromotions/kids-warehouse-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-kids-warehouse-cc
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,29th & 30th March 2025,25% off,https://www.hnb.net/images/cardpromotions/saree-mandir-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/saree-mandir
 3,4,20% OFF AT THE KIDS WAREHOUSE,The Kids Warehouse,,"Colombo 04
  
 Website: www.tkw.lk","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,29th & 30th March 2025,20% off,https://www.hnb.net/images/cardpromotions/kids-warehouse-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-kids-warehouse
-3,4,25% OFF AT SAREE MANDIR,Saree Mandir,,Colombo 06,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,29th & 30th March 2025,25% off,https://www.hnb.net/images/cardpromotions/saree-mandir-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/saree-mandir
 3,4,"15% OFF ON BILLS ABOVE LKR 5,000 AT TKS MULTI FASHION CORNER",TKS Multi Fashion Corner,,Ampara,"Offer cannot be combined with any other offer
 Minimum bill - LKR 5,000 per transaction
 Maximum discount available bill value will be LKR 25,000 per day",All HNB Credit Cards,24th & 25th March 2025,"15% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/tks-fashion-logo-new.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/tks-multi-fashion-corner
@@ -2847,7 +2918,7 @@ Maharagama
 Nugegoda
 Kollupitiya
 Kiribathgoda
-Website: www.springandsummer.lk","Maximum discount available bill value will be LKR 25,000 per day
+Website: www.springandsummer.lk  (Promo Code : SSHNB20 )","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded",All HNB Credit Cards,11th & 12th April 2025,20% off,https://www.hnb.net/images/cardpromotions/spring-and-summer.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/spring-summer
@@ -2899,20 +2970,15 @@ The General Credit card terms and conditions will continue to apply.",25th March
 Website: www.jumpclothing.lk","Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded",All HNB Credit Cards,29th to 31st March 2025,20% off,https://www.hnb.net/images/cardpromotions/jump.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/jump
-3,4,20% OFF AT SHOPIMO,Shopimo,,Panadura,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,15th & 16th March 2025,20% off,https://www.hnb.net/images/cardpromotions/shopimo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/shopimo
 3,4,10% OFF AT MAM FASHION MART,MAM Fashion Mart,,"Negombo
 Chilaw","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,"15th & 16th March,
-02nd & 03rd April 2025",10% off,https://www.hnb.net/images/cardpromotions/mam.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/mam-fashion-mart
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,02nd & 03rd April 2025,10% off,https://www.hnb.net/images/cardpromotions/mam.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/mam-fashion-mart
 3,4,15% OFF AT TIYANA BIG CITY & TIYANA FASHION,Tiyana Big City & Tiyana Fashion,,"Balangoda
 Pelmadulla","Min. bill LKR 5,000 per transaction
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,15th & 28th March 2025,"15% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/tiyana-logos.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/tiyana-big-city-tiyana-fashion
+Discounted items and gift vouchers are excluded",HNB Credit Cards,28th March 2025,"15% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/tiyana-logos.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/tiyana-big-city-tiyana-fashion
 3,4,20% OFF AT SENA TRADE CENTRE,Sena Trade Centre,,Ganemulla,"Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -2934,12 +3000,6 @@ Discounted items and gift vouchers are excluded",All HNB Credit Cards,27th & 28t
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",HNB Credit Cards,27th & 28th March 2025,20% off,https://www.hnb.net/images/cardpromotions/dirali-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/dirali
-3,4,20% OFF AT ARIENTI,Arienti,,"Colombo 03
-Negombo","Min. bill value will be LKR 7,500 per transaction
-Max. discount valid bill value will be LKR 25,000 per card per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,24th & 25th March 2025,20% off,https://www.hnb.net/images/cardpromotions/arienti-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/arienti
 3,4,"10% OFF ON BILLS ABOVE LKR 5,000 AT LEESH",Leesh,,Padukka,"Offer cannot be combined with any other offer
 Minimum bill value will be LKR 5,000 per transaction",All HNB Credit / Debit Cards,30th March & 10th April 2025,"10% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/leesh-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/leesh
 3,4,15% OFF AT PALM ISLAND,Palm Island,,Colombo 03,"Offer cannot be combined with any other offers or promotions
@@ -2956,13 +3016,6 @@ Kandy","Maximum discount available bill value will be LKR 30,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,05th & 06th April 2025,20% off,https://www.hnb.net/images/cardpromotions/gali-s-lingerie.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/gali-s-lingerie
-3,4,20% OFF AT MONDY,Mondy,,"Colombo 03 
- 
-Website: www.mondy78.com","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded
-Discounted items are not eligible for exchange",All HNB Credit Cards,22nd & 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/mondy.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/mondy
 3,4,20% OFF AT SUPER KIDS,Super Kids,,Panadura,"Maximum discount available bill value will be LKR 30,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -2975,17 +3028,26 @@ Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit cards,09th & 10th April 2025,20% off,https://www.hnb.net/images/cardpromotions/senior-textile.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/senior-textile
 3,4,20% OFF AT UPTOWN - LIBERTY PLAZA & COL 04,Uptown - Liberty Plaza & Col 04,,"Liberty Plaza
-Colombo 04","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
+Colombo 04","Maximum discount available bill value will be LKR 50,000 per day
+Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items, Cosmetics items, Sweet Conner, Sale items and gift vouchers are excluded","Eligibility: HNB Credit Cards
  
 Special Terms & Conditions:
 
-Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
+
+Maximum discount available bill value will be LKR 50,000 per day
+
+
+Offer cannot be combined with any other offers or promotions
+
+
 Selected branded items are excluded
+
+
 Discounted items, Cosmetics items, Sweet Conner, Sale items and gift vouchers are excluded
+
+
 
 General Terms & Conditions:
 
@@ -3014,55 +3076,6 @@ Discounted items and gift vouchers are excluded","Offer cannot be combined with 
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit card,"28th to 30th March
 08th & 09th April 2025",10% off,https://www.hnb.net/images/cardpromotions/ekko-class-comfort-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/ekko
-3,4,15% OFF AT KREATION,Kreation,,"Borella
-Wattala 
-Mount Lavinia
-Wellawatte","Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items, fabrics & gift vouchers are excluded",HNB Credit Cards,"23th to 25th March,
-01st to 03rd & 11th to 13th April 2025",15% off,https://www.hnb.net/images/cardpromotions/kreation-house.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/kreation
-3,4,"10% OFF ON BILLS ABOVE LKR 5,000 AT KANDYGS",Kandygs,,"Nugegoda
-Colombo 03
-Colombo 05
-Colombo 06","Min. bill per transaction is LKR 5,000
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded","Eligibility: All HNB Credit Cards
- 
-Locations:
-
-
-
-Nugegoda
-
-Colombo 03
-
-Colombo 05
-
-
-Colombo 06
-
-
-
-Special Terms & Conditions: 
-
-Min. bill per transaction is LKR 5,000
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded
-
- 
-General Terms & Conditions:
-
-
-The promotions are open to all holders of Mastercard and Visa Credit Cards issued by Hatton National Bank PLC.
-The card member(s) is/are to settle the total bill via their HNB Mastercard and Visa Credit Card to be eligible for the discount offered.
-The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.
-Hatton National Bank PLC reserves the right to withdraw, modify or change all or any of the rules, terms & conditions applicable to this promotion at any given time without prior notice.
-If any dispute arises regarding any of the terms and conditions contained herewith, the decision of the respective service establishment and Hatton National Bank PLC shall be final.
-The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.
-Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.
-The General Credit card terms and conditions will continue to apply.",17th to 19th March 2025,"10% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/kandyes.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/kandygs
 3,4,20% OFF AT GLORY SWIM SHOP,Glory Swim Shop,,"Colombo 05
 One Galle Face","Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
@@ -3097,10 +3110,6 @@ The General Credit card terms and conditions will continue to apply.",10th to 1
 One Galle Face","Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded",HNB Credit Cards,10th to 12th April 2025,20% off,https://www.hnb.net/images/cardpromotions/deep-end-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-deep-end
-3,4,20% OFF AT NORA REED,Nora Reed,,Colombo 03,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,22nd March & 05th April 2025,20% off,https://www.hnb.net/images/cardpromotions/nora-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/nora-reed
 3,4,"20% OFF ON BILLS ABOVE LKR 6,000 AT SPA CEYLON",SPA Ceylon,,"Selected outlets
  
 Website: lk.spaceylon.com (Promo code: HN20)","Offer is valid ONLY for Spa Ceylon Products
@@ -3145,8 +3154,7 @@ Discounted items and gift vouchers are excluded",All HNB Credit Cards,28th & 29t
 Maximum discount available bill value will be LKR 200,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,"15th to 17th March &
-08th to 10th April 2025","15% off on bills above LKR 15,000",https://www.hnb.net/images/cardpromotions/kingsman.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/kingsman-perennial
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,08th to 10th April 2025,"15% off on bills above LKR 15,000",https://www.hnb.net/images/cardpromotions/kingsman.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/kingsman-perennial
 3,4,20% OFF AT NADIYAS TEXTILE,Nadiyas Textile,,"Kandy
 Gampola
 Nawalapitiya
@@ -3160,15 +3168,12 @@ Discounted items and gift vouchers are excluded",All HNB Credit Cards,23rd March
 3,4,20% OFF AT VES CLOTHING,​​Ves Clothing,,Colombo 5,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,28th March to 14th April 2025,20% off,https://www.hnb.net/images/cardpromotions/ves-clothing-logo.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/ves-clothing
-3,4,15% OFF AT DD ATHUKORALA TEXTILES,DD Athukorala Textiles,,Kegalle,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,13th to 16th March 2025,15% off,https://www.hnb.net/images/cardpromotions/atukorala-textile-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/dd-athukorala-textiles
 3,4,20% OFF AT NIRMANI DRESS POINT,Nirmani Dress Point,,"Anuradhapura
 Thambuththegama
 Kekirawa","Maximum discount available bill value will be LKR 40,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
-Discounted items are excluded",All HNB Credit Cards,15th & 22nd March 2025,20% off,https://www.hnb.net/images/cardpromotions/nirmani-dress-point.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/nirmani-dress-point
+Discounted items are excluded",All HNB Credit Cards,22nd March 2025,20% off,https://www.hnb.net/images/cardpromotions/nirmani-dress-point.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/nirmani-dress-point
 3,4,25% OFF ON SWX - SHIRTWORKS OUTLETS,SWX - Shirtworks,,"Bambalapitiya
 Colpetty
 Panadura","Maximum discount available bill value will be LKR 75,000 per day
@@ -3227,7 +3232,7 @@ Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded
-Supermarket Division and Ground Floor items are excluded",All HNB Credit cards,13th March & 08th April 2025,25% off,https://www.hnb.net/images/cardpromotions/ceylon-city-mart.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/ceylon-city-mart
+Supermarket Division and Ground Floor items are excluded",All HNB Credit cards,08th April 2025,25% off,https://www.hnb.net/images/cardpromotions/ceylon-city-mart.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/ceylon-city-mart
 3,4,25% OFF AT SAMANMAL,Samanmal,,"Matara 
 Panadura
 Embilipitiya","Min. bill value will be LKR 7,500
@@ -3249,77 +3254,31 @@ Discounted items and gift vouchers are excluded",HNB Credit Cards,05th & 06th A
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,22nd & 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/kailash-fashion-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/kailash-fashion
-3,4,20% OFF AT ABDULLAH,Abdullah,,Kalmunai,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,15th & 16th March 2025,20% off,https://www.hnb.net/images/cardpromotions/abdullah.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/abdullah
 3,4,15% OFF AT SAHELI FASHION,Saheli Fashion,,Matara,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,05th & 06th April 2025,15% off,https://www.hnb.net/images/cardpromotions/sahelie-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/saheli-fashion
 3,4,20% OFF AT FRONT LINE,Front Line,,"Balangoda
 Bandarawela","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,17th March & 05th April 2025,20% off,https://www.hnb.net/images/cardpromotions/front-line-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/front-line
-3,4,10% OFF AT FASHION PARK,Fashion Park,,,"Offer cannot be combined with any other offer
+Discounted items and gift vouchers are excluded",HNB Credit Cards,05th April 2025,20% off,https://www.hnb.net/images/cardpromotions/front-line-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/front-line
+3,4,10% OFF AT FASHION PARK,Fashion Park,,Nawalapitiya,"Offer cannot be combined with any other offer
 Maximum discount available bill value will be LKR 25,000 per day
 Inner wears, accessories, toys, cosmetics are excluded",All HNB Credit Cards,"21st & 22nd March 2025
 
 
-04th & 05th April 2025",10% off,https://www.hnb.net/images/cardpromotions/hnb-credit-cards.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/fashion-park
+04th & 05th April 2025",10% off,https://www.hnb.net/images/cardpromotions/fashion-park-new.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/fashion-park
 3,4,25% OFF AT SARATHCHANDRA TEXTILES,Sarathchandra Textiles,,"Embilipitiya
 Pelmadulla","Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",HNB Credit Cards,30th March & 05th April 2025,25% off,https://www.hnb.net/images/cardpromotions/sarathchandra-textiles-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/sarathchandra-textiles
-3,4,"10% OFF ON BILLS ABOVE LKR 5,000 AT KANDYGS",Kandygs,,"Nugegoda
-Colombo 03
-Colombo 05
-Colombo 06","Min. bill per transaction is LKR 5,000
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded","Eligibility: All HNB Credit Cards
- 
-Locations:
-
-
-
-Nugegoda
-
-Colombo 03
-
-Colombo 05
-
-
-Colombo 06
-
-
-
-Special Terms & Conditions: 
-
-Min. bill per transaction is LKR 5,000
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded
-
- 
-General Terms & Conditions:
-
-
-The promotions are open to all holders of Mastercard and Visa Credit Cards issued by Hatton National Bank PLC.
-The card member(s) is/are to settle the total bill via their HNB Mastercard and Visa Credit Card to be eligible for the discount offered.
-The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.
-Hatton National Bank PLC reserves the right to withdraw, modify or change all or any of the rules, terms & conditions applicable to this promotion at any given time without prior notice.
-If any dispute arises regarding any of the terms and conditions contained herewith, the decision of the respective service establishment and Hatton National Bank PLC shall be final.
-The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.
-Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.
-The General Credit card terms and conditions will continue to apply.",17th to 19th March 2025,"10% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/kandyes.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/kandygs-handlooms-ccc
 3,4,UP TO 20% OFF AT NILANTHA DESIGNERS,Nilantha Designers,,Galle,"Offer is available brand names are Signature, Emerald, Simphany, Majesty and for all products
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,25th March to 13th April 2025,Up to 20% off,https://www.hnb.net/images/cardpromotions/nilantha-designers.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/nilantha-designers
 3,4,20% OFF AT MONTRIANNA,Montrianna,,Nugegoda,"Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
-Discounted items are excluded",All HNB Credit cards,29th March & 06th April 2025,20% off,https://www.hnb.net/images/cardpromotions/montrianna.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/montrianna
+Discounted items are excluded",All HNB Credit cards,29th March & 06th April 2025,20% off,https://www.hnb.net/images/cardpromotions/montrianna-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/montrianna
 3,4,20% OFF AT RASHMI DRESS POINT,Rashmi Dress Point,,Awissawella,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -3346,32 +3305,19 @@ Discounted items and gift vouchers are excluded",All HNB Credit Cards,Till 22nd 
 3,4,15% OFF AT ADDRESS,Address,,"Colombo 03
 OGF Mall","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,"14th & 15th March,
-05th & 06th April 2025",15% off,https://www.hnb.net/images/cardpromotions/address.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/address
-3,4,15% OFF AT HANDLOOM GALLERY,Handloom Gallery,,"Battaramulla
-Ethulkotte","Offer cannot be combined with any other offers or promotions
+Discounted items and gift vouchers are excluded",HNB Credit Cards,05th & 06th April 2025,15% off,https://www.hnb.net/images/cardpromotions/address.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/address
+3,4,15% OFF AT SUNIMAL'S,Sunimal's,,"Battaramulla 
+Kandy","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,20th & 21st March 2025,15% off,https://www.hnb.net/images/cardpromotions/handloom-gallery.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/handloom-gallery
+Discounted items and gift vouchers are excluded",HNB Credit Cards,24th March to 20th April 2025,15% off,https://www.hnb.net/images/cardpromotions/Sunimals-logo.JPG,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/sunimal-s
 3,4,20% OFF AT HANDLOOM GALLERY,Handloom Gallery,,"Battaramulla
 Ethulkotte","Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,29th & 30th March 2025,20% off,https://www.hnb.net/images/cardpromotions/handloom-gallery.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/handloom-gallery-cc
-3,4,15% OFF AT SUNIMAL'S,Sunimal's,,"Battaramulla 
-Kandy","Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Credit Cards,24th March to 20th April 2025,15% off,https://www.hnb.net/images/cardpromotions/Sunimals-logo.JPG,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/sunimal-s
 3,4,15% OFF AT ZIE & ZIE.LK,ZIE,,"Battaramulla
 Sri Jayawardenepura Kotte","Offer cannot be combined with any other offer
 Maximum discount available bill value will be LKR 25,000 per day",All HNB Credit / Debit Cards,Till 14th April 2025,15% off,https://www.hnb.net/images/cardpromotions/zie-logo-new.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/zie
-3,4,20% OFF AT BOLTGEAR,BOLTGEAR,,OGF,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,20th March to 12th April 2025,20% off,https://www.hnb.net/images/cardpromotions/boltgear.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/boltgear
-3,4,20% OFF AT ZIGZAG,Zigzag,,"Colombo 03
-Negombo 
-Website: www.zigzag.lk  (Promo code: HNB20)","Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit cards,21st to 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/zigzag-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/zigzag-cc
 3,4,30% OFF AT ADEAZ FASHION,Adeaz Fashion,,Matara,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,"28th to 31st March,
@@ -3441,24 +3387,22 @@ KCC","Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,05th & 06th April 2025,20% off,https://www.hnb.net/images/cardpromotions/smiggle.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/smiggle
-3,4,15% OFF AT ATUKORALA FASHION,Atukorala Fashion,,Mawanella,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,13th to 16th March 2025,15% off,https://www.hnb.net/images/cardpromotions/atukorala-fashion-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/atukorala-fashion
+3,4,15% OFF ON AT SALOMA FASHION,Saloma Fashion,,"Meepe
+Wateraka 
+Godagama
+Malabe
+Horana","Offer cannot be combined with any other offer
+Maximum discount available bill value will be LKR 25,000 per day",All HNB Credit Cards,"24th & 25th March 2025
+01st & 02nd April 2025",15% off,https://www.hnb.net/images/cardpromotions/saloma-new-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/saloma-fashion
 3,4,"20% OFF ON BILLS ABOVE LKR 5,000 AT WWW.ROUGH.LK",Rough,,,"Offer cannot be combined with any other existing offers.
 Min. bill - LKR 5,000 per transaction
-Offer valid for online purchase",All HNB Credit / Debit Cards,"13th to 16th March 2025
+Offer valid for online purchase",All HNB Credit / Debit Cards,"20th to 23rd March 2025
 
 
-20th to 23rd March 2025
-
-
-28th to 31st March 2025","20% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/rough-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/rough
-3,4,10% OFF AT GUYS & GIRLS,GUYS & GIRLS,,Anuradhapura,"Offer is applied at the time of payment and cannot be claimed afterward.
-Offer cannot be combined with any other ongoing offers, discounts, or promotions.
-No refunds, cash exchanges, or adjustments will be made for discounted transactions.
-Maximum discount bill value will be LKR 50,000 Per card per day",All HNB Credit / Debit Cards,17th & 18th March 2025,10% off,https://www.hnb.net/images/cardpromotions/guys.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/guys-girls
-3,4,15% OFF AT GAYANS TEXTILE,Gayans Textile,,Bandarawela,"Offer cannot be combined with any other offer
-Maximum discount available bill value will be LKR 25,000 per day",All HNB Credit Cards,15th & 16th March 2025,15% off,https://www.hnb.net/images/cardpromotions/gayans-textile-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/gayans-textile
+28th to 31st March 2025","20% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/rough-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/rough
+3,4,"UP TO 15% OFF ON BILLS ABOVE LKR 20,000 AT IYNETEX",IYNETEX,,Negombo,,All HNB Credit / Debit Cards,"19th to 26th March 2025
+08th to 12th April 2025","15% Off on bills above LKR 20,000
+ 10% Off on bills above LKR 10,000",https://www.hnb.net/images/cardpromotions/iynetex-logo.jpeg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/iynetex
 3,4,15% OFF AT BATA SHOWROOMS,Bata Showrooms,,All outlets,"Offer cannot be combined with any other offers or promotions
 Selected branded items and accessories are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,27th to 30th March & 04th to 09th April 2025,15% off,https://www.hnb.net/images/cardpromotions/bata-log.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/bata-showrooms
@@ -3496,7 +3440,7 @@ Kandy
 Negombo","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Credit Cards,07th to 09th April 2025,15% off,https://www.hnb.net/images/cardpromotions/midnightdivas.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/midnightdivas-cc
+Discounted items and gift vouchers are excluded",All HNB Credit Cards,07th to 09th April 2025,15% off,https://www.hnb.net/images/cardpromotions/midnightdivas-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/midnightdivas-cc
 3,4,10% OFF AT TINY TOGS,Tiny Togs,,"Gamapaha
 Kelaniya
 Kurunegala 
@@ -3532,105 +3476,187 @@ The General Credit / Debit card terms and conditions will continue to apply."
  
 Website: www.beautybay.lk",Offers cannot be combined with any other promotions,All HNB Credit Cards,12th March to 30th April 2025,"10% off on selected items 
 0% + 3 and 6 months installments are available for transaction above Rs. 10,000 to Rs. 1 Mn",https://www.hnb.net/images/cardpromotions/the-beauty-bay.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/the-beauty-bay
-3,4,"10% OFF AT ODEL, COTTON COLLECTION AND SELECTED SOFTLOGIC BRANDS",ODEL Odel.lk Cotton Collection COCO by Cotton Collection Softlogic Brands (selected brands),,,"Offer cannot be combined with any other existing offers
-Max. discount available bill value will be LKR 200,000 per card per day
-Selected branded items are excluded
-Discount is not applicable for Watches at Galleria",All HNB Debit Cards,15th and 16th March 2025,"10% off at,
- 
+3,4,ENJOY EXCLUSIVE DISCOUNTS WITH SELECTED PARTNERS AT HAVELOCK CITY MALL,,,,"Offers are available only at Havelock City Mall outlets only
+Offers cannot be combined with any other offers
+Selected branded items and gift vouchers are excluded
+Offers are available on selected days from 04th to 06th April 2025
+Merchant
+IMAXscopecinemas.com
+Buy One Get One Free on IMAX Tickets
+Valid for Credit Cards
+Valid from 04th to 06th April 2025
+Max. 2 Free Tickets per card
+Click here for more details
+Deedat www.deedatclothing.com
+20% off on Credit Cards
+Valid on 04th April 2025
+Max. bill - LKR 50,000 per card
+Cool Planet  Moonstone
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Hameedia  Signature
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Dilly & Carlo
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 75,000 per card per day
+Mimosa  The Vanta Studios
+25% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+NV Cosmetics
+20% off on Credit & Debit Cards
+Valid on 06th April 2025
+Jia Moda
+20% off on Credit Cards
+15% off on Debit Cards
+Valid on 04th & 05th April 2025
+Street82
+20% off on Credit & Debit Cards
+Valid for Orange Tag items only
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+Leather Collection
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+LCY London
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 2,500
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Pizza Hut
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Taco Bell
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+PappaRich
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Steak House
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 5,000
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away",No eligibility,No period,"are available only at Havelock City Mall outlets only
+Offers cannot be combined with any other offers
+Selected branded items and gift vouchers are excluded
+Offers are available on selected days from 04th to 06th April 2025 
+Offers: 
  
 Logo
-Brand
-Location
-ODEL
-Alexandra Place
-One Galle Face Mall
-Havelock City Mall
-Mount Lavinia
-Kohuwala
-Thalawathugoda
-Kiribathgoda
-Negombo
-Moratuwa K-Zone
-Panadura
-Kandy City Centre
-Kurunegala
-ODEL Mall Kandy
-ODEL.LK
+Merchant 
+T&Cs 
+IMAXscopecinemas.com
+Buy One Get One Free on IMAX Tickets
+Valid for Credit Cards
+Valid from 04th to 06th April 2025
+Max. 2 Free Tickets per card
+Click here for more details
+Deedat www.deedatclothing.com
+20% off on Credit Cards
+Valid on 04th April 2025
+Max. bill - LKR 50,000 per card
+Promo code: HNB20D for online txns
+Cool Planet  Moonstone
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Hameedia  Signature
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+Excluded items
+Dilly & Carlo
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 75,000 per card per day
+Mimosa  The Vanta Studios
+25% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+NV Cosmetics
+20% off on Credit & Debit Cards
+Valid on 06th April 2025
+Jia Moda
+20% off on Credit Cards
+15% off on Debit Cards
+Valid on 04th & 05th April 2025
+Street82
+20% off on Credit & Debit Cards
+Valid for Orange Tag items only
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+Leather Collection
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 100,000 per card per day
+LCY London
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 50,000 per card per day
+KFC
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 2,500
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Pizza Hut
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Taco Bell
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+PappaRich
+20% off on Credit Cards
+Valid from 04th to 06th April 2025
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
+Steak House
+20% off on Credit Cards
+10% off on Debit Cards
+Valid from 04th to 06th April 2025
+Min. bill - LKR 5,000
+Max. bill - LKR 25,000 per card per day
+Valid for dine-in & take-away
  
-Cotton Collection
-Dharmapala Mawatha
-Kandy City Centre
-COCO by Cotton Collection
-One Galle Face Mall
-Luv SL
-One Galle Face Mall
-Dutch Hospital
-Negombo
-Queens Hotel - Kandy
-Centara Ceysands
-Resort and Spa - Bentota
-ODEL Sports
-Havelock City Mall
-Galleria
-Havelock Road
-Kandy City Centre 
-Levi’s
-Havelock City Mall
-Calvin Klein
-One Galle Face Mall
-Tommy Hilfiger
-One Galle Face Mall
-Armani Exchange
-One Galle Face Mall
-Charles & Keith
-One Galle Face Mall
-MANGO
-One Galle Face Mall
-ALDO
-One Galle Face Mall
-Havelock City Mall
-Nike
-One Galle Face Mall
-Adidas Originals
-One Galle Face Mall
-Adidas Performance
-One Galle Face Mall
-Skechers
-One Galle Face Mall
-The Toy Store
-One Galle Face Mall
-Carpisa
-ODEL: L1 OGF
-OGF Mall (temporarily closed)
-Yamamay
-One Galle Face Mall
-Vero Moda
-One Galle Face Mall
-Samsonite
-Havelock City Mall",https://www.hnb.net/images/cardpromotions/softlogic-odel-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/odel-odel-lk-cotton-collection-coco-by-cotton-collection-softlogic-brands-selected-brands
-3,4,10% OFF AT DILLY & CARLO,Dilly & Carlo,,"Flagship Store (Flower Rd)
-One Galle Face Mall
-Havelock City
-Crescat Boulevard
-Majestic City
-The Blue Water – Wadduwa","Maximum discount available bill value will be LKR 50,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items, gift vouchers, price reduce items are excluded
-Discounted items are excluded",All HNB Debit Cards,15th & 16th March 2025,10% off,https://www.hnb.net/images/cardpromotions/dilly-carlo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/dilly-carlo
-3,4,"10% OFF ON BILLS ABOVE LKR 6,000 AT RICH LOOK",Rich Look,,"Maharagama
-Negombo
-Kalutara
-Ratnapura
-Kottawa","Min. bill - LKR 6,000 per transaction
-Maximum discount available bill value will be LKR 50,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,15th & 16th March 2025,"10% off on bills above LKR 6,000",https://www.hnb.net/images/cardpromotions/rich-look.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/rich-look
-3,4,10% OFF AT ZUZI,Zuzi,,"Kotahena
-Hatton","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,21st March & 05th April 2025,10% off,https://www.hnb.net/images/cardpromotions/zuzi.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/zuzi
+General Terms & Conditions:
+The promotions are open to all holders of Mastercard and Visa Credit/Debit Cards issued by Hatton National Bank PLC.  
+The card member(s) is/are to settle the total bill via their HNB Mastercard and Visa Credit/Debit Card to be eligible for the discount offered.  
+The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.  
+Hatton National Bank PLC reserves the right to withdraw, modify or change all or any of the rules, terms & conditions applicable to this promotion at any given time without prior notice.  
+If any dispute arises regarding any of the terms and conditions contained herewith, the decision of the respective service establishment and Hatton National Bank PLC shall be final.  
+The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.  
+Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.  
+The General Credit/Debit card terms and conditions will continue to apply.",https://www.hnb.net/images/cardpromotions/havelock-city-mall.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/credit-cards/havelock-city-mall-offers
 3,4,"10% OFF AT HAMEEDIA, ENVOY MANSION, SIGNATURE, H - SPORTS ADIDAS",Hameedia Envoy Mansion Signature H - Sports Adidas,,"All outlets
  
 Websites: 
@@ -3642,9 +3668,14 @@ Discounted items and gift vouchers are excluded
 Cannot combine with other ongoing offers
 Excluded items (Hameedia) - Suits, Blazers, Fabric, Tailoring, Sherwani, Selected footwear and Consignment items
 Excluded items (Signature) - Made to Measure ( MTM), Made to Order (MTO) and Consignment items",All HNB Debit Cards,22nd & 23rd of March 2025,10% off,https://www.hnb.net/images/cardpromotions/hameedia-new.png,"https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/hameedia,-envoy-mansion,-signature,-h-sports"
+3,4,10% OFF AT ZUZI,Zuzi,,"Kotahena
+Hatton","Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Debit Cards,21st March & 05th April 2025,10% off,https://www.hnb.net/images/cardpromotions/zuzi.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/zuzi
 3,4,15% OFF AT KELLY FELDER,Kelly Felder,,"Colombo 03
 Nugegoda
-Colombo City Centre","Maximum discount available bill value will be LKR 25,000 per day
+Colombo City Centre - Level 02","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded
@@ -3663,23 +3694,67 @@ Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded
 Offer will not be applicable on Promotional Items, Cosmetics, Perfumes and Gift Vouchers.",All HNB Debit Cards,22nd March & 02nd April 2025,15% off,https://www.hnb.net/images/cardpromotions/redvers-buller-www-kellyfelder-com-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/redvers-buller-dc
+3,4,15% OFF AT MONDY,Mondy,,"Colombo 03 
+ 
+Website: www.mondy78.com","Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded
+Discounted items are not eligible for exchange",All HNB Debit Cards,22nd & 23rd March 2025,15% off,https://www.hnb.net/images/cardpromotions/mondy.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mondy
 3,4,10% AT CHENARA DODGE,Chenara DODGE,,"CCC (2 outlets)
 KCC 
 Kandy","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded",HNB Debit Cards,22nd & 23rd March 2025,10% off,https://www.hnb.net/images/cardpromotions/chenara-dodge-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/chenara-dodge
-3,4,5% OFF ON SELECTED ITEMS AT BLUENGOLD,BlueNGold,,"Royal College, Colombo 07","Valid for selected items
-Maximum discount available bill value will be LKR 25,000 per day
+3,4,20% OFF AT ZIGZAG,Zigzag,,"Colombo 03
+Negombo 
+Website: www.zigzag.lk  (Promo code: HNB20)","Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Debit cards,21st to 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/zigzag-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/zigzag-dc
+3,4,20% OFF AT BAYLEEE,Bayleee,,"CCC
+Thimbirigasyaya","Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Debit Cards,19th to 21st March 2025,20% off,https://www.hnb.net/images/cardpromotions/bayleee.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/bayleee
+3,4,20% OFF AT BOLTGEAR,BOLTGEAR,,OGF,"Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Debit Cards,20th March to 12th April 2025,20% off,https://www.hnb.net/images/cardpromotions/boltgear.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/boltgear
+3,4,10% OFF AT NORA REED,,,,,No eligibility,No period,has temporarily been called off.,https://www.hnb.net/images/cardpromotions/nora-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nora-reed
+3,4,10% OFF AT COMFORTON,Comforton,,Colombo 03,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
-Selected branded items, gift vouchers, price reduce items are excluded
-Discounted items are excluded",All HNB Debit Cards,10th March to 30th April 2025,5% off on selected items,https://www.hnb.net/images/cardpromotions/bluengold.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/bluengold
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Debit Cards,22nd & 23rd March 2025,10% off,https://www.hnb.net/images/cardpromotions/comforton.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/comforton
+3,4,15% OFF AT THE BRANDS WAREHOUSE,The Brands Warehouse,,Wellawatta,"Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Debit Cards,22nd & 23rd March 2025,15% off,https://www.hnb.net/images/cardpromotions/brands-warehouse.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-brands-warehouse
+3,4,15% OFF AT THE BRANDS WAREHOUSE,The Brands Warehouse,,Wellawatta,"Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Debit Cards,10th & 11th April 2025,15% off,https://www.hnb.net/images/cardpromotions/brands-warehouse.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-brands-warehouse-dc
+3,4,10% OFF AT MAGS COLLECTION,Mags Collection,,Pelawatta,"Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Debit Cards,"22nd & 23rd March,
+13th April 2025",10% off,https://www.hnb.net/images/cardpromotions/magas-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mags-collection
+3,4,10% OFF AT KREATION,Kreation,,"Borella
+Wattala
+Mount Lavinia
+Wellawatte","Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items, fabrics & gift vouchers are excluded",HNB Debit Cards,"23th to 25th March,
+01st to 03rd & 11th to 13th April 2025",10% off,https://www.hnb.net/images/cardpromotions/kreation-house.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/kreation
 3,4,10% OFF AT WWW.AMANTE.LK,www.amante.lk,,,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",HNB Debit Cards,"29th & 30th March 2025
  
 Website: www.amante.lk",10% off,https://www.hnb.net/images/cardpromotions/amante.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/www-amante-lk-dc
+3,4,5% OFF ON SELECTED ITEMS AT BLUENGOLD,BlueNGold,,"Royal College, Colombo 07","Valid for selected items
+Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items, gift vouchers, price reduce items are excluded
+Discounted items are excluded",All HNB Debit Cards,10th March to 30th April 2025,5% off on selected items,https://www.hnb.net/images/cardpromotions/bluengold.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/bluengold
 3,4,15% OFF AT SCENTSON,ScentsOn,,"Boralesgamuwa
  
 Website: www.scentson.lk","Offer cannot be combined with any other offers or promotions
@@ -3692,6 +3767,7 @@ Maximum discount available bill value will be LKR 25,000 per day",HNB Debit Card
 Colombo 03
 Nugegoda
 OGF
+Colombo City Center
 Negombo
 Kandy City Centre
 Mawanella","Maximum discount available bill value will be LKR 25,000 per day
@@ -3718,11 +3794,7 @@ Discounted items and gift vouchers are excluded",All HNB Debit Cards,04th & 05t
 3,4,10% OFF AT STUDIO CLOTHING,Studio Clothing,,"Colombo 6
 Negombo","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All  HNB Debit Cards,"14th & 15th March,
-05th & 06th April 2025",10% off,https://www.hnb.net/images/cardpromotions/studio.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/studio-clothing
-3,4,10% OFF AT TOP CHOICE,Top Choice,,Dehiwala,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,14th & 18th March 2025,10% off,https://www.hnb.net/images/cardpromotions/top-choice.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/top-choice
+Discounted items and gift vouchers are excluded",All  HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/studio.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/studio-clothing
 3,4,"UP TO 15% OFF ON BILLS ABOVE LKR 20,000 AT DON'S BRANDED CLOTHING",Don's Branded Clothing,,Balangoda,"Offer cannot be combined with any other offer
 Maximum discount available bill value will be LKR 25,000 per day",All HNB Credit / Debit Cards,"24th to 27th March 2025
 01st to 13th April 2025","15% off on bills above LKR 20,000 
@@ -3771,14 +3843,6 @@ Galle","Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,11th & 12th April 2025,10% off,https://www.hnb.net/images/cardpromotions/nils.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nils-fashion
-3,4,15% OFF AT THE BRANDS WAREHOUSE,The Brands Warehouse,,Wellawatta,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,22nd & 23rd March 2025,15% off,https://www.hnb.net/images/cardpromotions/brands-warehouse.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-brands-warehouse
-3,4,15% OFF AT THE BRANDS WAREHOUSE,The Brands Warehouse,,Wellawatta,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,10th & 11th April 2025,15% off,https://www.hnb.net/images/cardpromotions/brands-warehouse.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-brands-warehouse-dc
 3,4,10% OFF AT ROMAFOUR,Romafour,,Colombo 4,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -3880,18 +3944,6 @@ One Galle Face","Maximum discount available bill value will be LKR 25,000 per da
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,29th & 30th March 2025,15% off,https://www.hnb.net/images/cardpromotions/babycare-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/babycare
-3,4,10% OFF AT COMFORTON,Comforton,,Colombo 03,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,22nd & 23rd March 2025,10% off,https://www.hnb.net/images/cardpromotions/comforton.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/comforton
-3,4,15% OFF AT THE KIDS WAREHOUSE,The Kids Warehouse,,Colombo 04,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,"17th to 19th March 2025
- 
-
-
-Website: www.tkw.lk",15% off,https://www.hnb.net/images/cardpromotions/kids-warehouse-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-kids-warehouse-dc
 3,4,15% OFF AT THE KIDS WAREHOUSE,The Kids Warehouse,,"Colombo 04
  
 Website: www.tkw.lk","Maximum discount available bill value will be LKR 25,000 per day
@@ -3917,21 +3969,16 @@ Discounted items and gift vouchers are excluded",HNB Credit Cards,27th to 30th M
 Kirulapone","Offer cannot be combined with any other offers or promotions
 Selected branded items and accessories are excluded
 Discounted items and gift vouchers are excluded",HNB Debit Cards,29th & 30th March 2025,15% off,https://www.hnb.net/images/cardpromotions/panthera-styles.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/panthera-styles
-3,4,10% OFF AT MAGS COLLECTION,Mags Collection,,Pelawatta,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,"22nd & 23rd March,
-13th April 2025",10% off,https://www.hnb.net/images/cardpromotions/magas-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mags-collection
-3,4,10% OFF AT MANGALA TEX / MANGALA EXCLUSIVE / FORCE BY MANGALA,Mangala Tex Mangala Exclusive Force by Mangala,,Kandy,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,21st & 22nd March 2025,10% off,https://www.hnb.net/images/cardpromotions/mangala-tex-force.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mangala-tex-mangala-exclusive-force-by-mangala
 3,4,"10% OFF AT ALL COOL PLANET, NICK NACK, EXIBIT, MOONSTONE OUTLETS",Cool Planet Nick Nack Exibit Moonstone,,"All outlets
  
 Website: www.coolplanet.lk (Promo code: 25HNBDC)","Maximum discount available bill value will be LKR 100,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,29th & 30th March 2025,10% off,https://www.hnb.net/images/cardpromotions/cool-planet-exibit-nick-nack-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/cool-planet-nick-nack-exibit-moonstone
+3,4,10% OFF AT MANGALA TEX / MANGALA EXCLUSIVE / FORCE BY MANGALA,Mangala Tex Mangala Exclusive Force by Mangala,,Kandy,"Maximum discount available bill value will be LKR 25,000 per day
+Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Debit Cards,21st & 22nd March 2025,10% off,https://www.hnb.net/images/cardpromotions/mangala-tex-force.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mangala-tex-mangala-exclusive-force-by-mangala
 3,4,10% OFF AT MIMOSA,Mimosa,,"Col-3
 OGF
 Havelock Mall
@@ -3951,7 +3998,7 @@ Maharagama
 Nugegoda
 Kollupitiya
 Kiribathgoda
-Website: www.springandsummer.lk","Maximum discount available bill value will be LKR 25,000 per day
+Website: www.springandsummer.lk  (Promo Code :  SSHNB10 )","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded",All HNB Debit Cards,11th & 12th April 2025,10% off,https://www.hnb.net/images/cardpromotions/spring-and-summer.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/spring-summer
@@ -4009,13 +4056,6 @@ Kandy","Maximum discount available bill value will be LKR 30,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/gali-s-lingerie.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/gali-s-lingerie
-3,4,15% OFF AT MONDY,Mondy,,"Colombo 03 
- 
-Website: www.mondy78.com","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded
-Discounted items are not eligible for exchange",All HNB Debit Cards,22nd & 23rd March 2025,15% off,https://www.hnb.net/images/cardpromotions/mondy.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mondy
 3,4,10% OFF AT DI SHOES,DI Shoes,,"Bambalapitiya
 YMBA Colombo Fort
 Kiribathgoda
@@ -4059,16 +4099,11 @@ If any dispute arises regarding any of the terms and conditions contained herewi
 The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.
 Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.
 The General Debit Card terms and conditions will continue to apply.",10th to 12th April 2025,15% off,https://www.hnb.net/images/cardpromotions/glory-swim-shop-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/glory-swim-shop
-3,4,10% OFF AT NORA REED,Nora Reed,,Colombo 03,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,22nd March & 05th April 2025,10% off,https://www.hnb.net/images/cardpromotions/nora-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nora-reed
 3,4,"10% OFF ON BILLS ABOVE LKR 10,000 AT JEZZA",JEZZA,,"Flagship store
 One Galle Face Mall","Valid for selected items for bills above LKR 10,000
 Max. discount valid bill value will be LKR 40,000 per card per day
 Offer cannot be combined with any other offers or promotions
-Selected branded items, gift vouchers, price reduce items are excluded",HNB Debit Cards,"13th & 14th March,
-10th & 11th April 2025","10% off on bills above LKR 10,000",https://www.hnb.net/images/cardpromotions/jezza-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/jezza
+Selected branded items, gift vouchers, price reduce items are excluded",HNB Debit Cards,10th & 11th April 2025,"10% off on bills above LKR 10,000",https://www.hnb.net/images/cardpromotions/jezza-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/jezza
 3,4,15% OFF AT WILL BY ZAC,Will By Zac,,"OGF Mall
 Colombo 03
 Website: https://willbyzac.com","Offer cannot be combined with any other offers or promotions
@@ -4088,13 +4123,11 @@ Discounted items and gift vouchers are excluded",All HNB Debit card,"28th to 30
 Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded",All HNB Debit Cards,05th & 06th April 2025,15% off,https://www.hnb.net/images/cardpromotions/the-factory-hub.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-factory-hub-dcc
-3,4,10% OFF AT KREATION,Kreation,,"Borella
-Wattala
-Mount Lavinia
-Wellawatte","Offer cannot be combined with any other offers or promotions
+3,4,20% OFF AT DMAXX,Dmaxx,,"Kurunegala
+KCC
+Peradeniya Road, Kandy","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items, fabrics & gift vouchers are excluded",HNB Debit Cards,"23th to 25th March,
-01st to 03rd & 11th to 13th April 2025",10% off,https://www.hnb.net/images/cardpromotions/kreation-house.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/kreation
+Discounted items and gift vouchers are excluded",HNB Debit Cards,29th & 30th March 2025,20% off,https://www.hnb.net/images/cardpromotions/dmaxx-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/dmaxx
 3,4,10% OFF AT WIN MART,Win Mart,,Horana,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -4106,50 +4139,13 @@ Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",09th & 10th April 2025,10% off,https://www.hnb.net/images/cardpromotions/win-mart-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/win-mart
-3,4,20% OFF AT DMAXX,Dmaxx,,"Kurunegala
-KCC
-Peradeniya Road, Kandy","Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,29th & 30th March 2025,20% off,https://www.hnb.net/images/cardpromotions/dmaxx-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/dmaxx
-3,4,"10% OFF ON BILLS ABOVE LKR 5,000 AT KANDYGS",Kandygs,,"Nugegoda
-Colombo 03
-Colombo 05
-Colombo 06","Min. bill per transaction is LKR 5,000
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded","Eligibility: HNB Debit Cards
- 
-Locations:
-
-Nugegoda
-Colombo 03
-Colombo 05
-Colombo 06
-
-Special Terms & Conditions:
-
-Min. bill per transaction is LKR 5,000
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded
-
-General Terms & Conditions:
-
-The promotions are open to all holders of Visa Debit Cards issued by Hatton National Bank PLC.
-The card member(s) is/are to settle the total bill via their HNB Visa Debit Card to be eligible for the discount offered.
-The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.
-Hatton National Bank PLC reserves the right to withdraw, modify or change all or any of the rules, terms & conditions applicable to this promotion at any given time without prior notice.
-If any dispute arises regarding any of the terms and conditions contained herewith, the decision of the respective service establishment and Hatton National Bank PLC shall be final.
-The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.
-Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.
-The General Debit Card terms and conditions will continue to apply.",17th to 19th March 2025,"10% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/kandyes.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/kandygs
-3,4,10% OFF AT VIDUMINI FASHION,Vidumini Fashion,,Negombo,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/vidumini-fashioni-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/vidumini-fashion
 3,4,10% OFF AT FRONT LINE,Front Line,,"Balangoda
 Bandarawela","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,17th March & 05th April 2025,10% off,https://www.hnb.net/images/cardpromotions/front-line-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/front-line
+Discounted items and gift vouchers are excluded",HNB Debit Cards,05th April 2025,10% off,https://www.hnb.net/images/cardpromotions/front-line-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/front-line
+3,4,10% OFF AT VIDUMINI FASHION,Vidumini Fashion,,Negombo,"Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/vidumini-fashioni-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/vidumini-fashion
 3,4,UP TO 15% OFF AT NESH KIDS STORE,​Nesh Kids Store,,"Colombo 04
  
 Website: www.nesh.lk (Promo code: HNBAVU25)","15% off Baby Gear items and 10% off on all items
@@ -4164,18 +4160,11 @@ Discounted items and gift vouchers are excluded",HNB Debit Cards,24th March to 
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,29th & 30th March 2025,5% off,https://www.hnb.net/images/cardpromotions/ssp-logo.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/sena-shoe-palace
-3,4,15% OFF AT DD ATHUKORALA TEXTILES,DD Athukorala Textiles,,Kegalle,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,13th to 16th March 2025,15% off,https://www.hnb.net/images/cardpromotions/atukorala-textile-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/dd-athukorala-textiles
-3,4,10% OFF AT SHOPIMO,Shopimo,,Panadura,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,15th & 16th March 2025,10% off,https://www.hnb.net/images/cardpromotions/shopimo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/shopimo
 3,4,10% OFF AT TIYANA BIG CITY & TIYANA FASHION,Tiyana Big City & Tiyana Fashion,,"Balangoda
 Pelmadulla","Min. bill LKR 5,000 per transaction
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,15th & 28th March 2025,"10% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/tiyana-logos.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/tiyana-big-city-tiyana-fashion
+Discounted items and gift vouchers are excluded",HNB Debit Cards,28th March 2025,"10% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/tiyana-logos.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/tiyana-big-city-tiyana-fashion
 3,4,20% OFF AT MOLLY BOULEVARD,Molly Boulevard,,Negombo,"Offer cannot be combined with any other offers or promotions
 Selected branded items and accessories are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,"21st to 23rd March
@@ -4185,7 +4174,7 @@ Thambuththegama
 Kekirawa","Maximum discount available bill value will be LKR 40,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
-Discounted items are excluded",All HNB Debit Cards,15th & 22nd March 2025,10% off,https://www.hnb.net/images/cardpromotions/nirmani-dress-point.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nirmani-dress-point
+Discounted items are excluded",All HNB Debit Cards,22nd March 2025,10% off,https://www.hnb.net/images/cardpromotions/nirmani-dress-point.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nirmani-dress-point
 3,4,10% OFF AT ANNES FASHION,Annes Fashion,,"Puttlam Rd, Kurunegala
 Kadurugas Junction, Kurunegala","Offer cannot be combined with any other offers or promotions
 Selected branded items and accessories are excluded
@@ -4220,7 +4209,7 @@ Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded
-Supermarket Division and Ground Floor items are excluded",All HNB Debit cards,13th March & 08th April 2025,10% off,https://www.hnb.net/images/cardpromotions/ceylon-city-mart.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/ceylon-city-mart
+Supermarket Division and Ground Floor items are excluded",All HNB Debit cards,08th April 2025,10% off,https://www.hnb.net/images/cardpromotions/ceylon-city-mart.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/ceylon-city-mart
 3,4,10% OFF AT DOMINGO'S,DOMINGO'S,,Moratuwa,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,"08th, 09th & 19th April 2025",10%,https://www.hnb.net/images/cardpromotions/domingos.JPG,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/domingo
@@ -4235,6 +4224,11 @@ Discounted items, Rainco and Cosmeticks are excluded",All HNB Debit Cards,28th 
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,29th March & 02nd April 2025,10% off,https://www.hnb.net/images/cardpromotions/asb-fashion-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/asb-fashion
+3,4,"20% OFF ON BILLS ABOVE LKR 5,000 AT ABSOLUTE",ABSOLUTE,,"Flagship Store - Colombo 03
+One Galle Face Mall
+Website: www.absolutebasics.lk","Offer cannot be combined with any other offer
+Minimum bill value will be LKR 5,000 per transaction
+Offer is valid for full priced items only",HNB Credit & Debit Cards,05th and 06th April 2025,"20% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/absolute-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/absolute
 3,4,10% OFF AT SAMANMAL,Samanmal,,"Matara 
 Panadura
 Embilipitiya","Min. bill value will be LKR 7,500
@@ -4244,10 +4238,6 @@ Selected branded items, gift vouchers, price reduce items are excluded
 Discounted items are excluded
 Offer is not valid for Cosmetics, Jewellery, Undergarments and selected departments
 Exchanges will not be allowed for the offer",All HNB Debit Card,30th March & 05th April 2025,10% off,https://www.hnb.net/images/cardpromotions/samanmal.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/samanmal
-3,4,20% OFF AT BAYLEEE,Bayleee,,"CCC
-Thimbirigasyaya","Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,19th to 21st March 2025,20% off,https://www.hnb.net/images/cardpromotions/bayleee.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/bayleee
 3,4,15% OFF AT EKMI SHOPPING,Ekmi Shopping,,"Piliyandala
 Aluthgama","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -4263,21 +4253,10 @@ Selected branded items are excluded
 Discounted items and gift vouchers are excluded",HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/cinnaroo.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/cinnaroo-dc
 3,4,15% OFF AT THE FACTORY OUTLET,The Factory Outlet,,"Havelock
 Galle 
-Welisara 
-Website: www.tfo.lk","Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,14th to 16th March 2025,15% off,https://www.hnb.net/images/cardpromotions/the-factory-outlet-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-factory-outlet-dcc
-3,4,15% OFF AT THE FACTORY OUTLET,The Factory Outlet,,"Havelock
-Galle 
 Welisara","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",HNB Debit Cards,01st & 02nd April 2025,15% off,https://www.hnb.net/images/cardpromotions/the-factory-outlet-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/the-factory-outlet-dc
-3,4,10% OFF AT ABDULLAH,Abdullah,,Kalmunai,"Maximum discount available bill value will be LKR 25,000 per day
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,15th & 16th March 2025,10% off,https://www.hnb.net/images/cardpromotions/abdullah.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/abdullah
 3,4,10% OFF AT SAHELI FASHION,Saheli Fashion,,Matara,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/sahelie-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/saheli-fashion
@@ -4292,7 +4271,7 @@ Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,25th March to 13th April 2025,Up to 20% off,https://www.hnb.net/images/cardpromotions/nilantha-designers.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nilantha-designers
 3,4,10% OFF AT MONTRIANNA,Montrianna,,Nugegoda,"Offer cannot be combined with any other offers or promotions
 Selected branded items, gift vouchers, price reduce items are excluded
-Discounted items are excluded",All HNB Debit cards,29th March & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/montrianna.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/montrianna
+Discounted items are excluded",All HNB Debit cards,29th March & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/montrianna-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/montrianna
 3,4,"10% OFF ON BILLS ABOVE LKR 5,000 AT LEESH",Leesh,,Padukka,"Offer cannot be combined with any other offer
 Minimum bill value will be LKR 5,000 per transaction",All HNB Credit / Debit Cards,30th March & 10th April 2025,"10% off on bills above LKR 5,000",https://www.hnb.net/images/cardpromotions/leesh-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/leesh
 3,4,"10% OFF AT CIB SHOPPING CENTRES, WIJAYA SAREE MANDIRAYA, CIB CURTAINS,HOUSE OF TAILORS, ARIELLE - HAVELOCK CITY MALL",CIB Shopping Centres Wijaya Saree Mandiraya CIB Curtains House of Tailors AriElle - Havelock City Mall,,"All CIB Shopping Centers
@@ -4314,90 +4293,23 @@ Discounted items and gift vouchers are excluded",All HNB Debit cards,09th & 10t
 3,4,15% OFF AT MIDNIGHTDIVAS,Midnightdivas,,"Colombo 03
 Colombo 06
 Nawala
-Kandy 
+Kandy
 Negombo","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,07th to 09th April 2025,15% off,https://www.hnb.net/images/cardpromotions/midnightdivas.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/midnightdivas
+Discounted items and gift vouchers are excluded",All HNB Debit Cards,07th to 09th April 2025,15% off,https://www.hnb.net/images/cardpromotions/midnightdivas-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/midnightdivas
 3,4,10% OFF AT ADDRESS,Address,,"Colombo 03
 OGF Mall","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,"14th & 15th March,
-05th & 06th April 2025",10% off,https://www.hnb.net/images/cardpromotions/address.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/address
+Discounted items and gift vouchers are excluded",HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/address.png,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/address
 3,4,10% OFF AT WYBE FASHION,Wybe Fashion,,Ja-ela,"Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",HNB Debit Cards,"15th & 16th March 2025
-28th to 30th March 2025
+Discounted items and gift vouchers are excluded",HNB Debit Cards,"28th to 30th March 2025
 10th to 12th April 2025",10% off,https://www.hnb.net/images/cardpromotions/wybe-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/wybe-fashion
 3,4,10% OFF AT MAM FASHION MART,MAM Fashion Mart,,"Negombo
 Chilaw","Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,"15th & 16th March,
-02nd & 03rd April 2025",10% off,https://www.hnb.net/images/cardpromotions/mam.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mam-fashion-mart
-3,4,UP TO 60% + EXTRA 5% OFF AT SKECHERS,Skechers,,"Colombo City Centre
-Racecourse Mall
-Selected Abans Elite Showrooms
-Website: www.buyabans.com","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,15th to 17th March 2025,Up to 60% + extra 5% off,https://www.hnb.net/images/cardpromotions/skechers-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/skechers
-3,4,UP TO 50% + EXTRA 10% OFF AT BOSS,BOSS,,Colombo City Centre,"Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,15th to 17th March 2025,Up to 50% + extra 10% off,https://www.hnb.net/images/cardpromotions/boss-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/boss
-3,4,UP TO 40% + EXTRA 10% OFF AT UNDER ARMOUR,Under Armour,,"CCC
-Racecourse Mall","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,15th to 17th March 2025,Up to 40% + extra 10% off,https://www.hnb.net/images/cardpromotions/under-armour.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/under-armour
-3,4,UP TO 30% + EXTRA 5% OFF AT TIMES SQUARE WATCHES,Times Square Watches,,"Colombo City Centre
-Havelock City Mall
-One Galle Face Mall
-Racecourse
-Selected Abans Elite Showrooms","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,15th to 17th March 2025,Up to 30% + extra 5% off,https://www.hnb.net/images/cardpromotions/times-square.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/times-square-watches
-3,4,UP TO 30% + EXTRA 5% OFF AT TITAN WATCHES,TITAN Watches,,"CCC
-Havelock City Mall
-OGF
-Racecourse Mall
-Selected Abans Elite Showrooms
-Website: www.buyabans.com","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded","Eligibility: All HNB Debit Cards  
- 
-Special Terms & Conditions:
-
-Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded
-
-
-General Terms & Conditions:
-
-The promotions are open to all holders of Visa Debit Cards issued by Hatton National Bank PLC.
-The card member(s) is/are to settle the total bill via their HNB Visa Debit Card to be eligible for the discount offered.
-The offers cannot be exchanged for cash and/or used in conjunction with any other promotional programs or offers provided by service establishment involved in this promotion.
-Hatton National Bank PLC reserves the right to withdraw, modify or change all or any of the rules, terms & conditions applicable to this promotion at any given time without prior notice.
-If any dispute arises regarding any of the terms and conditions contained herewith, the decision of the respective service establishment and Hatton National Bank PLC shall be final.
-The promotion is bound by the terms & conditions of the respective service establishment and Hatton National Bank PLC.
-Hatton National Bank PLC accepts no liability for the quality of goods and services provided by the service establishments involved in this promotion since the Bank is not the supplier of such goods and services.
-The General Debit Card terms and conditions will continue to apply.",15th to 17th March 2025,Up to 30% + extra 5% off,https://www.hnb.net/images/cardpromotions/titan.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/titan-watches
-3,4,UP TO 70% + EXTRA 5% OFF AT MINISO,MINISO,,"All MINISO Outlets
- 
-Website: www.buyabans.com  
- 
-Special Terms and Conditions:
-Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded","Valid for selected items only
-Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Card,15th to 17th March 2025,Up to 70% + extra 5% off,https://www.hnb.net/images/cardpromotions/miniso.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/miniso
+Discounted items and gift vouchers are excluded",All HNB Debit Cards,02nd & 03rd April 2025,10% off,https://www.hnb.net/images/cardpromotions/mam.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/mam-fashion-mart
 3,4,10% OFF ON SWX - SHIRTWORKS OUTLETS,SWX - Shirtworks,,"Bambalapitiya
 Colpetty
 Panadura","Maximum discount available bill value will be LKR 75,000 per day
@@ -4430,11 +4342,7 @@ Discounted items, fabrics & gift vouchers are excluded",All HNB Credit Cards,22n
 Maximum discount available bill value will be LKR 200,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,"15th to 17th March &
-08th to 10th April 2025","7.5% off on bills above LKR 15,000",https://www.hnb.net/images/cardpromotions/kingsman.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/kingsman-perennial
-3,4,20% OFF AT BOLTGEAR,BOLTGEAR,,OGF,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,20th March to 12th April 2025,20% off,https://www.hnb.net/images/cardpromotions/boltgear.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/boltgear
+Discounted items and gift vouchers are excluded",All HNB Debit Cards,08th to 10th April 2025,"7.5% off on bills above LKR 15,000",https://www.hnb.net/images/cardpromotions/kingsman.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/kingsman-perennial
 3,4,10% OFF AT AMA DRESS POINT,AMA Dress Point,,"Bandaragama
 Horana
 Badulla
@@ -4442,11 +4350,6 @@ Minuwangoda","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,28th & 29th March 2025,10% off,https://www.hnb.net/images/cardpromotions/ama-dress-point.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/ama-dress-point
-3,4,20% OFF AT ZIGZAG,Zigzag,,"Colombo 03
-Negombo 
-Website: www.zigzag.lk  (Promo code: HNB20)","Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit cards,21st to 23rd March 2025,20% off,https://www.hnb.net/images/cardpromotions/zigzag-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/zigzag-dc
 3,4,5% OFF AT SENA TRADE CENTRE,Sena Trade Centre,,Ganemulla,"Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -4459,6 +4362,9 @@ Ethulkotte","Maximum discount available bill value will be LKR 50,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,29th & 30th March 2025,10% off,https://www.hnb.net/images/cardpromotions/handloom-gallery.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/handloom-gallery
+3,4,20% OFF AT NV COSMETICS,NV Cosmetics,,Havelock City Mall,"Offer cannot be combined with any other offers or promotions
+Selected branded items are excluded
+Discounted items and gift vouchers are excluded",All HNB Debit Cards,29th March & 06th April 2025,20% off,https://www.hnb.net/images/cardpromotions/nv-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nv-cosmetics
 3,4,10% OFF AT GENELLE SHOES,Genelle Shoes,,"Mount Lavinia
 Isipathana Mw
 Horton Place
@@ -4466,9 +4372,6 @@ OGF","Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Credit Cards,29th & 30th March 2025,10% off,https://www.hnb.net/images/cardpromotions/genelle-shoes.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/genelle-shoes
-3,4,20% OFF AT NV COSMETICS,NV Cosmetics,,Havelock City Mall,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,29th March & 06th April 2025,20% off,https://www.hnb.net/images/cardpromotions/nv-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/nv-cosmetics
 3,4,10% OFF AT NEW MANEL FASHION HOUSE,New Manel Fashion House,,Maharagama,"Maximum discount available bill value will be LKR 25,000 per day
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
@@ -4582,15 +4485,16 @@ Discounted items are excluded",All HNB Debit Cards,04th April 2025,15% off,https
 Offer cannot be combined with any other offers or promotions
 Selected branded items are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,05th & 06th April 2025,10% off,https://www.hnb.net/images/cardpromotions/saffans-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/saffans
-3,4,15% OFF AT ATUKORALA FASHION,Atukorala Fashion,,Mawanella,"Offer cannot be combined with any other offers or promotions
-Selected branded items are excluded
-Discounted items and gift vouchers are excluded",All HNB Debit Cards,13th to 16th March 2025,15% off,https://www.hnb.net/images/cardpromotions/atukorala-fashion-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/atukorala-fashion
-3,4,10% OFF AT GUYS & GIRLS,GUYS & GIRLS,,Anuradhapura,"Offer is applied at the time of payment and cannot be claimed afterward.
-Offer cannot be combined with any other ongoing offers, discounts, or promotions.
-No refunds, cash exchanges, or adjustments will be made for discounted transactions.
-Maximum discount bill value will be LKR 50,000 Per card per day",All HNB Credit / Debit Cards,17th & 18th March 2025,10% off,https://www.hnb.net/images/cardpromotions/guys.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/guys-girls
-3,4,10% OFF AT GAYANS TEXTILE,Gayans Textile,,Bandarawela,"Offer cannot be combined with any other offer
-Maximum discount available bill value will be LKR 25,000 per day",All HNB Debit Cards,15th & 16th March 2025,10% off,https://www.hnb.net/images/cardpromotions/gayans-textile-logo-new.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/gayans-textile
+3,4,10% OFF ON AT SALOMA FASHION,Saloma Fashion,,"Meepe 
+Wateraka 
+Godagama
+Malabe 
+Horana","Offer cannot be combined with any other offer
+Maximum discount available bill value will be LKR 25,000 per day",No eligibility,"24th & 25th March 2025
+01st & 02nd April 2025",10% off,https://www.hnb.net/images/cardpromotions/saloma-new-logo.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/saloma-fashion
+3,4,"UP TO 15% OFF ON BILLS ABOVE LKR 20,000 AT IYNETEX",IYNETEX,,Negombo,,All HNB Credit / Debit Cards,"19th to 26th March 2025
+08th to 12th April 2025","15% Off on bills above LKR 20,000
+ 10% Off on bills above LKR 10,000",https://www.hnb.net/images/cardpromotions/iynetex-logo.jpeg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/iynetex
 3,4,10% OFF AT BATA SHOWROOMS,Bata Showrooms,,All outlets,"Offer cannot be combined with any other offers or promotions
 Selected branded items and accessories are excluded
 Discounted items and gift vouchers are excluded",All HNB Debit Cards,27th to 30th March & 04th to 09th April 2025,10% off,https://www.hnb.net/images/cardpromotions/bata-log.jpg,https://www.hnb.net/personal/promotions/card-promotions/fashion/debit-cards/bata-showrooms

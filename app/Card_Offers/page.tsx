@@ -33,14 +33,8 @@ interface SupabaseOffer {
   discount?: string
   offer_validity?: string
   more_details_url?: string
-  banks: {
-    logo: string
-  } | {
-    logo: string
-  }[]
-  card_offer_categories: {
-    name: string
-  }[]
+  banks: { logo: string } | { logo: string }[]
+  card_offer_categories: { name: string }[]
 }
 
 interface Offer {
@@ -65,17 +59,11 @@ export default function Page() {
   const [categories, setCategories] = useState<Category[]>([])
   const [offers, setOffers] = useState<Offer[]>([])
 
-  // Initially, no bank or category is selected
   const [selectedBankId, setSelectedBankId] = useState<number | null>(null)
   const [selectedCategoryId, setSelectedCategoryId] = useState<number | null>(null)
 
-  // Dialog tracking
   const [openDialogId, setOpenDialogId] = useState<number | null>(null)
-
-  // Scroll-to-top
   const [showScrollTop, setShowScrollTop] = useState(false)
-
-  // Loader for the entire page
   const [isLoading, setIsLoading] = useState(true)
 
   // ---- Scroll to Top Logic ----
@@ -111,7 +99,7 @@ export default function Page() {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
-  // ---- Fetch Data and Preload Initial Images ----
+  // ---- Fetch Data and Preload Essential Images (Banks, Categories and Initial Offer Cards) ----
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -125,7 +113,7 @@ export default function Page() {
         let allOffers: SupabaseOffer[] = []
         let page = 0
         const pageSize = 1000
-        
+
         while (true) {
           const offersRes = await supabase
             .from('card_offers')
@@ -147,7 +135,6 @@ export default function Page() {
           page++
         }
 
-        // Check for errors in banks and categories
         if (banksRes.error) {
           throw new Error(`Error fetching banks: ${banksRes.error.message}`)
         }
@@ -159,7 +146,7 @@ export default function Page() {
         const fetchedCategories = (categoriesRes.data || []) as Category[]
         const fetchedSupabaseOffers = allOffers as SupabaseOffer[]
 
-        // 3) Transform supabase offers to our local Offer shape
+        // 3) Transform offers to our local Offer shape
         const fetchedOffers: Offer[] = fetchedSupabaseOffers.map((offer) => ({
           id: offer.id,
           offer_title: offer.offer_title,
@@ -178,9 +165,14 @@ export default function Page() {
             : (offer.banks?.logo || ""),
         }))
 
-        // 4) Select first bank and category from the arrays
+        // 4) Select initial bank and category (using the first bank and a chosen category)
         const initialBank = fetchedBanks.length > 0 ? fetchedBanks[0] : null
-        const initialCategory = fetchedCategories.length > 0 ? fetchedCategories[2] : null
+        const initialCategory =
+          fetchedCategories.length > 2
+            ? fetchedCategories[2]
+            : fetchedCategories.length > 0
+            ? fetchedCategories[0]
+            : null
 
         if (initialBank) {
           setSelectedBankId(initialBank.id)
@@ -189,17 +181,20 @@ export default function Page() {
           setSelectedCategoryId(initialCategory.id)
         }
 
-        // 5) Preload images for initially selected bank, category, and related offers
+        // 5) Preload essential images: bank logos, category icons, and offer card images for the initial selection
         const initialBankLogo = initialBank ? [initialBank.logo] : []
         const initialCategoryIcon = initialCategory ? [initialCategory.icon_url] : []
-        const initialFilteredOffers = fetchedOffers.filter((offer) =>
-          initialBank && initialCategory && offer.bank_id === initialBank.id && offer.category_id === initialCategory.id
-        )
-        const initialOfferImages = initialFilteredOffers.map((o) => o.image_url).filter(Boolean)
-        const initialImages = [...initialBankLogo, ...initialCategoryIcon, ...initialOfferImages]
-        
+        const initialOfferImages =
+          initialBank && initialCategory
+            ? fetchedOffers
+                .filter((offer) => offer.bank_id === initialBank.id && offer.category_id === initialCategory.id)
+                .map((offer) => offer.image_url)
+                .filter(Boolean)
+            : []
+        const essentialImages = [...initialBankLogo, ...initialCategoryIcon, ...initialOfferImages]
+
         await Promise.all(
-          initialImages.map((url) => {
+          essentialImages.map((url) => {
             return new Promise<void>((resolve) => {
               const img = new window.Image()
               img.src = url
@@ -209,12 +204,10 @@ export default function Page() {
           })
         )
 
-        // 6) Set data into state
+        // 6) Set the fetched data and finish loading
         setBanks(fetchedBanks)
         setCategories(fetchedCategories)
         setOffers(fetchedOffers)
-
-        // 7) Stop loading to show the page
         setIsLoading(false)
       } catch (err) {
         console.error(err)
@@ -225,51 +218,31 @@ export default function Page() {
     fetchData()
   }, [])
 
-  // ---- Asynchronously Preload Remaining Images ----
+  // ---- Background Preloading for Offer Images on Selection Change ----
   useEffect(() => {
-    if (!isLoading) {
-      // Preload remaining bank logos
-      const remainingBankLogos = banks
-        .filter((b) => b.id !== selectedBankId)
-        .map((b) => b.logo)
+    if (!isLoading && selectedBankId !== null && selectedCategoryId !== null) {
+      const filteredOfferImages = offers
+        .filter((offer) => offer.bank_id === selectedBankId && offer.category_id === selectedCategoryId)
+        .map((offer) => offer.image_url)
         .filter(Boolean)
-      // Preload remaining category icons
-      const remainingCategoryIcons = categories
-        .filter((c) => c.id !== selectedCategoryId)
-        .map((c) => c.icon_url)
-        .filter(Boolean)
-      // Preload offer images not already loaded for the initial filter
-      const initialOfferImages = offers
-        .filter((o) => o.bank_id === selectedBankId && o.category_id === selectedCategoryId)
-        .map((o) => o.image_url)
-        .filter(Boolean)
-      const allOfferImages = offers.map((o) => o.image_url).filter(Boolean)
-      const remainingOfferImages = allOfferImages.filter(
-        (url) => !initialOfferImages.includes(url)
-      )
 
-      const remainingImages = [
-        ...remainingBankLogos,
-        ...remainingCategoryIcons,
-        ...remainingOfferImages,
-      ]
-
-      Promise.all(
-        remainingImages.map((url) =>
-          new Promise<void>((resolve) => {
-            const img = new window.Image()
-            img.src = url
-            img.onload = () => resolve()
-            img.onerror = () => resolve()
-          })
-        )
-      ).then(() => {
-        console.log("Remaining images preloaded")
+      filteredOfferImages.forEach((url) => {
+        const img = new window.Image()
+        img.src = url
       })
     }
-  }, [isLoading, banks, categories, offers, selectedBankId, selectedCategoryId])
+  }, [selectedBankId, selectedCategoryId, offers, isLoading])
 
-  // ---- If Still Loading, Show a Spinner ----
+  // ---- Optional: Preload All Offer Images in Background (if volume is manageable) ----
+  useEffect(() => {
+    if (!isLoading && offers.length > 0) {
+      offers.forEach((offer) => {
+        const img = new window.Image()
+        img.src = offer.image_url
+      })
+    }
+  }, [isLoading, offers])
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -278,7 +251,7 @@ export default function Page() {
     )
   }
 
-  // ---- Filter Offers Based on Selected Bank and/or Category ----
+  // ---- Filter Offers Based on Selected Bank and Category ----
   const filteredOffers = offers.filter((offer) =>
     (selectedBankId == null || offer.bank_id === selectedBankId) &&
     (selectedCategoryId == null || offer.category_id === selectedCategoryId)
@@ -290,15 +263,17 @@ export default function Page() {
     return (!latest || o.updated_at > latest) ? o.updated_at : latest
   }, null)
 
-  const lastUpdatedFormatted = lastUpdatedDateStr ? (() => {
-    const lastUpdatedDate = new Date(lastUpdatedDateStr)
-    const now = new Date()
-    const diffTime = now.getTime() - lastUpdatedDate.getTime()
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
-    if (diffDays === 0) return "Today"
-    if (diffDays === 1) return "1 day ago"
-    return `${diffDays} days ago`
-  })() : null
+  const lastUpdatedFormatted = lastUpdatedDateStr
+    ? (() => {
+        const lastUpdatedDate = new Date(lastUpdatedDateStr)
+        const now = new Date()
+        const diffTime = now.getTime() - lastUpdatedDate.getTime()
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
+        if (diffDays === 0) return "Today"
+        if (diffDays === 1) return "1 day ago"
+        return `${diffDays} days ago`
+      })()
+    : null
 
   return (
     <div className="container mx-auto p-4 space-y-6 overflow-x-hidden">
@@ -379,24 +354,20 @@ export default function Page() {
       <section className="space-y-2">
         <h2 className="text-xl font-semibold mt-10">Available Offers</h2>
 
-        {/* Show "Last updated" if a bank is selected and there are relevant offers */}
         {selectedBankId && filteredOffers.length > 0 && lastUpdatedFormatted && (
           <small className="text-gray-500">
             Last updated {lastUpdatedFormatted}
           </small>
         )}
 
-        {/* If no bank is selected, prompt user */}
         {!selectedBankId && (
           <p className="text-md pt-4 pb-4">Please select a bank to view offers.</p>
         )}
 
-        {/* If a specific bank (e.g. ID=9), show "Coming soon..." */}
         {selectedBankId === 9 && (
           <p className="text-md pt-4 pb-4">Coming soon ...</p>
         )}
 
-        {/* Otherwise, show the filtered offers */}
         {selectedBankId && selectedBankId !== 9 && (
           <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-4">
             {filteredOffers.map((offer) => (
